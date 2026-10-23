@@ -1,0 +1,12 @@
+
+void __ZN12VoiceManager9setNoteOnEiif
+               (undefined4 param_1,long *param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined8 uVar1;
+  
+  uVar1 = (**(code **)(*param_2 + 0x20))();
+  __ZN12VoiceManager9setNoteOnEiiifb(param_1,param_2,param_3,param_4,param_4,uVar1);
+  return;
+}
+

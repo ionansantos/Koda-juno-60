@@ -1,0 +1,33 @@
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+      Start  1: Arpeggiator
+ 1/14 Test  #1: Arpeggiator ......................   Passed    0.34 sec
+      Start  2: DSP
+ 2/14 Test  #2: DSP ..............................   Passed    0.80 sec
+      Start  3: Presets
+ 3/14 Test  #3: Presets ..........................   Passed    0.00 sec
+      Start  4: Sustain
+ 4/14 Test  #4: Sustain ..........................   Passed    0.07 sec
+      Start  5: Delay
+ 5/14 Test  #5: Delay ............................   Passed    0.03 sec
+      Start  6: Reverb
+ 6/14 Test  #6: Reverb ...........................   Passed    2.67 sec
+      Start  7: Portamento
+ 7/14 Test  #7: Portamento .......................   Passed    1.36 sec
+      Start  8: VoiceTuning
+ 8/14 Test  #8: VoiceTuning ......................   Passed    0.70 sec
+      Start  9: ProcessorArpeggiator
+ 9/14 Test  #9: ProcessorArpeggiator .............   Passed    0.13 sec
+      Start 10: ProcessorMIDI
+10/14 Test #10: ProcessorMIDI ....................   Passed    0.09 sec
+      Start 11: ProcessorFX
+11/14 Test #11: ProcessorFX ......................   Passed    0.10 sec
+      Start 12: ProcessorPortamento
+12/14 Test #12: ProcessorPortamento ..............   Passed    0.16 sec
+      Start 13: ProcessorToolbar
+13/14 Test #13: ProcessorToolbar .................   Passed    1.59 sec
+      Start 14: ProcessorReferencePreset
+14/14 Test #14: ProcessorReferencePreset .........   Passed    0.03 sec
+
+100% tests passed out of 14
+
+Total Test time (real) =   8.09 sec

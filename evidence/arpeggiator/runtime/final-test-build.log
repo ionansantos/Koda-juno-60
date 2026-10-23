@@ -1,0 +1,11 @@
+[  7%] Building CXX object CMakeFiles/tal_arpeggiator_test.dir/tests/arpeggiator_test.cpp.o
+[ 13%] Built target tal_preset_test
+[ 13%] Built target tal_dsp
+[ 23%] Built target tal_sustain_test
+[ 23%] Built target tal_dsp_test
+[ 86%] Built target TalUNo60Clone
+[ 92%] Built target tal_midi_test
+[ 97%] Built target tal_arp_processor_test
+[100%] Linking CXX executable tal_arpeggiator_test
+[100%] Built target tal_arpeggiator_test
+[100%] Built target tal_tests

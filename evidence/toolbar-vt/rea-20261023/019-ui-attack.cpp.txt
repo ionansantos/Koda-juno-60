@@ -1,0 +1,27 @@
+
+void __ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv
+               (long param_1)
+
+{
+  double dVar1;
+  long lVar2;
+  long lVar3;
+  float fVar4;
+  float fVar5;
+  long local_50;
+  undefined1 auStack_48 [8];
+  
+  lVar2 = *(long *)(param_1 + 8);
+  lVar3 = *(long *)(lVar2 + 0x130);
+  (**(code **)(**(long **)(*(long *)(*(long *)(lVar2 + 0x110) + 0x1a0) + 0x50) + 0x10))(&local_50);
+  dVar1 = (double)(**(code **)(local_50 + 0x20))(auStack_48);
+  (**(code **)(local_50 + 0x58))(auStack_48);
+  fVar4 = (float)dVar1;
+  *(float *)(lVar3 + 8) = fVar4;
+  fVar5 = fVar4 * 2.0 + -1.0;
+  *(float *)(lVar3 + 0x20) = fVar5 * ((fVar4 + fVar4) * fVar5 - fVar5) * 0.5 + 1.0;
+  __ZN4juce9Component24internalRepaintUncheckedENS_9RectangleIiEEb
+            (lVar2,0,*(undefined8 *)(lVar2 + 0x40),1);
+  return;
+}
+

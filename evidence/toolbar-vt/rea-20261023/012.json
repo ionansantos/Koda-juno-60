@@ -1,0 +1,530 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_1081f4dfa6fe0ae80c4e6b78786157126bb419dc5244d92ad29684ccc7736a30\",\"subject\":{\"name\":\"TAL-U-NO-LX-V2.arm64\",\"digest\":{\"sha256\":\"f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0\"},\"format\":\"mach-o\",\"architecture\":\"arm64\",\"local_path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"mach-o\",\"architecture\":\"arm64\",\"available_architectures\":[\"arm64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"search_procedures\",\"parameters\":{\"pattern\":\"VoiceTuning|TuningComponent\",\"mode\":\"regex\",\"case_sensitive\":false},\"raw_result\":[{\"address\":\"0x408e0\",\"value\":\"__ZN18VoiceTuningHandler6randomEf\"},{\"address\":\"0x53158\",\"value\":\"__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev\"},{\"address\":\"0x8b054\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b058\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b05c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b090\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b0a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b0a8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b0ac\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b16c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b1c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b1cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b1d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b1d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b208\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b21c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b220\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b224\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b2ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b340\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b34c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b350\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b354\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b388\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b39c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b3a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b3a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b46c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b4c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b4cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b4d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b4d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b508\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b51c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b520\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b524\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b5ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b640\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b64c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b650\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b654\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b688\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b69c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b6a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b6a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b768\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b7bc\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b7c8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b7cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b7d0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b804\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b818\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b81c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b820\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b8e4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b938\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv\"}],\"normalized_result\":[{\"address\":\"0x408e0\",\"value\":\"__ZN18VoiceTuningHandler6randomEf\"},{\"address\":\"0x53158\",\"value\":\"__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev\"},{\"address\":\"0x8b054\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b058\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b05c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b090\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b0a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b0a8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b0ac\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b16c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b1c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b1cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b1d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b1d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b208\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b21c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b220\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b224\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b2ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b340\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b34c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b350\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b354\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b388\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b39c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b3a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b3a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b46c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b4c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b4cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b4d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b4d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b508\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b51c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b520\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b524\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b5ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b640\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b64c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b650\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b654\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b688\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b69c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b6a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b6a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b768\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b7bc\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b7c8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b7cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b7d0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b804\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b818\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b81c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b820\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b8e4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b938\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv\"}],\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_1081f4dfa6fe0ae80c4e6b78786157126bb419dc5244d92ad29684ccc7736a30",
+    "subject": {
+      "name": "TAL-U-NO-LX-V2.arm64",
+      "digest": {
+        "sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+      },
+      "format": "mach-o",
+      "architecture": "arm64",
+      "local_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "mach-o",
+        "architecture": "arm64",
+        "available_architectures": [
+          "arm64"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "string_inventory_evidence": "defined-data-coverage-v1",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+        "no_return_repair": "returning-imports-decoded-return-v2",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "auto-from-header",
+        "language_id": "auto-from-header",
+        "compiler_spec_id": "auto-default",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "search_procedures",
+    "parameters": {
+      "pattern": "VoiceTuning|TuningComponent",
+      "mode": "regex",
+      "case_sensitive": false
+    },
+    "raw_result": [
+      {
+        "address": "0x408e0",
+        "value": "__ZN18VoiceTuningHandler6randomEf"
+      },
+      {
+        "address": "0x53158",
+        "value": "__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev"
+      },
+      {
+        "address": "0x8b054",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b058",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b05c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b090",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b0a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b0a8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b0ac",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b16c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b1c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b1cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b1d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b1d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b208",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b21c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b220",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b224",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b2ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b340",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b34c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b350",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b354",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b388",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b39c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b3a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b3a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b46c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b4c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b4cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b4d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b4d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b508",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b51c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b520",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b524",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b5ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b640",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b64c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b650",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b654",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b688",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b69c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b6a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b6a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b768",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b7bc",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b7c8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b7cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b7d0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b804",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b818",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b81c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b820",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b8e4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b938",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      }
+    ],
+    "normalized_result": [
+      {
+        "address": "0x408e0",
+        "value": "__ZN18VoiceTuningHandler6randomEf"
+      },
+      {
+        "address": "0x53158",
+        "value": "__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev"
+      },
+      {
+        "address": "0x8b054",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b058",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b05c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b090",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b0a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b0a8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b0ac",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b16c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b1c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b1cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b1d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b1d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b208",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b21c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b220",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b224",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b2ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b340",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b34c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b350",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b354",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b388",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b39c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b3a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b3a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b46c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b4c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b4cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b4d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b4d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b508",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b51c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b520",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b524",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b5ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b640",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b64c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b650",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b654",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b688",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b69c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b6a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b6a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b768",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b7bc",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b7c8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b7cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b7d0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b804",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b818",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b81c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b820",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b8e4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b938",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      }
+    ],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.",
+      "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+}

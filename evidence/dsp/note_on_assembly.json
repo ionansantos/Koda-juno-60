@@ -1,0 +1,73 @@
+{
+  "evidence_id": "ev_115137e6352a6889d82a19e1e4f308fc87bd053176fbf03ff2ad899c8887e53a",
+  "subject": {
+    "name": "TAL-U-No-60.i386",
+    "digest": {
+      "sha256": "b46668c96111476a3bde38e3367e8ca323178070ced25a51f47f9dd51dc65359"
+    },
+    "format": "mach-o",
+    "architecture": "x86",
+    "local_path": "/Users/koda/tal-search-investigation/TAL-U-No-60.i386"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "mach-o",
+      "architecture": "x86",
+      "available_architectures": [
+        "x86"
+      ],
+      "import_mode": "ephemeral-source-immutable",
+      "annotation_policy": "atomic-function-entry-metadata-v1",
+      "load_image_observations": "source-mappings-entry-context-v2",
+      "function_body_evidence": "complete-inclusive-ranges-v1",
+      "function_references": "complete-body-and-entry-reference-manager-v2",
+      "string_inventory_evidence": "defined-data-coverage-v1",
+      "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+      "instruction_flow_evidence": "decoded-return-pcode-v1",
+      "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+      "no_return_repair": "returning-imports-decoded-return-v2",
+      "process_launch": "inspected-jvm-launch-support-v1",
+      "jump_table_evidence": "typed-case-default-blocks-v1",
+      "decompiler_jump_loads": true,
+      "loader": "auto-from-header",
+      "language_id": "auto-from-header",
+      "compiler_spec_id": "auto-default",
+      "analyzer_preset": "ghidra-default"
+    },
+    "digest": "8a42e641a4d7d4692c302ecacc8632b9d9380739d83a206ac934d316ddbecd62"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "procedure_assembly",
+  "parameters": {
+    "procedure": "0x1c00"
+  },
+  "raw_result": {
+    "value": "0x1c00: PUSH EBP\n0x1c01: MOV EBP, ESP\n0x1c03: PUSH EDI\n0x1c04: PUSH ESI\n0x1c05: PUSH EBX\n0x1c06: SUB ESP, 0x1c\n0x1c09: CALL 0x00024adc\n0x1c0e: MOV EDI, dword ptr [EBP + 0x8]\n0x1c11: MOV EDX, EDI\n0x1c13: XOR ESI, ESI\n0x1c15: MOV EAX, dword ptr [EDX + 0x34]\n0x1c18: MOV ECX, dword ptr [EBP + 0xc]\n0x1c1b: CMP ECX, dword ptr [EAX + 0x50]\n0x1c1e: JZ 0x00001d6e\n0x1c24: ADD ESI, 0x1\n0x1c27: ADD EDX, 0x4\n0x1c2a: CMP ESI, 0x6\n0x1c2d: JNZ 0x00001c15\n0x1c2f: MOV EDX, 0x6\n0x1c34: MOV EAX, dword ptr [EDI + 0x24]\n0x1c37: ADD EAX, 0x1\n0x1c3a: MOV dword ptr [EDI + 0x24], EAX\n0x1c3d: CMP EAX, 0x5\n0x1c40: JLE 0x00001c4b\n0x1c42: XOR EAX, EAX\n0x1c44: MOV dword ptr [EDI + 0x24], 0x0\n0x1c4b: MOV ECX, dword ptr [EDI + EAX*0x4 + 0x34]\n0x1c4f: CMP byte ptr [ECX + 0x54], 0x0\n0x1c53: JZ 0x00001c5a\n0x1c55: SUB EDX, 0x1\n0x1c58: JNZ 0x00001c37\n0x1c5a: MOV dword ptr [ECX + 0x44], 0x0\n0x1c61: MOV byte ptr [ECX + 0x54], 0x1\n0x1c65: MOV EAX, dword ptr [ECX + 0x58]\n0x1c68: MOV byte ptr [EAX + 0xc], 0x0\n0x1c6c: MOV EAX, dword ptr [ECX + 0x60]\n0x1c6f: MOV byte ptr [EAX + 0xc], 0x0\n0x1c73: MOV EAX, dword ptr [ECX + 0x5c]\n0x1c76: PXOR XMM0, XMM0\n0x1c7a: MOVSS dword ptr [EAX + 0x8], XMM0\n0x1c7f: MOV EAX, dword ptr [ECX + 0x5c]\n0x1c82: MOV byte ptr [EAX + 0xc], 0x0\n0x1c86: MOV EAX, dword ptr [EBP + 0xc]\n0x1c89: MOV dword ptr [ECX + 0x50], EAX\n0x1c8c: MOVSS XMM1, dword ptr [EBP + 0x14]\n0x1c91: MOVSS dword ptr [ECX + 0x34], XMM1\n0x1c96: MOV EAX, dword ptr [ECX + 0x8]\n0x1c99: MOVSS dword ptr [EAX + 0x14], XMM0\n0x1c9e: MOV EAX, dword ptr [ECX + 0x14]\n0x1ca1: MOVSS XMM1, dword ptr [EBX + 0x2e72e]\n0x1ca9: MOVSS dword ptr [EAX + 0x14], XMM1\n0x1cae: MOV EAX, dword ptr [ECX + 0x14]\n0x1cb1: MOVSS dword ptr [EAX + 0x18], XMM1\n0x1cb6: MOV EAX, dword ptr [ECX + 0xc]\n0x1cb9: MOV EDX, 0x3dcccccd\n0x1cbe: MOV dword ptr [EAX + 0x14], EDX\n0x1cc1: MOV EAX, dword ptr [ECX + 0xc]\n0x1cc4: MOV dword ptr [EAX + 0x18], EDX\n0x1cc7: MOV EAX, dword ptr [EDI + 0x4]\n0x1cca: UCOMISS XMM0, dword ptr [EAX + 0x68]\n0x1cce: JNZ 0x00001cdf\n0x1cd0: JP 0x00001cdf\n0x1cd2: MOV EAX, dword ptr [EDI + 0x58]\n0x1cd5: MOV dword ptr [EAX + 0x4], 0x0\n0x1cdc: MOV EAX, dword ptr [EDI + 0x4]\n0x1cdf: CVTTSS2SI EAX, dword ptr [EAX + 0x70]\n0x1ce4: CMP EAX, 0xc\n0x1ce7: JA 0x00001d58\n0x1ce9: MOV EAX, dword ptr [EBX + EAX*0x4 + 0xe6]\n0x1cf0: ADD EAX, EBX\n0x1cf2: JMP EAX\n0x1d58: MOV dword ptr [EDI + 0x2c], 0x0\n0x1d5f: MOV dword ptr [EDI + 0x30], 0x0\n0x1d66: ADD ESP, 0x1c\n0x1d69: POP EBX\n0x1d6a: POP ESI\n0x1d6b: POP EDI\n0x1d6c: POP EBP\n0x1d6d: RET\n0x1d6e: MOV EDX, dword ptr [EDI + ESI*0x4 + 0x34]\n0x1d72: MOV dword ptr [EDX + 0x44], 0x0\n0x1d79: MOV byte ptr [EDX + 0x54], 0x1\n0x1d7d: MOV EAX, dword ptr [EDX + 0x58]\n0x1d80: MOV byte ptr [EAX + 0xc], 0x0\n0x1d84: MOV EAX, dword ptr [EDX + 0x60]\n0x1d87: MOV byte ptr [EAX + 0xc], 0x0\n0x1d8b: MOV EAX, dword ptr [EDX + 0x5c]\n0x1d8e: PXOR XMM0, XMM0\n0x1d92: MOVSS dword ptr [EAX + 0x8], XMM0\n0x1d97: MOV EAX, dword ptr [EDX + 0x5c]\n0x1d9a: MOV byte ptr [EAX + 0xc], 0x0\n0x1d9e: MOV EAX, dword ptr [EBP + 0xc]\n0x1da1: MOV dword ptr [EDX + 0x50], EAX\n0x1da4: MOVSS XMM1, dword ptr [EBP + 0x14]\n0x1da9: MOVSS dword ptr [EDX + 0x34], XMM1\n0x1dae: MOV EAX, dword ptr [EDX + 0x8]\n0x1db1: MOVSS dword ptr [EAX + 0x14], XMM0\n0x1db6: MOV EAX, dword ptr [EDX + 0x14]\n0x1db9: MOVSS XMM1, dword ptr [EBX + 0x2e72e]\n0x1dc1: MOVSS dword ptr [EAX + 0x14], XMM1\n0x1dc6: MOV EAX, dword ptr [EDX + 0x14]\n0x1dc9: MOVSS dword ptr [EAX + 0x18], XMM1\n0x1dce: MOV EAX, dword ptr [EDX + 0xc]\n0x1dd1: MOV ECX, 0x3dcccccd\n0x1dd6: MOV dword ptr [EAX + 0x14], ECX\n0x1dd9: MOV EAX, dword ptr [EDX + 0xc]\n0x1ddc: MOV dword ptr [EAX + 0x18], ECX\n0x1ddf: MOV dword ptr [EDI + 0x24], ESI\n0x1de2: JMP 0x00001cc7",
+    "limitations": []
+  },
+  "normalized_result": "0x1c00: PUSH EBP\n0x1c01: MOV EBP, ESP\n0x1c03: PUSH EDI\n0x1c04: PUSH ESI\n0x1c05: PUSH EBX\n0x1c06: SUB ESP, 0x1c\n0x1c09: CALL 0x00024adc\n0x1c0e: MOV EDI, dword ptr [EBP + 0x8]\n0x1c11: MOV EDX, EDI\n0x1c13: XOR ESI, ESI\n0x1c15: MOV EAX, dword ptr [EDX + 0x34]\n0x1c18: MOV ECX, dword ptr [EBP + 0xc]\n0x1c1b: CMP ECX, dword ptr [EAX + 0x50]\n0x1c1e: JZ 0x00001d6e\n0x1c24: ADD ESI, 0x1\n0x1c27: ADD EDX, 0x4\n0x1c2a: CMP ESI, 0x6\n0x1c2d: JNZ 0x00001c15\n0x1c2f: MOV EDX, 0x6\n0x1c34: MOV EAX, dword ptr [EDI + 0x24]\n0x1c37: ADD EAX, 0x1\n0x1c3a: MOV dword ptr [EDI + 0x24], EAX\n0x1c3d: CMP EAX, 0x5\n0x1c40: JLE 0x00001c4b\n0x1c42: XOR EAX, EAX\n0x1c44: MOV dword ptr [EDI + 0x24], 0x0\n0x1c4b: MOV ECX, dword ptr [EDI + EAX*0x4 + 0x34]\n0x1c4f: CMP byte ptr [ECX + 0x54], 0x0\n0x1c53: JZ 0x00001c5a\n0x1c55: SUB EDX, 0x1\n0x1c58: JNZ 0x00001c37\n0x1c5a: MOV dword ptr [ECX + 0x44], 0x0\n0x1c61: MOV byte ptr [ECX + 0x54], 0x1\n0x1c65: MOV EAX, dword ptr [ECX + 0x58]\n0x1c68: MOV byte ptr [EAX + 0xc], 0x0\n0x1c6c: MOV EAX, dword ptr [ECX + 0x60]\n0x1c6f: MOV byte ptr [EAX + 0xc], 0x0\n0x1c73: MOV EAX, dword ptr [ECX + 0x5c]\n0x1c76: PXOR XMM0, XMM0\n0x1c7a: MOVSS dword ptr [EAX + 0x8], XMM0\n0x1c7f: MOV EAX, dword ptr [ECX + 0x5c]\n0x1c82: MOV byte ptr [EAX + 0xc], 0x0\n0x1c86: MOV EAX, dword ptr [EBP + 0xc]\n0x1c89: MOV dword ptr [ECX + 0x50], EAX\n0x1c8c: MOVSS XMM1, dword ptr [EBP + 0x14]\n0x1c91: MOVSS dword ptr [ECX + 0x34], XMM1\n0x1c96: MOV EAX, dword ptr [ECX + 0x8]\n0x1c99: MOVSS dword ptr [EAX + 0x14], XMM0\n0x1c9e: MOV EAX, dword ptr [ECX + 0x14]\n0x1ca1: MOVSS XMM1, dword ptr [EBX + 0x2e72e]\n0x1ca9: MOVSS dword ptr [EAX + 0x14], XMM1\n0x1cae: MOV EAX, dword ptr [ECX + 0x14]\n0x1cb1: MOVSS dword ptr [EAX + 0x18], XMM1\n0x1cb6: MOV EAX, dword ptr [ECX + 0xc]\n0x1cb9: MOV EDX, 0x3dcccccd\n0x1cbe: MOV dword ptr [EAX + 0x14], EDX\n0x1cc1: MOV EAX, dword ptr [ECX + 0xc]\n0x1cc4: MOV dword ptr [EAX + 0x18], EDX\n0x1cc7: MOV EAX, dword ptr [EDI + 0x4]\n0x1cca: UCOMISS XMM0, dword ptr [EAX + 0x68]\n0x1cce: JNZ 0x00001cdf\n0x1cd0: JP 0x00001cdf\n0x1cd2: MOV EAX, dword ptr [EDI + 0x58]\n0x1cd5: MOV dword ptr [EAX + 0x4], 0x0\n0x1cdc: MOV EAX, dword ptr [EDI + 0x4]\n0x1cdf: CVTTSS2SI EAX, dword ptr [EAX + 0x70]\n0x1ce4: CMP EAX, 0xc\n0x1ce7: JA 0x00001d58\n0x1ce9: MOV EAX, dword ptr [EBX + EAX*0x4 + 0xe6]\n0x1cf0: ADD EAX, EBX\n0x1cf2: JMP EAX\n0x1d58: MOV dword ptr [EDI + 0x2c], 0x0\n0x1d5f: MOV dword ptr [EDI + 0x30], 0x0\n0x1d66: ADD ESP, 0x1c\n0x1d69: POP EBX\n0x1d6a: POP ESI\n0x1d6b: POP EDI\n0x1d6c: POP EBP\n0x1d6d: RET\n0x1d6e: MOV EDX, dword ptr [EDI + ESI*0x4 + 0x34]\n0x1d72: MOV dword ptr [EDX + 0x44], 0x0\n0x1d79: MOV byte ptr [EDX + 0x54], 0x1\n0x1d7d: MOV EAX, dword ptr [EDX + 0x58]\n0x1d80: MOV byte ptr [EAX + 0xc], 0x0\n0x1d84: MOV EAX, dword ptr [EDX + 0x60]\n0x1d87: MOV byte ptr [EAX + 0xc], 0x0\n0x1d8b: MOV EAX, dword ptr [EDX + 0x5c]\n0x1d8e: PXOR XMM0, XMM0\n0x1d92: MOVSS dword ptr [EAX + 0x8], XMM0\n0x1d97: MOV EAX, dword ptr [EDX + 0x5c]\n0x1d9a: MOV byte ptr [EAX + 0xc], 0x0\n0x1d9e: MOV EAX, dword ptr [EBP + 0xc]\n0x1da1: MOV dword ptr [EDX + 0x50], EAX\n0x1da4: MOVSS XMM1, dword ptr [EBP + 0x14]\n0x1da9: MOVSS dword ptr [EDX + 0x34], XMM1\n0x1dae: MOV EAX, dword ptr [EDX + 0x8]\n0x1db1: MOVSS dword ptr [EAX + 0x14], XMM0\n0x1db6: MOV EAX, dword ptr [EDX + 0x14]\n0x1db9: MOVSS XMM1, dword ptr [EBX + 0x2e72e]\n0x1dc1: MOVSS dword ptr [EAX + 0x14], XMM1\n0x1dc6: MOV EAX, dword ptr [EDX + 0x14]\n0x1dc9: MOVSS dword ptr [EAX + 0x18], XMM1\n0x1dce: MOV EAX, dword ptr [EDX + 0xc]\n0x1dd1: MOV ECX, 0x3dcccccd\n0x1dd6: MOV dword ptr [EAX + 0x14], ECX\n0x1dd9: MOV EAX, dword ptr [EDX + 0xc]\n0x1ddc: MOV dword ptr [EAX + 0x18], ECX\n0x1ddf: MOV dword ptr [EDI + 0x24], ESI\n0x1de2: JMP 0x00001cc7",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "Assembly is Ghidra Listing text and does not claim textual equivalence with Hopper output.",
+    "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

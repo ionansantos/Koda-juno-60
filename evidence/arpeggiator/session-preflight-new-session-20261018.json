@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-18T18:38:23.037771+00:00",
+  "config_write_authorized": false,
+  "reason": "Global config outside declared writable roots; sandbox approval unavailable",
+  "checks": {
+    "unix_socket": {
+      "ok": false,
+      "error": "[Errno 1] Operation not permitted",
+      "errno": 1
+    },
+    "process_inspection": {
+      "ok": false,
+      "error": "[Errno 1] Operation not permitted: '/bin/ps'",
+      "errno": 1
+    }
+  },
+  "target_sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+}

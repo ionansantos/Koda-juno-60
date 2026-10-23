@@ -1,0 +1,51 @@
+
+void __ZNSt3__110__function6__funcIZN6Params21createParameterLayoutEvEUlfiE51_NS_9allocatorIS3_EEFN4juce6StringEfiEEclEOfOi
+               (undefined8 *param_1,undefined8 param_2,float *param_3)
+
+{
+  byte *pbVar1;
+  byte *pbVar2;
+  undefined8 uVar3;
+  uint uVar4;
+  ulong uVar5;
+  byte abStack_2b [3];
+  long local_28;
+  
+  local_28 = *(long *)PTR____stack_chk_guard_006f4300;
+  uVar4 = (uint)(*param_3 * 4.0 + 3.5);
+  if (*param_3 <= 0.001) {
+    uVar4 = 1;
+  }
+  if ((int)uVar4 < 0) {
+    pbVar2 = abStack_2b + 1;
+    uVar5 = (ulong)-uVar4;
+    do {
+      uVar4 = (uint)uVar5;
+      pbVar1 = pbVar2 + -1;
+      *pbVar2 = (char)uVar5 + (char)(uVar5 / 10) * -10 | 0x30;
+      pbVar2 = pbVar1;
+      uVar5 = uVar5 / 10;
+    } while (9 < uVar4);
+    *pbVar1 = 0x2d;
+  }
+  else {
+    pbVar1 = abStack_2b + 2;
+    uVar5 = (ulong)uVar4;
+    do {
+      uVar4 = (uint)uVar5;
+      pbVar1 = pbVar1 + -1;
+      *pbVar1 = (char)uVar5 + (char)(uVar5 / 10) * -10 | 0x30;
+      uVar5 = uVar5 / 10;
+    } while (9 < uVar4);
+  }
+  abStack_2b[2] = 0;
+  uVar3 = __ZN4juce17StringHolderUtils21createFromFixedLengthEPKcm
+                    (pbVar1,(long)&local_28 + ~(ulong)pbVar1);
+  *param_1 = uVar3;
+  if (*(long *)PTR____stack_chk_guard_006f4300 == local_28) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  ___stack_chk_fail();
+}
+

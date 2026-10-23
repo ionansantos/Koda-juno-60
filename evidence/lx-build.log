@@ -1,0 +1,61 @@
+[  5%] Built target tal_dsp
+[  7%] Building CXX object CMakeFiles/TalUNo60Clone.dir/Source/PluginEditor.cpp.o
+[ 10%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_2.cpp.o
+[ 12%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_3.cpp.o
+[ 15%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_4.cpp.o
+[ 17%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_5.cpp.o
+[ 20%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+[ 23%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[ 25%] Building C object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[ 28%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_graphics/juce_graphics.mm.o
+[ 30%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_events/juce_events.mm.o
+[ 33%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+[ 35%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_core/juce_core.mm.o
+[ 38%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+[ 41%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors_headless/juce_audio_processors_headless_ara.cpp.o
+[ 43%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors_headless/juce_audio_processors_headless_lv2_libs.cpp.o
+[ 46%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm.o
+[ 48%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+[ 51%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+[ 53%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+[ 56%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+[ 58%] Linking CXX static library "TalUNo60Clone_artefacts/Release/libU-No-60 Study_SharedCode.a"
+[ 66%] Built target TalUNo60Clone
+[ 69%] Generating TalUNo60Clone_artefacts/JuceLibraryCode/TalUNo60Clone_AU/PkgInfo
+[ 71%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 74%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 76%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 79%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 82%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 84%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 87%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 89%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 94%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 97%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[100%] Linking CXX CFBundle shared module "TalUNo60Clone_artefacts/Release/AU/U-No-60 Study.component/Contents/MacOS/U-No-60 Study"
+[100%] Built target TalUNo60Clone_AU
+[  5%] Built target tal_dsp
+[ 66%] Built target TalUNo60Clone
+[ 69%] Generating TalUNo60Clone_artefacts/JuceLibraryCode/TalUNo60Clone_Standalone/PkgInfo
+[ 71%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 74%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 76%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 79%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 82%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 84%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 87%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 89%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 94%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 97%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+Copying OS X content TalUNo60Clone_artefacts/Release/Standalone/U-No-60 Study.app/Contents/Resources/RecentFilesMenuTemplate.nib
+[100%] Linking CXX executable "TalUNo60Clone_artefacts/Release/Standalone/U-No-60 Study.app/Contents/MacOS/U-No-60 Study"
+[100%] Built target TalUNo60Clone_Standalone
+[ 50%] Built target tal_dsp
+[ 75%] Building CXX object CMakeFiles/tal_dsp_test.dir/tests/dsp_test.cpp.o
+[100%] Linking CXX executable tal_dsp_test
+[100%] Built target tal_dsp_test
+[ 50%] Building CXX object CMakeFiles/tal_preset_test.dir/tests/preset_test.cpp.o
+[100%] Linking CXX executable tal_preset_test
+[100%] Built target tal_preset_test

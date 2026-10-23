@@ -1,0 +1,2325 @@
+{
+  "scope": "Real AU offline render; engine-specific dry baselines. Measures effect timing, spectrum, stereo and tails; does not establish waveform equivalence, DAW GUI operation or preset LOCK semantics. Oscillator initial phase may vary between instances.",
+  "sample_rate": 44100,
+  "block_size": 256,
+  "preroll_seconds": 1,
+  "midi_note": 60,
+  "velocity": 100,
+  "bpm": 120,
+  "format": "float32 little-endian LR interleaved",
+  "probe_sha256": "773a0e246e3f58cfbaa7eed6f5cdf067bea9b8d3c8a4f4c7dc7cfc056c0ce55f",
+  "identities": {
+    "tal": {
+      "path": "/Library/Audio/Plug-Ins/Components/TAL-U-NO-LX-V2.component/Contents/MacOS/TAL-U-NO-LX-V2",
+      "sha256": "99bcc10a28984d52e46299f8369b7a3cb0648ae99358ec3e8d5628d5f113aba6"
+    },
+    "koda": {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component/Contents/MacOS/KODA-JUNO-60",
+      "sha256": "ccc3ce23f9d06618c12968da24f152e246af23d1c2ee1c9b39aba11c4b21acfc"
+    }
+  },
+  "cases": [
+    {
+      "name": "dry",
+      "normalized_effect_parameters": {
+        "voices": 0,
+        "detune": 0.1,
+        "width": 0,
+        "lock": 0,
+        "dw": 0,
+        "dt": 0.5,
+        "sync": 0,
+        "spread": 0.5,
+        "tone": 0.5,
+        "feedback": 0,
+        "rw": 0,
+        "size": 0.8,
+        "predelay": 0,
+        "rtone": 0.5
+      },
+      "gate_seconds": 0.08,
+      "duration_seconds": 6,
+      "tracks": {
+        "tal": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/dry-tal.raw",
+          "audio_sha256": "897915e0da97b29b8b8c3f710b442f32e8e9030cef682ad699ded8abee0c6439",
+          "parameters": {
+            "master octave transpose": 0.5,
+            "keytranspose": 0.5,
+            "master fine tune": 0.5,
+            "master volume": 0.35,
+            "dco saw enabled": 1,
+            "dco pulse enabled": 0,
+            "dco sub osc enabled": 0,
+            "dco sub osc volume": 0,
+            "dco noise volume": 0,
+            "filter cutoff": 1,
+            "filter resonance": 0,
+            "filter env": 0,
+            "filter modulation": 0,
+            "filter keyboard": 0,
+            "vca mode": 0,
+            "attack": 0,
+            "decay": 0,
+            "sustain": 1,
+            "release": 0,
+            "chorus 1": 0,
+            "chorus 2": 0,
+            "arp enabled": 0,
+            "Unisono Voices": 0,
+            "Unisono Detune": 0.1,
+            "Unisono Spread": 0,
+            "FX Lock": 0,
+            "FX Delay Dry / Wet": 0,
+            "FX Delay Time": 0.5,
+            "FX Delay Sync": 0,
+            "FX Delay Spread": 0.5,
+            "FX Delay Tone": 0.5,
+            "FX Delay Feedback": 0,
+            "FX Reverb Dry / Wet": 0,
+            "FX Reverb Size": 0.8,
+            "FX Reverb Delay": 0,
+            "FX Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.0030596849476654596,
+            "peak": 0.0643792524933815,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 0.08226757369614512,
+            "active_rms": 0.020786465860186627,
+            "tail_rms": 6.748226197203924e-08,
+            "side_mid_ratio": 0.0,
+            "tail_centroid_hz": 1.0457286547571365,
+            "tail_band_energy_fraction": {
+              "20-500": 1.1526713997337405e-05,
+              "500-3000": 1.2328788524116257e-12,
+              "3000-20000": 1.8006910246268714e-15
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 2.3380359543831372e-07
+              },
+              {
+                "start": 0.5,
+                "rms": 3.936963365661571e-09
+              },
+              {
+                "start": 0.75,
+                "rms": 6.629373028181367e-11
+              },
+              {
+                "start": 1.0,
+                "rms": 1.1163089447778041e-12
+              },
+              {
+                "start": 1.25,
+                "rms": 1.8797312467710248e-14
+              },
+              {
+                "start": 1.5,
+                "rms": 3.165229894418154e-16
+              },
+              {
+                "start": 1.75,
+                "rms": 5.329868366786489e-18
+              },
+              {
+                "start": 2.0,
+                "rms": 8.974879511730904e-20
+              },
+              {
+                "start": 2.25,
+                "rms": 1.5112620937275312e-21
+              },
+              {
+                "start": 2.5,
+                "rms": 2.5447783618747876e-23
+              },
+              {
+                "start": 2.75,
+                "rms": 4.285105310424889e-25
+              },
+              {
+                "start": 3.0,
+                "rms": 7.21561787123327e-27
+              },
+              {
+                "start": 3.25,
+                "rms": 1.2150246279278566e-28
+              },
+              {
+                "start": 3.5,
+                "rms": 2.0459531741795825e-30
+              },
+              {
+                "start": 3.75,
+                "rms": 3.445139869661879e-32
+              },
+              {
+                "start": 4.0,
+                "rms": 5.8012068795994915e-34
+              },
+              {
+                "start": 4.25,
+                "rms": 9.76855948473213e-36
+              },
+              {
+                "start": 4.5,
+                "rms": 1.6446257539296462e-37
+              },
+              {
+                "start": 4.75,
+                "rms": 0.0
+              },
+              {
+                "start": 5.0,
+                "rms": 0.0
+              },
+              {
+                "start": 5.25,
+                "rms": 0.0
+              },
+              {
+                "start": 5.5,
+                "rms": 0.0
+              }
+            ],
+            "fundamental_peaks_hz": [],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": []
+          },
+          "active_rms_relative_to_own_dry": 1.0
+        },
+        "koda": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/dry-koda.raw",
+          "audio_sha256": "90efeb227d3abb2cce788a53bd61307a90c11530224d28fb502d5ba1ad875d7a",
+          "parameters": {
+            "TRANSPOSE": 0.5,
+            "MASTERPITCH": 0.5,
+            "VOLUME": 0.35,
+            "SAW": 1,
+            "Pulse": 0,
+            "SUBOSC": 0,
+            "SUBOSCVOLUME": 0,
+            "NOISEVOLUME": 0,
+            "CUTOFF": 1,
+            "RESONANCE": 0,
+            "FILTERCONTOUR": 0,
+            "FILTERLFO": 0,
+            "KEYFOLLOW": 0,
+            "AMPATTACK": 0,
+            "AMPDECAY": 0,
+            "AMPSUSTAIN": 1,
+            "AMPRELEASE": 0,
+            "ENVGATE": 0,
+            "CHORUS1": 0,
+            "CHORUS2": 0,
+            "Arp On": 0,
+            "Unison Voices": 0,
+            "Unison Detune": 0.1,
+            "Unison Width": 0,
+            "FX Lock": 0,
+            "Delay Wet": 0,
+            "Delay Time": 0.5,
+            "Delay Sync": 0,
+            "Delay Spread": 0.5,
+            "Delay Tone": 0.5,
+            "Delay Feedback": 0,
+            "Reverb Wet": 0,
+            "Reverb Size": 0.8,
+            "Reverb Delay": 0,
+            "Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.0035344154458390406,
+            "peak": 0.07113923877477646,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 0.09356009070294785,
+            "active_rms": 0.024011547474264257,
+            "tail_rms": 1.1031158823592867e-06,
+            "side_mid_ratio": 0.0,
+            "tail_centroid_hz": 0.034573882523731225,
+            "tail_band_energy_fraction": {
+              "20-500": 1.2247361778128952e-09,
+              "500-3000": 1.1763060069876652e-16,
+              "3000-20000": 2.8876362875567577e-20
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 3.1165320815840046e-06
+              },
+              {
+                "start": 0.5,
+                "rms": 2.3303451760895215e-07
+              },
+              {
+                "start": 0.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.5,
+                "rms": 2.3284073336071742e-07
+              }
+            ],
+            "fundamental_peaks_hz": [],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": []
+          },
+          "active_rms_relative_to_own_dry": 1.0
+        }
+      },
+      "comparison": {
+        "onset_delta_seconds": 0.0,
+        "tail_rms_ratio_koda_tal": 16.34675320777413,
+        "side_mid_ratio_delta": 0.0,
+        "tail_centroid_delta_hz": -1.0111547722334053
+      }
+    },
+    {
+      "name": "unison-dry",
+      "normalized_effect_parameters": {
+        "voices": 0,
+        "detune": 0.1,
+        "width": 0,
+        "lock": 0,
+        "dw": 0,
+        "dt": 0.5,
+        "sync": 0,
+        "spread": 0.5,
+        "tone": 0.5,
+        "feedback": 0,
+        "rw": 0,
+        "size": 0.8,
+        "predelay": 0,
+        "rtone": 0.5
+      },
+      "gate_seconds": 2,
+      "duration_seconds": 3,
+      "tracks": {
+        "tal": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/unison-dry-tal.raw",
+          "audio_sha256": "a30ef498a767961d3e1d6c46d11c62b63a1752a599a7cd323001d2bc7707127b",
+          "parameters": {
+            "master octave transpose": 0.5,
+            "keytranspose": 0.5,
+            "master fine tune": 0.5,
+            "master volume": 0.35,
+            "dco saw enabled": 1,
+            "dco pulse enabled": 0,
+            "dco sub osc enabled": 0,
+            "dco sub osc volume": 0,
+            "dco noise volume": 0,
+            "filter cutoff": 1,
+            "filter resonance": 0,
+            "filter env": 0,
+            "filter modulation": 0,
+            "filter keyboard": 0,
+            "vca mode": 0,
+            "attack": 0,
+            "decay": 0,
+            "sustain": 1,
+            "release": 0,
+            "chorus 1": 0,
+            "chorus 2": 0,
+            "arp enabled": 0,
+            "Unisono Voices": 0,
+            "Unisono Detune": 0.1,
+            "Unisono Spread": 0,
+            "FX Lock": 0,
+            "FX Delay Dry / Wet": 0,
+            "FX Delay Time": 0.5,
+            "FX Delay Sync": 0,
+            "FX Delay Spread": 0.5,
+            "FX Delay Tone": 0.5,
+            "FX Delay Feedback": 0,
+            "FX Reverb Dry / Wet": 0,
+            "FX Reverb Size": 0.8,
+            "FX Reverb Delay": 0,
+            "FX Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.021671671396743745,
+            "peak": 0.0643792524933815,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 2.0024263038548753,
+            "active_rms": 0.02621672727745592,
+            "tail_rms": 2.9257844989401247e-06,
+            "side_mid_ratio": 0.0,
+            "tail_centroid_hz": 0.8688048688919463,
+            "tail_band_energy_fraction": {
+              "20-500": 1.3370819209215743e-05,
+              "500-3000": 1.2352771152889431e-12,
+              "3000-20000": 1.4329785994011078e-15
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.026530256389631367
+              },
+              {
+                "start": 0.5,
+                "rms": 0.026600145194782973
+              },
+              {
+                "start": 0.75,
+                "rms": 0.026481732752063097
+              },
+              {
+                "start": 1.0,
+                "rms": 0.02662324387711422
+              },
+              {
+                "start": 1.25,
+                "rms": 0.026497327993964682
+              },
+              {
+                "start": 1.5,
+                "rms": 0.026556751679427462
+              },
+              {
+                "start": 1.75,
+                "rms": 0.026575485976323372
+              },
+              {
+                "start": 2.0,
+                "rms": 0.0003399491530334166
+              },
+              {
+                "start": 2.25,
+                "rms": 1.0530371128447952e-06
+              },
+              {
+                "start": 2.5,
+                "rms": 1.773188803729631e-08
+              }
+            ],
+            "fundamental_peaks_hz": [
+              261.6788864135742
+            ],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": [
+              1.0002038069693726
+            ]
+          },
+          "active_rms_relative_to_own_dry": 1.0
+        },
+        "koda": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/unison-dry-koda.raw",
+          "audio_sha256": "7c03e1ad9a41a5413957b21d70e4895e820054bd7ca93a6a3fb5e5b900995e07",
+          "parameters": {
+            "TRANSPOSE": 0.5,
+            "MASTERPITCH": 0.5,
+            "VOLUME": 0.35,
+            "SAW": 1,
+            "Pulse": 0,
+            "SUBOSC": 0,
+            "SUBOSCVOLUME": 0,
+            "NOISEVOLUME": 0,
+            "CUTOFF": 1,
+            "RESONANCE": 0,
+            "FILTERCONTOUR": 0,
+            "FILTERLFO": 0,
+            "KEYFOLLOW": 0,
+            "AMPATTACK": 0,
+            "AMPDECAY": 0,
+            "AMPSUSTAIN": 1,
+            "AMPRELEASE": 0,
+            "ENVGATE": 0,
+            "CHORUS1": 0,
+            "CHORUS2": 0,
+            "Arp On": 0,
+            "Unison Voices": 0,
+            "Unison Detune": 0.1,
+            "Unison Width": 0,
+            "FX Lock": 0,
+            "Delay Wet": 0,
+            "Delay Time": 0.5,
+            "Delay Sync": 0,
+            "Delay Spread": 0.5,
+            "Delay Tone": 0.5,
+            "Delay Feedback": 0,
+            "Reverb Wet": 0,
+            "Reverb Size": 0.8,
+            "Reverb Delay": 0,
+            "Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.024957964297331006,
+            "peak": 0.07113923877477646,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 2.012312925170068,
+            "active_rms": 0.030192232880625874,
+            "tail_rms": 2.712772941023746e-06,
+            "side_mid_ratio": 0.0,
+            "tail_centroid_hz": 0.21354519220362222,
+            "tail_band_energy_fraction": {
+              "20-500": 1.5675071324278848e-05,
+              "500-3000": 1.34649165265497e-12,
+              "3000-20000": 2.6568387543478947e-16
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.030494530533581435
+              },
+              {
+                "start": 0.5,
+                "rms": 0.030660131003551423
+              },
+              {
+                "start": 0.75,
+                "rms": 0.030504489728696658
+              },
+              {
+                "start": 1.0,
+                "rms": 0.030577403094892278
+              },
+              {
+                "start": 1.25,
+                "rms": 0.030586588174609988
+              },
+              {
+                "start": 1.5,
+                "rms": 0.0304994268991157
+              },
+              {
+                "start": 1.75,
+                "rms": 0.030655940344777474
+              },
+              {
+                "start": 2.0,
+                "rms": 0.001967527135470382
+              },
+              {
+                "start": 2.25,
+                "rms": 3.828419847793386e-07
+              },
+              {
+                "start": 2.5,
+                "rms": 2.3284520814346322e-07
+              }
+            ],
+            "fundamental_peaks_hz": [
+              261.5947723388672
+            ],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": [
+              0.9998823014062196
+            ]
+          },
+          "active_rms_relative_to_own_dry": 1.0
+        }
+      },
+      "comparison": {
+        "onset_delta_seconds": 0.0,
+        "tail_rms_ratio_koda_tal": 0.9271950623863299,
+        "side_mid_ratio_delta": 0.0,
+        "tail_centroid_delta_hz": -0.6552596766883241
+      }
+    },
+    {
+      "name": "serial",
+      "normalized_effect_parameters": {
+        "voices": 0.5,
+        "detune": 0.2,
+        "width": 0.8,
+        "lock": 0,
+        "dw": 0.5,
+        "dt": 0.3,
+        "sync": 0,
+        "spread": 0.5,
+        "tone": 0.5,
+        "feedback": 0.4,
+        "rw": 0.7,
+        "size": 0.8,
+        "predelay": 0.2,
+        "rtone": 0.5
+      },
+      "gate_seconds": 0.08,
+      "duration_seconds": 10,
+      "tracks": {
+        "tal": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-tal.raw",
+          "audio_sha256": "ab1995cc6596f6534d76daba70aa736e671458137ba5cefb87d508c92b85ff28",
+          "parameters": {
+            "master octave transpose": 0.5,
+            "keytranspose": 0.5,
+            "master fine tune": 0.5,
+            "master volume": 0.35,
+            "dco saw enabled": 1,
+            "dco pulse enabled": 0,
+            "dco sub osc enabled": 0,
+            "dco sub osc volume": 0,
+            "dco noise volume": 0,
+            "filter cutoff": 1,
+            "filter resonance": 0,
+            "filter env": 0,
+            "filter modulation": 0,
+            "filter keyboard": 0,
+            "vca mode": 0,
+            "attack": 0,
+            "decay": 0,
+            "sustain": 1,
+            "release": 0,
+            "chorus 1": 0,
+            "chorus 2": 0,
+            "arp enabled": 0,
+            "Unisono Voices": 0.5,
+            "Unisono Detune": 0.2,
+            "Unisono Spread": 0.8,
+            "FX Lock": 0,
+            "FX Delay Dry / Wet": 0.5,
+            "FX Delay Time": 0.3,
+            "FX Delay Sync": 0,
+            "FX Delay Spread": 0.5,
+            "FX Delay Tone": 0.5,
+            "FX Delay Feedback": 0.4,
+            "FX Reverb Dry / Wet": 0.7,
+            "FX Reverb Size": 0.8,
+            "FX Reverb Delay": 0.2,
+            "FX Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.0033134724494895663,
+            "peak": 0.04471615329384804,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 4.130430839002267,
+            "active_rms": 0.014124818606174039,
+            "tail_rms": 0.002878057898433446,
+            "side_mid_ratio": 0.7644415765506538,
+            "tail_centroid_hz": 347.5069536845699,
+            "tail_band_energy_fraction": {
+              "20-500": 0.9128671144653885,
+              "500-3000": 0.0847311544828578,
+              "3000-20000": 0.002386266208056412
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.012532130022441587
+              },
+              {
+                "start": 0.5,
+                "rms": 0.006994873380515772
+              },
+              {
+                "start": 0.75,
+                "rms": 0.005967906578956846
+              },
+              {
+                "start": 1.0,
+                "rms": 0.005825239187155642
+              },
+              {
+                "start": 1.25,
+                "rms": 0.00361434684537437
+              },
+              {
+                "start": 1.5,
+                "rms": 0.0029958660697494153
+              },
+              {
+                "start": 1.75,
+                "rms": 0.002205417805815125
+              },
+              {
+                "start": 2.0,
+                "rms": 0.0019009162526905708
+              },
+              {
+                "start": 2.25,
+                "rms": 0.0013973652664809385
+              },
+              {
+                "start": 2.5,
+                "rms": 0.000590833549328998
+              },
+              {
+                "start": 2.75,
+                "rms": 0.0006554866315822076
+              },
+              {
+                "start": 3.0,
+                "rms": 0.0005695895220636107
+              },
+              {
+                "start": 3.25,
+                "rms": 0.0003673346443987625
+              },
+              {
+                "start": 3.5,
+                "rms": 0.00032983498974853897
+              },
+              {
+                "start": 3.75,
+                "rms": 0.00019239463277595902
+              },
+              {
+                "start": 4.0,
+                "rms": 0.00019717627874382695
+              },
+              {
+                "start": 4.25,
+                "rms": 0.00010960305597621226
+              },
+              {
+                "start": 4.5,
+                "rms": 8.310239802583323e-05
+              },
+              {
+                "start": 4.75,
+                "rms": 7.115176712875482e-05
+              },
+              {
+                "start": 5.0,
+                "rms": 5.0423155345209706e-05
+              },
+              {
+                "start": 5.25,
+                "rms": 3.556762641874742e-05
+              },
+              {
+                "start": 5.5,
+                "rms": 2.2731319020266482e-05
+              },
+              {
+                "start": 5.75,
+                "rms": 2.54682815910724e-05
+              },
+              {
+                "start": 6.0,
+                "rms": 1.551536044909976e-05
+              },
+              {
+                "start": 6.25,
+                "rms": 1.2802195693714363e-05
+              },
+              {
+                "start": 6.5,
+                "rms": 1.1452465867542336e-05
+              },
+              {
+                "start": 6.75,
+                "rms": 7.735492822257693e-06
+              },
+              {
+                "start": 7.0,
+                "rms": 4.926622164695894e-06
+              },
+              {
+                "start": 7.25,
+                "rms": 4.064031731936795e-06
+              },
+              {
+                "start": 7.5,
+                "rms": 3.6282382553157453e-06
+              },
+              {
+                "start": 7.75,
+                "rms": 2.1812087283625266e-06
+              },
+              {
+                "start": 8.0,
+                "rms": 1.820732240352995e-06
+              },
+              {
+                "start": 8.25,
+                "rms": 1.4862840782290476e-06
+              },
+              {
+                "start": 8.5,
+                "rms": 1.2300201084599795e-06
+              },
+              {
+                "start": 8.75,
+                "rms": 8.854343531133686e-07
+              },
+              {
+                "start": 9.0,
+                "rms": 5.162800550516777e-07
+              },
+              {
+                "start": 9.25,
+                "rms": 4.086929851590383e-07
+              },
+              {
+                "start": 9.5,
+                "rms": 3.9010509726532147e-07
+              }
+            ],
+            "fundamental_peaks_hz": [],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": []
+          },
+          "active_rms_relative_to_own_dry": 0.6795199675202133
+        },
+        "koda": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-koda.raw",
+          "audio_sha256": "ebd1565cd8579b43bcb8e61f052b312368e05c01c4029b2da9ee12e74728d275",
+          "parameters": {
+            "TRANSPOSE": 0.5,
+            "MASTERPITCH": 0.5,
+            "VOLUME": 0.35,
+            "SAW": 1,
+            "Pulse": 0,
+            "SUBOSC": 0,
+            "SUBOSCVOLUME": 0,
+            "NOISEVOLUME": 0,
+            "CUTOFF": 1,
+            "RESONANCE": 0,
+            "FILTERCONTOUR": 0,
+            "FILTERLFO": 0,
+            "KEYFOLLOW": 0,
+            "AMPATTACK": 0,
+            "AMPDECAY": 0,
+            "AMPSUSTAIN": 1,
+            "AMPRELEASE": 0,
+            "ENVGATE": 0,
+            "CHORUS1": 0,
+            "CHORUS2": 0,
+            "Arp On": 0,
+            "Unison Voices": 0.5,
+            "Unison Detune": 0.2,
+            "Unison Width": 0.8,
+            "FX Lock": 0,
+            "Delay Wet": 0.5,
+            "Delay Time": 0.3,
+            "Delay Sync": 0,
+            "Delay Spread": 0.5,
+            "Delay Tone": 0.5,
+            "Delay Feedback": 0.4,
+            "Reverb Wet": 0.7,
+            "Reverb Size": 0.8,
+            "Reverb Delay": 0.2,
+            "Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.0062806030548491045,
+            "peak": 0.07600690424442291,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 4.193945578231292,
+            "active_rms": 0.022316856661397183,
+            "tail_rms": 0.005598921756492976,
+            "side_mid_ratio": 0.6848540460696677,
+            "tail_centroid_hz": 340.08748815405147,
+            "tail_band_energy_fraction": {
+              "20-500": 0.8210079001687746,
+              "500-3000": 0.1784292627439852,
+              "3000-20000": 0.0005527526740681467
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.022486642060030815
+              },
+              {
+                "start": 0.5,
+                "rms": 0.016388370177000837
+              },
+              {
+                "start": 0.75,
+                "rms": 0.012579890883720404
+              },
+              {
+                "start": 1.0,
+                "rms": 0.008759789711971208
+              },
+              {
+                "start": 1.25,
+                "rms": 0.008354356243489638
+              },
+              {
+                "start": 1.5,
+                "rms": 0.005024006543625545
+              },
+              {
+                "start": 1.75,
+                "rms": 0.0041220604394204986
+              },
+              {
+                "start": 2.0,
+                "rms": 0.0027953087877144677
+              },
+              {
+                "start": 2.25,
+                "rms": 0.0024108288492415524
+              },
+              {
+                "start": 2.5,
+                "rms": 0.0019458852473074957
+              },
+              {
+                "start": 2.75,
+                "rms": 0.001115409116951065
+              },
+              {
+                "start": 3.0,
+                "rms": 0.0009261367708959392
+              },
+              {
+                "start": 3.25,
+                "rms": 0.0005955008760739003
+              },
+              {
+                "start": 3.5,
+                "rms": 0.00042412487292876644
+              },
+              {
+                "start": 3.75,
+                "rms": 0.0004848661134472603
+              },
+              {
+                "start": 4.0,
+                "rms": 0.0003447567123362101
+              },
+              {
+                "start": 4.25,
+                "rms": 0.00024335935346911141
+              },
+              {
+                "start": 4.5,
+                "rms": 0.00020982450923292563
+              },
+              {
+                "start": 4.75,
+                "rms": 0.0001485802460506172
+              },
+              {
+                "start": 5.0,
+                "rms": 9.22168414761814e-05
+              },
+              {
+                "start": 5.25,
+                "rms": 9.40859114382703e-05
+              },
+              {
+                "start": 5.5,
+                "rms": 5.8687721119586295e-05
+              },
+              {
+                "start": 5.75,
+                "rms": 3.945591986844276e-05
+              },
+              {
+                "start": 6.0,
+                "rms": 4.275750584611393e-05
+              },
+              {
+                "start": 6.25,
+                "rms": 2.8934998556140797e-05
+              },
+              {
+                "start": 6.5,
+                "rms": 1.754056369315089e-05
+              },
+              {
+                "start": 6.75,
+                "rms": 1.7485258810617712e-05
+              },
+              {
+                "start": 7.0,
+                "rms": 9.5401542620601e-06
+              },
+              {
+                "start": 7.25,
+                "rms": 7.378462505322334e-06
+              },
+              {
+                "start": 7.5,
+                "rms": 6.892801034207684e-06
+              },
+              {
+                "start": 7.75,
+                "rms": 5.026196050622255e-06
+              },
+              {
+                "start": 8.0,
+                "rms": 3.93435047225553e-06
+              },
+              {
+                "start": 8.25,
+                "rms": 2.4337746439035744e-06
+              },
+              {
+                "start": 8.5,
+                "rms": 1.8804553590874898e-06
+              },
+              {
+                "start": 8.75,
+                "rms": 1.7566395033233534e-06
+              },
+              {
+                "start": 9.0,
+                "rms": 1.4169862135036433e-06
+              },
+              {
+                "start": 9.25,
+                "rms": 9.234257452824996e-07
+              },
+              {
+                "start": 9.5,
+                "rms": 7.481566014056614e-07
+              }
+            ],
+            "fundamental_peaks_hz": [],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": []
+          },
+          "active_rms_relative_to_own_dry": 0.9294218411085976
+        }
+      },
+      "comparison": {
+        "onset_delta_seconds": 0.0,
+        "tail_rms_ratio_koda_tal": 1.945381904770061,
+        "side_mid_ratio_delta": -0.0795875304809861,
+        "tail_centroid_delta_hz": -7.419465530518437
+      }
+    },
+    {
+      "name": "serial-dry",
+      "normalized_effect_parameters": {
+        "voices": 0.5,
+        "detune": 0.2,
+        "width": 0.8,
+        "lock": 0,
+        "dw": 0,
+        "dt": 0.5,
+        "sync": 0,
+        "spread": 0.5,
+        "tone": 0.5,
+        "feedback": 0,
+        "rw": 0,
+        "size": 0.8,
+        "predelay": 0,
+        "rtone": 0.5
+      },
+      "gate_seconds": 0.08,
+      "duration_seconds": 6,
+      "tracks": {
+        "tal": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-dry-tal.raw",
+          "audio_sha256": "753ba8efb32c35cc62c2ccd546b28dd1bccdd19aaacf655c9c36c0b82f19a1f7",
+          "parameters": {
+            "master octave transpose": 0.5,
+            "keytranspose": 0.5,
+            "master fine tune": 0.5,
+            "master volume": 0.35,
+            "dco saw enabled": 1,
+            "dco pulse enabled": 0,
+            "dco sub osc enabled": 0,
+            "dco sub osc volume": 0,
+            "dco noise volume": 0,
+            "filter cutoff": 1,
+            "filter resonance": 0,
+            "filter env": 0,
+            "filter modulation": 0,
+            "filter keyboard": 0,
+            "vca mode": 0,
+            "attack": 0,
+            "decay": 0,
+            "sustain": 1,
+            "release": 0,
+            "chorus 1": 0,
+            "chorus 2": 0,
+            "arp enabled": 0,
+            "Unisono Voices": 0.5,
+            "Unisono Detune": 0.2,
+            "Unisono Spread": 0.8,
+            "FX Lock": 0,
+            "FX Delay Dry / Wet": 0,
+            "FX Delay Time": 0.5,
+            "FX Delay Sync": 0,
+            "FX Delay Spread": 0.5,
+            "FX Delay Tone": 0.5,
+            "FX Delay Feedback": 0,
+            "FX Reverb Dry / Wet": 0,
+            "FX Reverb Size": 0.8,
+            "FX Reverb Delay": 0,
+            "FX Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.003464768520693523,
+            "peak": 0.07452692091464996,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 0.08235827664399092,
+            "active_rms": 0.023538449890933927,
+            "tail_rms": 8.303475297459154e-07,
+            "side_mid_ratio": 0.5948435045861866,
+            "tail_centroid_hz": 1.0457306573089966,
+            "tail_band_energy_fraction": {
+              "20-500": 1.1529935660980114e-05,
+              "500-3000": 1.285255127341874e-12,
+              "3000-20000": 1.393067486300396e-14
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 2.876877374289859e-06
+              },
+              {
+                "start": 0.5,
+                "rms": 4.844293559947926e-08
+              },
+              {
+                "start": 0.75,
+                "rms": 8.157190244356019e-10
+              },
+              {
+                "start": 1.0,
+                "rms": 1.3735745084347392e-11
+              },
+              {
+                "start": 1.25,
+                "rms": 2.3129323070766377e-13
+              },
+              {
+                "start": 1.5,
+                "rms": 3.89469180357414e-15
+              },
+              {
+                "start": 1.75,
+                "rms": 6.5581992691704e-17
+              },
+              {
+                "start": 2.0,
+                "rms": 1.1043237353854472e-18
+              },
+              {
+                "start": 2.25,
+                "rms": 1.8595480747621855e-20
+              },
+              {
+                "start": 2.5,
+                "rms": 3.1312524147945197e-22
+              },
+              {
+                "start": 2.75,
+                "rms": 5.2726582682937365e-24
+              },
+              {
+                "start": 3.0,
+                "rms": 8.878538790460913e-26
+              },
+              {
+                "start": 3.25,
+                "rms": 1.4950409944164133e-27
+              },
+              {
+                "start": 3.5,
+                "rms": 2.517465664207924e-29
+              },
+              {
+                "start": 3.75,
+                "rms": 4.2391042615613185e-31
+              },
+              {
+                "start": 4.0,
+                "rms": 7.138150556827511e-33
+              },
+              {
+                "start": 4.25,
+                "rms": 1.2019807289711356e-34
+              },
+              {
+                "start": 4.5,
+                "rms": 2.0239870505447184e-36
+              },
+              {
+                "start": 4.75,
+                "rms": 3.3837191676965607e-38
+              },
+              {
+                "start": 5.0,
+                "rms": 0.0
+              },
+              {
+                "start": 5.25,
+                "rms": 0.0
+              },
+              {
+                "start": 5.5,
+                "rms": 0.0
+              }
+            ],
+            "fundamental_peaks_hz": [],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": []
+          },
+          "active_rms_relative_to_own_dry": 1.1323930700513316
+        },
+        "koda": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-dry-koda.raw",
+          "audio_sha256": "098a22882f50ca711433b10940165b0dee4f5d107a237dcf9d546f10699a0629",
+          "parameters": {
+            "TRANSPOSE": 0.5,
+            "MASTERPITCH": 0.5,
+            "VOLUME": 0.35,
+            "SAW": 1,
+            "Pulse": 0,
+            "SUBOSC": 0,
+            "SUBOSCVOLUME": 0,
+            "NOISEVOLUME": 0,
+            "CUTOFF": 1,
+            "RESONANCE": 0,
+            "FILTERCONTOUR": 0,
+            "FILTERLFO": 0,
+            "KEYFOLLOW": 0,
+            "AMPATTACK": 0,
+            "AMPDECAY": 0,
+            "AMPSUSTAIN": 1,
+            "AMPRELEASE": 0,
+            "ENVGATE": 0,
+            "CHORUS1": 0,
+            "CHORUS2": 0,
+            "Arp On": 0,
+            "Unison Voices": 0.5,
+            "Unison Detune": 0.2,
+            "Unison Width": 0.8,
+            "FX Lock": 0,
+            "Delay Wet": 0,
+            "Delay Time": 0.5,
+            "Delay Sync": 0,
+            "Delay Spread": 0.5,
+            "Delay Tone": 0.5,
+            "Delay Feedback": 0,
+            "Reverb Wet": 0,
+            "Reverb Size": 0.8,
+            "Reverb Delay": 0,
+            "Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.005473919713839755,
+            "peak": 0.10521484166383743,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 0.09356009070294785,
+            "active_rms": 0.037187814108662044,
+            "tail_rms": 1.8650383621032776e-06,
+            "side_mid_ratio": 0.2873453926364722,
+            "tail_centroid_hz": 0.03452553881131002,
+            "tail_band_energy_fraction": {
+              "20-500": 3.680086297108703e-09,
+              "500-3000": 3.5288561968236373e-16,
+              "3000-20000": 8.674762207853701e-20
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 5.301124915810394e-06
+              },
+              {
+                "start": 0.5,
+                "rms": 2.3317846083363315e-07
+              },
+              {
+                "start": 0.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 1.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 2.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.5,
+                "rms": 2.3284073336071742e-07
+              }
+            ],
+            "fundamental_peaks_hz": [],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": []
+          },
+          "active_rms_relative_to_own_dry": 1.5487470829824774
+        }
+      },
+      "comparison": {
+        "onset_delta_seconds": 0.0,
+        "tail_rms_ratio_koda_tal": 2.246093708105539,
+        "side_mid_ratio_delta": -0.30749811194971444,
+        "tail_centroid_delta_hz": -1.0112051184976867
+      }
+    },
+    {
+      "name": "serial-sustained-dry",
+      "normalized_effect_parameters": {
+        "voices": 0.5,
+        "detune": 0.2,
+        "width": 0.8,
+        "lock": 0,
+        "dw": 0,
+        "dt": 0.5,
+        "sync": 0,
+        "spread": 0.5,
+        "tone": 0.5,
+        "feedback": 0,
+        "rw": 0,
+        "size": 0.8,
+        "predelay": 0,
+        "rtone": 0.5
+      },
+      "gate_seconds": 2,
+      "duration_seconds": 8,
+      "tracks": {
+        "tal": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-sustained-dry-tal.raw",
+          "audio_sha256": "bc9f5fb55dc6f4c50b93ce547414c6aa284e18e4317ca27541db1064a30b19e0",
+          "parameters": {
+            "master octave transpose": 0.5,
+            "keytranspose": 0.5,
+            "master fine tune": 0.5,
+            "master volume": 0.35,
+            "dco saw enabled": 1,
+            "dco pulse enabled": 0,
+            "dco sub osc enabled": 0,
+            "dco sub osc volume": 0,
+            "dco noise volume": 0,
+            "filter cutoff": 1,
+            "filter resonance": 0,
+            "filter env": 0,
+            "filter modulation": 0,
+            "filter keyboard": 0,
+            "vca mode": 0,
+            "attack": 0,
+            "decay": 0,
+            "sustain": 1,
+            "release": 0,
+            "chorus 1": 0,
+            "chorus 2": 0,
+            "arp enabled": 0,
+            "Unisono Voices": 0.5,
+            "Unisono Detune": 0.2,
+            "Unisono Spread": 0.8,
+            "FX Lock": 0,
+            "FX Delay Dry / Wet": 0,
+            "FX Delay Time": 0.5,
+            "FX Delay Sync": 0,
+            "FX Delay Spread": 0.5,
+            "FX Delay Tone": 0.5,
+            "FX Delay Feedback": 0,
+            "FX Reverb Dry / Wet": 0,
+            "FX Reverb Size": 0.8,
+            "FX Reverb Delay": 0,
+            "FX Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.013163540528706632,
+            "peak": 0.09556520730257034,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 2.002312925170068,
+            "active_rms": 0.026004180905821035,
+            "tail_rms": 2.1860966022876455e-07,
+            "side_mid_ratio": 0.7414101919606091,
+            "tail_centroid_hz": 1.046454697215697,
+            "tail_band_energy_fraction": {
+              "20-500": 1.1342511605134544e-05,
+              "500-3000": 1.2311649758137089e-12,
+              "3000-20000": 1.581099375827671e-15
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.022371905417636923
+              },
+              {
+                "start": 0.5,
+                "rms": 0.029992013100924902
+              },
+              {
+                "start": 0.75,
+                "rms": 0.02737005959729998
+              },
+              {
+                "start": 1.0,
+                "rms": 0.020009448154454743
+              },
+              {
+                "start": 1.25,
+                "rms": 0.026678073851665547
+              },
+              {
+                "start": 1.5,
+                "rms": 0.035735327263842584
+              },
+              {
+                "start": 1.75,
+                "rms": 0.020205876586009232
+              },
+              {
+                "start": 2.0,
+                "rms": 0.0007988938443787033
+              },
+              {
+                "start": 2.25,
+                "rms": 2.0641376247630338e-07
+              },
+              {
+                "start": 2.5,
+                "rms": 3.475765126705063e-09
+              },
+              {
+                "start": 2.75,
+                "rms": 5.852775423673532e-11
+              },
+              {
+                "start": 3.0,
+                "rms": 9.85535166163178e-13
+              },
+              {
+                "start": 3.25,
+                "rms": 1.6595222251973683e-14
+              },
+              {
+                "start": 3.5,
+                "rms": 2.794440704610591e-16
+              },
+              {
+                "start": 3.75,
+                "rms": 4.7055101814194875e-18
+              },
+              {
+                "start": 4.0,
+                "rms": 7.923503911569409e-20
+              },
+              {
+                "start": 4.25,
+                "rms": 1.33422053554317e-21
+              },
+              {
+                "start": 4.5,
+                "rms": 2.2466683538572822e-23
+              },
+              {
+                "start": 4.75,
+                "rms": 3.783129021195845e-25
+              },
+              {
+                "start": 5.0,
+                "rms": 6.370327988786894e-27
+              },
+              {
+                "start": 5.25,
+                "rms": 1.0726827086287031e-28
+              },
+              {
+                "start": 5.5,
+                "rms": 1.8062695036178995e-30
+              },
+              {
+                "start": 5.75,
+                "rms": 3.0415477701432085e-32
+              },
+              {
+                "start": 6.0,
+                "rms": 5.121599539815163e-34
+              },
+              {
+                "start": 6.25,
+                "rms": 8.624132444829587e-36
+              },
+              {
+                "start": 6.5,
+                "rms": 1.451824563981631e-37
+              },
+              {
+                "start": 6.75,
+                "rms": 0.0
+              },
+              {
+                "start": 7.0,
+                "rms": 0.0
+              },
+              {
+                "start": 7.25,
+                "rms": 0.0
+              },
+              {
+                "start": 7.5,
+                "rms": 0.0
+              }
+            ],
+            "fundamental_peaks_hz": [
+              259.82837677001953,
+              263.4452819824219,
+              262.26768493652344,
+              260.92185974121094
+            ],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": [
+              0.993130684580004,
+              1.0069554237955884,
+              1.0024543459114446,
+              0.9973102569009946
+            ]
+          },
+          "active_rms_relative_to_own_dry": 4.967814515289974
+        },
+        "koda": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-sustained-dry-koda.raw",
+          "audio_sha256": "dccf6945d4589afea0abe1c3967d44eeac44ba351aa566e1528e2e838c1d4ee5",
+          "parameters": {
+            "TRANSPOSE": 0.5,
+            "MASTERPITCH": 0.5,
+            "VOLUME": 0.35,
+            "SAW": 1,
+            "Pulse": 0,
+            "SUBOSC": 0,
+            "SUBOSCVOLUME": 0,
+            "NOISEVOLUME": 0,
+            "CUTOFF": 1,
+            "RESONANCE": 0,
+            "FILTERCONTOUR": 0,
+            "FILTERLFO": 0,
+            "KEYFOLLOW": 0,
+            "AMPATTACK": 0,
+            "AMPDECAY": 0,
+            "AMPSUSTAIN": 1,
+            "AMPRELEASE": 0,
+            "ENVGATE": 0,
+            "CHORUS1": 0,
+            "CHORUS2": 0,
+            "Arp On": 0,
+            "Unison Voices": 0.5,
+            "Unison Detune": 0.2,
+            "Unison Width": 0.8,
+            "FX Lock": 0,
+            "Delay Wet": 0,
+            "Delay Time": 0.5,
+            "Delay Sync": 0,
+            "Delay Spread": 0.5,
+            "Delay Tone": 0.5,
+            "Delay Feedback": 0,
+            "Reverb Wet": 0,
+            "Reverb Size": 0.8,
+            "Reverb Delay": 0,
+            "Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.01554650766780267,
+            "peak": 0.11662405729293823,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 2.0112244897959184,
+            "active_rms": 0.03071165392132496,
+            "tail_rms": 1.9793258762389024e-06,
+            "side_mid_ratio": 0.7326622862389449,
+            "tail_centroid_hz": 0.03405552737367388,
+            "tail_band_energy_fraction": {
+              "20-500": 3.920121608557584e-09,
+              "500-3000": 3.9260631414739273e-16,
+              "3000-20000": 8.40593367615026e-20
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.021495849175223722
+              },
+              {
+                "start": 0.5,
+                "rms": 0.027576208848211405
+              },
+              {
+                "start": 0.75,
+                "rms": 0.03687819943363036
+              },
+              {
+                "start": 1.0,
+                "rms": 0.024659153896967947
+              },
+              {
+                "start": 1.25,
+                "rms": 0.023107674044234444
+              },
+              {
+                "start": 1.5,
+                "rms": 0.043944664740928674
+              },
+              {
+                "start": 1.75,
+                "rms": 0.026868738938889934
+              },
+              {
+                "start": 2.0,
+                "rms": 0.0016650755027527028
+              },
+              {
+                "start": 2.25,
+                "rms": 5.691183765174004e-07
+              },
+              {
+                "start": 2.5,
+                "rms": 2.3285201149597198e-07
+              },
+              {
+                "start": 2.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 3.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 4.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 5.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 6.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 6.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 6.5,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 6.75,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 7.0,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 7.25,
+                "rms": 2.3284073336071742e-07
+              },
+              {
+                "start": 7.5,
+                "rms": 2.3284073336071742e-07
+              }
+            ],
+            "fundamental_peaks_hz": [
+              263.4452819824219,
+              259.82837677001953,
+              260.92185974121094,
+              262.35179901123047
+            ],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": [
+              1.0069554237955884,
+              0.993130684580004,
+              0.9973102569009946,
+              1.0027758514745977
+            ]
+          },
+          "active_rms_relative_to_own_dry": 5.079073677383608
+        }
+      },
+      "comparison": {
+        "onset_delta_seconds": 0.0,
+        "tail_rms_ratio_koda_tal": 9.05415558565725,
+        "side_mid_ratio_delta": -0.008747905721664173,
+        "tail_centroid_delta_hz": -1.0123991698420232
+      }
+    },
+    {
+      "name": "serial-sustained",
+      "normalized_effect_parameters": {
+        "voices": 0.5,
+        "detune": 0.2,
+        "width": 0.8,
+        "lock": 0,
+        "dw": 0.5,
+        "dt": 0.3,
+        "sync": 0,
+        "spread": 0.5,
+        "tone": 0.5,
+        "feedback": 0.4,
+        "rw": 0.7,
+        "size": 0.8,
+        "predelay": 0.2,
+        "rtone": 0.5
+      },
+      "gate_seconds": 2,
+      "duration_seconds": 10,
+      "tracks": {
+        "tal": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-sustained-tal.raw",
+          "audio_sha256": "d67785eed61b781be082f6f712c7373d3d29bf0add4a48324912f8c0b3182691",
+          "parameters": {
+            "master octave transpose": 0.5,
+            "keytranspose": 0.5,
+            "master fine tune": 0.5,
+            "master volume": 0.35,
+            "dco saw enabled": 1,
+            "dco pulse enabled": 0,
+            "dco sub osc enabled": 0,
+            "dco sub osc volume": 0,
+            "dco noise volume": 0,
+            "filter cutoff": 1,
+            "filter resonance": 0,
+            "filter env": 0,
+            "filter modulation": 0,
+            "filter keyboard": 0,
+            "vca mode": 0,
+            "attack": 0,
+            "decay": 0,
+            "sustain": 1,
+            "release": 0,
+            "chorus 1": 0,
+            "chorus 2": 0,
+            "arp enabled": 0,
+            "Unisono Voices": 0.5,
+            "Unisono Detune": 0.2,
+            "Unisono Spread": 0.8,
+            "FX Lock": 0,
+            "FX Delay Dry / Wet": 0.5,
+            "FX Delay Time": 0.3,
+            "FX Delay Sync": 0,
+            "FX Delay Spread": 0.5,
+            "FX Delay Tone": 0.5,
+            "FX Delay Feedback": 0.4,
+            "FX Reverb Dry / Wet": 0.7,
+            "FX Reverb Size": 0.8,
+            "FX Reverb Delay": 0.2,
+            "FX Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.01425034021138702,
+            "peak": 0.10784187912940979,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 5.973696145124716,
+            "active_rms": 0.026397777334570403,
+            "tail_rms": 0.00790081129476679,
+            "side_mid_ratio": 1.0018898817377848,
+            "tail_centroid_hz": 406.9659764088008,
+            "tail_band_energy_fraction": {
+              "20-500": 0.7363284179077763,
+              "500-3000": 0.2609200983169663,
+              "3000-20000": 0.002751450096318183
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.02236110188374888
+              },
+              {
+                "start": 0.5,
+                "rms": 0.020249120948380668
+              },
+              {
+                "start": 0.75,
+                "rms": 0.016524210475967402
+              },
+              {
+                "start": 1.0,
+                "rms": 0.026118623280123057
+              },
+              {
+                "start": 1.25,
+                "rms": 0.035811264435156163
+              },
+              {
+                "start": 1.5,
+                "rms": 0.029839346479190627
+              },
+              {
+                "start": 1.75,
+                "rms": 0.03489222962518478
+              },
+              {
+                "start": 2.0,
+                "rms": 0.0327659101464266
+              },
+              {
+                "start": 2.25,
+                "rms": 0.02600762403901055
+              },
+              {
+                "start": 2.5,
+                "rms": 0.02027723398799946
+              },
+              {
+                "start": 2.75,
+                "rms": 0.014572133522562715
+              },
+              {
+                "start": 3.0,
+                "rms": 0.011342136412645549
+              },
+              {
+                "start": 3.25,
+                "rms": 0.007798568004182756
+              },
+              {
+                "start": 3.5,
+                "rms": 0.004066658415578679
+              },
+              {
+                "start": 3.75,
+                "rms": 0.0043113458629625
+              },
+              {
+                "start": 4.0,
+                "rms": 0.0029851600475596933
+              },
+              {
+                "start": 4.25,
+                "rms": 0.0030110930890517463
+              },
+              {
+                "start": 4.5,
+                "rms": 0.002321191879539346
+              },
+              {
+                "start": 4.75,
+                "rms": 0.0014503722937121916
+              },
+              {
+                "start": 5.0,
+                "rms": 0.0011995828450115512
+              },
+              {
+                "start": 5.25,
+                "rms": 0.0009535119474449562
+              },
+              {
+                "start": 5.5,
+                "rms": 0.0006736111221668829
+              },
+              {
+                "start": 5.75,
+                "rms": 0.00045836938776282394
+              },
+              {
+                "start": 6.0,
+                "rms": 0.00030980989010368745
+              },
+              {
+                "start": 6.25,
+                "rms": 0.00023402642028452766
+              },
+              {
+                "start": 6.5,
+                "rms": 0.0002327527125894912
+              },
+              {
+                "start": 6.75,
+                "rms": 0.00015529955061982336
+              },
+              {
+                "start": 7.0,
+                "rms": 0.00014992682403703155
+              },
+              {
+                "start": 7.25,
+                "rms": 0.00010087954719395846
+              },
+              {
+                "start": 7.5,
+                "rms": 6.154310428638052e-05
+              },
+              {
+                "start": 7.75,
+                "rms": 5.245158355348678e-05
+              },
+              {
+                "start": 8.0,
+                "rms": 3.95801887964973e-05
+              },
+              {
+                "start": 8.25,
+                "rms": 2.383341103785963e-05
+              },
+              {
+                "start": 8.5,
+                "rms": 1.9194756549905954e-05
+              },
+              {
+                "start": 8.75,
+                "rms": 1.5103045730367393e-05
+              },
+              {
+                "start": 9.0,
+                "rms": 8.031240021006693e-06
+              },
+              {
+                "start": 9.25,
+                "rms": 9.639657676070315e-06
+              },
+              {
+                "start": 9.5,
+                "rms": 7.2119757383665844e-06
+              }
+            ],
+            "fundamental_peaks_hz": [
+              259.82837677001953,
+              263.5293960571289,
+              260.92185974121094,
+              262.52002716064453,
+              264.95933532714844,
+              258.7348937988281,
+              257.47318267822266,
+              267.4827575683594,
+              269.1650390625
+            ],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": [
+              0.993130684580004,
+              1.0072769293587414,
+              0.9973102569009946,
+              1.003418862600904,
+              1.0127425239323447,
+              0.9889511122590133,
+              0.9841285288117164,
+              1.0223876908269383,
+              1.028817802090001
+            ]
+          },
+          "active_rms_relative_to_own_dry": 5.0430068106746635
+        },
+        "koda": {
+          "audio_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/audio-serial-diagnostic/serial-sustained-koda.raw",
+          "audio_sha256": "876552c81af061a8a506860245bbc0660ad22063817278763a3578f30ee16c75",
+          "parameters": {
+            "TRANSPOSE": 0.5,
+            "MASTERPITCH": 0.5,
+            "VOLUME": 0.35,
+            "SAW": 1,
+            "Pulse": 0,
+            "SUBOSC": 0,
+            "SUBOSCVOLUME": 0,
+            "NOISEVOLUME": 0,
+            "CUTOFF": 1,
+            "RESONANCE": 0,
+            "FILTERCONTOUR": 0,
+            "FILTERLFO": 0,
+            "KEYFOLLOW": 0,
+            "AMPATTACK": 0,
+            "AMPDECAY": 0,
+            "AMPSUSTAIN": 1,
+            "AMPRELEASE": 0,
+            "ENVGATE": 0,
+            "CHORUS1": 0,
+            "CHORUS2": 0,
+            "Arp On": 0,
+            "Unison Voices": 0.5,
+            "Unison Detune": 0.2,
+            "Unison Width": 0.8,
+            "FX Lock": 0,
+            "Delay Wet": 0.5,
+            "Delay Time": 0.3,
+            "Delay Sync": 0,
+            "Delay Spread": 0.5,
+            "Delay Tone": 0.5,
+            "Delay Feedback": 0.4,
+            "Reverb Wet": 0.7,
+            "Reverb Size": 0.8,
+            "Reverb Delay": 0.2,
+            "Reverb Tone": 0.5
+          },
+          "metrics": {
+            "rms": 0.014750347816823783,
+            "peak": 0.1082678958773613,
+            "nonfinite": false,
+            "silent": false,
+            "onset_seconds": 0.0,
+            "last_above_minus40db_seconds": 5.973061224489796,
+            "active_rms": 0.029294324927598203,
+            "tail_rms": 0.006692984723370324,
+            "side_mid_ratio": 0.8263277341993346,
+            "tail_centroid_hz": 418.695738925936,
+            "tail_band_energy_fraction": {
+              "20-500": 0.6978520486881005,
+              "500-3000": 0.30041370226460984,
+              "3000-20000": 0.00173362275541362
+            },
+            "tail_rms_windows": [
+              {
+                "start": 0.25,
+                "rms": 0.03426492637646168
+              },
+              {
+                "start": 0.5,
+                "rms": 0.028845148011029713
+              },
+              {
+                "start": 0.75,
+                "rms": 0.026803650162253726
+              },
+              {
+                "start": 1.0,
+                "rms": 0.026848383522700595
+              },
+              {
+                "start": 1.25,
+                "rms": 0.0285746905184803
+              },
+              {
+                "start": 1.5,
+                "rms": 0.03578773410576365
+              },
+              {
+                "start": 1.75,
+                "rms": 0.02748560289513869
+              },
+              {
+                "start": 2.0,
+                "rms": 0.025810124606752697
+              },
+              {
+                "start": 2.25,
+                "rms": 0.02003607942055684
+              },
+              {
+                "start": 2.5,
+                "rms": 0.016802093810269602
+              },
+              {
+                "start": 2.75,
+                "rms": 0.012226505282499325
+              },
+              {
+                "start": 3.0,
+                "rms": 0.009967201979084073
+              },
+              {
+                "start": 3.25,
+                "rms": 0.00769135157436024
+              },
+              {
+                "start": 3.5,
+                "rms": 0.0064768247065955555
+              },
+              {
+                "start": 3.75,
+                "rms": 0.004308890255264581
+              },
+              {
+                "start": 4.0,
+                "rms": 0.0035683389046711846
+              },
+              {
+                "start": 4.25,
+                "rms": 0.0026309479657621016
+              },
+              {
+                "start": 4.5,
+                "rms": 0.0018501132100407294
+              },
+              {
+                "start": 4.75,
+                "rms": 0.0013582884358261259
+              },
+              {
+                "start": 5.0,
+                "rms": 0.0011871421440060141
+              },
+              {
+                "start": 5.25,
+                "rms": 0.0009396112403051695
+              },
+              {
+                "start": 5.5,
+                "rms": 0.0006118115012579041
+              },
+              {
+                "start": 5.75,
+                "rms": 0.0004849671325851116
+              },
+              {
+                "start": 6.0,
+                "rms": 0.0003495528442563016
+              },
+              {
+                "start": 6.25,
+                "rms": 0.0002966430191082315
+              },
+              {
+                "start": 6.5,
+                "rms": 0.00018573978278596184
+              },
+              {
+                "start": 6.75,
+                "rms": 0.00014476081333230725
+              },
+              {
+                "start": 7.0,
+                "rms": 0.00011750263323436379
+              },
+              {
+                "start": 7.25,
+                "rms": 8.096694102315615e-05
+              },
+              {
+                "start": 7.5,
+                "rms": 6.58688125037804e-05
+              },
+              {
+                "start": 7.75,
+                "rms": 4.818348605741291e-05
+              },
+              {
+                "start": 8.0,
+                "rms": 3.387120671468136e-05
+              },
+              {
+                "start": 8.25,
+                "rms": 2.713199260695208e-05
+              },
+              {
+                "start": 8.5,
+                "rms": 1.8234671069225158e-05
+              },
+              {
+                "start": 8.75,
+                "rms": 1.4472887498500451e-05
+              },
+              {
+                "start": 9.0,
+                "rms": 1.0526428553185574e-05
+              },
+              {
+                "start": 9.25,
+                "rms": 8.151167577430499e-06
+              },
+              {
+                "start": 9.5,
+                "rms": 6.591477214891696e-06
+              }
+            ],
+            "fundamental_peaks_hz": [
+              259.82837677001953,
+              263.4452819824219,
+              265.04344940185547,
+              258.81900787353516,
+              261.9312286376953,
+              258.1460952758789,
+              268.9126968383789,
+              266.473388671875,
+              267.65098571777344
+            ],
+            "spectral_peak_note": "Windowed spectral candidates, including possible sidelobes; not a voice-count estimate.",
+            "fundamental_peak_ratios": [
+              0.993130684580004,
+              1.0069554237955884,
+              1.0130640294954978,
+              0.9892726178221665,
+              1.001168323658832,
+              0.9867005733169415,
+              1.0278532854005415,
+              1.0185296240691009,
+              1.0230307019532445
+            ]
+          },
+          "active_rms_relative_to_own_dry": 4.8446767151532
+        }
+      },
+      "comparison": {
+        "onset_delta_seconds": 0.0,
+        "tail_rms_ratio_koda_tal": 0.8471262600340187,
+        "side_mid_ratio_delta": -0.17556214753845023,
+        "tail_centroid_delta_hz": 11.729762517135157
+      }
+    }
+  ],
+  "elapsed_seconds": 2.488093416992342,
+  "behavior_checks": {
+    "tal": {},
+    "koda": {}
+  },
+  "behavior_checks_scope": "Parameter-response checks on each instrument, not pairwise sound equivalence or real DAW integration."
+}

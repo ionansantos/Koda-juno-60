@@ -1,0 +1,142 @@
+
+void __ZN10SynthVoiceC1EfP6Params(float *param_1,float param_2,float *param_3)
+
+{
+  int *piVar1;
+  int iVar2;
+  undefined4 *puVar3;
+  float *pfVar4;
+  int iVar5;
+  int unaff_EBX;
+  float fVar6;
+  float fVar7;
+  
+  ___i686_get_pc_thunk_bx();
+  *param_1 = param_2;
+  param_1[1] = *param_3;
+  piVar1 = (int *)__Znwm(0x20);
+  piVar1[1] = (int)param_2;
+  piVar1[2] = 0x42000000;
+  piVar1[3] = 0x42;
+  iVar2 = __Znam(0x108);
+  piVar1[4] = iVar2;
+  __Znwm(1);
+  iVar2 = unaff_EBX + 0xb27a;
+  *piVar1 = iVar2;
+  piVar1[5] = 0x3f800000;
+  piVar1[7] = 0;
+  if (0 < piVar1[3]) {
+    iVar5 = 0;
+    do {
+      *(undefined4 *)(piVar1[4] + iVar5 * 4) = 0;
+      iVar5 = iVar5 + 1;
+    } while (iVar5 < piVar1[3]);
+  }
+  param_1[2] = (float)piVar1;
+  piVar1 = (int *)__Znwm(0x34);
+  piVar1[1] = (int)param_2;
+  piVar1[2] = 0x42000000;
+  piVar1[3] = 0x42;
+  iVar5 = __Znam(0x108);
+  piVar1[4] = iVar5;
+  __Znwm(1);
+  *piVar1 = iVar2;
+  piVar1[7] = 0;
+  piVar1[6] = 0x3f800000;
+  piVar1[5] = 0x3f800000;
+  if (0 < piVar1[3]) {
+    iVar5 = 0;
+    do {
+      *(undefined4 *)(piVar1[4] + iVar5 * 4) = 0;
+      iVar5 = iVar5 + 1;
+    } while (iVar5 < piVar1[3]);
+  }
+  piVar1[8] = 1;
+  param_1[3] = (float)piVar1;
+  piVar1 = (int *)__Znwm(0x34);
+  piVar1[1] = (int)param_2;
+  piVar1[2] = 0x42000000;
+  piVar1[3] = 0x42;
+  iVar5 = __Znam(0x108);
+  piVar1[4] = iVar5;
+  __Znwm(1);
+  *piVar1 = iVar2;
+  piVar1[7] = 0;
+  piVar1[6] = 0x3f800000;
+  piVar1[5] = 0x3f800000;
+  if (0 < piVar1[3]) {
+    iVar2 = 0;
+    do {
+      *(undefined4 *)(piVar1[4] + iVar2 * 4) = 0;
+      iVar2 = iVar2 + 1;
+    } while (iVar2 < piVar1[3]);
+  }
+  piVar1[8] = 1;
+  param_1[5] = (float)piVar1;
+  puVar3 = (undefined4 *)__Znwm(4);
+  *puVar3 = 0;
+  param_1[4] = (float)puVar3;
+  puVar3 = (undefined4 *)__Znwm(0x88);
+  *puVar3 = 0x40490fdb;
+  puVar3[1] = 0x471c4000;
+  puVar3[2] = 0x38712c27;
+  puVar3[3] = 0x358637bd;
+  fVar7 = *(float *)(unaff_EBX + 0xad5a);
+  puVar3[0x1c] = fVar7;
+  puVar3[0x1d] = fVar7;
+  fVar6 = *(float *)(unaff_EBX + 0xadf2) / param_2;
+  puVar3[0x21] = fVar6;
+  if (fVar7 < fVar6) {
+    puVar3[0x21] = fVar7;
+  }
+  puVar3[0xe] = 0;
+  puVar3[0xd] = 0;
+  puVar3[0xc] = 0;
+  puVar3[0xb] = 0;
+  puVar3[10] = 0;
+  puVar3[9] = 0;
+  puVar3[8] = 0;
+  puVar3[7] = 0;
+  puVar3[6] = 0;
+  puVar3[5] = 0;
+  puVar3[4] = 0;
+  puVar3[0x17] = 0;
+  puVar3[0x16] = 0;
+  puVar3[0x15] = 0;
+  puVar3[0x14] = 0;
+  puVar3[0x13] = 0;
+  puVar3[0x12] = 0;
+  puVar3[0x11] = 0;
+  puVar3[0x10] = 0;
+  puVar3[0xf] = 0;
+  param_1[6] = (float)puVar3;
+  pfVar4 = (float *)__Znwm(0x20);
+  *pfVar4 = param_2;
+  fVar7 = (*(float *)(unaff_EBX + 0xadf6) / param_2) * *(float *)(unaff_EBX + 0xadfa);
+  pfVar4[1] = fVar7;
+  pfVar4[2] = 0.0;
+  *(undefined1 *)(pfVar4 + 3) = 0;
+  *(undefined1 *)(pfVar4 + 7) = 0;
+  param_1[0x16] = (float)pfVar4;
+  pfVar4 = (float *)__Znwm(0x20);
+  *pfVar4 = param_2;
+  pfVar4[1] = fVar7;
+  pfVar4[2] = 0.0;
+  *(undefined1 *)(pfVar4 + 3) = 0;
+  *(undefined1 *)(pfVar4 + 7) = 1;
+  param_1[0x17] = (float)pfVar4;
+  pfVar4 = (float *)__Znwm(0x20);
+  *pfVar4 = param_2;
+  pfVar4[1] = fVar7;
+  pfVar4[2] = 0.0;
+  *(undefined1 *)(pfVar4 + 3) = 0;
+  *(undefined1 *)(pfVar4 + 7) = 0;
+  param_1[0x18] = (float)pfVar4;
+  param_1[10] = 0.0;
+  param_1[0x14] = 8.96831e-44;
+  *(undefined1 *)(param_1 + 0x15) = 0;
+  param_1[0xe] = 0.0;
+  param_1[0x11] = 1.4013e-43;
+  return;
+}
+

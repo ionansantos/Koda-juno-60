@@ -1,0 +1,88 @@
+
+void __ZN20ServiceControlDialog5paintERN4juce8GraphicsE(long param_1,long param_2)
+
+{
+  char cVar1;
+  int iVar2;
+  int *piVar3;
+  long lVar4;
+  long local_58;
+  long local_50;
+  long *local_48;
+  undefined8 uStack_40;
+  long local_38;
+  
+  local_38 = *(long *)PTR____stack_chk_guard_006f4300;
+  __ZN4juce8Graphics9setColourENS_6ColourE(param_2,0xff161616);
+  uStack_40 = *(undefined8 *)(param_1 + 0x40);
+  local_48 = (long *)0x0;
+  (**(code **)(**(long **)(param_2 + 8) + 0xb0))(*(long **)(param_2 + 8),&local_48,0);
+  lVar4 = *(long *)(param_1 + 0x178);
+  __ZN4juce8Graphics9setColourENS_6ColourE(param_2,0xff888888);
+  local_50 = __ZN18TalLookAndFeelBase18TalDefaultFontNameE;
+  piVar3 = (int *)(__ZN18TalLookAndFeelBase18TalDefaultFontNameE + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar2 = *piVar3;
+    *piVar3 = iVar2 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar2);
+    LORelease();
+  }
+  __ZN18TalLookAndFeelBase7getFontEfN4juce4Font14FontStyleFlagsENS0_6StringE
+            (piVar3,0x41300000,&local_48,0,&local_50);
+  piVar3 = (int *)(local_50 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar2 = *piVar3;
+    *piVar3 = iVar2 + -1;
+    LORelease();
+    if (iVar2 == 0) {
+      __ZdaPv();
+      cVar1 = *(char *)(param_2 + 0x10);
+      goto joined_r0x0008c85c;
+    }
+  }
+  cVar1 = *(char *)(param_2 + 0x10);
+joined_r0x0008c85c:
+  if (cVar1 != '\0') {
+    *(undefined1 *)(param_2 + 0x10) = 0;
+    (**(code **)(**(long **)(param_2 + 8) + 0x70))();
+  }
+  (**(code **)(**(long **)(param_2 + 8) + 0xf8))(*(long **)(param_2 + 8),&local_48);
+  local_58 = *(long *)(lVar4 + 8);
+  piVar3 = (int *)(local_58 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    *piVar3 = *piVar3 + 1;
+    LORelease();
+  }
+  __ZNK4juce8Graphics8drawTextERKNS_6StringENS_9RectangleIfEENS_13JustificationEb
+            ((float)(*(int *)(lVar4 + 0x38) + -0x14),
+             (float)(*(int *)(lVar4 + 0x3c) + *(int *)(lVar4 + 0x44) + 2),
+             (float)(*(int *)(lVar4 + 0x40) + 0x28),0x41200000,param_2,&local_58,0x24,0);
+  piVar3 = (int *)(local_58 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar2 = *piVar3;
+    *piVar3 = iVar2 + -1;
+    LORelease();
+    if (iVar2 == 0) {
+      __ZdaPv();
+    }
+  }
+  if (local_48 != (long *)0x0) {
+    LOAcquire();
+    iVar2 = (int)local_48[1];
+    *(int *)(local_48 + 1) = iVar2 + -1;
+    LORelease();
+    if (iVar2 == 1) {
+      (**(code **)(*local_48 + 8))();
+    }
+  }
+  if (*(long *)PTR____stack_chk_guard_006f4300 == local_38) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  ___stack_chk_fail();
+}
+

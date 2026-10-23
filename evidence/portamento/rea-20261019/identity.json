@@ -1,0 +1,8 @@
+{
+  "target": "/Library/Audio/Plug-Ins/Components/TAL-U-NO-LX-V2.component/Contents/MacOS/TAL-U-NO-LX-V2",
+  "target_sha256": "99bcc10a28984d52e46299f8369b7a3cb0648ae99358ec3e8d5628d5f113aba6",
+  "slice": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64",
+  "slice_sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0",
+  "provider": "REA / Ghidra 12.1.4",
+  "scope": "Read-only static analysis of Portamento; no KODA implementation or installation changes"
+}

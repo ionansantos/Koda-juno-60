@@ -1,0 +1,20 @@
+[  2%] Building VST3 manifest helper for TalUNo60Clone
+[ 11%] Built target tal_dsp
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/koda/Documents/tal-un-no-60-clone/build/vst3_helpers/TalUNo60Clone
+make[4]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+[100%] Built target vst3_helper
+[ 69%] Built target TalUNo60Clone
+[ 69%] Built target TalUNo60Clone_vst3_helper
+[ 71%] Linking CXX CFBundle shared module TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3/Contents/MacOS/KODA-JUNO-60
+/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3: code has no resources but signature indicates they must be present
+-- Replacing invalid signature with ad-hoc signature
+/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3: replacing existing signature
+removing moduleinfo.json
+creating /Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3/Contents/Resources/moduleinfo.json
+[100%] Built target TalUNo60Clone_VST3
+[  9%] Built target tal_dsp
+[ 68%] Built target TalUNo60Clone
+[ 70%] Linking CXX executable TalUNo60Clone_artefacts/Release/Standalone/KODA-JUNO-60.app/Contents/MacOS/KODA-JUNO-60
+[100%] Built target TalUNo60Clone_Standalone

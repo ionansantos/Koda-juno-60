@@ -1,0 +1,25 @@
+{
+  "version": "0.6.0",
+  "host_parameters": 113,
+  "ctest_passed": 13,
+  "vt_real_au_renders": 35,
+  "vt_control_checks_passed": 27,
+  "raw_audio_hashes_verified": 35,
+  "auval_installed_passed": true,
+  "installed_au_matches_tested": true,
+  "reference_binary_unchanged": true,
+  "vt_dsp_asan_ubsan_passed": true,
+  "new_toolbar_implemented": [
+    "VT",
+    "VT LOCK",
+    "MIDI LEARN",
+    "MIDI LOCK",
+    "CLEAR"
+  ],
+  "limits": [
+    "MIDI event tests are synthetic; no physical controller or DAW GUI operated.",
+    "VT AU comparison48k one note and uniformtuning in six records; DSP units coverindividualvoices and more rates.",
+    "Absolute ADSR duration and timbre are not TAL-identical.",
+    "Learning-management controls are excluded as MIDI learn targets."
+  ]
+}

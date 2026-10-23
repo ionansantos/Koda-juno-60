@@ -1,0 +1,175 @@
+
+void __ZN10AudioUtils23getDelaySyncTimeAndTextEPf(long *param_1,float *param_2)
+
+{
+  int iVar1;
+  undefined4 *puVar2;
+  uint *puVar3;
+  int *piVar4;
+  uint uVar5;
+  float fVar6;
+  long lVar7;
+  
+  *param_1 = (long)&DAT_0071feb0;
+  switch((int)(*param_2 * 20.0 + 0.5)) {
+  case 0:
+    *param_2 = 3.75;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x36312f31;
+    break;
+  case 1:
+    *param_2 = 2.4999998;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    puVar3 = puVar2 + 4;
+    *puVar3 = 0x36312f31;
+    *(undefined8 *)(puVar2 + 2) = 8;
+    *(undefined2 *)(puVar2 + 5) = 0x54;
+    goto LAB_000445b4;
+  case 2:
+    fVar6 = 5.625;
+    goto LAB_000443b0;
+  case 3:
+    *param_2 = 7.5;
+    puVar2 = (undefined4 *)__Znam(0x1b);
+    *puVar2 = 0;
+    uVar5 = 0x382f31;
+    goto LAB_00044558;
+  case 4:
+    *param_2 = 4.9999995;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x54382f31;
+    break;
+  case 5:
+    fVar6 = 11.25;
+LAB_000443b0:
+    *param_2 = fVar6;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x2e382f31;
+    break;
+  case 6:
+    *param_2 = 15.0;
+    puVar2 = (undefined4 *)__Znam(0x1b);
+    *puVar2 = 0;
+    uVar5 = 0x342f31;
+    goto LAB_00044558;
+  case 7:
+    *param_2 = 9.999999;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x54342f31;
+    break;
+  case 8:
+    *param_2 = 22.5;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x2e342f31;
+    break;
+  case 9:
+    *param_2 = 30.0;
+    puVar2 = (undefined4 *)__Znam(0x1b);
+    *puVar2 = 0;
+    uVar5 = 0x322f31;
+    goto LAB_00044558;
+  case 10:
+    *param_2 = 19.999998;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x54322f31;
+    break;
+  case 0xb:
+    *param_2 = 45.0;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x2e322f31;
+    break;
+  case 0xc:
+    *param_2 = 60.0;
+    puVar2 = (undefined4 *)__Znam(0x1b);
+    *puVar2 = 0;
+    uVar5 = 0x2f31;
+    goto LAB_00044554;
+  case 0xd:
+    *param_2 = 39.999996;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x54312f31;
+    break;
+  case 0xe:
+    *param_2 = 90.0;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x2f31;
+    goto LAB_000445a0;
+  case 0xf:
+    *param_2 = 120.0;
+    puVar2 = (undefined4 *)__Znam(0x1b);
+    *puVar2 = 0;
+    uVar5 = 0x2f32;
+    goto LAB_00044554;
+  case 0x10:
+    *param_2 = 79.99999;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x54312f32;
+    break;
+  case 0x11:
+    *param_2 = 180.0;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x2f32;
+    goto LAB_000445a0;
+  case 0x12:
+    *param_2 = 240.0;
+    puVar2 = (undefined4 *)__Znam(0x1b);
+    *puVar2 = 0;
+    uVar5 = 0x2f34;
+LAB_00044554:
+    uVar5 = uVar5 | 0x310000;
+LAB_00044558:
+    puVar3 = puVar2 + 4;
+    *puVar3 = uVar5;
+    *(undefined8 *)(puVar2 + 2) = 4;
+    goto LAB_000445b4;
+  case 0x13:
+    *param_2 = 159.99998;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x54312f34;
+    break;
+  case 0x14:
+    *param_2 = 360.0;
+    puVar2 = (undefined4 *)__Znam(0x1f);
+    *puVar2 = 0;
+    uVar5 = 0x2f34;
+LAB_000445a0:
+    uVar5 = uVar5 | 0x2e310000;
+    break;
+  default:
+    goto switchD_0004430c_default;
+  }
+  puVar3 = puVar2 + 4;
+  *puVar3 = uVar5;
+  *(undefined8 *)(puVar2 + 2) = 8;
+  *(undefined1 *)(puVar2 + 5) = 0;
+LAB_000445b4:
+  lVar7 = *param_1;
+  *param_1 = (long)puVar3;
+  piVar4 = (int *)(lVar7 + -0x10);
+  if (piVar4 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar4;
+    *piVar4 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+      return;
+    }
+  }
+switchD_0004430c_default:
+  return;
+}
+

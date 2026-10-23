@@ -1,0 +1,296 @@
+
+void __ZN19ServiceControlEntry5paintERN4juce8GraphicsE(long param_1,long param_2)
+
+{
+  int iVar1;
+  byte *pbVar2;
+  byte *pbVar3;
+  long *plVar4;
+  uint uVar5;
+  int *piVar6;
+  ulong uVar7;
+  undefined8 uVar8;
+  int *local_b0;
+  int *local_a8;
+  int *local_a0;
+  int *local_98;
+  int *local_90;
+  int *local_88;
+  long local_80;
+  long local_78;
+  long local_70;
+  long local_68;
+  long local_60;
+  long *local_58;
+  undefined8 local_50;
+  byte local_3b [3];
+  long local_38;
+  
+  local_38 = *(long *)PTR____stack_chk_guard_006f4300;
+  uVar8 = 0xff212121;
+  if (*(char *)(param_1 + 0x14c) != '\0') {
+    uVar8 = 0xff323232;
+  }
+  __ZN4juce8Graphics9setColourENS_6ColourE(param_2,uVar8);
+  local_58 = (long *)0x0;
+  local_50 = NEON_scvtf(*(undefined8 *)(param_1 + 0x40),4);
+  (**(code **)(**(long **)(param_2 + 8) + 0x120))(0x40800000,*(long **)(param_2 + 8),&local_58);
+  uVar5 = *(uint *)(param_1 + 0xf8);
+  if ((int)uVar5 < 0) {
+    pbVar3 = local_3b + 1;
+    uVar7 = (ulong)-uVar5;
+    do {
+      uVar5 = (uint)uVar7;
+      pbVar2 = pbVar3 + -1;
+      *pbVar3 = (char)uVar7 + (char)(uVar7 / 10) * -10 | 0x30;
+      pbVar3 = pbVar2;
+      uVar7 = uVar7 / 10;
+    } while (9 < uVar5);
+    *pbVar2 = 0x2d;
+  }
+  else {
+    pbVar2 = local_3b + 2;
+    uVar7 = (ulong)uVar5;
+    do {
+      uVar5 = (uint)uVar7;
+      pbVar2 = pbVar2 + -1;
+      *pbVar2 = (char)uVar7 + (char)(uVar7 / 10) * -10 | 0x30;
+      uVar7 = uVar7 / 10;
+    } while (9 < uVar5);
+  }
+  local_3b[2] = 0;
+  local_78 = __ZN4juce17StringHolderUtils21createFromFixedLengthEPKcm
+                       (pbVar2,(long)&local_38 + ~(ulong)pbVar2);
+  __ZN4juce6String17appendCharPointerENS_16CharPointer_UTF8ES1_(&local_78," / ","");
+  local_70 = local_78;
+  piVar6 = (int *)(local_78 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    *piVar6 = *piVar6 + 1;
+    LORelease();
+  }
+  iVar1 = *(int *)(param_1 + 0xf8);
+  if (iVar1 < -6) {
+    pbVar3 = local_3b + 1;
+    uVar7 = (ulong)(-iVar1 - 6);
+    do {
+      uVar5 = (uint)uVar7;
+      pbVar2 = pbVar3 + -1;
+      *pbVar3 = (char)uVar7 + (char)(uVar7 / 10) * -10 | 0x30;
+      pbVar3 = pbVar2;
+      uVar7 = uVar7 / 10;
+    } while (9 < uVar5);
+    *pbVar2 = 0x2d;
+  }
+  else {
+    pbVar2 = local_3b + 2;
+    uVar7 = (ulong)(iVar1 + 6);
+    do {
+      uVar5 = (uint)uVar7;
+      pbVar2 = pbVar2 + -1;
+      *pbVar2 = (char)uVar7 + (char)(uVar7 / 10) * -10 | 0x30;
+      uVar7 = uVar7 / 10;
+    } while (9 < uVar5);
+  }
+  local_3b[2] = 0;
+  local_80 = __ZN4juce17StringHolderUtils21createFromFixedLengthEPKcm
+                       (pbVar2,(long)&local_38 + ~(ulong)pbVar2);
+  plVar4 = (long *)__ZN4juce6StringpLERKS0_(&local_70,&local_80);
+  local_68 = *plVar4;
+  piVar6 = (int *)(local_68 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + 1;
+    piVar6 = (int *)CONCAT44((int)((ulong)piVar6 >> 0x20),iVar1);
+    LORelease();
+  }
+  __ZN4juce8Graphics9setColourENS_6ColourE(piVar6,param_2,0xff989898);
+  local_60 = __ZN18TalLookAndFeelBase18TalDefaultFontNameE;
+  piVar6 = (int *)(__ZN18TalLookAndFeelBase18TalDefaultFontNameE + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + 1;
+    piVar6 = (int *)CONCAT44((int)((ulong)piVar6 >> 0x20),iVar1);
+    LORelease();
+  }
+  __ZN18TalLookAndFeelBase7getFontEfN4juce4Font14FontStyleFlagsENS0_6StringE
+            (piVar6,0x41f00000,&local_58,1,&local_60);
+  if (*(char *)(param_2 + 0x10) != '\0') {
+    *(undefined1 *)(param_2 + 0x10) = 0;
+    (**(code **)(**(long **)(param_2 + 8) + 0x70))();
+  }
+  (**(code **)(**(long **)(param_2 + 8) + 0xf8))(*(long **)(param_2 + 8),&local_58);
+  if (local_58 != (long *)0x0) {
+    LOAcquire();
+    iVar1 = (int)local_58[1];
+    *(int *)(local_58 + 1) = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 1) {
+      (**(code **)(*local_58 + 8))();
+    }
+  }
+  piVar6 = (int *)(local_60 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  __ZNK4juce8Graphics8drawTextERKNS_6StringENS_9RectangleIfEENS_13JustificationEb
+            (0x42200000,0,(float)*(int *)(param_1 + 0x40),(float)*(int *)(param_1 + 0x44),param_2,
+             &local_68,1,0);
+  piVar6 = (int *)(local_68 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  piVar6 = (int *)(local_80 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  piVar6 = (int *)(local_70 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  piVar6 = (int *)(local_78 + -0x10);
+  if (piVar6 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar6;
+    *piVar6 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0x100);
+  piVar6 = (int *)__Znam(0x1f);
+  *piVar6 = 0;
+  local_88 = piVar6 + 4;
+  *local_88 = 0x4f545543;
+  piVar6[2] = 8;
+  piVar6[3] = 0;
+  *(undefined2 *)(piVar6 + 5) = 0x4646;
+  *(undefined1 *)((long)piVar6 + 0x16) = 0;
+  __ZN13GraphicHelper12drawTitleTopERN4juce8GraphicsERNS0_9ComponentENS0_6StringERKNS0_6ColourEiii
+            (param_2,uVar8,&local_88,*(undefined4 *)(param_1 + 0x144));
+  LOAcquire();
+  iVar1 = *piVar6;
+  *piVar6 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar6);
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0x108);
+  piVar6 = (int *)__Znam(0x1f);
+  *piVar6 = 0;
+  local_90 = piVar6 + 4;
+  *local_90 = 0x55544544;
+  piVar6[2] = 8;
+  piVar6[3] = 0;
+  *(undefined2 *)(piVar6 + 5) = 0x454e;
+  *(undefined1 *)((long)piVar6 + 0x16) = 0;
+  __ZN13GraphicHelper12drawTitleTopERN4juce8GraphicsERNS0_9ComponentENS0_6StringERKNS0_6ColourEiii
+            (param_2,uVar8,&local_90,*(undefined4 *)(param_1 + 0x144));
+  LOAcquire();
+  iVar1 = *piVar6;
+  *piVar6 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar6);
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0x110);
+  piVar6 = (int *)__Znam(0x1f);
+  *piVar6 = 0;
+  local_98 = piVar6 + 4;
+  *local_98 = 0x41545441;
+  piVar6[2] = 8;
+  piVar6[3] = 0;
+  *(undefined2 *)(piVar6 + 5) = 0x4b43;
+  *(undefined1 *)((long)piVar6 + 0x16) = 0;
+  __ZN13GraphicHelper12drawTitleTopERN4juce8GraphicsERNS0_9ComponentENS0_6StringERKNS0_6ColourEiii
+            (param_2,uVar8,&local_98,*(undefined4 *)(param_1 + 0x144));
+  LOAcquire();
+  iVar1 = *piVar6;
+  *piVar6 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar6);
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0x118);
+  piVar6 = (int *)__Znam(0x1f);
+  *piVar6 = 0;
+  piVar6[2] = 8;
+  piVar6[3] = 0;
+  local_a0 = piVar6 + 4;
+  *local_a0 = 0x41434544;
+  *(undefined2 *)(piVar6 + 5) = 0x59;
+  __ZN13GraphicHelper12drawTitleTopERN4juce8GraphicsERNS0_9ComponentENS0_6StringERKNS0_6ColourEiii
+            (param_2,uVar8,&local_a0,*(undefined4 *)(param_1 + 0x144));
+  LOAcquire();
+  iVar1 = *piVar6;
+  *piVar6 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar6);
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0x120);
+  piVar6 = (int *)__Znam(0x1f);
+  *piVar6 = 0;
+  piVar6[2] = 8;
+  piVar6[3] = 0;
+  local_a8 = piVar6 + 4;
+  *(undefined8 *)local_a8 = 0x455341454c4552;
+  __ZN13GraphicHelper12drawTitleTopERN4juce8GraphicsERNS0_9ComponentENS0_6StringERKNS0_6ColourEiii
+            (param_2,uVar8,&local_a8,*(undefined4 *)(param_1 + 0x144));
+  LOAcquire();
+  iVar1 = *piVar6;
+  *piVar6 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar6);
+  }
+  uVar8 = *(undefined8 *)(param_1 + 0x128);
+  piVar6 = (int *)__Znam(0x1b);
+  *piVar6 = 0;
+  piVar6[2] = 4;
+  piVar6[3] = 0;
+  local_b0 = piVar6 + 4;
+  *local_b0 = 0x4e4150;
+  __ZN13GraphicHelper12drawTitleTopERN4juce8GraphicsERNS0_9ComponentENS0_6StringERKNS0_6ColourEiii
+            (param_2,uVar8,&local_b0,*(undefined4 *)(param_1 + 0x144));
+  LOAcquire();
+  iVar1 = *piVar6;
+  *piVar6 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar6);
+  }
+  if (*(long *)PTR____stack_chk_guard_006f4300 != local_38) {
+                    /* WARNING: Subroutine does not return */
+    ___stack_chk_fail();
+  }
+  return;
+}
+

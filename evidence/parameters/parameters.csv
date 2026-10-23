@@ -1,0 +1,48 @@
+index,id,original_name,display_name,minimum,maximum,interval,constructor_default,units
+0,p00,Param,Reserved 00,0,1,0,0,unknown / empty label
+1,p01,VOLUME,VOLUME,0,1,0,0.5,unknown / empty label
+2,p02,MASTERPITCH,MASTERPITCH,0,1,0,0.5,unknown / empty label
+3,p03,SAW,SAW,0,1,0,1,unknown / empty label
+4,p04,SUBOSC,SUBOSC,0,1,0,1,unknown / empty label
+5,p05,SUBOSCVOLUME,SUBOSCVOLUME,0,1,0,0,unknown / empty label
+6,p06,NOISEVOLUME,NOISEVOLUME,0,1,0,0,unknown / empty label
+7,p07,Param,Pulse,0,1,0,0,unknown / empty label
+8,p08,SQUAREPWMODE,SQUAREPWMODE,0,1,0,0,unknown / empty label
+9,p09,SQUAREPWINTENSITY,SQUAREPWINTENSITY,0,1,0,0,unknown / empty label
+10,p10,OSCLFOINTENSITY,OSCLFOINTENSITY,0,1,0,0,unknown / empty label
+11,p11,HPCUTOFF,HPCUTOFF,0,1,0,0,unknown / empty label
+12,p12,CUTOFF,CUTOFF,0,1,0,1,unknown / empty label
+13,p13,RESONANCE,RESONANCE,0,1,0,0,unknown / empty label
+14,p14,FILTERCONTOURBIAS,FILTERCONTOURBIAS,0,1,0,0,unknown / empty label
+15,p15,FILTERCONTOUR,FILTERCONTOUR,0,1,0,0,unknown / empty label
+16,p16,FILTERLFO,FILTERLFO,0,1,0,0,unknown / empty label
+17,p17,KEYFOLLOW,KEYFOLLOW,0,1,0,0,unknown / empty label
+18,p18,ENVGATE,ENVGATE,0,1,0,0,unknown / empty label
+19,p19,ENVVOLUME,ENVVOLUME,0,1,0,0.5,unknown / empty label
+20,p20,AMPATTACK,AMPATTACK,0,1,0,0,unknown / empty label
+21,p21,AMPDECAY,AMPDECAY,0,1,0,1,unknown / empty label
+22,p22,AMPSUSTAIN,AMPSUSTAIN,0,1,0,1,unknown / empty label
+23,p23,AMPRELEASE,AMPRELEASE,0,1,0,0,unknown / empty label
+24,p24,LFO1RATE,LFO1RATE,0,1,0,0,unknown / empty label
+25,p25,LFO1DELAY,LFO1DELAY,0,1,0,0,unknown / empty label
+26,p26,LFO1TRIGGER,LFO1TRIGGER,0,1,0,0,unknown / empty label
+27,p27,LFO1WAVEFORM,LFO1WAVEFORM,0,4,1,0,unknown / empty label
+28,p28,LFO1CLOCK,LFO1CLOCK,0,12,1,0,unknown / empty label
+29,p29,ENVVELOCITY,ENVVELOCITY,0,1,0,0,unknown / empty label
+30,p30,CUTOFFSMOOTH,CUTOFFSMOOTH,0,1,0,1,unknown / empty label
+31,p31,MODDCO,MODDCO,0,1,0,0,unknown / empty label
+32,p32,MODVCF,MODVCF,0,1,0,0,unknown / empty label
+33,p33,TRANSPOSE,TRANSPOSE,0,1,0,0.5,unknown / empty label
+34,p34,CHORUS1,CHORUS1,0,1,0,0,unknown / empty label
+35,p35,CHORUS2,CHORUS2,0,1,0,0,unknown / empty label
+36,p36,Param,PWM manual mode,0,1,0,0,unknown / empty label
+37,p37,Param,Global MIDI learn,0,1,0,0,unknown / empty label
+38,p38,Param,Save CPU,0,1,0,0,unknown / empty label
+39,p39,Param,Reserved 39,0,1,0,0,unknown / empty label
+40,p40,Param,Reserved 40,0,1,0,0,unknown / empty label
+41,p41,Param,Reserved 41,0,1,0,0,unknown / empty label
+42,p42,Param,Reserved 42,0,1,0,0,unknown / empty label
+43,p43,Param,Reserved 43,0,1,0,0,unknown / empty label
+44,p44,Param,Reserved 44,0,1,0,0,unknown / empty label
+45,p45,Param,Reserved 45,0,1,0,0,unknown / empty label
+46,p46,Param,MIDI learn,0,1,0,0,unknown / empty label

@@ -1,0 +1,1 @@
+Voice tuning: neutral rendering, six independent pitches, stereo pan, cutoff, A/D/R duration, hostile values and sample rates passed

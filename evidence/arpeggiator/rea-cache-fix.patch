@@ -1,0 +1,11 @@
+--- /Users/koda/.nvm/versions/node/v24.18.0/lib/node_modules/rea-agents/dist/process/DarwinProcessRunTokenReader.js	2026-10-14 00:39:49
++++ .tools/rea-local/dist/process/DarwinProcessRunTokenReader.js	2026-10-18 15:22:33
+@@ -131,7 +131,7 @@
+             // Use Swift's reusable default cache for REA's internal helper compilation.
+             delete compilerEnvironment.CLANG_MODULE_CACHE_PATH;
+             try {
+-                await execFileOutput(options.xcrun ?? "/usr/bin/xcrun", ["swiftc", ...sourceFiles, "-o", output], {
++                await execFileOutput(options.xcrun ?? "/usr/bin/xcrun", ["swiftc", "-module-cache-path", "/Users/koda/Documents/tal-un-no-60-clone/.tools/compiler-cache", ...sourceFiles, "-o", output], {
+                     timeout: 60_000,
+                     maxBuffer: 1024 * 1024,
+                     signal,

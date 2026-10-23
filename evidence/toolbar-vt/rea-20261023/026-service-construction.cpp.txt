@@ -1,0 +1,33 @@
+
+void __ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEEclEv
+               (long param_1)
+
+{
+  double dVar1;
+  int iVar2;
+  undefined8 uVar3;
+  long lVar4;
+  long lVar5;
+  long local_50;
+  undefined1 auStack_48 [8];
+  
+  lVar5 = *(long *)(param_1 + 8);
+  (**(code **)(**(long **)(*(long *)(lVar5 + 0x180) + 0x1c0) + 0x10))(&local_50);
+  iVar2 = (**(code **)(local_50 + 0x30))(auStack_48);
+  (**(code **)(local_50 + 0x58))(auStack_48);
+  if (iVar2 != 0) {
+    uVar3 = *(undefined8 *)(*(long *)(*(long *)(*(long *)(lVar5 + 0x3a8) + 0x440) + 0x10) + 0x18);
+    (**(code **)(**(long **)(*(long *)(*(long *)(lVar5 + 0x178) + 0x1a0) + 0x50) + 0x10))(&local_50)
+    ;
+    dVar1 = (double)(**(code **)(local_50 + 0x20))(auStack_48);
+    (**(code **)(local_50 + 0x58))(auStack_48);
+    __ZN18VoiceTuningHandler6randomEf((float)dVar1,uVar3);
+    for (lVar4 = 0;
+        lVar4 < *(int *)(*(long *)(*(long *)(*(long *)(*(long *)(lVar5 + 0x3a8) + 0x440) + 0x10) +
+                                  0x18) + 4); lVar4 = lVar4 + 1) {
+      __ZN19ServiceControlEntry7refreshEv(*(undefined8 *)(lVar5 + 0x118 + lVar4 * 8));
+    }
+  }
+  return;
+}
+

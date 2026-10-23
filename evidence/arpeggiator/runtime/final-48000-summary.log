@@ -1,0 +1,96 @@
+free-mode0-octaves1
+free-mode0-octaves2
+free-mode0-octaves3
+free-mode1-octaves1
+free-mode1-octaves2
+free-mode1-octaves3
+free-mode2-octaves1
+free-mode2-octaves2
+free-mode2-octaves3
+ext
+midi
+host
+hold
+{
+  "all_pitch_sequences_match": false,
+  "cases": [
+    [
+      "free-mode0-octaves1",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "free-mode0-octaves2",
+      false,
+      0.16999999999999993,
+      0.18999999999999995
+    ],
+    [
+      "free-mode0-octaves3",
+      false,
+      0.16999999999999993,
+      0.18500000000000003
+    ],
+    [
+      "free-mode1-octaves1",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "free-mode1-octaves2",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "free-mode1-octaves3",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "free-mode2-octaves1",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "free-mode2-octaves2",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "free-mode2-octaves3",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ],
+    [
+      "ext",
+      true,
+      0.125,
+      0.125
+    ],
+    [
+      "midi",
+      true,
+      0.125,
+      0.125
+    ],
+    [
+      "host",
+      true,
+      0.125,
+      0.125
+    ],
+    [
+      "hold",
+      false,
+      0.16999999999999993,
+      0.18500000000000005
+    ]
+  ]
+}

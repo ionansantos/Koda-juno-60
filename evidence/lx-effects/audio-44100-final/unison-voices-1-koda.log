@@ -1,0 +1,72 @@
+PARAM 109168 Reserved 00 [0,1] default 0
+PARAM 109169 VOLUME [0,1] default 0.5
+PARAM 109170 MASTERPITCH [0,1] default 0.5
+PARAM 109171 SAW [0,1] default 1
+PARAM 109172 SUBOSC [0,1] default 1
+PARAM 109173 SUBOSCVOLUME [0,1] default 0
+PARAM 109174 NOISEVOLUME [0,1] default 0
+PARAM 109175 Pulse [0,1] default 0
+PARAM 109176 SQUAREPWMODE [0,1] default 0
+PARAM 109177 SQUAREPWINTENSITY [0,1] default 0
+PARAM 109199 OSCLFOINTENSITY [0,1] default 0
+PARAM 109200 HPCUTOFF [0,1] default 0
+PARAM 109201 CUTOFF [0,1] default 1
+PARAM 109202 RESONANCE [0,1] default 0
+PARAM 109203 FILTERCONTOURBIAS [0,1] default 0
+PARAM 109204 FILTERCONTOUR [0,1] default 0
+PARAM 109205 FILTERLFO [0,1] default 0
+PARAM 109206 KEYFOLLOW [0,1] default 0
+PARAM 109207 ENVGATE [0,1] default 0
+PARAM 109208 ENVVOLUME [0,1] default 0.5
+PARAM 109230 AMPATTACK [0,1] default 0
+PARAM 109231 AMPDECAY [0,1] default 1
+PARAM 109232 AMPSUSTAIN [0,1] default 1
+PARAM 109233 AMPRELEASE [0,1] default 0
+PARAM 109234 LFO1RATE [0,1] default 0
+PARAM 109235 LFO1DELAY [0,1] default 0
+PARAM 109236 LFO1TRIGGER [0,1] default 0
+PARAM 109237 LFO1WAVEFORM [0,1] default 0
+PARAM 109238 LFO1CLOCK [0,1] default 0
+PARAM 109239 ENVVELOCITY [0,1] default 0
+PARAM 109261 CUTOFFSMOOTH [0,1] default 1
+PARAM 109262 MODDCO [0,1] default 0
+PARAM 109263 MODVCF [0,1] default 0
+PARAM 109264 TRANSPOSE [0,1] default 0.5
+PARAM 109265 CHORUS1 [0,1] default 0
+PARAM 109266 CHORUS2 [0,1] default 0
+PARAM 109267 PWM manual mode [0,1] default 0
+PARAM 109268 Global MIDI learn [0,1] default 0
+PARAM 109269 Save CPU [0,1] default 0
+PARAM 109270 Reserved 39 [0,1] default 0
+PARAM 109292 Reserved 40 [0,1] default 0
+PARAM 109293 Reserved 41 [0,1] default 0
+PARAM 109294 Reserved 42 [0,1] default 0
+PARAM 109295 Reserved 43 [0,1] default 0
+PARAM 109296 Reserved 44 [0,1] default 0
+PARAM 109297 Reserved 45 [0,1] default 0
+PARAM 109298 MIDI learn [0,1] default 0
+PARAM 139733206 Delay Spread [0,1] default 0.5
+PARAM 179429691 Unison Detune [0,1] default 0.1
+PARAM 202969058 Arp On [0,1] default 0
+PARAM 389890100 Reverb Wet [0,1] default 0
+PARAM 559732264 Delay Feedback [0,1] default 0
+PARAM 681603914 Arp EXT 16 [0,1] default 0
+PARAM 703644355 Unison Voices [0,1] default 0
+PARAM 758674894 Arp MIDI Clock [0,1] default 0
+PARAM 782791198 Arp Octaves [0,1] default 0
+PARAM 785449028 Unison Width [0,1] default 0
+PARAM 816154339 Delay Wet [0,1] default 0
+PARAM 885886237 FX Lock [0,1] default 0
+PARAM 1004679889 Reverb Delay [0,1] default 0
+PARAM 1349059827 Reverb Size [0,1] default 0.8
+PARAM 1349095012 Reverb Tone [0,1] default 0.5
+PARAM 1410440126 Arp Hold [0,1] default 0
+PARAM 1410440359 Arp Host [0,1] default 1
+PARAM 1410559018 Arp Lock [0,1] default 0
+PARAM 1410588834 Arp Direction [0,1] default 1
+PARAM 1410724831 Arp Tempo [0,1] default 0.5
+PARAM 1410777498 Arp Sync [0,1] default 0
+PARAM 1678364350 Delay Sync [0,1] default 0
+PARAM 1678378736 Delay Time [0,1] default 0.5
+PARAM 1678384533 Delay Tone [0,1] default 0.5
+PARAM 1951581530 Arp Pattern [0,1] default 0

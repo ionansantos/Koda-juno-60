@@ -1,0 +1,50 @@
+
+void __ZNSt3__110__function6__funcIZN20TalScalableComponent10initializeEPN4juce9ComponentEEUlvE_NS_9allocatorIS6_EEFvvEEclEv
+               (long param_1)
+
+{
+  ulong uVar1;
+  long lVar2;
+  long lVar3;
+  long lVar4;
+  long *plVar5;
+  long local_40;
+  undefined1 auStack_38 [8];
+  
+  lVar3 = *(long *)(param_1 + 8);
+  (**(code **)(**(long **)(*(long *)(lVar3 + 0xa00) + 0x1c0) + 0x10))(&local_40);
+  uVar1 = (**(code **)(local_40 + 0x30))(auStack_38);
+  (**(code **)(local_40 + 0x58))(auStack_38);
+  if ((uVar1 & 1) == 0) {
+    (**(code **)(**(long **)(lVar3 + 0x9f8) + 0x60))(*(long **)(lVar3 + 0x9f8),0);
+    if (*(int *)(lVar3 + 100) != 0) {
+      lVar2 = 0;
+      lVar4 = (long)*(int *)(lVar3 + 100) << 3;
+      do {
+        if (*(long *)(*(long *)(lVar3 + 0x58) + lVar2 * 8) == *(long *)(lVar3 + 0x9f8))
+        goto LAB_00081ae0;
+        lVar2 = lVar2 + 1;
+        lVar4 = lVar4 + -8;
+      } while (lVar4 != 0);
+    }
+    lVar2 = 0xffffffff;
+LAB_00081ae0:
+    __ZN4juce9Component20removeChildComponentEibb(lVar3,lVar2,1,1);
+  }
+  else {
+    plVar5 = *(long **)(lVar3 + 0x9f8);
+    if (plVar5 != (long *)0x0) {
+      (**(code **)(*plVar5 + 0x60))(plVar5,1);
+      __ZN4juce9Component17addChildComponentERS0_i(lVar3,plVar5,0xffffffff);
+    }
+  }
+  lVar4 = *(long *)(lVar3 + 0x9f8);
+  lVar2 = *(long *)(*(long *)(*(long *)(lVar4 + 0x3a8) + 0x440) + 0x10);
+  *(undefined1 *)(lVar2 + 0x20) = 1;
+  for (lVar3 = 0; lVar3 < *(int *)(*(long *)(lVar2 + 0x18) + 4); lVar3 = lVar3 + 1) {
+    __ZN19ServiceControlEntry7refreshEv(*(undefined8 *)(lVar4 + 0x118 + lVar3 * 8));
+    lVar2 = *(long *)(*(long *)(*(long *)(lVar4 + 0x3a8) + 0x440) + 0x10);
+  }
+  return;
+}
+

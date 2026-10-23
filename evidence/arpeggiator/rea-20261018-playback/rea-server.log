@@ -1,0 +1,7 @@
+{"level":30,"time":1792350725523,"application":"rea","mode":"mcp","layer":"server","tool":"open_binary","durationMs":72.16,"status":"ok","msg":"MCP tool execution completed"}
+{"level":30,"time":1792350831829,"application":"rea","mode":"mcp","layer":"server","tool":"procedure_pseudo_code","durationMs":106302.93,"status":"ok","msg":"MCP tool execution completed"}
+{"level":30,"time":1792350831854,"application":"rea","mode":"mcp","layer":"server","tool":"procedure_pseudo_code","durationMs":17.04,"status":"ok","msg":"MCP tool execution completed"}
+{"level":30,"time":1792350831865,"application":"rea","mode":"mcp","layer":"server","tool":"procedure_pseudo_code","durationMs":8.51,"status":"ok","msg":"MCP tool execution completed"}
+{"level":30,"time":1792350831936,"application":"rea","mode":"mcp","layer":"server","tool":"procedure_pseudo_code","durationMs":68.79,"status":"ok","msg":"MCP tool execution completed"}
+{"level":30,"time":1792350832010,"application":"rea","mode":"mcp","layer":"server","tool":"procedure_pseudo_code","durationMs":71.5,"status":"ok","msg":"MCP tool execution completed"}
+{"level":30,"time":1792350832501,"application":"rea","mode":"mcp","layer":"server","tool":"close_binary","durationMs":478.94,"status":"ok","msg":"MCP tool execution completed"}

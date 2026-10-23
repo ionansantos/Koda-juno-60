@@ -1,0 +1,15 @@
+{
+  "version": "0.1.1",
+  "component": "/Users/koda/Library/Audio/Plug-Ins/Components/U-No-60 Study.component",
+  "binary_sha256": "100b0683a8afa2edbf6fea6daa6ebc8c801e4e3ebf30b32f986ee3e7fd6354b6",
+  "DSP_unchanged": true,
+  "standalone_visual_inspected": true,
+  "AU_updated_in_Logic_requires_restart": true,
+  "temporary_dependencies_removed": [
+    "/Users/koda/Documents/tal-un-no-60-clone/.tools",
+    "/Users/koda/Documents/tal-un-no-60-clone/external",
+    "/Users/koda/Documents/tal-un-no-60-clone/build",
+    "/Users/koda/Downloads/juce-8.0.15-osx.zip",
+    "/Users/koda/Downloads/cmake-4.4.4-macos-universal.tar.gz"
+  ]
+}

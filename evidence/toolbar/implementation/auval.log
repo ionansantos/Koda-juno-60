@@ -1,0 +1,1054 @@
+
+    AU Validation Tool
+    Version: 1.10.0 
+    Copyright 2003-2019, Apple Inc. All Rights Reserved.
+    Specify -h (-help) for command options
+
+--------------------------------------------------
+VALIDATING AUDIO UNIT: 'aumu' - 'TuCl' - 'InAu'
+--------------------------------------------------
+Manufacturer String: KODA
+AudioUnit Name: KODA-JUNO-60
+Component Version: 0.5.1 (0x501)
+
+* * PASS
+--------------------------------------------------
+TESTING OPEN TIMES:
+COLD:
+Time to open AudioUnit:         335.568 ms
+WARM:
+Time to open AudioUnit:         0.905  ms
+This AudioUnit is a version 2 implementation.
+FIRST TIME:
+Time for initialization:        0.069 ms
+
+* * PASS
+--------------------------------------------------
+VERIFYING DEFAULT SCOPE FORMATS:
+Input Scope Bus Configuration:
+ Default Bus Count:0
+
+Output Scope Bus Configuration:
+ Default Bus Count:1
+    Bus Name: Output
+    Default Format: AudioStreamBasicDescription:  2 ch,  44100 Hz, Float32, deinterleaved
+    Has Channel Layouts: 0x650002 0x660002 0x670002 0x6A0002 
+    Default Layout:
+	Tag=0x650002, Num Chan Descs=0
+
+* * PASS
+--------------------------------------------------
+VERIFYING REQUIRED PROPERTIES:
+
+* * PASS
+--------------------------------------------------
+VERIFYING RECOMMENDED PROPERTIES:
+  VERIFYING PROPERTY: Latency
+    PASS
+
+* * PASS
+--------------------------------------------------
+VERIFYING OPTIONAL PROPERTIES:
+  VERIFYING PROPERTY: Tail Time
+    PASS
+  VERIFYING PROPERTY: Bypass Effect
+    PASS
+
+* * PASS
+--------------------------------------------------
+VERIFYING SPECIAL PROPERTIES:
+
+VERIFYING CUSTOM UI
+Cocoa Views Available: 1
+  JUCE_AUCocoaViewClass_e4e192ef7c177725
+    PASS
+
+HAS FACTORY PRESETS
+    ID:   0    Name: Startup
+    ID:   1    Name: Funky Bass
+    ID:   2    Name: Wahuh Bass
+    ID:   3    Name: PW Bass
+    ID:   4    Name: LFO Bass
+    ID:   5    Name: Arp Lead
+    ID:   6    Name: Organ Lead
+    ID:   7    Name: Funky Lead
+    ID:   8    Name: Self Osc Lead
+    ID:   9    Name: Fluet
+    ID:  10    Name: Squared Decay FX
+    ID:  11    Name: Laser Gun FX
+    ID:  12    Name: Disco tom FX
+    ID:  13    Name: C64 :-) FX
+    ID:  14    Name: Warm Pad
+    ID:  15    Name: Too much acid
+    ID:  16    Name: Old Organ
+    ID:  17    Name: Reso Decay FX
+    ID:  18    Name: Short Perc
+    ID:  19    Name: Reso Kick
+    ID:  20    Name: 11 Strings 1 Bank A
+    ID:  21    Name: 12 Strings 2 Bank A
+    ID:  22    Name: 13 Strings 3 Bank A
+    ID:  23    Name: 14 Organ 1 Bank A
+    ID:  24    Name: 15 Organ 2 Bank A
+    ID:  25    Name: 16 Organ 3 Bank A
+    ID:  26    Name: 17 Brass Bank A
+    ID:  27    Name: 18 Phase Brass Bank A
+    ID:  28    Name: 21 Piano 1 Bank A
+    ID:  29    Name: 22 Piano 2 Bank A
+    ID:  30    Name: 23 Celesta Bank A
+    ID:  31    Name: 24 Mellow Piano Bank A
+    ID:  32    Name: 25 Harpsichord 1 Bank A
+    ID:  33    Name: 26 Harpsichord 2 Bank A
+    ID:  34    Name: 27 Guitar Bank A
+    ID:  35    Name: 28 Synth Harp Bank A
+    ID:  36    Name: 31 Bass 1 Bank A
+    ID:  37    Name: 32 Bass 2 Bank A
+    ID:  38    Name: 33 Clavichord 1 Bank A
+    ID:  39    Name: 34 Clavichord 2 Bank A
+    ID:  40    Name: 35 Pizzicato Sound 1 Ban
+    ID:  41    Name: 36 Pizzicato Sound 2 Ban
+    ID:  42    Name: 37 Xylophone Bank A
+    ID:  43    Name: 38 Glockenspiel Bank A
+    ID:  44    Name: 41 Violine Bank A
+    ID:  45    Name: 42 Trumpet Bank A
+    ID:  46    Name: 43 Horn Bank A
+    ID:  47    Name: 44 Tuba Bank A
+    ID:  48    Name: 45 Flute Bank A
+    ID:  49    Name: 46 Clarinet Bank A
+    ID:  50    Name: 47 Oboe Bank A
+    ID:  51    Name: 48 English Horn
+    ID:  52    Name: I Love Juno-106
+    ID:  53    Name: Atari Goes Bad
+    ID:  54    Name: Fat Controller
+    ID:  55    Name: Clock Chimes
+    ID:  56    Name: Higher Strings
+    ID:  57    Name: Juno Harp
+    ID:  58    Name: Tranny Organ
+    ID:  59    Name: Pluck Sweep
+    ID:  60    Name: The Circus
+    ID:  61    Name: Click Bass
+    ID:  62    Name: Squeep
+    ID:  63    Name: Heavy Synth Pad
+    ID:  64    Name: Choir Pad
+    ID:  65    Name: Saving For Jupiter
+    ID:  66    Name: The Last Tromboner
+    ID:  67    Name: Brass And Strings
+    ID:  68    Name: Synth Flute
+    ID:  69    Name: Noise Fall
+    ID:  70    Name: Aliens Ate My Cat
+    ID:  71    Name: Electric Squeezebox
+    ID:  72    Name: default
+    ID:  73    Name: default
+    ID:  74    Name: default
+    ID:  75    Name: default
+    ID:  76    Name: default
+    ID:  77    Name: default
+    ID:  78    Name: default
+    ID:  79    Name: default
+    ID:  80    Name: default
+    ID:  81    Name: default
+    ID:  82    Name: default
+    ID:  83    Name: default
+    ID:  84    Name: default
+    ID:  85    Name: default
+    ID:  86    Name: default
+    ID:  87    Name: default
+    ID:  88    Name: default
+    ID:  89    Name: default
+    ID:  90    Name: default
+    ID:  91    Name: default
+    ID:  92    Name: default
+    ID:  93    Name: default
+    ID:  94    Name: default
+    ID:  95    Name: default
+    ID:  96    Name: default
+    ID:  97    Name: default
+    ID:  98    Name: default
+    ID:  99    Name: default
+    ID: 100    Name: default
+    ID: 101    Name: default
+    ID: 102    Name: default
+    ID: 103    Name: default
+    ID: 104    Name: default
+    ID: 105    Name: default
+    ID: 106    Name: default
+    ID: 107    Name: default
+    ID: 108    Name: default
+    ID: 109    Name: default
+    ID: 110    Name: default
+    ID: 111    Name: default
+    ID: 112    Name: default
+    ID: 113    Name: default
+    ID: 114    Name: default
+    ID: 115    Name: default
+    ID: 116    Name: default
+    ID: 117    Name: default
+    ID: 118    Name: default
+    ID: 119    Name: default
+
+VERIFYING CLASS INFO
+    PASS
+
+TESTING HOST CALLBACKS
+    PASS
+
+* * PASS
+--------------------------------------------------
+PUBLISHED PARAMETER INFO:
+
+# # # 113 Global Scope Parameters:
+Parameter ID:109168
+Name: Reserved 00
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109169
+Name: VOLUME
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109170
+Name: MASTERPITCH
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109171
+Name: SAW
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 1.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109172
+Name: SUBOSC
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 1.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109173
+Name: SUBOSCVOLUME
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109174
+Name: NOISEVOLUME
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109175
+Name: Pulse
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109176
+Name: SQUAREPWMODE
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109177
+Name: SQUAREPWINTENSITY
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109199
+Name: OSCLFOINTENSITY
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109200
+Name: HPCUTOFF
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109201
+Name: CUTOFF
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 1.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109202
+Name: RESONANCE
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109203
+Name: FILTERCONTOURBIAS
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109204
+Name: FILTERCONTOUR
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109205
+Name: FILTERLFO
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109206
+Name: KEYFOLLOW
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109207
+Name: ENVGATE
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109208
+Name: ENVVOLUME
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109230
+Name: AMPATTACK
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109231
+Name: AMPDECAY
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 1.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109232
+Name: AMPSUSTAIN
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 1.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109233
+Name: AMPRELEASE
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109234
+Name: LFO1RATE
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109235
+Name: LFO1DELAY
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109236
+Name: LFO1TRIGGER
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109237
+Name: LFO1WAVEFORM
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 4
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109238
+Name: LFO1CLOCK
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 12
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109239
+Name: ENVVELOCITY
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109261
+Name: CUTOFFSMOOTH
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 1.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109262
+Name: MODDCO
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109263
+Name: MODVCF
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109264
+Name: TRANSPOSE
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109265
+Name: CHORUS1
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109266
+Name: CHORUS2
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109267
+Name: PWM manual mode
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109268
+Name: MIDI Mapping Lock
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109269
+Name: Save CPU
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109270
+Name: Reserved 39
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109292
+Name: Reserved 40
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109293
+Name: Reserved 41
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109294
+Name: Reserved 42
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109295
+Name: Reserved 43
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109296
+Name: Reserved 44
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109297
+Name: Reserved 45
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:109298
+Name: MIDI learn
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:44084992
+Name: Voice 1 Cutoff
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:57943820
+Name: Voice 1 Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:114511345
+Name: Voice 4 Release
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:128440736
+Name: Voice 6 Attack
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:139733206
+Name: Delay Spread
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:179429691
+Name: Unison Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.1000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:186636101
+Name: Voice 6 Cutoff
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:200494929
+Name: Voice 6 Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:202969058
+Name: Arp On
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:389890100
+Name: Reverb Wet
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:500917022
+Name: Voice 4 Attack
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:519184658
+Name: Voice 3 Release
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:559112387
+Name: Voice 4 Cutoff
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:559732264
+Name: Delay Feedback
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:572971215
+Name: Voice 4 Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:681603914
+Name: Arp EXT 16
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:703644355
+Name: Unison Voices
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:723729033
+Name: Portamento Amount
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:758674894
+Name: Arp MIDI Clock
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:782791198
+Name: Arp Octaves
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 2
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:785449028
+Name: Unison Width
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:816154339
+Name: Delay Wet
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:833136199
+Name: Voice 1 Decay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:861765350
+Name: Voice 2 Decay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:873393308
+Name: Voice 2 Attack
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:885886237
+Name: FX Lock
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:890394501
+Name: Voice 3 Decay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:919023652
+Name: Voice 4 Decay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:923857971
+Name: Voice 2 Release
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:931588673
+Name: Voice 2 Cutoff
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:945447501
+Name: Voice 2 Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:947652803
+Name: Voice 5 Decay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:976281954
+Name: Voice 6 Decay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1004679889
+Name: Reverb Delay
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.0000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1328531284
+Name: Voice 1 Release
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1339424362
+Name: Voice 1 Pan
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1339454153
+Name: Voice 2 Pan
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1339483944
+Name: Voice 3 Pan
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1339513735
+Name: Voice 4 Pan
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1339543526
+Name: Voice 5 Pan
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1339573317
+Name: Voice 6 Pan
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1349059827
+Name: Reverb Size
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.8000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1349095012
+Name: Reverb Tone
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1388420703
+Name: Voice 5 Attack
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1410440126
+Name: Arp Hold
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1410440359
+Name: Arp Host
+Parameter Type: Generic
+Values: Minimum = 0, Default = 1, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1410559018
+Name: Arp Lock
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1410588834
+Name: Arp Direction
+Parameter Type: Generic
+Values: Minimum = 0, Default = 2, Maximum = 2
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1410724831
+Name: Arp Tempo
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1410777498
+Name: Arp Sync
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1417870356
+Name: Portamento Mode
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 2
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1417959997
+Name: Portamento Poly
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1418073406
+Name: Portamento Time
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1446616068
+Name: Voice 5 Cutoff
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1452648367
+Name: Voice 6 Release
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1460474896
+Name: Voice 5 Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1678364350
+Name: Delay Sync
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1678378736
+Name: Delay Time
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1678384533
+Name: Delay Tone
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1745665106
+Name: Voice Tuning Lock
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 1
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1760896989
+Name: Voice 3 Attack
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1819092354
+Name: Voice 3 Cutoff
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1832951182
+Name: Voice 3 Detune
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1857321680
+Name: Voice 5 Release
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1951581530
+Name: Arp Pattern
+Parameter Type: Generic
+Values: Minimum = 0, Default = 0, Maximum = 3
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Parameter ID:2133373275
+Name: Voice 1 Attack
+Parameter Type: Generic
+Values: Minimum = 0.0000000, Default = 0.5000000, Maximum = 1.0000000
+Flags: Values Have Strings, High Resolution, Can Ramp, Readable, Writable 
+  -parameter PASS
+
+Testing that parameters retain value across reset and initialization
+  PASS
+
+* * PASS
+--------------------------------------------------
+FORMAT TESTS:
+
+Reported Channel Capabilities (explicit):
+      [0, 2]  
+
+No Input, Output Chans:
+0-1   0-2   0-4   0-5   0-6   0-7   0-8
+      X                                   
+
+# # AudioChannelLayouts (4), Output Scope:
+ChannelLayout is Writable: T
+The Unit publishes the following Channel Layouts:
+  0x650002, 0x660002, 0x670002, 0x6A0002, 
+
+Is Audio Channel Layout Available:
+Mono    Stereo  Binau.  AU_4    Ambi.   AU_5    AU_5_0  AU_6    AU_6_0  AU_7_0  AU_7_0F AU_8    AU_5_1  AU_6_1  AU_7_1  AU_7_1F 
+        X       X                                                                                                               
+
+Current Format:AudioStreamBasicDescription:  2 ch,  44100 Hz, Float32, deinterleaved
+Current Format Tag = 0x650002, New Format Tag = 0x650002, Successsful
+
+Current Format:AudioStreamBasicDescription:  2 ch,  44100 Hz, Float32, deinterleaved
+Current Format Tag = 0x650002, New Format Tag = 0x6A0002, Successsful
+
+* * PASS
+--------------------------------------------------
+RENDER TESTS:
+
+Output Format: AudioStreamBasicDescription:  2 ch,  44100 Hz, Float32, deinterleaved
+Render Test at 512 frames
+Slicing Render Test at 64 frames
+  PASS
+
+
+Render Test at 64 frames, sample rate: 22050 Hz
+Render Test at 137 frames, sample rate: 96000 Hz
+Render Test at 4096 frames, sample rate: 48000 Hz
+Render Test at 4096 frames, sample rate: 192000 Hz
+Render Test at 4096 frames, sample rate: 11025 Hz
+Render Test at 512 frames, sample rate: 44100 Hz
+  PASS
+
+Bad Max Frames - Render should fail
+  PASS
+
+Checking parameter setting
+Using AudioUnitSetParameter
+Using AudioUnitScheduleParameter
+  PASS
+
+Checking ramped parameter scheduling
+  PASS
+
+Test MIDI
+  PASS
+
+* * PASS
+--------------------------------------------------
+AU VALIDATION SUCCEEDED.
+--------------------------------------------------

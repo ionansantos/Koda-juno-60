@@ -1,0 +1,19 @@
+{
+  "version": "0.5.0",
+  "backup": "/Users/koda/Documents/tal-un-no-60-clone/dist/installed-before-portamento-20261019-013554",
+  "package": "/Users/koda/Documents/tal-un-no-60-clone/dist/portamento-0.5.0",
+  "installed": [
+    {
+      "format": "AU",
+      "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "sha256": "579dc99d574f3111439f84a7f8170e0bb850630288ea65c5d21dd8f715fe14d4"
+    },
+    {
+      "format": "VST3",
+      "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "sha256": "27bf11b4e045b7b2a21e2e81c74a1798038de5bec60ff194cd8061ca7fd91747"
+    }
+  ],
+  "tested_au_sha256": "579dc99d574f3111439f84a7f8170e0bb850630288ea65c5d21dd8f715fe14d4",
+  "installed_au_matches_tested": true
+}

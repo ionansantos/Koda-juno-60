@@ -1,0 +1,74 @@
+PARAM 0 modulation [0,1] default 0
+PARAM 1 dco lfo value [0,1] default 0
+PARAM 2 dco pwm value [0,1] default 0
+PARAM 3 dco pwm mode [0,1] default 0
+PARAM 4 dco pulse enabled [0,1] default 0
+PARAM 5 dco saw enabled [0,1] default 1
+PARAM 6 dco sub osc enabled [0,1] default 1
+PARAM 7 dco sub osc volume [0,1] default 1
+PARAM 8 dco noise volume [0,1] default 0
+PARAM 9 dco hp filter [0,1] default 0
+PARAM 10 filter cutoff [0,1] default 1
+PARAM 11 filter resonance [0,1] default 0
+PARAM 12 filter env mode [0,1] default 1
+PARAM 13 filter env [0,1] default 0
+PARAM 14 filter modulation [0,1] default 0
+PARAM 15 filter keyboard [0,1] default 1
+PARAM 16 master volume [0,1] default 0.5
+PARAM 17 master fine tune [0,1] default 0.5
+PARAM 18 master octave transpose [0,1] default 0.5
+PARAM 19 vca mode [0,1] default 0
+PARAM 20 attack [0,1] default 0
+PARAM 21 decay [0,1] default 0
+PARAM 22 sustain [0,1] default 1
+PARAM 23 release [0,1] default 0
+PARAM 24 lfo rate [0,1] default 0.5
+PARAM 25 lfo delay [0,1] default 0
+PARAM 26 lfo trigger mode [0,1] default 0
+PARAM 27 lfo trigger enabled [0,1] default 0
+PARAM 28 lfo trigger active [0,1] default 0
+PARAM 29 lfo waveform [0,1] default 0
+PARAM 30 chorus 1 [0,1] default 0
+PARAM 31 chorus 2 [0,1] default 0
+PARAM 32 arp enabled [0,1] default 0
+PARAM 33 arp sync enabled [0,1] default 0
+PARAM 34 arp mode [0,1] default 0
+PARAM 35 arp range [0,1] default 0
+PARAM 36 arp rate [0,1] default 0
+PARAM 37 arp locked [0,1] default 0
+PARAM 38 control velocity volume [0,1] default 0
+PARAM 39 control velocity envelope [0,1] default 0
+PARAM 40 control pitch bend filter [0,1] default 0
+PARAM 41 control pitch bend dco [0,1] default 0
+PARAM 42 portamento mode [0,1] default 0
+PARAM 43 portamento intensity [0,1] default 0
+PARAM 44 voice hold [0,1] default 0
+PARAM 45 trigger arp by midi channel 16 [0,1] default 0
+PARAM 46 clock sync [0,1] default 0
+PARAM 47 host sync [0,1] default 0
+PARAM 48 max voices [0,1] default 0.454545
+PARAM 49 keytranspose [0,1] default 0.5
+PARAM 50 unused! [0,1] default 0
+PARAM 51 special mode [0,1] default 0
+PARAM 52 lfo inverted [0,1] default 0
+PARAM 53 portamento poly [0,1] default 0
+PARAM 54 sound engine off [0,1] default 0
+PARAM 55 MPE enabled [0,1] default 0
+PARAM 56 portamento time [0,1] default 0
+PARAM 57 FX Lock [0,1] default 0
+PARAM 58 FX Reverb Dry / Wet [0,1] default 0
+PARAM 59 FX Reverb Size [0,1] default 0.8
+PARAM 60 FX Reverb Delay [0,1] default 0
+PARAM 61 FX Reverb Tone [0,1] default 0.5
+PARAM 62 FX Delay Dry / Wet [0,1] default 0
+PARAM 63 FX Delay Time [0,1] default 0.5
+PARAM 64 FX Delay Sync [0,1] default 0
+PARAM 65 FX Delay Spread [0,1] default 0.5
+PARAM 66 FX Delay Tone [0,1] default 0.5
+PARAM 67 FX Delay Feedback [0,1] default 0
+PARAM 68 MTS Microtuning Active [0,1] default 0
+PARAM 69 Unisono Voices [0,1] default 0
+PARAM 70 Unisono Detune [0,1] default 0.1
+PARAM 71 Unisono Spread [0,1] default 0
+PARAM 72 Voice Mode [0,1] default 0
+PARAM 73 Mod Wheel LFO [0,1] default 0

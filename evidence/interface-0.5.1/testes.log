@@ -1,0 +1,45 @@
+[ 14%] Built target tal_arpeggiator_test
+[ 14%] Built target tal_preset_test
+[ 16%] Built target tal_dsp
+[ 26%] Built target tal_sustain_test
+[ 28%] Built target tal_dsp_test
+[ 28%] Built target tal_delay_test
+[ 36%] Built target tal_portamento_test
+[ 36%] Built target tal_reverb_test
+[ 84%] Built target TalUNo60Clone
+[ 94%] Building CXX object CMakeFiles/tal_fx_processor_test.dir/tests/fx_processor_test.cpp.o
+[ 94%] Building CXX object CMakeFiles/tal_portamento_processor_test.dir/tests/portamento_processor_test.cpp.o
+[ 94%] Built target tal_arp_processor_test
+[ 96%] Built target tal_midi_test
+[ 98%] Linking CXX executable tal_fx_processor_test
+[100%] Linking CXX executable tal_portamento_processor_test
+[100%] Built target tal_fx_processor_test
+[100%] Built target tal_portamento_processor_test
+[100%] Built target tal_tests
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+      Start  1: Arpeggiator
+ 1/11 Test  #1: Arpeggiator ......................   Passed    0.34 sec
+      Start  2: DSP
+ 2/11 Test  #2: DSP ..............................   Passed    0.78 sec
+      Start  3: Presets
+ 3/11 Test  #3: Presets ..........................   Passed    0.00 sec
+      Start  4: Sustain
+ 4/11 Test  #4: Sustain ..........................   Passed    0.07 sec
+      Start  5: Delay
+ 5/11 Test  #5: Delay ............................   Passed    0.03 sec
+      Start  6: Reverb
+ 6/11 Test  #6: Reverb ...........................   Passed    2.67 sec
+      Start  7: Portamento
+ 7/11 Test  #7: Portamento .......................   Passed    1.31 sec
+      Start  8: ProcessorArpeggiator
+ 8/11 Test  #8: ProcessorArpeggiator .............   Passed    0.13 sec
+      Start  9: ProcessorMIDI
+ 9/11 Test  #9: ProcessorMIDI ....................   Passed    0.09 sec
+      Start 10: ProcessorFX
+10/11 Test #10: ProcessorFX ......................   Passed    0.45 sec
+      Start 11: ProcessorPortamento
+11/11 Test #11: ProcessorPortamento ..............   Passed    0.57 sec
+
+100% tests passed out of 11
+
+Total Test time (real) =   6.44 sec

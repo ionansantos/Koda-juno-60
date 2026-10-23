@@ -1,0 +1,18 @@
+{
+  "removed": [
+    "/Users/koda/.local/share/rea-tools",
+    "/Users/koda/documents/tal-un-no-60-clone/.tools",
+    "/Users/koda/documents/tal-un-no-60-clone/external",
+    "/Users/koda/documents/tal-un-no-60-clone/build",
+    "/Users/koda/Downloads/juce-8.0.15-osx.zip",
+    "/Users/koda/Downloads/cmake-4.4.4-macos-universal.tar.gz",
+    "/private/tmp/tal-dsp-test",
+    "/private/tmp/tal-preset-test",
+    "/private/tmp/tal-render"
+  ],
+  "errors": [],
+  "plugin_preserved": "/Users/koda/Library/Audio/Plug-Ins/Components/U-No-60 Study.component",
+  "plugin_sha256": "e7cc744c8e44a06f2d8fa7e77e72c4f64f9db7d6ed4f74d6ae9e27c633d33dd7",
+  "source_preserved": "/Users/koda/documents/tal-un-no-60-clone/Source",
+  "retained": "REA interface/package and Node predated this conversation; Apple compiler tools predated this work. Config edit rejected by approval settings."
+}

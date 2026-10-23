@@ -1,0 +1,84 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_f833155e096db150985c2eec9fa188a3fdc2c15525f90c539c0e850ac11ababa\",\"subject\":{\"name\":\"TAL-U-NO-LX-V2.arm64\",\"digest\":{\"sha256\":\"f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0\"},\"format\":\"mach-o\",\"architecture\":\"arm64\",\"local_path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"mach-o\",\"architecture\":\"arm64\",\"available_architectures\":[\"arm64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"procedure_assembly\",\"parameters\":{\"procedure\":\"0x8b0ac\"},\"raw_result\":{\"value\":\"0x8b0ac: sub sp, sp, #0x50\\n0x8b0b0: stp d9, d8, [sp, #0x10]\\n0x8b0b4: stp x22, x21, [sp, #0x20]\\n0x8b0b8: stp x20, x19, [sp, #0x30]\\n0x8b0bc: stp x29, x30, [sp, #0x40]\\n0x8b0c0: add x29, sp, #0x40\\n0x8b0c4: ldr x19, [x0, #0x8]\\n0x8b0c8: ldp x8, x21, [x19, #0x128]\\n0x8b0cc: ldr x8, [x8, #0x1a0]\\n0x8b0d0: ldr x0, [x8, #0x50]\\n0x8b0d4: ldr x8, [x0]\\n0x8b0d8: ldr x9, [x8, #0x10]\\n0x8b0dc: mov x20, sp\\n0x8b0e0: mov x8, sp\\n0x8b0e4: blr x9\\n0x8b0e8: ldr x8, [sp]\\n0x8b0ec: ldr x8, [x8, #0x20]\\n0x8b0f0: add x20, x20, #0x8\\n0x8b0f4: mov x0, x20\\n0x8b0f8: blr x8\\n0x8b0fc: fmov d8, d0\\n0x8b100: ldr x8, [sp]\\n0x8b104: ldr x8, [x8, #0x58]\\n0x8b108: mov x0, x20\\n0x8b10c: blr x8\\n0x8b110: fcvt s0, d8\\n0x8b114: str s0, [x21, #0x14]\\n0x8b118: fmov s1, 0x3f800000\\n0x8b11c: fsub s1, s1, s0\\n0x8b120: mov v0.S[0x1], v1.S[0x0]\\n0x8b124: fmul v0.2S, v0.2S, v0.2S\\n0x8b128: mov w8, #0xaaab\\n0x8b12c: movk w8, #0x3faa, LSL #16\\n0x8b130: dup v1.2S, w8\\n0x8b134: fmls v1.2S, v1.2S, v0.2S\\n0x8b138: stur d1, [x21, #0x2c]\\n0x8b13c: ldr x2, [x19, #0x40]\\n0x8b140: mov x0, x19\\n0x8b144: mov x1, #0x0\\n0x8b148: mov w3, #0x1\\n0x8b14c: ldp x29, x30, [sp, #0x40]\\n0x8b150: ldp x20, x19, [sp, #0x30]\\n0x8b154: ldp x22, x21, [sp, #0x20]\\n0x8b158: ldp d9, d8, [sp, #0x10]\\n0x8b15c: add sp, sp, #0x50\\n0x8b160: b 0x000d20c0\",\"limitations\":[\"Ghidra Listing reports a terminal call at 0x8b160 to 0xd20c0 __ZN4juce9Component24internalRepaintUncheckedENS_9RectangleIiEEb (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.\"]},\"normalized_result\":\"0x8b0ac: sub sp, sp, #0x50\\n0x8b0b0: stp d9, d8, [sp, #0x10]\\n0x8b0b4: stp x22, x21, [sp, #0x20]\\n0x8b0b8: stp x20, x19, [sp, #0x30]\\n0x8b0bc: stp x29, x30, [sp, #0x40]\\n0x8b0c0: add x29, sp, #0x40\\n0x8b0c4: ldr x19, [x0, #0x8]\\n0x8b0c8: ldp x8, x21, [x19, #0x128]\\n0x8b0cc: ldr x8, [x8, #0x1a0]\\n0x8b0d0: ldr x0, [x8, #0x50]\\n0x8b0d4: ldr x8, [x0]\\n0x8b0d8: ldr x9, [x8, #0x10]\\n0x8b0dc: mov x20, sp\\n0x8b0e0: mov x8, sp\\n0x8b0e4: blr x9\\n0x8b0e8: ldr x8, [sp]\\n0x8b0ec: ldr x8, [x8, #0x20]\\n0x8b0f0: add x20, x20, #0x8\\n0x8b0f4: mov x0, x20\\n0x8b0f8: blr x8\\n0x8b0fc: fmov d8, d0\\n0x8b100: ldr x8, [sp]\\n0x8b104: ldr x8, [x8, #0x58]\\n0x8b108: mov x0, x20\\n0x8b10c: blr x8\\n0x8b110: fcvt s0, d8\\n0x8b114: str s0, [x21, #0x14]\\n0x8b118: fmov s1, 0x3f800000\\n0x8b11c: fsub s1, s1, s0\\n0x8b120: mov v0.S[0x1], v1.S[0x0]\\n0x8b124: fmul v0.2S, v0.2S, v0.2S\\n0x8b128: mov w8, #0xaaab\\n0x8b12c: movk w8, #0x3faa, LSL #16\\n0x8b130: dup v1.2S, w8\\n0x8b134: fmls v1.2S, v1.2S, v0.2S\\n0x8b138: stur d1, [x21, #0x2c]\\n0x8b13c: ldr x2, [x19, #0x40]\\n0x8b140: mov x0, x19\\n0x8b144: mov x1, #0x0\\n0x8b148: mov w3, #0x1\\n0x8b14c: ldp x29, x30, [sp, #0x40]\\n0x8b150: ldp x20, x19, [sp, #0x30]\\n0x8b154: ldp x22, x21, [sp, #0x20]\\n0x8b158: ldp d9, d8, [sp, #0x10]\\n0x8b15c: add sp, sp, #0x50\\n0x8b160: b 0x000d20c0\",\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Assembly is Ghidra Listing text and does not claim textual equivalence with Hopper output.\",\"Ghidra Listing reports a terminal call at 0x8b160 to 0xd20c0 __ZN4juce9Component24internalRepaintUncheckedENS_9RectangleIiEEb (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_f833155e096db150985c2eec9fa188a3fdc2c15525f90c539c0e850ac11ababa",
+    "subject": {
+      "name": "TAL-U-NO-LX-V2.arm64",
+      "digest": {
+        "sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+      },
+      "format": "mach-o",
+      "architecture": "arm64",
+      "local_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "mach-o",
+        "architecture": "arm64",
+        "available_architectures": [
+          "arm64"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "string_inventory_evidence": "defined-data-coverage-v1",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+        "no_return_repair": "returning-imports-decoded-return-v2",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "auto-from-header",
+        "language_id": "auto-from-header",
+        "compiler_spec_id": "auto-default",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "procedure_assembly",
+    "parameters": {
+      "procedure": "0x8b0ac"
+    },
+    "raw_result": {
+      "value": "0x8b0ac: sub sp, sp, #0x50\n0x8b0b0: stp d9, d8, [sp, #0x10]\n0x8b0b4: stp x22, x21, [sp, #0x20]\n0x8b0b8: stp x20, x19, [sp, #0x30]\n0x8b0bc: stp x29, x30, [sp, #0x40]\n0x8b0c0: add x29, sp, #0x40\n0x8b0c4: ldr x19, [x0, #0x8]\n0x8b0c8: ldp x8, x21, [x19, #0x128]\n0x8b0cc: ldr x8, [x8, #0x1a0]\n0x8b0d0: ldr x0, [x8, #0x50]\n0x8b0d4: ldr x8, [x0]\n0x8b0d8: ldr x9, [x8, #0x10]\n0x8b0dc: mov x20, sp\n0x8b0e0: mov x8, sp\n0x8b0e4: blr x9\n0x8b0e8: ldr x8, [sp]\n0x8b0ec: ldr x8, [x8, #0x20]\n0x8b0f0: add x20, x20, #0x8\n0x8b0f4: mov x0, x20\n0x8b0f8: blr x8\n0x8b0fc: fmov d8, d0\n0x8b100: ldr x8, [sp]\n0x8b104: ldr x8, [x8, #0x58]\n0x8b108: mov x0, x20\n0x8b10c: blr x8\n0x8b110: fcvt s0, d8\n0x8b114: str s0, [x21, #0x14]\n0x8b118: fmov s1, 0x3f800000\n0x8b11c: fsub s1, s1, s0\n0x8b120: mov v0.S[0x1], v1.S[0x0]\n0x8b124: fmul v0.2S, v0.2S, v0.2S\n0x8b128: mov w8, #0xaaab\n0x8b12c: movk w8, #0x3faa, LSL #16\n0x8b130: dup v1.2S, w8\n0x8b134: fmls v1.2S, v1.2S, v0.2S\n0x8b138: stur d1, [x21, #0x2c]\n0x8b13c: ldr x2, [x19, #0x40]\n0x8b140: mov x0, x19\n0x8b144: mov x1, #0x0\n0x8b148: mov w3, #0x1\n0x8b14c: ldp x29, x30, [sp, #0x40]\n0x8b150: ldp x20, x19, [sp, #0x30]\n0x8b154: ldp x22, x21, [sp, #0x20]\n0x8b158: ldp d9, d8, [sp, #0x10]\n0x8b15c: add sp, sp, #0x50\n0x8b160: b 0x000d20c0",
+      "limitations": [
+        "Ghidra Listing reports a terminal call at 0x8b160 to 0xd20c0 __ZN4juce9Component24internalRepaintUncheckedENS_9RectangleIiEEb (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation."
+      ]
+    },
+    "normalized_result": "0x8b0ac: sub sp, sp, #0x50\n0x8b0b0: stp d9, d8, [sp, #0x10]\n0x8b0b4: stp x22, x21, [sp, #0x20]\n0x8b0b8: stp x20, x19, [sp, #0x30]\n0x8b0bc: stp x29, x30, [sp, #0x40]\n0x8b0c0: add x29, sp, #0x40\n0x8b0c4: ldr x19, [x0, #0x8]\n0x8b0c8: ldp x8, x21, [x19, #0x128]\n0x8b0cc: ldr x8, [x8, #0x1a0]\n0x8b0d0: ldr x0, [x8, #0x50]\n0x8b0d4: ldr x8, [x0]\n0x8b0d8: ldr x9, [x8, #0x10]\n0x8b0dc: mov x20, sp\n0x8b0e0: mov x8, sp\n0x8b0e4: blr x9\n0x8b0e8: ldr x8, [sp]\n0x8b0ec: ldr x8, [x8, #0x20]\n0x8b0f0: add x20, x20, #0x8\n0x8b0f4: mov x0, x20\n0x8b0f8: blr x8\n0x8b0fc: fmov d8, d0\n0x8b100: ldr x8, [sp]\n0x8b104: ldr x8, [x8, #0x58]\n0x8b108: mov x0, x20\n0x8b10c: blr x8\n0x8b110: fcvt s0, d8\n0x8b114: str s0, [x21, #0x14]\n0x8b118: fmov s1, 0x3f800000\n0x8b11c: fsub s1, s1, s0\n0x8b120: mov v0.S[0x1], v1.S[0x0]\n0x8b124: fmul v0.2S, v0.2S, v0.2S\n0x8b128: mov w8, #0xaaab\n0x8b12c: movk w8, #0x3faa, LSL #16\n0x8b130: dup v1.2S, w8\n0x8b134: fmls v1.2S, v1.2S, v0.2S\n0x8b138: stur d1, [x21, #0x2c]\n0x8b13c: ldr x2, [x19, #0x40]\n0x8b140: mov x0, x19\n0x8b144: mov x1, #0x0\n0x8b148: mov w3, #0x1\n0x8b14c: ldp x29, x30, [sp, #0x40]\n0x8b150: ldp x20, x19, [sp, #0x30]\n0x8b154: ldp x22, x21, [sp, #0x20]\n0x8b158: ldp d9, d8, [sp, #0x10]\n0x8b15c: add sp, sp, #0x50\n0x8b160: b 0x000d20c0",
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Assembly is Ghidra Listing text and does not claim textual equivalence with Hopper output.",
+      "Ghidra Listing reports a terminal call at 0x8b160 to 0xd20c0 __ZN4juce9Component24internalRepaintUncheckedENS_9RectangleIiEEb (external=false, thunk=false, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.",
+      "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+}

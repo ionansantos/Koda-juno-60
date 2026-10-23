@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-23T18:33:40Z",
+  "au": {
+    "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+    "sha256": "11fcadd12c62d937169d706999afbe51f243a367e6a06eb92684bd6441cfcbad"
+  },
+  "vst3": {
+    "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+    "sha256": "0669593f4af23f2fc9fa3d0710f7505dd428fa848e866106b9103aa0dd2dfc29"
+  },
+  "source_preset": {
+    "path": "/Users/koda/Library/Application Support/ToguAudioLine/TAL-U-No-LX/presets/TAL Presets Bank/Arp/Dream Arp.pjunoxl",
+    "sha256": "7b6569e1b4407209f2a6a9bbe916d89f6478c8c50c30ceafd9dc82a32ee3d7b3"
+  },
+  "backup": "dist/installed-before-reference-preset-20261023-153221",
+  "package": "dist/reference-preset-0.6.1",
+  "validation": {
+    "ctest": "14/14 passed",
+    "auval": "AU VALIDATION SUCCEEDED"
+  }
+}

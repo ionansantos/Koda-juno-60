@@ -1,0 +1,11 @@
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/koda/Documents/tal-un-no-60-clone/build
+[  5%] Built target tal_dsp
+[ 66%] Built target TalUNo60Clone
+[100%] Built target TalUNo60Clone_AU

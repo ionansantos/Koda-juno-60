@@ -1,0 +1,9 @@
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+    Start 1: DSP
+1/2 Test #1: DSP ..............................   Passed    0.95 sec
+    Start 2: Presets
+2/2 Test #2: Presets ..........................   Passed    0.21 sec
+
+100% tests passed out of 2
+
+Total Test time (real) =   1.16 sec

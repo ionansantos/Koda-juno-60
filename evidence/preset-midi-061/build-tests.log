@@ -1,0 +1,166 @@
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/koda/Documents/tal-un-no-60-clone/build
+[  9%] Built target tal_dsp
+[ 14%] Building CXX object CMakeFiles/TalUNo60Clone.dir/Source/PluginEditor.cpp.o
+[ 14%] Building CXX object CMakeFiles/TalUNo60Clone.dir/Source/PluginProcessor.cpp.o
+[ 17%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+[ 19%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+[ 21%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_2.cpp.o
+[ 24%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_3.cpp.o
+[ 26%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_4.cpp.o
+[ 29%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics_5.cpp.o
+[ 31%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+[ 34%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[ 36%] Building C object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[ 39%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_graphics/juce_graphics.mm.o
+[ 41%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_events/juce_events.mm.o
+[ 43%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+[ 46%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_core/juce_core.mm.o
+[ 48%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+[ 51%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors_headless/juce_audio_processors_headless_ara.cpp.o
+[ 53%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors_headless/juce_audio_processors_headless_lv2_libs.cpp.o
+[ 56%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm.o
+[ 58%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+[ 60%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+[ 63%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+[ 65%] Building CXX object CMakeFiles/TalUNo60Clone.dir/external/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+[ 68%] Linking CXX static library TalUNo60Clone_artefacts/Release/libKODA-JUNO-60_SharedCode.a
+[ 68%] Built target TalUNo60Clone
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 80%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 82%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 87%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 87%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 90%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 95%] Building CXX object CMakeFiles/TalUNo60Clone_AU.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[ 97%] Linking CXX CFBundle shared module TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component/Contents/MacOS/KODA-JUNO-60
+[100%] Built target TalUNo60Clone_AU
+[  7%] Built target tal_dsp
+[ 14%] Built target tal_preset_test
+[ 14%] Built target tal_arpeggiator_test
+[ 18%] Built target tal_dsp_test
+[ 22%] Built target tal_delay_test
+[ 25%] Built target tal_sustain_test
+[ 29%] Built target tal_reverb_test
+[ 33%] Built target tal_voice_tuning_test
+[ 37%] Built target tal_portamento_test
+[ 81%] Built target TalUNo60Clone
+[ 88%] Building CXX object CMakeFiles/tal_midi_test.dir/tests/midi_test.cpp.o
+[ 88%] Building CXX object CMakeFiles/tal_toolbar_processor_test.dir/tests/toolbar_processor_test.cpp.o
+[ 88%] Building CXX object CMakeFiles/tal_arp_processor_test.dir/tests/arp_processor_test.cpp.o
+[ 88%] Building CXX object CMakeFiles/tal_fx_processor_test.dir/tests/fx_processor_test.cpp.o
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:55:46: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   55 |  editor->mouseDown(click);assert(get(p,"p12")==untouched);cc(p,85,99);assert(p.getMidiMapping(85)==index(p,"p12"));assert(std::abs(get(p,"p12")-99.f/127)<1.e-6);
+      |                                  ~~~~~~~~~~~~^ ~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:57:50: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   57 |  clear->triggerClick();pump();assert(get(p,"p46")==0&&get(p,"p37")==1&&get(p,"fxLock")==1&&get(p,"arpLock")==1&&get(p,"voiceTuningLock")==1);assert(p.getMidiMapping(85)==index(p,"p12"));
+      |                                      ~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:57:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   57 |  clear->triggerClick();pump();assert(get(p,"p46")==0&&get(p,"p37")==1&&get(p,"fxLock")==1&&get(p,"arpLock")==1&&get(p,"voiceTuningLock")==1);assert(p.getMidiMapping(85)==index(p,"p12"));
+      |                                                       ~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:57:87: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   57 |  clear->triggerClick();pump();assert(get(p,"p46")==0&&get(p,"p37")==1&&get(p,"fxLock")==1&&get(p,"arpLock")==1&&get(p,"voiceTuningLock")==1);assert(p.getMidiMapping(85)==index(p,"p12"));
+      |                                                                        ~~~~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:57:108: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   57 |  clear->triggerClick();pump();assert(get(p,"p46")==0&&get(p,"p37")==1&&get(p,"fxLock")==1&&get(p,"arpLock")==1&&get(p,"voiceTuningLock")==1);assert(p.getMidiMapping(85)==index(p,"p12"));
+      |                                                                                            ~~~~~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:57:137: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   57 |  clear->triggerClick();pump();assert(get(p,"p46")==0&&get(p,"p37")==1&&get(p,"fxLock")==1&&get(p,"arpLock")==1&&get(p,"voiceTuningLock")==1);assert(p.getMidiMapping(85)==index(p,"p12"));
+      |                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:58:26: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   58 |  assert(get(p,"delayWet")==0&&get(p,"vt1Detune")==.5f&&get(p,"arpEnabled")==0);assert(get(p,"p12")==talclone::factoryPresets[static_cast<std::size_t>(p.getCurrentProgram())].parameters[12]);
+      |         ~~~~~~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:58:75: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   58 |  assert(get(p,"delayWet")==0&&get(p,"vt1Detune")==.5f&&get(p,"arpEnabled")==0);assert(get(p,"p12")==talclone::factoryPresets[static_cast<std::size_t>(p.getCurrentProgram())].parameters[12]);
+      |                                                        ~~~~~~~~~~~~~~~~~~~^ ~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:58:99: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   58 |  assert(get(p,"delayWet")==0&&get(p,"vt1Detune")==.5f&&get(p,"arpEnabled")==0);assert(get(p,"p12")==talclone::factoryPresets[static_cast<std::size_t>(p.getCurrentProgram())].parameters[12]);
+      |                                                                                       ~~~~~~~~~~~~^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+/Users/koda/Documents/tal-un-no-60-clone/tests/toolbar_processor_test.cpp:59:123: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   59 |  const int resetProgram=p.getCurrentProgram();p.setCurrentProgram(5);p.setCurrentProgram(resetProgram);assert(get(p,"p12")==talclone::factoryPresets[static_cast<std::size_t>(resetProgram)].parameters[12]);
+      |                                                                                                               ~~~~~~~~~~~~^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:72:25: note: expanded from macro 'assert'
+   72 |     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+      |                         ^
+[ 90%] Linking CXX executable tal_midi_test
+[ 92%] Linking CXX executable tal_fx_processor_test
+[ 94%] Linking CXX executable tal_arp_processor_test
+10 warnings generated.
+[ 96%] Linking CXX executable tal_toolbar_processor_test
+[ 96%] Built target tal_midi_test
+[ 96%] Built target tal_fx_processor_test
+[ 96%] Built target tal_arp_processor_test
+[ 98%] Building CXX object CMakeFiles/tal_portamento_processor_test.dir/tests/portamento_processor_test.cpp.o
+[ 98%] Built target tal_toolbar_processor_test
+[100%] Linking CXX executable tal_portamento_processor_test
+[100%] Built target tal_portamento_processor_test
+[100%] Built target tal_tests
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+      Start  1: Arpeggiator
+ 1/13 Test  #1: Arpeggiator ......................   Passed    0.35 sec
+      Start  2: DSP
+ 2/13 Test  #2: DSP ..............................   Passed    0.81 sec
+      Start  3: Presets
+ 3/13 Test  #3: Presets ..........................   Passed    0.00 sec
+      Start  4: Sustain
+ 4/13 Test  #4: Sustain ..........................   Passed    0.07 sec
+      Start  5: Delay
+ 5/13 Test  #5: Delay ............................   Passed    0.03 sec
+      Start  6: Reverb
+ 6/13 Test  #6: Reverb ...........................   Passed    2.68 sec
+      Start  7: Portamento
+ 7/13 Test  #7: Portamento .......................   Passed    1.37 sec
+      Start  8: VoiceTuning
+ 8/13 Test  #8: VoiceTuning ......................   Passed    0.71 sec
+      Start  9: ProcessorArpeggiator
+ 9/13 Test  #9: ProcessorArpeggiator .............   Passed    0.76 sec
+      Start 10: ProcessorMIDI
+10/13 Test #10: ProcessorMIDI ....................   Passed    0.45 sec
+      Start 11: ProcessorFX
+11/13 Test #11: ProcessorFX ......................   Passed    0.49 sec
+      Start 12: ProcessorPortamento
+12/13 Test #12: ProcessorPortamento ..............   Passed    0.52 sec
+      Start 13: ProcessorToolbar
+13/13 Test #13: ProcessorToolbar .................   Passed    1.91 sec
+
+100% tests passed out of 13
+
+Total Test time (real) =  10.17 sec
+build/TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component: replacing existing signature

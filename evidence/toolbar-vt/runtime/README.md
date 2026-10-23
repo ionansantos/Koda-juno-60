@@ -1,0 +1,15 @@
+# VT — áudio AU real
+
+[Resumo e checks](summary.json), [30 renders comparativos](results.json), [cinco renders de regressão do filtro compartilhado](shared-pan-results.json). Todos a 48 kHz/256 amostras, nota MIDI69, seis vozes VT configuradas igualmente, efeitos e arpejador desligados. Dados `.f32`: float32 little-endian estéreo L/R intercalado. Hashes de cada áudio, parâmetros exatos e identidade dos binários estão nos resultados.
+
+27/27 verificações de resposta dos controles passaram: detune relativo ±50 cents, lei de PAN em quatro posições, proporção de duração dos envelopes VT aproximadamente3:1 e direção do cutoff; regressão compartilhada inclui simetria L/R. São 35 renders; não são 35 testes independentes nem prova de equivalência integral.
+
+TAL AU: detune −50,017/+49,958 cents em relação à sua própria afinação neutra. KODA: −49,999/+49,999. PAN normal p=0,25: TAL L1,25/R0,583333; KODA L1,250000023/R0,583333316, relativos ao próprio neutro. Canal silenciado do KODA mantém piso RMS aproximadamente2,3e−7; TAL retornou zero.
+
+As durações absolutas dos envelopes existentes diferem: ataque70% TAL63/188 ms e KODA48/143 ms; decay−20 dB TAL298/891 ms e KODA157/466 ms; release−20 dB TAL382/1143 ms e KODA103/310 ms. A proporção VT é próxima de3 nos dois instrumentos. Não afirmar ADSR ou timbre idênticos.
+
+A primeira medição, com SaveCPU1 herdado do preset Startup KODA, expôs uma normalização repetida no cutoff do canal direito do filtro compartilhado. O produtor foi corrigido para passar o mesmo cutoff original aos dois filtros. Antes, PAN direito tinha ganho1,2735 contra esquerdo1,3283; após a correção os dois são1,32829665. Esse ganho não é exatamente4/3 porque o filtro compartilhado não linear é posterior ao PAN. Os checks de ganho nesse modo têm tolerância0,01, explicitamente; os checks de simetria usam1e−10. [Métricas históricas](results-shared-filter-before-fix.json) retêm somente valores escalares, não os áudios antigos.
+
+O probe [`tools/toolbar-vt-audio-probe.cpp`](../../../tools/toolbar-vt-audio-probe.cpp) deriva do probe AU de efeitos: TAL importa XML `program/voicetunings/voicetuning`; KODA usa parâmetros AU. O probe não abre saída de áudio nem grava estado persistente. `measure.py` e `shared-pan.py` permitem repetir as medições, após compilar o probe em `/tmp/toolbar-vt-audio-probe`; requerem o Python local com numpy. `verify.py` regenera `summary.json`, verifica os 35 hashes de áudio e exige que o binário atual coincida com os dois conjuntos de resultados. Execute após os dois scripts de render.
+
+Limites: uma taxa de amostragem e nota, afinação igual nas seis células, teste offline e sem validar gesto de editor, seleção individual de voz ou timbre. As frequências estimadas em casos quase silenciosos de cutoff/decay não têm significado físico e não entram nos checks de afinação. Detune é medido em trecho sustentado com FFT e interpolação logarítmica; tempos de envelope usam energia suavizada em5 ms e são estimativas dependentes do timbre.

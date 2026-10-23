@@ -1,0 +1,83 @@
+{
+  "evidence_id": "ev_fd6f20fff4817ccbb21f54ffecfa800aa7380be77cad1340014782363c5e2b4d",
+  "subject": {
+    "name": "TAL-U-No-60.i386",
+    "digest": {
+      "sha256": "b46668c96111476a3bde38e3367e8ca323178070ced25a51f47f9dd51dc65359"
+    },
+    "format": "mach-o",
+    "architecture": "x86",
+    "local_path": "/Users/koda/tal-search-investigation/TAL-U-No-60.i386"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "mach-o",
+      "architecture": "x86",
+      "available_architectures": [
+        "x86"
+      ],
+      "import_mode": "ephemeral-source-immutable",
+      "annotation_policy": "atomic-function-entry-metadata-v1",
+      "load_image_observations": "source-mappings-entry-context-v2",
+      "function_body_evidence": "complete-inclusive-ranges-v1",
+      "function_references": "complete-body-and-entry-reference-manager-v2",
+      "string_inventory_evidence": "defined-data-coverage-v1",
+      "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+      "instruction_flow_evidence": "decoded-return-pcode-v1",
+      "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+      "no_return_repair": "returning-imports-decoded-return-v2",
+      "process_launch": "inspected-jvm-launch-support-v1",
+      "jump_table_evidence": "typed-case-default-blocks-v1",
+      "decompiler_jump_loads": true,
+      "loader": "auto-from-header",
+      "language_id": "auto-from-header",
+      "compiler_spec_id": "auto-default",
+      "analyzer_preset": "ghidra-default"
+    },
+    "digest": "8a42e641a4d7d4692c302ecacc8632b9d9380739d83a206ac934d316ddbecd62"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "read_bytes",
+  "parameters": {
+    "address": "0x1cf4",
+    "length": 546
+  },
+  "raw_result": {
+    "address": "0x1cf4",
+    "requested_bytes": 546,
+    "returned_bytes": 546,
+    "bytes_hex": "4a0100001a010000d9010000ef010000010200001b020000310200004b0200006d0200008b020000a5020000c7020000e5020000f30f104708f30f5e8332e70200f30f598336e70200f30f114424048b4758890424e89af7ffff8b4758c7400400000000c7472c00000000c747300000000083c41c5b5e5f5dc38b54b734c7424400000000c64254018b4258c6400c008b4260c6400c008b425c660fefc0f30f1140088b425cc6400c008b450c894250f30f104d14f30f114a348b4208f30f1140148b4214f30f108b2ee70200f30f1148148b4214f30f1148188b420cb9cdcccc3d8948148b420c894818897724e9e0fefffff30f104708f30f5e8332e70200f30f58c0e940fffffff30f104708f30f5e8332e70200e92efffffff30f104708f30f5e8332e70200f30f59831ae70200e914fffffff30f104708f30f5e8332e70200f30f59c1e9fefefffff30f104708f30f5e8332e70200f30f59833ae70200e9e4fefffff30f104708f30f5e8332e70200f30f598336e70200f30f59833ee70200e9c2fefffff30f104708f30f5e8332e70200f30f58c0f30f59833ee70200e9a4fefffff30f104708f30f5e8332e70200f30f59833ee70200e98afefffff30f104708f30f5e8332e70200f30f59831ae70200f30f59833ee70200e968fefffff30f104708f30f5e8332e70200f30f59c1f30f59833ee70200e94afefffff30f104708f30f5e8332e70200f30f59833ae70200f30f59833ee70200e928feffff90",
+    "complete": true
+  },
+  "normalized_result": {
+    "address": "0x1cf4",
+    "requested_bytes": 546,
+    "returned_bytes": 546,
+    "bytes_hex": "4a0100001a010000d9010000ef010000010200001b020000310200004b0200006d0200008b020000a5020000c7020000e5020000f30f104708f30f5e8332e70200f30f598336e70200f30f114424048b4758890424e89af7ffff8b4758c7400400000000c7472c00000000c747300000000083c41c5b5e5f5dc38b54b734c7424400000000c64254018b4258c6400c008b4260c6400c008b425c660fefc0f30f1140088b425cc6400c008b450c894250f30f104d14f30f114a348b4208f30f1140148b4214f30f108b2ee70200f30f1148148b4214f30f1148188b420cb9cdcccc3d8948148b420c894818897724e9e0fefffff30f104708f30f5e8332e70200f30f58c0e940fffffff30f104708f30f5e8332e70200e92efffffff30f104708f30f5e8332e70200f30f59831ae70200e914fffffff30f104708f30f5e8332e70200f30f59c1e9fefefffff30f104708f30f5e8332e70200f30f59833ae70200e9e4fefffff30f104708f30f5e8332e70200f30f598336e70200f30f59833ee70200e9c2fefffff30f104708f30f5e8332e70200f30f58c0f30f59833ee70200e9a4fefffff30f104708f30f5e8332e70200f30f59833ee70200e98afefffff30f104708f30f5e8332e70200f30f59831ae70200f30f59833ee70200e968fefffff30f104708f30f5e8332e70200f30f59c1f30f59833ee70200e94afefffff30f104708f30f5e8332e70200f30f59833ae70200f30f59833ee70200e928feffff90",
+    "complete": true
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "Bytes reflect Ghidra's initialized memory, including loader fixups. Reads stop at an unmapped or uninitialized byte and report completeness explicitly.",
+    "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

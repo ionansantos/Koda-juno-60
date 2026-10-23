@@ -1,0 +1,9 @@
+{"level":30,"time":1792349236816,"application":"rea","mode":"mcp","layer":"server","tool":"open_binary","durationMs":171.48,"status":"ok","msg":"MCP tool execution completed"}
+{"level":40,"time":1792349341044,"application":"rea","mode":"mcp","layer":"ghidra-bridge","reason":"process table could not be inspected: spawn EPERM","msg":"Ghidra process cleanup failed closed"}
+{"level":40,"time":1792349341045,"application":"rea","mode":"mcp","layer":"server","tool":"search_procedures","durationMs":104226.2,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792349341051,"application":"rea","mode":"mcp","layer":"ghidra-bridge","reason":"process table could not be inspected: spawn EPERM","msg":"Ghidra process cleanup failed closed"}
+{"level":40,"time":1792349341051,"application":"rea","mode":"mcp","layer":"server","tool":"close_binary","durationMs":1.06,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792349341054,"application":"rea","mode":"mcp","layer":"ghidra-bridge","reason":"process table could not be inspected: spawn EPERM","msg":"Ghidra process cleanup failed closed"}
+REA could not close cleanly. End the REA process before starting it again.
+Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+{"level":50,"time":1792349341054,"application":"rea","mode":"mcp","layer":"server","msg":"REA could not close cleanly. End the REA process before starting it again."}

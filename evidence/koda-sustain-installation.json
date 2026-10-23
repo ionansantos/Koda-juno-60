@@ -1,0 +1,13 @@
+{
+  "name": "KODA-JUNO-60",
+  "version": "0.2.0",
+  "component": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+  "standalone": "/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/Standalone/KODA-JUNO-60.app",
+  "CC64": "0..63 off /64..127 on",
+  "sustain_channels": 16,
+  "tests_passed": 4,
+  "sanitizers_passed": true,
+  "physical_controller_tested": false,
+  "old_component_removed_from_active_folder": true,
+  "binary_sha256": "e0ea0a609d0625fe1936992d6f23b5b36076f2bf6a1ffd2c5055dacd3f13f1e1"
+}

@@ -1,0 +1,1034 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_70b2495907894aba6e400ec85a1b2e72ed2521a76af4b9eac6030363dfa842ae\",\"subject\":{\"name\":\"TAL-U-NO-LX-V2.arm64\",\"digest\":{\"sha256\":\"f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0\"},\"format\":\"mach-o\",\"architecture\":\"arm64\",\"local_path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"mach-o\",\"architecture\":\"arm64\",\"available_architectures\":[\"arm64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"search_procedures\",\"parameters\":{\"pattern\":\"Service|Tuning\",\"mode\":\"regex\",\"case_sensitive\":false},\"raw_result\":[{\"address\":\"EXTERNAL:0xbe\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_ConvertFromUnicodeToText\"},{\"address\":\"EXTERNAL:0xbf\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateTextEncoding\"},{\"address\":\"EXTERNAL:0xc0\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateUnicodeToTextInfo\"},{\"address\":\"EXTERNAL:0xc1\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_DisposeUnicodeToTextInfo\"},{\"address\":\"EXTERNAL:0xc5\",\"value\":\"/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceGetMatchingService\"},{\"address\":\"EXTERNAL:0xc6\",\"value\":\"/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceMatching\"},{\"address\":\"0x408e0\",\"value\":\"__ZN18VoiceTuningHandler6randomEf\"},{\"address\":\"0x530e8\",\"value\":\"__ZN14TalMicrotuningD1Ev\"},{\"address\":\"0x53158\",\"value\":\"__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev\"},{\"address\":\"0x81bbc\",\"value\":\"__ZN19ServiceControlEntry7refreshEv\"},{\"address\":\"0x85d8c\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED1Ev\"},{\"address\":\"0x85d90\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED0Ev\"},{\"address\":\"0x85d94\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEv\"},{\"address\":\"0x85dc8\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEPNS0_6__baseISC_EE\"},{\"address\":\"0x85ddc\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7destroyEv\"},{\"address\":\"0x85de0\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE18destroy_deallocateEv\"},{\"address\":\"0x85de4\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EEclES8_\"},{\"address\":\"0x86220\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE6targetERKSt9type_info\"},{\"address\":\"0x86274\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE11target_typeEv\"},{\"address\":\"0x86280\",\"value\":\"__ZN14TalMicrotuning15importScalaFileEN4juce6StringES1_\"},{\"address\":\"0x8b054\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b058\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b05c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b090\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b0a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b0a8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b0ac\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b16c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b1c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b1cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b1d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b1d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b208\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b21c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b220\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b224\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b2ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b340\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b34c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b350\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b354\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b388\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b39c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b3a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b3a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b46c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b4c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b4cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b4d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b4d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b508\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b51c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b520\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b524\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b5ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b640\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b64c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b650\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b654\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b688\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b69c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b6a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b6a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b768\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b7bc\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b7c8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b7cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b7d0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b804\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b818\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b81c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b820\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b8e4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b938\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b944\",\"value\":\"__ZN19ServiceControlEntryD1Ev\"},{\"address\":\"0x8b948\",\"value\":\"__ZN19ServiceControlEntryD0Ev\"},{\"address\":\"0x8b95c\",\"value\":\"__ZN19ServiceControlEntry5paintERN4juce8GraphicsE\"},{\"address\":\"0x8c0a8\",\"value\":\"__ZN19ServiceControlEntry7resizedEv\"},{\"address\":\"0x8c15c\",\"value\":\"__ZN19ServiceControlEntry15showSliderValueEPN4juce6SliderE\"},{\"address\":\"0x8c160\",\"value\":\"__ZThn240_N19ServiceControlEntryD1Ev\"},{\"address\":\"0x8c168\",\"value\":\"__ZThn240_N19ServiceControlEntryD0Ev\"},{\"address\":\"0x8c180\",\"value\":\"__ZThn240_N19ServiceControlEntry15showSliderValueEPN4juce6SliderE\"},{\"address\":\"0x8c184\",\"value\":\"__ZN19ServiceControlEntryD2Ev\"},{\"address\":\"0x8c3fc\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED1Ev\"},{\"address\":\"0x8c400\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED0Ev\"},{\"address\":\"0x8c404\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEv\"},{\"address\":\"0x8c438\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE\"},{\"address\":\"0x8c44c\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7destroyEv\"},{\"address\":\"0x8c450\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8c454\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEEclEv\"},{\"address\":\"0x8c538\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8c58c\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE11target_typeEv\"},{\"address\":\"0x8c598\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED1Ev\"},{\"address\":\"0x8c59c\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED0Ev\"},{\"address\":\"0x8c5a0\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEv\"},{\"address\":\"0x8c5d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE\"},{\"address\":\"0x8c5e8\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7destroyEv\"},{\"address\":\"0x8c5ec\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8c5f0\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEEclEv\"},{\"address\":\"0x8c718\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8c76c\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE11target_typeEv\"},{\"address\":\"0x8c778\",\"value\":\"__ZN20ServiceControlDialogD1Ev\"},{\"address\":\"0x8c77c\",\"value\":\"__ZN20ServiceControlDialogD0Ev\"},{\"address\":\"0x8c790\",\"value\":\"__ZN20ServiceControlDialog5paintERN4juce8GraphicsE\"},{\"address\":\"0x8c9f0\",\"value\":\"__ZN20ServiceControlDialog7resizedEv\"},{\"address\":\"0x8cb18\",\"value\":\"__ZN20ServiceControlDialog13timerCallbackEv\"},{\"address\":\"0x8cb78\",\"value\":\"__ZThn240_N20ServiceControlDialogD1Ev\"},{\"address\":\"0x8cb80\",\"value\":\"__ZThn240_N20ServiceControlDialogD0Ev\"},{\"address\":\"0x8cb98\",\"value\":\"__ZThn240_N20ServiceControlDialog13timerCallbackEv\"},{\"address\":\"0x8cc00\",\"value\":\"__ZN20ServiceControlDialogD2Ev\"},{\"address\":\"0xd5634\",\"value\":\"__ZN4juce11MouseCursor22PlatformSpecificHandle14fromHIServicesEPKc\"},{\"address\":\"0x344d00\",\"value\":\"__ZNK4juce15CoreMidiHelpers19EndpointsImplNative36isVirtualMidiBytestreamServiceActiveEv\"},{\"address\":\"0x344d08\",\"value\":\"__ZNK4juce15CoreMidiHelpers19EndpointsImplNative29isVirtualMidiUmpServiceActiveEv\"},{\"address\":\"0x344d34\",\"value\":\"__ZN4juce15CoreMidiHelpers19EndpointsImplNative37setVirtualMidiBytestreamServiceActiveEb\"},{\"address\":\"0x344d38\",\"value\":\"__ZN4juce15CoreMidiHelpers19EndpointsImplNative30setVirtualMidiUmpServiceActiveEb\"},{\"address\":\"0x3587cc\",\"value\":\"__ZN4juce22universal_midi_packets9Endpoints4Impl31virtualMidiServiceActiveChangedEv\"},{\"address\":\"0x3598a0\",\"value\":\"__ZN4juce22universal_midi_packets17EndpointsListener31virtualMidiServiceActiveChangedEv\"},{\"address\":\"0x37072c\",\"value\":\"_IOServiceGetMatchingService\"},{\"address\":\"0x370738\",\"value\":\"_IOServiceMatching\"}],\"normalized_result\":[{\"address\":\"EXTERNAL:0xbe\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_ConvertFromUnicodeToText\"},{\"address\":\"EXTERNAL:0xbf\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateTextEncoding\"},{\"address\":\"EXTERNAL:0xc0\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateUnicodeToTextInfo\"},{\"address\":\"EXTERNAL:0xc1\",\"value\":\"/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_DisposeUnicodeToTextInfo\"},{\"address\":\"EXTERNAL:0xc5\",\"value\":\"/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceGetMatchingService\"},{\"address\":\"EXTERNAL:0xc6\",\"value\":\"/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceMatching\"},{\"address\":\"0x408e0\",\"value\":\"__ZN18VoiceTuningHandler6randomEf\"},{\"address\":\"0x530e8\",\"value\":\"__ZN14TalMicrotuningD1Ev\"},{\"address\":\"0x53158\",\"value\":\"__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev\"},{\"address\":\"0x81bbc\",\"value\":\"__ZN19ServiceControlEntry7refreshEv\"},{\"address\":\"0x85d8c\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED1Ev\"},{\"address\":\"0x85d90\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED0Ev\"},{\"address\":\"0x85d94\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEv\"},{\"address\":\"0x85dc8\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEPNS0_6__baseISC_EE\"},{\"address\":\"0x85ddc\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7destroyEv\"},{\"address\":\"0x85de0\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE18destroy_deallocateEv\"},{\"address\":\"0x85de4\",\"value\":\"__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EEclES8_\"},{\"address\":\"0x86220\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE6targetERKSt9type_info\"},{\"address\":\"0x86274\",\"value\":\"__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE11target_typeEv\"},{\"address\":\"0x86280\",\"value\":\"__ZN14TalMicrotuning15importScalaFileEN4juce6StringES1_\"},{\"address\":\"0x8b054\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b058\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b05c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b090\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b0a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b0a8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b0ac\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b16c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b1c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b1cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b1d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b1d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b208\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b21c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b220\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b224\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b2ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b340\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b34c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b350\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b354\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b388\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b39c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b3a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b3a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b46c\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b4c0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b4cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b4d0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b4d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b508\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b51c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b520\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b524\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b5ec\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b640\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b64c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b650\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b654\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b688\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b69c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b6a0\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b6a4\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b768\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b7bc\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b7c8\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev\"},{\"address\":\"0x8b7cc\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev\"},{\"address\":\"0x8b7d0\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv\"},{\"address\":\"0x8b804\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE\"},{\"address\":\"0x8b818\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv\"},{\"address\":\"0x8b81c\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8b820\",\"value\":\"__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv\"},{\"address\":\"0x8b8e4\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8b938\",\"value\":\"__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv\"},{\"address\":\"0x8b944\",\"value\":\"__ZN19ServiceControlEntryD1Ev\"},{\"address\":\"0x8b948\",\"value\":\"__ZN19ServiceControlEntryD0Ev\"},{\"address\":\"0x8b95c\",\"value\":\"__ZN19ServiceControlEntry5paintERN4juce8GraphicsE\"},{\"address\":\"0x8c0a8\",\"value\":\"__ZN19ServiceControlEntry7resizedEv\"},{\"address\":\"0x8c15c\",\"value\":\"__ZN19ServiceControlEntry15showSliderValueEPN4juce6SliderE\"},{\"address\":\"0x8c160\",\"value\":\"__ZThn240_N19ServiceControlEntryD1Ev\"},{\"address\":\"0x8c168\",\"value\":\"__ZThn240_N19ServiceControlEntryD0Ev\"},{\"address\":\"0x8c180\",\"value\":\"__ZThn240_N19ServiceControlEntry15showSliderValueEPN4juce6SliderE\"},{\"address\":\"0x8c184\",\"value\":\"__ZN19ServiceControlEntryD2Ev\"},{\"address\":\"0x8c3fc\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED1Ev\"},{\"address\":\"0x8c400\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED0Ev\"},{\"address\":\"0x8c404\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEv\"},{\"address\":\"0x8c438\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE\"},{\"address\":\"0x8c44c\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7destroyEv\"},{\"address\":\"0x8c450\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8c454\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEEclEv\"},{\"address\":\"0x8c538\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8c58c\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE11target_typeEv\"},{\"address\":\"0x8c598\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED1Ev\"},{\"address\":\"0x8c59c\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED0Ev\"},{\"address\":\"0x8c5a0\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEv\"},{\"address\":\"0x8c5d4\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE\"},{\"address\":\"0x8c5e8\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7destroyEv\"},{\"address\":\"0x8c5ec\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv\"},{\"address\":\"0x8c5f0\",\"value\":\"__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEEclEv\"},{\"address\":\"0x8c718\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info\"},{\"address\":\"0x8c76c\",\"value\":\"__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE11target_typeEv\"},{\"address\":\"0x8c778\",\"value\":\"__ZN20ServiceControlDialogD1Ev\"},{\"address\":\"0x8c77c\",\"value\":\"__ZN20ServiceControlDialogD0Ev\"},{\"address\":\"0x8c790\",\"value\":\"__ZN20ServiceControlDialog5paintERN4juce8GraphicsE\"},{\"address\":\"0x8c9f0\",\"value\":\"__ZN20ServiceControlDialog7resizedEv\"},{\"address\":\"0x8cb18\",\"value\":\"__ZN20ServiceControlDialog13timerCallbackEv\"},{\"address\":\"0x8cb78\",\"value\":\"__ZThn240_N20ServiceControlDialogD1Ev\"},{\"address\":\"0x8cb80\",\"value\":\"__ZThn240_N20ServiceControlDialogD0Ev\"},{\"address\":\"0x8cb98\",\"value\":\"__ZThn240_N20ServiceControlDialog13timerCallbackEv\"},{\"address\":\"0x8cc00\",\"value\":\"__ZN20ServiceControlDialogD2Ev\"},{\"address\":\"0xd5634\",\"value\":\"__ZN4juce11MouseCursor22PlatformSpecificHandle14fromHIServicesEPKc\"},{\"address\":\"0x344d00\",\"value\":\"__ZNK4juce15CoreMidiHelpers19EndpointsImplNative36isVirtualMidiBytestreamServiceActiveEv\"},{\"address\":\"0x344d08\",\"value\":\"__ZNK4juce15CoreMidiHelpers19EndpointsImplNative29isVirtualMidiUmpServiceActiveEv\"},{\"address\":\"0x344d34\",\"value\":\"__ZN4juce15CoreMidiHelpers19EndpointsImplNative37setVirtualMidiBytestreamServiceActiveEb\"},{\"address\":\"0x344d38\",\"value\":\"__ZN4juce15CoreMidiHelpers19EndpointsImplNative30setVirtualMidiUmpServiceActiveEb\"},{\"address\":\"0x3587cc\",\"value\":\"__ZN4juce22universal_midi_packets9Endpoints4Impl31virtualMidiServiceActiveChangedEv\"},{\"address\":\"0x3598a0\",\"value\":\"__ZN4juce22universal_midi_packets17EndpointsListener31virtualMidiServiceActiveChangedEv\"},{\"address\":\"0x37072c\",\"value\":\"_IOServiceGetMatchingService\"},{\"address\":\"0x370738\",\"value\":\"_IOServiceMatching\"}],\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_70b2495907894aba6e400ec85a1b2e72ed2521a76af4b9eac6030363dfa842ae",
+    "subject": {
+      "name": "TAL-U-NO-LX-V2.arm64",
+      "digest": {
+        "sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+      },
+      "format": "mach-o",
+      "architecture": "arm64",
+      "local_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "mach-o",
+        "architecture": "arm64",
+        "available_architectures": [
+          "arm64"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "string_inventory_evidence": "defined-data-coverage-v1",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+        "no_return_repair": "returning-imports-decoded-return-v2",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "auto-from-header",
+        "language_id": "auto-from-header",
+        "compiler_spec_id": "auto-default",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "search_procedures",
+    "parameters": {
+      "pattern": "Service|Tuning",
+      "mode": "regex",
+      "case_sensitive": false
+    },
+    "raw_result": [
+      {
+        "address": "EXTERNAL:0xbe",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_ConvertFromUnicodeToText"
+      },
+      {
+        "address": "EXTERNAL:0xbf",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateTextEncoding"
+      },
+      {
+        "address": "EXTERNAL:0xc0",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateUnicodeToTextInfo"
+      },
+      {
+        "address": "EXTERNAL:0xc1",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_DisposeUnicodeToTextInfo"
+      },
+      {
+        "address": "EXTERNAL:0xc5",
+        "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceGetMatchingService"
+      },
+      {
+        "address": "EXTERNAL:0xc6",
+        "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceMatching"
+      },
+      {
+        "address": "0x408e0",
+        "value": "__ZN18VoiceTuningHandler6randomEf"
+      },
+      {
+        "address": "0x530e8",
+        "value": "__ZN14TalMicrotuningD1Ev"
+      },
+      {
+        "address": "0x53158",
+        "value": "__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev"
+      },
+      {
+        "address": "0x81bbc",
+        "value": "__ZN19ServiceControlEntry7refreshEv"
+      },
+      {
+        "address": "0x85d8c",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED1Ev"
+      },
+      {
+        "address": "0x85d90",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED0Ev"
+      },
+      {
+        "address": "0x85d94",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEv"
+      },
+      {
+        "address": "0x85dc8",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEPNS0_6__baseISC_EE"
+      },
+      {
+        "address": "0x85ddc",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7destroyEv"
+      },
+      {
+        "address": "0x85de0",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x85de4",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EEclES8_"
+      },
+      {
+        "address": "0x86220",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x86274",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE11target_typeEv"
+      },
+      {
+        "address": "0x86280",
+        "value": "__ZN14TalMicrotuning15importScalaFileEN4juce6StringES1_"
+      },
+      {
+        "address": "0x8b054",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b058",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b05c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b090",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b0a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b0a8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b0ac",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b16c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b1c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b1cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b1d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b1d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b208",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b21c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b220",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b224",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b2ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b340",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b34c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b350",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b354",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b388",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b39c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b3a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b3a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b46c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b4c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b4cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b4d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b4d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b508",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b51c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b520",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b524",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b5ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b640",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b64c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b650",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b654",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b688",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b69c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b6a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b6a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b768",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b7bc",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b7c8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b7cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b7d0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b804",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b818",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b81c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b820",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b8e4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b938",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b944",
+        "value": "__ZN19ServiceControlEntryD1Ev"
+      },
+      {
+        "address": "0x8b948",
+        "value": "__ZN19ServiceControlEntryD0Ev"
+      },
+      {
+        "address": "0x8b95c",
+        "value": "__ZN19ServiceControlEntry5paintERN4juce8GraphicsE"
+      },
+      {
+        "address": "0x8c0a8",
+        "value": "__ZN19ServiceControlEntry7resizedEv"
+      },
+      {
+        "address": "0x8c15c",
+        "value": "__ZN19ServiceControlEntry15showSliderValueEPN4juce6SliderE"
+      },
+      {
+        "address": "0x8c160",
+        "value": "__ZThn240_N19ServiceControlEntryD1Ev"
+      },
+      {
+        "address": "0x8c168",
+        "value": "__ZThn240_N19ServiceControlEntryD0Ev"
+      },
+      {
+        "address": "0x8c180",
+        "value": "__ZThn240_N19ServiceControlEntry15showSliderValueEPN4juce6SliderE"
+      },
+      {
+        "address": "0x8c184",
+        "value": "__ZN19ServiceControlEntryD2Ev"
+      },
+      {
+        "address": "0x8c3fc",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8c400",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8c404",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8c438",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE"
+      },
+      {
+        "address": "0x8c44c",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8c450",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8c454",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8c538",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8c58c",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8c598",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8c59c",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8c5a0",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8c5d4",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE"
+      },
+      {
+        "address": "0x8c5e8",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8c5ec",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8c5f0",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8c718",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8c76c",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8c778",
+        "value": "__ZN20ServiceControlDialogD1Ev"
+      },
+      {
+        "address": "0x8c77c",
+        "value": "__ZN20ServiceControlDialogD0Ev"
+      },
+      {
+        "address": "0x8c790",
+        "value": "__ZN20ServiceControlDialog5paintERN4juce8GraphicsE"
+      },
+      {
+        "address": "0x8c9f0",
+        "value": "__ZN20ServiceControlDialog7resizedEv"
+      },
+      {
+        "address": "0x8cb18",
+        "value": "__ZN20ServiceControlDialog13timerCallbackEv"
+      },
+      {
+        "address": "0x8cb78",
+        "value": "__ZThn240_N20ServiceControlDialogD1Ev"
+      },
+      {
+        "address": "0x8cb80",
+        "value": "__ZThn240_N20ServiceControlDialogD0Ev"
+      },
+      {
+        "address": "0x8cb98",
+        "value": "__ZThn240_N20ServiceControlDialog13timerCallbackEv"
+      },
+      {
+        "address": "0x8cc00",
+        "value": "__ZN20ServiceControlDialogD2Ev"
+      },
+      {
+        "address": "0xd5634",
+        "value": "__ZN4juce11MouseCursor22PlatformSpecificHandle14fromHIServicesEPKc"
+      },
+      {
+        "address": "0x344d00",
+        "value": "__ZNK4juce15CoreMidiHelpers19EndpointsImplNative36isVirtualMidiBytestreamServiceActiveEv"
+      },
+      {
+        "address": "0x344d08",
+        "value": "__ZNK4juce15CoreMidiHelpers19EndpointsImplNative29isVirtualMidiUmpServiceActiveEv"
+      },
+      {
+        "address": "0x344d34",
+        "value": "__ZN4juce15CoreMidiHelpers19EndpointsImplNative37setVirtualMidiBytestreamServiceActiveEb"
+      },
+      {
+        "address": "0x344d38",
+        "value": "__ZN4juce15CoreMidiHelpers19EndpointsImplNative30setVirtualMidiUmpServiceActiveEb"
+      },
+      {
+        "address": "0x3587cc",
+        "value": "__ZN4juce22universal_midi_packets9Endpoints4Impl31virtualMidiServiceActiveChangedEv"
+      },
+      {
+        "address": "0x3598a0",
+        "value": "__ZN4juce22universal_midi_packets17EndpointsListener31virtualMidiServiceActiveChangedEv"
+      },
+      {
+        "address": "0x37072c",
+        "value": "_IOServiceGetMatchingService"
+      },
+      {
+        "address": "0x370738",
+        "value": "_IOServiceMatching"
+      }
+    ],
+    "normalized_result": [
+      {
+        "address": "EXTERNAL:0xbe",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_ConvertFromUnicodeToText"
+      },
+      {
+        "address": "EXTERNAL:0xbf",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateTextEncoding"
+      },
+      {
+        "address": "EXTERNAL:0xc0",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_CreateUnicodeToTextInfo"
+      },
+      {
+        "address": "EXTERNAL:0xc1",
+        "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices::_DisposeUnicodeToTextInfo"
+      },
+      {
+        "address": "EXTERNAL:0xc5",
+        "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceGetMatchingService"
+      },
+      {
+        "address": "EXTERNAL:0xc6",
+        "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit::_IOServiceMatching"
+      },
+      {
+        "address": "0x408e0",
+        "value": "__ZN18VoiceTuningHandler6randomEf"
+      },
+      {
+        "address": "0x530e8",
+        "value": "__ZN14TalMicrotuningD1Ev"
+      },
+      {
+        "address": "0x53158",
+        "value": "__ZNSt3__110unique_ptrI18VoiceTuningHandlerNS_14default_deleteIS1_EEED1B6v15006Ev"
+      },
+      {
+        "address": "0x81bbc",
+        "value": "__ZN19ServiceControlEntry7refreshEv"
+      },
+      {
+        "address": "0x85d8c",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED1Ev"
+      },
+      {
+        "address": "0x85d90",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EED0Ev"
+      },
+      {
+        "address": "0x85d94",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEv"
+      },
+      {
+        "address": "0x85dc8",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7__cloneEPNS0_6__baseISC_EE"
+      },
+      {
+        "address": "0x85ddc",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE7destroyEv"
+      },
+      {
+        "address": "0x85de0",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x85de4",
+        "value": "__ZNSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EEclES8_"
+      },
+      {
+        "address": "0x86220",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x86274",
+        "value": "__ZNKSt3__110__function6__funcIZN13PresetBrowser15scalaTuningLoadEPN4juce9ComponentEEUlRKNS3_11FileChooserEE_NS_9allocatorIS9_EEFvS8_EE11target_typeEv"
+      },
+      {
+        "address": "0x86280",
+        "value": "__ZN14TalMicrotuning15importScalaFileEN4juce6StringES1_"
+      },
+      {
+        "address": "0x8b054",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b058",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b05c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b090",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b0a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b0a8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b0ac",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b16c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b1c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE4_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b1cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b1d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b1d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b208",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b21c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b220",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b224",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b2ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b340",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE3_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b34c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b350",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b354",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b388",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b39c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b3a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b3a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b46c",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b4c0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE2_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b4cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b4d0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b4d4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b508",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b51c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b520",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b524",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b5ec",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b640",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE1_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b64c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b650",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b654",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b688",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b69c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b6a0",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b6a4",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b768",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b7bc",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE0_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b7c8",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8b7cc",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8b7d0",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8b804",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE"
+      },
+      {
+        "address": "0x8b818",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8b81c",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8b820",
+        "value": "__ZNSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8b8e4",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8b938",
+        "value": "__ZNKSt3__110__function6__funcIZN19ServiceControlEntryC1EiR11VoiceTuningEUlvE_NS_9allocatorIS5_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8b944",
+        "value": "__ZN19ServiceControlEntryD1Ev"
+      },
+      {
+        "address": "0x8b948",
+        "value": "__ZN19ServiceControlEntryD0Ev"
+      },
+      {
+        "address": "0x8b95c",
+        "value": "__ZN19ServiceControlEntry5paintERN4juce8GraphicsE"
+      },
+      {
+        "address": "0x8c0a8",
+        "value": "__ZN19ServiceControlEntry7resizedEv"
+      },
+      {
+        "address": "0x8c15c",
+        "value": "__ZN19ServiceControlEntry15showSliderValueEPN4juce6SliderE"
+      },
+      {
+        "address": "0x8c160",
+        "value": "__ZThn240_N19ServiceControlEntryD1Ev"
+      },
+      {
+        "address": "0x8c168",
+        "value": "__ZThn240_N19ServiceControlEntryD0Ev"
+      },
+      {
+        "address": "0x8c180",
+        "value": "__ZThn240_N19ServiceControlEntry15showSliderValueEPN4juce6SliderE"
+      },
+      {
+        "address": "0x8c184",
+        "value": "__ZN19ServiceControlEntryD2Ev"
+      },
+      {
+        "address": "0x8c3fc",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8c400",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8c404",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8c438",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE"
+      },
+      {
+        "address": "0x8c44c",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8c450",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8c454",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8c538",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8c58c",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE0_NS_9allocatorIS8_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8c598",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED1Ev"
+      },
+      {
+        "address": "0x8c59c",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEED0Ev"
+      },
+      {
+        "address": "0x8c5a0",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEv"
+      },
+      {
+        "address": "0x8c5d4",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7__cloneEPNS0_6__baseISB_EE"
+      },
+      {
+        "address": "0x8c5e8",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE7destroyEv"
+      },
+      {
+        "address": "0x8c5ec",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE18destroy_deallocateEv"
+      },
+      {
+        "address": "0x8c5f0",
+        "value": "__ZNSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEEclEv"
+      },
+      {
+        "address": "0x8c718",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE6targetERKSt9type_info"
+      },
+      {
+        "address": "0x8c76c",
+        "value": "__ZNKSt3__110__function6__funcIZN20ServiceControlDialogC1ERN4juce9ComponentER7TalCoreEUlvE_NS_9allocatorIS8_EEFvvEE11target_typeEv"
+      },
+      {
+        "address": "0x8c778",
+        "value": "__ZN20ServiceControlDialogD1Ev"
+      },
+      {
+        "address": "0x8c77c",
+        "value": "__ZN20ServiceControlDialogD0Ev"
+      },
+      {
+        "address": "0x8c790",
+        "value": "__ZN20ServiceControlDialog5paintERN4juce8GraphicsE"
+      },
+      {
+        "address": "0x8c9f0",
+        "value": "__ZN20ServiceControlDialog7resizedEv"
+      },
+      {
+        "address": "0x8cb18",
+        "value": "__ZN20ServiceControlDialog13timerCallbackEv"
+      },
+      {
+        "address": "0x8cb78",
+        "value": "__ZThn240_N20ServiceControlDialogD1Ev"
+      },
+      {
+        "address": "0x8cb80",
+        "value": "__ZThn240_N20ServiceControlDialogD0Ev"
+      },
+      {
+        "address": "0x8cb98",
+        "value": "__ZThn240_N20ServiceControlDialog13timerCallbackEv"
+      },
+      {
+        "address": "0x8cc00",
+        "value": "__ZN20ServiceControlDialogD2Ev"
+      },
+      {
+        "address": "0xd5634",
+        "value": "__ZN4juce11MouseCursor22PlatformSpecificHandle14fromHIServicesEPKc"
+      },
+      {
+        "address": "0x344d00",
+        "value": "__ZNK4juce15CoreMidiHelpers19EndpointsImplNative36isVirtualMidiBytestreamServiceActiveEv"
+      },
+      {
+        "address": "0x344d08",
+        "value": "__ZNK4juce15CoreMidiHelpers19EndpointsImplNative29isVirtualMidiUmpServiceActiveEv"
+      },
+      {
+        "address": "0x344d34",
+        "value": "__ZN4juce15CoreMidiHelpers19EndpointsImplNative37setVirtualMidiBytestreamServiceActiveEb"
+      },
+      {
+        "address": "0x344d38",
+        "value": "__ZN4juce15CoreMidiHelpers19EndpointsImplNative30setVirtualMidiUmpServiceActiveEb"
+      },
+      {
+        "address": "0x3587cc",
+        "value": "__ZN4juce22universal_midi_packets9Endpoints4Impl31virtualMidiServiceActiveChangedEv"
+      },
+      {
+        "address": "0x3598a0",
+        "value": "__ZN4juce22universal_midi_packets17EndpointsListener31virtualMidiServiceActiveChangedEv"
+      },
+      {
+        "address": "0x37072c",
+        "value": "_IOServiceGetMatchingService"
+      },
+      {
+        "address": "0x370738",
+        "value": "_IOServiceMatching"
+      }
+    ],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.",
+      "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+}

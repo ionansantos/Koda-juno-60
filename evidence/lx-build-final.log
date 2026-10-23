@@ -1,0 +1,10 @@
+[  5%] Built target tal_dsp
+[  7%] Building CXX object CMakeFiles/TalUNo60Clone.dir/Source/PluginEditor.cpp.o
+[ 10%] Linking CXX static library "TalUNo60Clone_artefacts/Release/libU-No-60 Study_SharedCode.a"
+[ 66%] Built target TalUNo60Clone
+[ 69%] Linking CXX CFBundle shared module "TalUNo60Clone_artefacts/Release/AU/U-No-60 Study.component/Contents/MacOS/U-No-60 Study"
+[100%] Built target TalUNo60Clone_AU
+[  5%] Built target tal_dsp
+[ 66%] Built target TalUNo60Clone
+[ 69%] Linking CXX executable "TalUNo60Clone_artefacts/Release/Standalone/U-No-60 Study.app/Contents/MacOS/U-No-60 Study"
+[100%] Built target TalUNo60Clone_Standalone

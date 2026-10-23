@@ -1,0 +1,37 @@
+{
+  "version": "0.5.0",
+  "installed": [
+    {
+      "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "sha256_verified": true,
+      "version": "0.5.0"
+    },
+    {
+      "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "sha256_verified": true,
+      "version": "0.5.0"
+    }
+  ],
+  "all_11_ctests_passed": true,
+  "auval_installed_passed": true,
+  "portamento_asan_ubsan_passed": true,
+  "audio_comparisons": [
+    {
+      "rate": 44100,
+      "cases": 58,
+      "all_passed": true
+    },
+    {
+      "rate": 48000,
+      "cases": 58,
+      "all_passed": true
+    }
+  ],
+  "total_final_renders": 232,
+  "tested_and_installed_au_identical": true,
+  "limits": [
+    "Offline AU audio comparison; VST3 and standalone built/signed but not played in a graphical DAW.",
+    "Pitch trajectories, not waveform/timbre equivalence.",
+    "KODA integration with arp/sustain/Unison tested; not full TAL equivalence for all combined controls."
+  ]
+}

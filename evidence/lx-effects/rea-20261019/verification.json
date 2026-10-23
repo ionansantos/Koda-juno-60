@@ -1,0 +1,10 @@
+{
+  "all_recorded_operations_succeeded": true,
+  "record_count": 25,
+  "koda_source_unchanged": true,
+  "native_session_closed": {
+    "result": null
+  },
+  "plugin_execution_performed": false,
+  "external_document_instructions_followed": false
+}

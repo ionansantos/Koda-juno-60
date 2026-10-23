@@ -1,0 +1,15 @@
+{
+  "Source/LXLookAndFeel.h": "4ceae732fa22c2526fbb6f0117a79002b451b84311c9a82cf53669302c36aee0",
+  "Source/PluginEditor.h": "71fc53aba3a5daa62c261df98138e08bac6b14c38276e7193d96d7c63075ee46",
+  "Source/PluginProcessor.h": "507365444350a07c826f804ea421f90ba11ae08f203374ff2c92441441e4997a",
+  "Source/ArpeggiatorParameters.h": "6885d3122137a026d69162bef222bdc8d1a97086afaf5fad46b32ad3bc2db41e",
+  "Source/Arpeggiator.h": "83e082538ec20f70a717f8012ccd628f69f0d1a14d2ceb620aea1c938babae14",
+  "Source/PresetManager.h": "19d04dafc7e05fe394f43ce7a5bab7b8233722e584a7d9a5e6af8d6872e04cef",
+  "Source/FactoryPresets.h": "693fb93ef4893455f219a6c50e31bbfe5737378b1c09f9693591e68c2082d744",
+  "Source/Parameters.h": "3c44df7fd51c3d49993a8ab2f637349609e17aba698b33f9c4b4eddcb116b2d7",
+  "Source/PluginProcessor.cpp": "8f588e60b104af638e235dd4ba3c2c0fba7fd2631c329e9214a418c724c0aa71",
+  "Source/PluginEditor.cpp": "520b4a10b60af48e4e22a48e90b24b6d06f64211b7451d79aed2835ac9dc075b",
+  "Source/DSP/SynthDSP.h": "def3ce099fa2eb1378d2f6923b81d7c217171684225ab475e18254dafd7d0468",
+  "Source/DSP/BlepTable.h": "7a9410c4cc75364f062a5cd6688066ec09db617d2e237fc6f8786fb56496f1a5",
+  "Source/DSP/SynthDSP.cpp": "17532da4630aab4b85696014f117dc6b765ec5178d80b869ea26ebd69e464f0e"
+}

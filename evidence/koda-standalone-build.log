@@ -1,0 +1,22 @@
+[  5%] Built target tal_dsp
+[ 66%] Built target TalUNo60Clone
+[ 69%] Generating TalUNo60Clone_artefacts/JuceLibraryCode/TalUNo60Clone_Standalone/PkgInfo
+[ 79%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 79%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 79%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 79%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 84%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 84%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 87%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 94%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 94%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 94%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 97%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+Copying OS X content TalUNo60Clone_artefacts/Release/Standalone/KODA-JUNO-60.app/Contents/Resources/RecentFilesMenuTemplate.nib
+[100%] Linking CXX executable TalUNo60Clone_artefacts/Release/Standalone/KODA-JUNO-60.app/Contents/MacOS/KODA-JUNO-60
+[100%] Built target TalUNo60Clone_Standalone
+[  7%] Built target tal_dsp
+[ 92%] Built target TalUNo60Clone
+[ 96%] Building CXX object CMakeFiles/tal_midi_test.dir/tests/midi_test.cpp.o
+[100%] Linking CXX executable tal_midi_test
+[100%] Built target tal_midi_test

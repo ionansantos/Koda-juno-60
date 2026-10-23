@@ -1,0 +1,28 @@
+{
+  "all_operations_successful": true,
+  "session_closed": true,
+  "bundle_exists": true,
+  "runtime_report_hash_checks": [
+    {
+      "file": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/results.json",
+      "sha256_matches": true
+    },
+    {
+      "file": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/reuse44100/results.json",
+      "sha256_matches": true
+    },
+    {
+      "file": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/six-reuse44100/results.json",
+      "sha256_matches": true
+    },
+    {
+      "file": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/rate48000/results.json",
+      "sha256_matches": true
+    },
+    {
+      "file": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/return44100/results.json",
+      "sha256_matches": true
+    }
+  ],
+  "reference_unchanged": true
+}

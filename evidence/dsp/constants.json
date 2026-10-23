@@ -1,0 +1,810 @@
+{
+  "osc_assembly": {
+    "0xb7f6": {
+      "address": "0x30320",
+      "file_offset": "0x30320",
+      "float": 1.0,
+      "double": 1.7272341196062726e-77,
+      "hex": "0000803f00000030"
+    },
+    "0xb7fe": {
+      "address": "0x30328",
+      "file_offset": "0x30328",
+      "float": 0.5,
+      "double": 4.235165730236242e-22,
+      "hex": "0000003f0000803b"
+    },
+    "0xb826": {
+      "address": "0x30350",
+      "file_offset": "0x30350",
+      "float": 2048.0,
+      "double": 0.0008789064686425263,
+      "hex": "00000045cdcc4c3f"
+    },
+    "0xb82a": {
+      "address": "0x30354",
+      "file_offset": "0x30354",
+      "float": 0.800000011920929,
+      "double": 5.238690723623554e-11,
+      "hex": "cdcc4c3fcdcccc3d"
+    },
+    "0xb82e": {
+      "address": "0x30358",
+      "file_offset": "0x30358",
+      "float": 0.10000000149011612,
+      "double": 5.122630465e-315,
+      "hex": "cdcccc3d00000000"
+    },
+    "0xb832": {
+      "address": "0x3035c",
+      "file_offset": "0x3035c",
+      "float": 0.0,
+      "double": 0.9920001029968262,
+      "hex": "0000000077beef3f"
+    }
+  },
+  "note_on_assembly": {
+    "0x2e72e": {
+      "address": "0x3033c",
+      "file_offset": "0x3033c",
+      "float": 0.25,
+      "double": 1099511883776.0,
+      "hex": "0000803e00007042"
+    }
+  },
+  "filter_assembly": {
+    "0xb5d4": {
+      "address": "0x30320",
+      "file_offset": "0x30320",
+      "float": 1.0,
+      "double": 1.7272341196062726e-77,
+      "hex": "0000803f00000030"
+    },
+    "0xb5d8": {
+      "address": "0x30324",
+      "file_offset": "0x30324",
+      "float": 4.656612873077393e-10,
+      "double": 3.051758358196821e-05,
+      "hex": "000000300000003f"
+    },
+    "0xb5dc": {
+      "address": "0x30328",
+      "file_offset": "0x30328",
+      "float": 0.5,
+      "double": 4.235165730236242e-22,
+      "hex": "0000003f0000803b"
+    },
+    "0xb5f8": {
+      "address": "0x30344",
+      "file_offset": "0x30344",
+      "float": 5.0,
+      "double": 4.656613994142439e-10,
+      "hex": "0000a0400000003e"
+    },
+    "0xb608": {
+      "address": "0x30354",
+      "file_offset": "0x30354",
+      "float": 0.800000011920929,
+      "double": 5.238690723623554e-11,
+      "hex": "cdcc4c3fcdcccc3d"
+    },
+    "0xb610": {
+      "address": "0x3035c",
+      "file_offset": "0x3035c",
+      "float": 0.0,
+      "double": 0.9920001029968262,
+      "hex": "0000000077beef3f"
+    },
+    "0xb614": {
+      "address": "0x30360",
+      "file_offset": "0x30360",
+      "float": 1.8730000257492065,
+      "double": 2.8320315319461998e-05,
+      "hex": "77beef3f2db2fd3e"
+    },
+    "0xb618": {
+      "address": "0x30364",
+      "file_offset": "0x30364",
+      "float": 0.49549999833106995,
+      "double": -0.00016894531972457116,
+      "hex": "2db2fd3edd2426bf"
+    },
+    "0xb61c": {
+      "address": "0x30368",
+      "file_offset": "0x30368",
+      "float": -0.6489999890327454,
+      "double": 0.00773750151200511,
+      "hex": "dd2426bf5bb17f3f"
+    },
+    "0xb620": {
+      "address": "0x3036c",
+      "file_offset": "0x3036c",
+      "float": 0.9987999796867371,
+      "double": -146.63687109889983,
+      "hex": "5bb17f3f615462c0"
+    },
+    "0xb624": {
+      "address": "0x30370",
+      "file_offset": "0x30370",
+      "float": -3.536400079727173,
+      "double": 0.8636001355649904,
+      "hex": "615462c09ca2eb3f"
+    },
+    "0xb628": {
+      "address": "0x30374",
+      "file_offset": "0x30374",
+      "float": 1.84089994430542,
+      "double": 0.007612501269911445,
+      "hex": "9ca2eb3f492e7f3f"
+    },
+    "0xb62c": {
+      "address": "0x30378",
+      "file_offset": "0x30378",
+      "float": 0.9968000054359436,
+      "double": 3.1044096147681e-09,
+      "hex": "492e7f3fabaa2a3e"
+    },
+    "0xb630": {
+      "address": "0x3037c",
+      "file_offset": "0x3037c",
+      "float": 0.1666666716337204,
+      "double": 4.736953133450998e-14,
+      "hex": "abaa2a3eabaa2a3d"
+    },
+    "0xb634": {
+      "address": "0x30380",
+      "file_offset": "0x30380",
+      "float": 0.0416666679084301,
+      "double": 1.6624440607166634e-19,
+      "hex": "abaa2a3d8988083c"
+    },
+    "0xb638": {
+      "address": "0x30384",
+      "file_offset": "0x30384",
+      "float": 0.008333333767950535,
+      "double": 1.3411048161808086e-08,
+      "hex": "8988083ccdcc4c3e"
+    },
+    "0xb63c": {
+      "address": "0x30388",
+      "file_offset": "0x30388",
+      "float": 0.20000000298023224,
+      "double": 3.433228345528505e-06,
+      "hex": "cdcc4c3ecdcccc3e"
+    },
+    "0xb640": {
+      "address": "0x3038c",
+      "file_offset": "0x3038c",
+      "float": 0.4000000059604645,
+      "double": -11.199998819828034,
+      "hex": "cdcccc3e666626c0"
+    },
+    "0xb644": {
+      "address": "0x30390",
+      "file_offset": "0x30390",
+      "float": -2.5999999046325684,
+      "double": 32.000022906064984,
+      "hex": "666626c000004040"
+    },
+    "0xb648": {
+      "address": "0x30394",
+      "file_offset": "0x30394",
+      "float": 3.0,
+      "double": 8192.001960754395,
+      "hex": "000040400000c040"
+    },
+    "0xb64c": {
+      "address": "0x30398",
+      "file_offset": "0x30398",
+      "float": 6.0,
+      "double": 2097152.505859375,
+      "hex": "0000c04000004041"
+    },
+    "0xb650": {
+      "address": "0x3039c",
+      "file_offset": "0x3039c",
+      "float": 12.0,
+      "double": 1.1444092296031272e-06,
+      "hex": "000040413333b33e"
+    },
+    "0xb654": {
+      "address": "0x303a0",
+      "file_offset": "0x303a0",
+      "float": 0.3499999940395355,
+      "double": 8.000001868605613,
+      "hex": "3333b33e00002040"
+    },
+    "0xb658": {
+      "address": "0x303a4",
+      "file_offset": "0x303a4",
+      "float": 2.5,
+      "double": -3.104409619127113e-09,
+      "hex": "00002040abaa2abe"
+    },
+    "0xb65c": {
+      "address": "0x303a8",
+      "file_offset": "0x303a8",
+      "float": -0.1666666716337204,
+      "double": -3.1282509788584565e-09,
+      "hex": "abaa2abe18df2abe"
+    },
+    "0xb660": {
+      "address": "0x303ac",
+      "file_offset": "0x303ac",
+      "float": -0.16686666011810303,
+      "double": -1.2914111938414999e-09,
+      "hex": "18df2abeaf2f16be"
+    },
+    "0xb664": {
+      "address": "0x303b0",
+      "file_offset": "0x303b0",
+      "float": -0.1466662734746933,
+      "double": -1.9122689965308047e-09,
+      "hex": "af2f16be1f6d20be"
+    },
+    "0xb668": {
+      "address": "0x303b4",
+      "file_offset": "0x303b4",
+      "float": -0.15666626393795013,
+      "double": 7.3381787366688145e+34,
+      "hex": "1f6d20be00442c47"
+    },
+    "0xef94": {
+      "address": "0x33ce0",
+      "file_offset": "0x33ce0",
+      "float": -0.0,
+      "double": 1.0609978955e-314,
+      "hex": "0000008000000000"
+    },
+    "0xefa4": {
+      "address": "0x33cf0",
+      "file_offset": "0x33cf0",
+      "float": "nan",
+      "double": 1.060997895e-314,
+      "hex": "ffffff7f00000000"
+    }
+  },
+  "engine_ctor_assembly": {
+    "0x2d096": {
+      "address": "0x30320",
+      "file_offset": "0x30320",
+      "float": 1.0,
+      "double": 1.7272341196062726e-77,
+      "hex": "0000803f00000030"
+    },
+    "0x2d12e": {
+      "address": "0x303b8",
+      "file_offset": "0x303b8",
+      "float": 44100.0,
+      "double": 7.673846786750293e+21,
+      "hex": "00442c4700007a44"
+    },
+    "0x2d1a6": {
+      "address": "0x30430",
+      "file_offset": "0x30430",
+      "float": 0.0010000000474974513,
+      "double": 1.143471438673771e-07,
+      "hex": "6f12833ae0b17e3e"
+    },
+    "0x2d1ba": {
+      "address": "0x30444",
+      "file_offset": "0x30444",
+      "float": 7.0,
+      "double": 2.0000004833564162,
+      "hex": "0000e04000000040"
+    },
+    "0x2d1be": {
+      "address": "0x30448",
+      "file_offset": "0x30448",
+      "float": 2.0,
+      "double": 81.91999816894531,
+      "hex": "00000040e17a5440"
+    },
+    "0x2d1c2": {
+      "address": "0x3044c",
+      "file_offset": "0x3044c",
+      "float": 3.319999933242798,
+      "double": 52776566565109.76,
+      "hex": "e17a54400000c842"
+    }
+  },
+  "voice_process_assembly": {
+    "0xaa41": {
+      "address": "0x30320",
+      "file_offset": "0x30320",
+      "float": 1.0,
+      "double": 1.7272341196062726e-77,
+      "hex": "0000803f00000030"
+    },
+    "0xaa45": {
+      "address": "0x30324",
+      "file_offset": "0x30324",
+      "float": 4.656612873077393e-10,
+      "double": 3.051758358196821e-05,
+      "hex": "000000300000003f"
+    },
+    "0xaa49": {
+      "address": "0x30328",
+      "file_offset": "0x30328",
+      "float": 0.5,
+      "double": 4.235165730236242e-22,
+      "hex": "0000003f0000803b"
+    },
+    "0xaa5d": {
+      "address": "0x3033c",
+      "file_offset": "0x3033c",
+      "float": 0.25,
+      "double": 1099511883776.0,
+      "hex": "0000803e00007042"
+    },
+    "0xaa7d": {
+      "address": "0x3035c",
+      "file_offset": "0x3035c",
+      "float": 0.0,
+      "double": 0.9920001029968262,
+      "hex": "0000000077beef3f"
+    },
+    "0xaaa9": {
+      "address": "0x30388",
+      "file_offset": "0x30388",
+      "float": 0.20000000298023224,
+      "double": 3.433228345528505e-06,
+      "hex": "cdcc4c3ecdcccc3e"
+    },
+    "0xaabd": {
+      "address": "0x3039c",
+      "file_offset": "0x3039c",
+      "float": 12.0,
+      "double": 1.1444092296031272e-06,
+      "hex": "000040413333b33e"
+    },
+    "0xaae5": {
+      "address": "0x303c4",
+      "file_offset": "0x303c4",
+      "float": 0.699999988079071,
+      "double": 3.21865129215837e-08,
+      "hex": "3333333fae47613e"
+    },
+    "0xaae9": {
+      "address": "0x303c8",
+      "file_offset": "0x303c8",
+      "float": 0.2199999988079071,
+      "double": 1.376676554422943e-16,
+      "hex": "ae47613e0ad7a33c"
+    },
+    "0xaaed": {
+      "address": "0x303cc",
+      "file_offset": "0x303cc",
+      "float": 0.019999999552965164,
+      "double": 2.0463635526499126e-13,
+      "hex": "0ad7a33ccdcc4c3d"
+    },
+    "0xaaf1": {
+      "address": "0x303d0",
+      "file_offset": "0x303d0",
+      "float": 0.05000000074505806,
+      "double": 2.1006417083071407e-21,
+      "hex": "cdcc4c3d0ad7a33b"
+    },
+    "0xaaf5": {
+      "address": "0x303d4",
+      "file_offset": "0x303d4",
+      "float": 0.004999999888241291,
+      "double": 17179873000.96,
+      "hex": "0ad7a33b00001042"
+    },
+    "0xaaf9": {
+      "address": "0x303d8",
+      "file_offset": "0x303d8",
+      "float": 36.0,
+      "double": 85899362832.0,
+      "hex": "0000104200003442"
+    },
+    "0xaafd": {
+      "address": "0x303dc",
+      "file_offset": "0x303dc",
+      "float": 45.0,
+      "double": 1.0363045657732454e+32,
+      "hex": "0000344200709446"
+    },
+    "0xab01": {
+      "address": "0x303e0",
+      "file_offset": "0x303e0",
+      "float": 19000.0,
+      "double": 0.002734374768477821,
+      "hex": "007094466666663f"
+    },
+    "0xab05": {
+      "address": "0x303e4",
+      "file_offset": "0x303e4",
+      "float": 0.8999999761581421,
+      "double": 7.947288612086822e-07,
+      "hex": "6666663fabaaaa3e"
+    },
+    "0xab09": {
+      "address": "0x303e8",
+      "file_offset": "0x303e8",
+      "float": 0.3333333432674408,
+      "double": 8.070451608853065e+18,
+      "hex": "abaaaa3e0000dc43"
+    },
+    "0xab0d": {
+      "address": "0x303ec",
+      "file_offset": "0x303ec",
+      "float": 440.0,
+      "double": 5.745154544370551e-83,
+      "hex": "0000dc43ffe6db2e"
+    },
+    "0xab11": {
+      "address": "0x303f0",
+      "file_offset": "0x303f0",
+      "float": 1.000000013351432e-10,
+      "double": 536871005.717987,
+      "hex": "ffe6db2e0000c041"
+    },
+    "0xab15": {
+      "address": "0x303f4",
+      "file_offset": "0x303f4",
+      "float": 24.0,
+      "double": -3.051758559990958e-05,
+      "hex": "0000c041000000bf"
+    },
+    "0xab19": {
+      "address": "0x303f8",
+      "file_offset": "0x303f8",
+      "float": -0.5,
+      "double": 3221227000.0,
+      "hex": "000000bf0000e841"
+    },
+    "0xab1d": {
+      "address": "0x303fc",
+      "file_offset": "0x303fc",
+      "float": 29.0,
+      "double": 1.0894993521768451e-14,
+      "hex": "0000e8418988083d"
+    },
+    "0xab21": {
+      "address": "0x30400",
+      "file_offset": "0x30400",
+      "float": 0.03333333507180214,
+      "double": 0.003359374102971439,
+      "hex": "8988083d1e856b3f"
+    },
+    "0xab25": {
+      "address": "0x30404",
+      "file_offset": "0x30404",
+      "float": 0.9199999570846558,
+      "double": -5.256913007e-315,
+      "hex": "1e856b3f00000080"
+    },
+    "0xab29": {
+      "address": "0x30408",
+      "file_offset": "0x30408",
+      "float": -0.0,
+      "double": 134217792.0,
+      "hex": "000000800000a041"
+    },
+    "0xab99": {
+      "address": "0x30478",
+      "file_offset": "0x30478",
+      "float": 0.0,
+      "double": 440.0,
+      "hex": "0000000000807b40"
+    },
+    "0xaba1": {
+      "address": "0x30480",
+      "file_offset": "0x30480",
+      "float": -0.0,
+      "double": 17.312339782714844,
+      "hex": "00000080f54f3140"
+    },
+    "0xe421": {
+      "address": "0x33d00",
+      "file_offset": "0x33d00",
+      "float": -0.0,
+      "double": 1.0609978955e-314,
+      "hex": "0000008000000000"
+    }
+  },
+  "voice_ctor_assembly": {
+    "0xad5a": {
+      "address": "0x30320",
+      "file_offset": "0x30320",
+      "float": 1.0,
+      "double": 1.7272341196062726e-77,
+      "hex": "0000803f00000030"
+    },
+    "0xadf2": {
+      "address": "0x303b8",
+      "file_offset": "0x303b8",
+      "float": 44100.0,
+      "double": 7.673846786750293e+21,
+      "hex": "00442c4700007a44"
+    },
+    "0xadf6": {
+      "address": "0x303bc",
+      "file_offset": "0x303bc",
+      "float": 1000.0,
+      "double": 1.4901167122319346e-09,
+      "hex": "00007a449a99193e"
+    },
+    "0xadfa": {
+      "address": "0x303c0",
+      "file_offset": "0x303c0",
+      "float": 0.15000000596046448,
+      "double": 0.00029296875991349227,
+      "hex": "9a99193e3333333f"
+    },
+    "0xb27a": {
+      "address": "0x30840",
+      "file_offset": "0x30840",
+      "float": -1.326525667089129e-09,
+      "double": -1.5188504688584104e-71,
+      "hex": "f950b6b0f4d53ab1"
+    }
+  },
+  "lfo_waveform_assembly": {},
+  "lfo_rate_assembly": {
+    "0x2ee28": {
+      "address": "0x30318",
+      "file_offset": "0x30318",
+      "float": 256.0,
+      "double": 1.3961160656787866e+17,
+      "hex": "0000804300007f43"
+    }
+  },
+  "engine_process_assembly": {
+    "0x2e3f9": {
+      "address": "0x30320",
+      "file_offset": "0x30320",
+      "float": 1.0,
+      "double": 1.7272341196062726e-77,
+      "hex": "0000803f00000030"
+    },
+    "0x2e3fd": {
+      "address": "0x30324",
+      "file_offset": "0x30324",
+      "float": 4.656612873077393e-10,
+      "double": 3.051758358196821e-05,
+      "hex": "000000300000003f"
+    },
+    "0x2e401": {
+      "address": "0x30328",
+      "file_offset": "0x30328",
+      "float": 0.5,
+      "double": 4.235165730236242e-22,
+      "hex": "0000003f0000803b"
+    },
+    "0x2e461": {
+      "address": "0x30388",
+      "file_offset": "0x30388",
+      "float": 0.20000000298023224,
+      "double": 3.433228345528505e-06,
+      "hex": "cdcc4c3ecdcccc3e"
+    },
+    "0x2e465": {
+      "address": "0x3038c",
+      "file_offset": "0x3038c",
+      "float": 0.4000000059604645,
+      "double": -11.199998819828034,
+      "hex": "cdcccc3e666626c0"
+    },
+    "0x2e475": {
+      "address": "0x3039c",
+      "file_offset": "0x3039c",
+      "float": 12.0,
+      "double": 1.1444092296031272e-06,
+      "hex": "000040413333b33e"
+    },
+    "0x2e49d": {
+      "address": "0x303c4",
+      "file_offset": "0x303c4",
+      "float": 0.699999988079071,
+      "double": 3.21865129215837e-08,
+      "hex": "3333333fae47613e"
+    },
+    "0x2e4a1": {
+      "address": "0x303c8",
+      "file_offset": "0x303c8",
+      "float": 0.2199999988079071,
+      "double": 1.376676554422943e-16,
+      "hex": "ae47613e0ad7a33c"
+    },
+    "0x2e4a5": {
+      "address": "0x303cc",
+      "file_offset": "0x303cc",
+      "float": 0.019999999552965164,
+      "double": 2.0463635526499126e-13,
+      "hex": "0ad7a33ccdcc4c3d"
+    },
+    "0x2e4a9": {
+      "address": "0x303d0",
+      "file_offset": "0x303d0",
+      "float": 0.05000000074505806,
+      "double": 2.1006417083071407e-21,
+      "hex": "cdcc4c3d0ad7a33b"
+    },
+    "0x2e4ad": {
+      "address": "0x303d4",
+      "file_offset": "0x303d4",
+      "float": 0.004999999888241291,
+      "double": 17179873000.96,
+      "hex": "0ad7a33b00001042"
+    },
+    "0x2e4b1": {
+      "address": "0x303d8",
+      "file_offset": "0x303d8",
+      "float": 36.0,
+      "double": 85899362832.0,
+      "hex": "0000104200003442"
+    },
+    "0x2e4b5": {
+      "address": "0x303dc",
+      "file_offset": "0x303dc",
+      "float": 45.0,
+      "double": 1.0363045657732454e+32,
+      "hex": "0000344200709446"
+    },
+    "0x2e4c5": {
+      "address": "0x303ec",
+      "file_offset": "0x303ec",
+      "float": 440.0,
+      "double": 5.745154544370551e-83,
+      "hex": "0000dc43ffe6db2e"
+    },
+    "0x2e4c9": {
+      "address": "0x303f0",
+      "file_offset": "0x303f0",
+      "float": 1.000000013351432e-10,
+      "double": 536871005.717987,
+      "hex": "ffe6db2e0000c041"
+    },
+    "0x2e4cd": {
+      "address": "0x303f4",
+      "file_offset": "0x303f4",
+      "float": 24.0,
+      "double": -3.051758559990958e-05,
+      "hex": "0000c041000000bf"
+    },
+    "0x2e4d1": {
+      "address": "0x303f8",
+      "file_offset": "0x303f8",
+      "float": -0.5,
+      "double": 3221227000.0,
+      "hex": "000000bf0000e841"
+    },
+    "0x2e4d5": {
+      "address": "0x303fc",
+      "file_offset": "0x303fc",
+      "float": 29.0,
+      "double": 1.0894993521768451e-14,
+      "hex": "0000e8418988083d"
+    },
+    "0x2e4d9": {
+      "address": "0x30400",
+      "file_offset": "0x30400",
+      "float": 0.03333333507180214,
+      "double": 0.003359374102971439,
+      "hex": "8988083d1e856b3f"
+    },
+    "0x2e4e5": {
+      "address": "0x3040c",
+      "file_offset": "0x3040c",
+      "float": 20.0,
+      "double": 2.74618862826399e-77,
+      "hex": "0000a0415f700930"
+    },
+    "0x2e4e9": {
+      "address": "0x30410",
+      "file_offset": "0x30410",
+      "float": 4.999999858590343e-10,
+      "double": 2.582544508348765e+22,
+      "hex": "5f70093000e09544"
+    },
+    "0x2e4ed": {
+      "address": "0x30414",
+      "file_offset": "0x30414",
+      "float": 1199.0,
+      "double": 1.3355525041386903e-27,
+      "hex": "00e095440e745a3a"
+    },
+    "0x2e4f1": {
+      "address": "0x30418",
+      "file_offset": "0x30418",
+      "float": 0.0008333333535119891,
+      "double": 7.030242768575581e-75,
+      "hex": "0e745a3a5f708930"
+    },
+    "0x2e4f5": {
+      "address": "0x3041c",
+      "file_offset": "0x3041c",
+      "float": 9.999999717180685e-10,
+      "double": -3.433228247735591e-06,
+      "hex": "5f708930cdccccbe"
+    },
+    "0x2e4f9": {
+      "address": "0x30420",
+      "file_offset": "0x30420",
+      "float": -0.4000000059604645,
+      "double": 0.00775000358116813,
+      "hex": "cdccccbe77be7f3f"
+    },
+    "0x2e4fd": {
+      "address": "0x30424",
+      "file_offset": "0x30424",
+      "float": 0.9990000128746033,
+      "double": -0.00781250184806413,
+      "hex": "77be7f3f000080bf"
+    },
+    "0x2e501": {
+      "address": "0x30428",
+      "file_offset": "0x30428",
+      "float": -1.0,
+      "double": 3.8146998759813755e-07,
+      "hex": "000080bf9a99993e"
+    },
+    "0x2e505": {
+      "address": "0x3042c",
+      "file_offset": "0x3042c",
+      "float": 0.30000001192092896,
+      "double": 7.703123475934388e-27,
+      "hex": "9a99993e6f12833a"
+    },
+    "0x2e509": {
+      "address": "0x30430",
+      "file_offset": "0x30430",
+      "float": 0.0010000000474974513,
+      "double": 1.143471438673771e-07,
+      "hex": "6f12833ae0b17e3e"
+    },
+    "0x2e50d": {
+      "address": "0x30434",
+      "file_offset": "0x30434",
+      "float": 0.24872541427612305,
+      "double": 0.0004982390646453526,
+      "hex": "e0b17e3e8853403f"
+    },
+    "0x2e511": {
+      "address": "0x30438",
+      "file_offset": "0x30438",
+      "float": 0.751274585723877,
+      "double": 0.00750000121845041,
+      "hex": "8853403f52b87e3f"
+    },
+    "0x2e515": {
+      "address": "0x3043c",
+      "file_offset": "0x3043c",
+      "float": 0.9950000047683716,
+      "double": 0.07500000286265276,
+      "hex": "52b87e3f3333b33f"
+    },
+    "0x2e519": {
+      "address": "0x30440",
+      "file_offset": "0x30440",
+      "float": 1.399999976158142,
+      "double": 32768.007775878905,
+      "hex": "3333b33f0000e040"
+    },
+    "0x2e551": {
+      "address": "0x30478",
+      "file_offset": "0x30478",
+      "float": 0.0,
+      "double": 440.0,
+      "hex": "0000000000807b40"
+    },
+    "0x2e559": {
+      "address": "0x30480",
+      "file_offset": "0x30480",
+      "float": -0.0,
+      "double": 17.312339782714844,
+      "hex": "00000080f54f3140"
+    },
+    "0x31de9": {
+      "address": "0x33d10",
+      "file_offset": "0x33d10",
+      "float": -0.0,
+      "double": 1.0609978955e-314,
+      "hex": "0000008000000000"
+    }
+  }
+}

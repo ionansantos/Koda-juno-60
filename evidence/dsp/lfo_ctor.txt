@@ -1,0 +1,22 @@
+
+void __ZN3LfoC2Ef(int *param_1,int param_2)
+
+{
+  int unaff_EBX;
+  
+  ___i686_get_pc_thunk_bx();
+  *param_1 = *(int *)(&DAT_0005bc4a + unaff_EBX) + 8;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = param_2;
+  __ZN3Lfo11setWaveformEi(param_1,1);
+  __ZN3Lfo11setWaveformEi(param_1,0);
+  __ZN3Lfo11setWaveformEi(param_1,2);
+  __ZN3Lfo11setWaveformEi(param_1,3);
+  __ZN3Lfo11setWaveformEi(param_1,4);
+  param_1[2] = (int)(*(float *)(&DAT_0002e9ce + unaff_EBX) / (float)param_1[3]);
+  param_1[4] = 0;
+  param_1[5] = 0;
+  return;
+}
+

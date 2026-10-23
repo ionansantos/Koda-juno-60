@@ -1,0 +1,20 @@
+{
+  "version": "0.3.0",
+  "architecture": "arm64",
+  "release_directory": "/Users/koda/Documents/tal-un-no-60-clone/dist/arpeggiator-0.3.0",
+  "backups": "/Users/koda/Documents/tal-un-no-60-clone/dist/installed-before-arpeggiator-20261018-163941",
+  "installations": [
+    {
+      "format": "AU",
+      "installed_path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "sha256": "0aa157b2e99023501188b0974b7f6bf6bd50e23c71c08702c88e218eba23e165",
+      "previous": "/Users/koda/Documents/tal-un-no-60-clone/dist/installed-before-arpeggiator-20261018-163941/KODA-JUNO-60.component"
+    },
+    {
+      "format": "VST3",
+      "installed_path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "sha256": "6c5690437ae151761a9301f7d149f147cd60c4e7a96fd597f60059d252a78f06",
+      "previous": null
+    }
+  ]
+}

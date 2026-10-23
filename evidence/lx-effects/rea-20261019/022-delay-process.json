@@ -1,0 +1,82 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_c66cc74224332266e6d0cf065b508b0a86e548bdbafad857aebe5ae8d1a47415\",\"subject\":{\"name\":\"TAL-U-NO-LX-V2.arm64\",\"digest\":{\"sha256\":\"f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0\"},\"format\":\"mach-o\",\"architecture\":\"arm64\",\"local_path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"mach-o\",\"architecture\":\"arm64\",\"available_architectures\":[\"arm64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"procedure_pseudo_code\",\"parameters\":{\"procedure\":\"0x445f4\"},\"raw_result\":{\"value\":\"\\nvoid __ZN7DelayFx7processEPf(ulong *param_1,float *param_2)\\n\\n{\\n  long lVar1;\\n  float *pfVar2;\\n  ulong uVar3;\\n  float *pfVar4;\\n  float *pfVar5;\\n  float *pfVar6;\\n  float fVar7;\\n  float fVar8;\\n  float fVar9;\\n  \\n  uVar3 = param_1[4];\\n  fVar7 = *(float *)(uVar3 + 0x10);\\n  if (1e-07 < ABS(*(float *)(param_1 + 6) - fVar7)) {\\n    fVar7 = (*(float *)(param_1 + 6) + fVar7 * *(float *)(uVar3 + 4)) * *(float *)(uVar3 + 8);\\n    *(float *)(uVar3 + 0x10) = fVar7;\\n  }\\n  pfVar4 = (float *)param_1[2];\\n  pfVar5 = (float *)*param_1;\\n  for (pfVar6 = pfVar4 + -(long)(int)((float)(int)param_1[3] * fVar7 - fVar7); pfVar6 < pfVar5;\\n      pfVar6 = pfVar6 + (int)param_1[3]) {\\n  }\\n  lVar1 = *(long *)param_1[5];\\n  pfVar2 = (float *)((long *)param_1[5])[1];\\n  fVar7 = *(float *)(lVar1 + 0x14) +\\n          *(float *)(lVar1 + 0x2c) *\\n          (*(float *)(lVar1 + 8) * (*param_2 + *pfVar6 * *(float *)((long)param_1 + 0x34)) -\\n          *(float *)(lVar1 + 0x1c));\\n  fVar8 = fVar7 * 0.875 + *(float *)(lVar1 + 0x18) * 0.125;\\n  *(float *)(lVar1 + 0xc) = fVar7;\\n  *(float *)(lVar1 + 0x10) = fVar8;\\n  *(float *)(lVar1 + 0x14) = fVar7;\\n  *(float *)(lVar1 + 0x18) = fVar8;\\n  *(float *)(lVar1 + 0x1c) = fVar7 * *(float *)(lVar1 + 8);\\n  fVar7 = (fVar8 - *pfVar2) + pfVar2[7] * pfVar2[1];\\n  *pfVar2 = fVar8;\\n  pfVar2[1] = fVar7;\\n  pfVar2[2] = fVar7;\\n  fVar8 = ABS(fVar7 + fVar7);\\n  fVar9 = fVar8 * (fVar8 + 3.0) + 6.0;\\n  *pfVar4 = (fVar9 * (fVar7 + fVar7)) / (fVar8 * fVar9 + 12.0);\\n  pfVar6 = pfVar4 + 1;\\n  if ((float *)param_1[1] <= pfVar4 + 1) {\\n    pfVar6 = pfVar5;\\n  }\\n  param_1[2] = (ulong)pfVar6;\\n  return;\\n}\\n\\n\",\"limitations\":[]},\"normalized_result\":\"\\nvoid __ZN7DelayFx7processEPf(ulong *param_1,float *param_2)\\n\\n{\\n  long lVar1;\\n  float *pfVar2;\\n  ulong uVar3;\\n  float *pfVar4;\\n  float *pfVar5;\\n  float *pfVar6;\\n  float fVar7;\\n  float fVar8;\\n  float fVar9;\\n  \\n  uVar3 = param_1[4];\\n  fVar7 = *(float *)(uVar3 + 0x10);\\n  if (1e-07 < ABS(*(float *)(param_1 + 6) - fVar7)) {\\n    fVar7 = (*(float *)(param_1 + 6) + fVar7 * *(float *)(uVar3 + 4)) * *(float *)(uVar3 + 8);\\n    *(float *)(uVar3 + 0x10) = fVar7;\\n  }\\n  pfVar4 = (float *)param_1[2];\\n  pfVar5 = (float *)*param_1;\\n  for (pfVar6 = pfVar4 + -(long)(int)((float)(int)param_1[3] * fVar7 - fVar7); pfVar6 < pfVar5;\\n      pfVar6 = pfVar6 + (int)param_1[3]) {\\n  }\\n  lVar1 = *(long *)param_1[5];\\n  pfVar2 = (float *)((long *)param_1[5])[1];\\n  fVar7 = *(float *)(lVar1 + 0x14) +\\n          *(float *)(lVar1 + 0x2c) *\\n          (*(float *)(lVar1 + 8) * (*param_2 + *pfVar6 * *(float *)((long)param_1 + 0x34)) -\\n          *(float *)(lVar1 + 0x1c));\\n  fVar8 = fVar7 * 0.875 + *(float *)(lVar1 + 0x18) * 0.125;\\n  *(float *)(lVar1 + 0xc) = fVar7;\\n  *(float *)(lVar1 + 0x10) = fVar8;\\n  *(float *)(lVar1 + 0x14) = fVar7;\\n  *(float *)(lVar1 + 0x18) = fVar8;\\n  *(float *)(lVar1 + 0x1c) = fVar7 * *(float *)(lVar1 + 8);\\n  fVar7 = (fVar8 - *pfVar2) + pfVar2[7] * pfVar2[1];\\n  *pfVar2 = fVar8;\\n  pfVar2[1] = fVar7;\\n  pfVar2[2] = fVar7;\\n  fVar8 = ABS(fVar7 + fVar7);\\n  fVar9 = fVar8 * (fVar8 + 3.0) + 6.0;\\n  *pfVar4 = (fVar9 * (fVar7 + fVar7)) / (fVar8 * fVar9 + 12.0);\\n  pfVar6 = pfVar4 + 1;\\n  if ((float *)param_1[1] <= pfVar4 + 1) {\\n    pfVar6 = pfVar5;\\n  }\\n  param_1[2] = (ulong)pfVar6;\\n  return;\\n}\\n\\n\",\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.\",\"External functions and functions without an analyzable body return null; other decompiler failures remain explicit.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_c66cc74224332266e6d0cf065b508b0a86e548bdbafad857aebe5ae8d1a47415",
+    "subject": {
+      "name": "TAL-U-NO-LX-V2.arm64",
+      "digest": {
+        "sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+      },
+      "format": "mach-o",
+      "architecture": "arm64",
+      "local_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "mach-o",
+        "architecture": "arm64",
+        "available_architectures": [
+          "arm64"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "string_inventory_evidence": "defined-data-coverage-v1",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+        "no_return_repair": "returning-imports-decoded-return-v2",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "auto-from-header",
+        "language_id": "auto-from-header",
+        "compiler_spec_id": "auto-default",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "procedure_pseudo_code",
+    "parameters": {
+      "procedure": "0x445f4"
+    },
+    "raw_result": {
+      "value": "\nvoid __ZN7DelayFx7processEPf(ulong *param_1,float *param_2)\n\n{\n  long lVar1;\n  float *pfVar2;\n  ulong uVar3;\n  float *pfVar4;\n  float *pfVar5;\n  float *pfVar6;\n  float fVar7;\n  float fVar8;\n  float fVar9;\n  \n  uVar3 = param_1[4];\n  fVar7 = *(float *)(uVar3 + 0x10);\n  if (1e-07 < ABS(*(float *)(param_1 + 6) - fVar7)) {\n    fVar7 = (*(float *)(param_1 + 6) + fVar7 * *(float *)(uVar3 + 4)) * *(float *)(uVar3 + 8);\n    *(float *)(uVar3 + 0x10) = fVar7;\n  }\n  pfVar4 = (float *)param_1[2];\n  pfVar5 = (float *)*param_1;\n  for (pfVar6 = pfVar4 + -(long)(int)((float)(int)param_1[3] * fVar7 - fVar7); pfVar6 < pfVar5;\n      pfVar6 = pfVar6 + (int)param_1[3]) {\n  }\n  lVar1 = *(long *)param_1[5];\n  pfVar2 = (float *)((long *)param_1[5])[1];\n  fVar7 = *(float *)(lVar1 + 0x14) +\n          *(float *)(lVar1 + 0x2c) *\n          (*(float *)(lVar1 + 8) * (*param_2 + *pfVar6 * *(float *)((long)param_1 + 0x34)) -\n          *(float *)(lVar1 + 0x1c));\n  fVar8 = fVar7 * 0.875 + *(float *)(lVar1 + 0x18) * 0.125;\n  *(float *)(lVar1 + 0xc) = fVar7;\n  *(float *)(lVar1 + 0x10) = fVar8;\n  *(float *)(lVar1 + 0x14) = fVar7;\n  *(float *)(lVar1 + 0x18) = fVar8;\n  *(float *)(lVar1 + 0x1c) = fVar7 * *(float *)(lVar1 + 8);\n  fVar7 = (fVar8 - *pfVar2) + pfVar2[7] * pfVar2[1];\n  *pfVar2 = fVar8;\n  pfVar2[1] = fVar7;\n  pfVar2[2] = fVar7;\n  fVar8 = ABS(fVar7 + fVar7);\n  fVar9 = fVar8 * (fVar8 + 3.0) + 6.0;\n  *pfVar4 = (fVar9 * (fVar7 + fVar7)) / (fVar8 * fVar9 + 12.0);\n  pfVar6 = pfVar4 + 1;\n  if ((float *)param_1[1] <= pfVar4 + 1) {\n    pfVar6 = pfVar5;\n  }\n  param_1[2] = (ulong)pfVar6;\n  return;\n}\n\n",
+      "limitations": []
+    },
+    "normalized_result": "\nvoid __ZN7DelayFx7processEPf(ulong *param_1,float *param_2)\n\n{\n  long lVar1;\n  float *pfVar2;\n  ulong uVar3;\n  float *pfVar4;\n  float *pfVar5;\n  float *pfVar6;\n  float fVar7;\n  float fVar8;\n  float fVar9;\n  \n  uVar3 = param_1[4];\n  fVar7 = *(float *)(uVar3 + 0x10);\n  if (1e-07 < ABS(*(float *)(param_1 + 6) - fVar7)) {\n    fVar7 = (*(float *)(param_1 + 6) + fVar7 * *(float *)(uVar3 + 4)) * *(float *)(uVar3 + 8);\n    *(float *)(uVar3 + 0x10) = fVar7;\n  }\n  pfVar4 = (float *)param_1[2];\n  pfVar5 = (float *)*param_1;\n  for (pfVar6 = pfVar4 + -(long)(int)((float)(int)param_1[3] * fVar7 - fVar7); pfVar6 < pfVar5;\n      pfVar6 = pfVar6 + (int)param_1[3]) {\n  }\n  lVar1 = *(long *)param_1[5];\n  pfVar2 = (float *)((long *)param_1[5])[1];\n  fVar7 = *(float *)(lVar1 + 0x14) +\n          *(float *)(lVar1 + 0x2c) *\n          (*(float *)(lVar1 + 8) * (*param_2 + *pfVar6 * *(float *)((long)param_1 + 0x34)) -\n          *(float *)(lVar1 + 0x1c));\n  fVar8 = fVar7 * 0.875 + *(float *)(lVar1 + 0x18) * 0.125;\n  *(float *)(lVar1 + 0xc) = fVar7;\n  *(float *)(lVar1 + 0x10) = fVar8;\n  *(float *)(lVar1 + 0x14) = fVar7;\n  *(float *)(lVar1 + 0x18) = fVar8;\n  *(float *)(lVar1 + 0x1c) = fVar7 * *(float *)(lVar1 + 8);\n  fVar7 = (fVar8 - *pfVar2) + pfVar2[7] * pfVar2[1];\n  *pfVar2 = fVar8;\n  pfVar2[1] = fVar7;\n  pfVar2[2] = fVar7;\n  fVar8 = ABS(fVar7 + fVar7);\n  fVar9 = fVar8 * (fVar8 + 3.0) + 6.0;\n  *pfVar4 = (fVar9 * (fVar7 + fVar7)) / (fVar8 * fVar9 + 12.0);\n  pfVar6 = pfVar4 + 1;\n  if ((float *)param_1[1] <= pfVar4 + 1) {\n    pfVar6 = pfVar5;\n  }\n  param_1[2] = (ulong)pfVar6;\n  return;\n}\n\n",
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+      "External functions and functions without an analyzable body return null; other decompiler failures remain explicit.",
+      "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+}

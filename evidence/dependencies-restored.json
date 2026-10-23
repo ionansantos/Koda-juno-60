@@ -1,0 +1,11 @@
+{
+  "JUCE": "8.0.15",
+  "JUCE_path": "/Users/koda/Documents/tal-un-no-60-clone/external/JUCE",
+  "CMake": "4.4.4",
+  "CMake_path": "/Users/koda/Documents/tal-un-no-60-clone/.tools/cmake-4.4.4-macos-universal/CMake.app/Contents/bin/cmake",
+  "build_script": "sh tools/build-au.sh",
+  "install_command": "sh tools/build-au.sh --install",
+  "AU_build_passed": true,
+  "tests_passed": 2,
+  "dependencies_kept": true
+}

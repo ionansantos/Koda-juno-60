@@ -1,0 +1,15 @@
+{
+  "backup": "/Users/koda/Documents/tal-un-no-60-clone/dist/before-clear-midi-install-20261023-141152",
+  "installed": [
+    {
+      "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "sha256": "aca3d0609192f5eaaeb656f10b2e9fa09df2a7ea47490b7cad65418a68ce8d20"
+    },
+    {
+      "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "sha256": "3d4ea96b65130982bcb4ff7b7a0250e73c03320b4226fbf83becbe48d675614f"
+    }
+  ],
+  "tests": "13/13 passed",
+  "logic": "KODA editor observed loaded before installing this CLEAR fix; existing instance requires Logic restart"
+}

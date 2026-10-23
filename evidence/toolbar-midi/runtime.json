@@ -1,0 +1,83 @@
+{
+  "scope": "Actual isolated TAL AU classinfo map import and rendered MIDI CC; no GUI learn gesture, no preset swap or lock exercised. CFRunLoop 0.1s after four256frame renderblocks permits host notification dispatch.",
+  "binary_sha256": "99bcc10a28984d52e46299f8369b7a3cb0648ae99358ec3e8d5628d5f113aba6",
+  "cases": [
+    {
+      "channel": 1,
+      "cc": 74,
+      "value": 127,
+      "cutoff": 1.0,
+      "log": "cutoffparam=1"
+    },
+    {
+      "channel": 2,
+      "cc": 74,
+      "value": 127,
+      "cutoff": 1.0,
+      "log": "cutoffparam=1"
+    },
+    {
+      "channel": 16,
+      "cc": 74,
+      "value": 127,
+      "cutoff": 1.0,
+      "log": "cutoffparam=1"
+    },
+    {
+      "channel": 1,
+      "cc": 74,
+      "value": 64,
+      "cutoff": 0.5039370059967041,
+      "log": "cutoffparam=0.503937"
+    },
+    {
+      "channel": 1,
+      "cc": 64,
+      "value": 127,
+      "cutoff": 1.0,
+      "log": "cutoffparam=1"
+    },
+    {
+      "channel": 1,
+      "cc": 123,
+      "value": 127,
+      "cutoff": 1.0,
+      "log": "cutoffparam=1"
+    }
+  ],
+  "duplicate_cc": {
+    "input": "CC74\u2192cutoff thenCC74\u2192resonance",
+    "expected_last_wins": true,
+    "cutoff": 0.25,
+    "resonance": 1.0
+  },
+  "probe_sha256": "c05c98d41924b80de6ed3fa0420d669fe99ba19a182bf9067bd5d6e85a164847",
+  "files": {
+    "ch1-cc123-v127.plist": "d196ed5d956ed093ec685c2fa0f1d5856a5167ad3e2108364c8613b8c0a624bb",
+    "ch1-cc64-v127.log": "ecc5553fe0e710189676744bba094c604418bb0ffc2fed6dfa1b951de10f04ed",
+    "tal-au-state.plist": "3bc3e8f81d89c802d182cc8ce75a23d4b253a3ac52efeb7181f2fe0d6d66637a",
+    "duplicate-cc.plist": "c6e3354fc1c521d998270db45c64757a62474d7755073862d2b946b62d36f2a9",
+    "tal-au-state-data.bin": "6c626bedcfa974adb480a5f83562e027a937271804dc309d228d98ec1e0818c2",
+    "ch1-cc64-v127.plist": "40d7504c47dad3ced9846e6f4f9b24c396b55db842ae0614abcb73b9b1c009ab",
+    "ch2-cc74-v127.plist": "5ae34fc18090d26a5b67d80a6aa405b9e1c8228f180f64a0f426bdee300c0dd9",
+    "ch1-cc123-v127.log": "ecc5553fe0e710189676744bba094c604418bb0ffc2fed6dfa1b951de10f04ed",
+    "ch1-cc74-v127.log": "ecc5553fe0e710189676744bba094c604418bb0ffc2fed6dfa1b951de10f04ed",
+    "ch16-cc74-v127.log": "ecc5553fe0e710189676744bba094c604418bb0ffc2fed6dfa1b951de10f04ed",
+    "tal-au-state.xml": "f9210622c67a30323a86be1fb68959124099fd6b5e79a4c3ec1be6098ad768d2",
+    "duplicate-cc.xml": "e95b25370d6ecc26a29e4f2e9105be81ecbb62f4b3f2ca79b89279b6127e624b",
+    "ch1-cc74-v64.log": "803c53d1f8e278360c3e89029c1785947ffe9fcdb2939157a36f8cf611622430",
+    "ch1-cc74-v64.plist": "b861bdaf62a104c88f0526855ea262fdc0893beb3ab21f740db7643288d2aacc",
+    "ch2-cc74-v127.log": "ecc5553fe0e710189676744bba094c604418bb0ffc2fed6dfa1b951de10f04ed",
+    "ch1-cc123-v127.xml": "b8ee9665b27fbb62bbde880147514d86d61b2c5dfc916d4e9e0aadfd44e724ed",
+    "channel-2.plist": "db38272be610bcf49eb77b314f7be2c8248d58edc4665287f99adfa8107813ec",
+    "ch16-cc74-v127.plist": "5ae34fc18090d26a5b67d80a6aa405b9e1c8228f180f64a0f426bdee300c0dd9",
+    "ch1-cc74-v127.xml": "8a51d28d6a42222baeaa700906b676b52bdc9cbe061c4b1bdea61d2f77b96a0a",
+    "ch1-cc74-v127.plist": "5ae34fc18090d26a5b67d80a6aa405b9e1c8228f180f64a0f426bdee300c0dd9",
+    "ch16-cc74-v127.xml": "8a51d28d6a42222baeaa700906b676b52bdc9cbe061c4b1bdea61d2f77b96a0a",
+    "injected-map.xml": "8a51d28d6a42222baeaa700906b676b52bdc9cbe061c4b1bdea61d2f77b96a0a",
+    "ch1-cc74-v64.xml": "8a51d28d6a42222baeaa700906b676b52bdc9cbe061c4b1bdea61d2f77b96a0a",
+    "ch2-cc74-v127.xml": "8a51d28d6a42222baeaa700906b676b52bdc9cbe061c4b1bdea61d2f77b96a0a",
+    "channel-1.plist": "db38272be610bcf49eb77b314f7be2c8248d58edc4665287f99adfa8107813ec",
+    "ch1-cc64-v127.xml": "b06b68e814fa670eb50be26a8c62d83694283096cb1c7a917368e4c9a39905fc"
+  }
+}

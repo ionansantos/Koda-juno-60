@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/rea-20261018-playback/evidence-bundle.json\",\"bytes\":264285,\"records\":5,\"unknowns\":0}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/rea-20261018-playback/evidence-bundle.json",
+      "bytes": 264285,
+      "records": 5,
+      "unknowns": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/koda/Documents/tal-un-no-60-clone/build
+[  5%] Built target tal_dsp
+[ 66%] Built target TalUNo60Clone
+[100%] Built target TalUNo60Clone_AU
+[  5%] Built target tal_dsp
+[ 15%] Built target tal_preset_test
+[ 15%] Built target tal_arpeggiator_test
+[ 21%] Built target tal_dsp_test
+[ 26%] Built target tal_sustain_test
+[ 89%] Built target TalUNo60Clone
+[ 97%] Building CXX object CMakeFiles/tal_arp_processor_test.dir/tests/arp_processor_test.cpp.o
+[ 97%] Built target tal_midi_test
+[100%] Linking CXX executable tal_arp_processor_test
+[100%] Built target tal_arp_processor_test
+[100%] Built target tal_tests
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+    Start 1: Arpeggiator
+1/6 Test #1: Arpeggiator ......................   Passed    0.33 sec
+    Start 2: DSP
+2/6 Test #2: DSP ..............................   Passed    0.65 sec
+    Start 3: Presets
+3/6 Test #3: Presets ..........................   Passed    0.01 sec
+    Start 4: Sustain
+4/6 Test #4: Sustain ..........................   Passed    0.07 sec
+    Start 5: ProcessorArpeggiator
+5/6 Test #5: ProcessorArpeggiator .............   Passed    0.45 sec
+    Start 6: ProcessorMIDI
+6/6 Test #6: ProcessorMIDI ....................   Passed    0.09 sec
+
+100% tests passed out of 6
+
+Total Test time (real) =   1.60 sec
+build/TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component: replacing existing signature

@@ -1,0 +1,22 @@
+# Dependências locais e ferramentas
+/external/
+/.tools/
+
+# Compilação e pacotes: publicar os binários em Releases
+/build/
+/build-*/
+/dist/
+CMakeUserPresets.json
+compile_commands.json
+*.dSYM/
+/tests/dsp_test
+
+# Caches e arquivos do sistema
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Capturas brutas de áudio e fatias de executáveis extraídas
+/evidence/**/*.raw
+/evidence/**/*.f32
+/evidence/**/*.arm64

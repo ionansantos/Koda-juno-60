@@ -1,0 +1,55 @@
+
+void __ZN12ReverbEngine16parameterChangedERKN4juce6StringEf
+               (float param_1,long param_2,long *param_3)
+
+{
+  int iVar1;
+  float fVar2;
+  float fVar3;
+  float fVar4;
+  
+  if ((*param_3 == __ZL17paramReverbDryWet) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    fVar2 = 1.0;
+    if (0.5 <= param_1) {
+      fVar2 = 2.0 - param_1 * 2.0;
+    }
+    *(float *)(param_2 + 0x48) = fVar2;
+    *(float *)(param_2 + 0x4c) = param_1 * param_1 * 0.5;
+    if (param_1 == 0.0) {
+      *(undefined1 *)(param_2 + 0x50) = 1;
+    }
+  }
+  if ((*param_3 == __ZL16paramReverbDelay) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    *(float *)(param_2 + 8) = param_1 * param_1;
+  }
+  if ((*param_3 == __ZL15paramReverbSize) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    fVar2 = (float)_expf(2.9957323 - param_1 * 2.9957323);
+    *(float *)(param_2 + 0xc) = fVar2 * -0.051052634 + 1.0510527;
+  }
+  if ((*param_3 == __ZL15paramReverbTone) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    fVar4 = param_1 * 1.5 + 0.25;
+    fVar4 = fVar4 * fVar4;
+    fVar4 = fVar4 * fVar4;
+    fVar2 = param_1 * 1.5 + -0.75;
+    fVar2 = fVar2 * fVar2;
+    if (0.5 < param_1) {
+      fVar4 = 1.0;
+    }
+    fVar3 = 0.0;
+    if (0.5 < param_1) {
+      fVar3 = fVar2 * fVar2;
+    }
+    *(float *)(param_2 + 0x10) = fVar4;
+    *(float *)(param_2 + 0x14) = fVar3;
+  }
+  return;
+}
+

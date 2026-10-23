@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/rea-20261019/evidence-bundle.json\",\"bytes\":1483404,\"records\":22,\"unknowns\":0}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/lx-effects/rea-20261019/evidence-bundle.json",
+      "bytes": 1483404,
+      "records": 22,
+      "unknowns": 0
+    }
+  }
+}

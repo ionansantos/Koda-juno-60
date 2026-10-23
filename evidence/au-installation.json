@@ -1,0 +1,11 @@
+{
+  "component_path": "/Users/koda/Library/Audio/Plug-Ins/Components/U-No-60 Study.component",
+  "architecture": "arm64",
+  "version": "0.1.0",
+  "logic_editor_observed": true,
+  "ctest_passed": 2,
+  "auval_passed": false,
+  "binary_sha256": "e7cc744c8e44a06f2d8fa7e77e72c4f64f9db7d6ed4f74d6ae9e27c633d33dd7",
+  "JUCE": "8.0.15",
+  "CMake": "4.4.4"
+}

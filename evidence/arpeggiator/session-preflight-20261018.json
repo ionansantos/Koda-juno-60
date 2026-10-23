@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-18T18:29:01.279610+00:00",
+  "scope": "Prerequisites only; no plugin execution or security changes",
+  "unix_socket_bind": {
+    "ok": false,
+    "errno": 1,
+    "error": "[Errno 1] Operation not permitted"
+  },
+  "process_inspection": {
+    "ok": false,
+    "errno": 1,
+    "error": "[Errno 1] Operation not permitted: '/bin/ps'"
+  },
+  "target_sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+}

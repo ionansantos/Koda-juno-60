@@ -1,0 +1,232 @@
+
+void __ZN11DelayEngine16parameterChangedERKN4juce6StringEf(float param_1,long param_2,long *param_3)
+
+{
+  int iVar1;
+  int *piVar2;
+  long lVar3;
+  long *plVar4;
+  long lVar5;
+  float *pfVar6;
+  long *plVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  float fVar11;
+  long local_50;
+  float local_44;
+  
+  if ((*param_3 == __ZL16paramDelayDryWet) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    fVar8 = 1.0;
+    if (0.5 <= param_1) {
+      fVar8 = 2.0 - param_1 * 2.0;
+    }
+    *(float *)(param_2 + 0x1c) = fVar8;
+    *(float *)(param_2 + 0x20) = param_1;
+    if (param_1 == 0.0) {
+      *(undefined1 *)(param_2 + 0x40) = 1;
+    }
+  }
+  if ((*param_3 == __ZL14paramDelayTime) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    *(float *)(param_2 + 0x18) = param_1;
+    if (*(char *)(param_2 + 0x28) == '\0') {
+      fVar8 = (float)_expf(param_1 * 2.9957323);
+      fVar8 = fVar8 * 0.052105263 + -0.042105265;
+    }
+    else {
+      local_44 = param_1;
+      __ZN10AudioUtils23getDelaySyncTimeAndTextEPf(&local_50,&local_44);
+      piVar2 = (int *)(local_50 + -0x10);
+      if (piVar2 != &__ZN4juceL11emptyStringE) {
+        LOAcquire();
+        iVar1 = *piVar2;
+        *piVar2 = iVar1 + -1;
+        LORelease();
+        if (iVar1 == 0) {
+          __ZdaPv();
+        }
+      }
+      fVar8 = local_44 / *(float *)(param_2 + 0x24);
+    }
+    fVar11 = *(float *)(param_2 + 0x30);
+    fVar9 = (float)NEON_fminnm(*(float *)(param_2 + 0x2c) * fVar8,0x3f800000);
+    if (fVar9 <= 0.01) {
+      fVar9 = 0.01;
+    }
+    *(float *)(*(long *)(param_2 + 8) + 0x30) = fVar9;
+    fVar8 = (float)NEON_fminnm(fVar11 * fVar8,0x3f800000);
+    if (fVar8 <= 0.01) {
+      fVar8 = 0.01;
+    }
+    *(float *)(*(long *)(param_2 + 0x10) + 0x30) = fVar8;
+  }
+  if ((*param_3 == __ZL14paramDelaySync) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    *(bool *)(param_2 + 0x28) = 0.5 < param_1;
+    if (param_1 <= 0.5) {
+      fVar8 = (float)_expf(*(float *)(param_2 + 0x18) * 2.9957323);
+      fVar8 = fVar8 * 0.052105263 + -0.042105265;
+    }
+    else {
+      local_44 = *(float *)(param_2 + 0x18);
+      __ZN10AudioUtils23getDelaySyncTimeAndTextEPf(&local_50,&local_44);
+      piVar2 = (int *)(local_50 + -0x10);
+      if (piVar2 != &__ZN4juceL11emptyStringE) {
+        LOAcquire();
+        iVar1 = *piVar2;
+        *piVar2 = iVar1 + -1;
+        LORelease();
+        if (iVar1 == 0) {
+          __ZdaPv();
+        }
+      }
+      fVar8 = local_44 / *(float *)(param_2 + 0x24);
+    }
+    fVar11 = *(float *)(param_2 + 0x30);
+    fVar9 = (float)NEON_fminnm(*(float *)(param_2 + 0x2c) * fVar8,0x3f800000);
+    if (fVar9 <= 0.01) {
+      fVar9 = 0.01;
+    }
+    *(float *)(*(long *)(param_2 + 8) + 0x30) = fVar9;
+    fVar8 = (float)NEON_fminnm(fVar11 * fVar8,0x3f800000);
+    if (fVar8 <= 0.01) {
+      fVar8 = 0.01;
+    }
+    *(float *)(*(long *)(param_2 + 0x10) + 0x30) = fVar8;
+  }
+  if ((*param_3 == __ZL16paramDelaySpread) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    fVar8 = param_1 + 0.5;
+    fVar9 = 1.0;
+    if (0.5 <= param_1) {
+      fVar8 = 1.0;
+      fVar9 = 1.5 - param_1;
+    }
+    *(float *)(param_2 + 0x2c) = fVar8;
+    *(float *)(param_2 + 0x30) = fVar9;
+    if (*(char *)(param_2 + 0x28) == '\0') {
+      fVar11 = (float)_expf(*(float *)(param_2 + 0x18) * 2.9957323);
+      fVar11 = fVar11 * 0.052105263 + -0.042105265;
+    }
+    else {
+      local_44 = *(float *)(param_2 + 0x18);
+      __ZN10AudioUtils23getDelaySyncTimeAndTextEPf(&local_50,&local_44);
+      piVar2 = (int *)(local_50 + -0x10);
+      if (piVar2 != &__ZN4juceL11emptyStringE) {
+        LOAcquire();
+        iVar1 = *piVar2;
+        *piVar2 = iVar1 + -1;
+        LORelease();
+        if (iVar1 == 0) {
+          __ZdaPv();
+        }
+      }
+      fVar8 = *(float *)(param_2 + 0x2c);
+      fVar9 = *(float *)(param_2 + 0x30);
+      fVar11 = local_44 / *(float *)(param_2 + 0x24);
+    }
+    lVar3 = *(long *)(param_2 + 8);
+    fVar10 = (float)NEON_fminnm(fVar8 * fVar11,0x3f800000);
+    if (fVar10 <= 0.01) {
+      fVar10 = 0.01;
+    }
+    *(float *)(lVar3 + 0x30) = fVar10;
+    lVar5 = *(long *)(param_2 + 0x10);
+    fVar11 = (float)NEON_fminnm(fVar9 * fVar11,0x3f800000);
+    if (fVar11 <= 0.01) {
+      fVar11 = 0.01;
+    }
+    *(float *)(lVar5 + 0x30) = fVar11;
+    fVar11 = *(float *)(param_2 + 0x44) * 0.99;
+    fVar10 = SQRT(fVar11);
+    if (fVar11 <= 0.0) {
+      fVar10 = 0.0;
+    }
+    *(float *)(lVar3 + 0x34) = fVar10 * (fVar9 * 0.5 + 0.5);
+    *(float *)(lVar5 + 0x34) = fVar10 * (fVar8 * 0.5 + 0.5);
+  }
+  if ((*param_3 == __ZL14paramDelayTone) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    if (param_1 <= 0.5) {
+      fVar8 = param_1 * 1.7 + 0.14999998;
+      fVar8 = fVar8 * fVar8;
+      plVar4 = *(long **)(*(long *)(param_2 + 8) + 0x28);
+      pfVar6 = (float *)*plVar4;
+      fVar9 = pfVar6[0xd] * fVar8;
+      fVar10 = fVar9 * 0.38;
+      pfVar6[8] = fVar10;
+      fVar11 = (0.9988 - fVar9 * 0.24662) + (fVar9 * 0.71174 + 0.4955) * fVar10 * fVar10;
+      *(ulong *)(pfVar6 + 9) = CONCAT44(fVar9 * 0.38 + 1.2 + fVar10 * fVar10 * -6.1,fVar11);
+      fVar11 = fVar9 * *pfVar6 * -0.38 * fVar11;
+      pfVar6[0xb] = (-(fVar11 * fVar11 *
+                      (fVar11 * (fVar11 * (fVar11 * 0.008333334 + 0.041666668) + 0.16666667) + 0.5))
+                    - fVar11) * pfVar6[1];
+      plVar7 = *(long **)(*(long *)(param_2 + 0x10) + 0x28);
+      pfVar6 = (float *)*plVar7;
+      fVar8 = pfVar6[0xd] * fVar8;
+      fVar11 = fVar8 * 0.38;
+      pfVar6[8] = fVar11;
+      fVar9 = (0.9988 - fVar8 * 0.24662) + (fVar8 * 0.71174 + 0.4955) * fVar11 * fVar11;
+      *(ulong *)(pfVar6 + 9) = CONCAT44(fVar8 * 0.38 + 1.2 + fVar11 * fVar11 * -6.1,fVar9);
+      fVar9 = fVar8 * *pfVar6 * -0.38 * fVar9;
+      pfVar6[0xb] = (-(fVar9 * fVar9 *
+                      (fVar9 * (fVar9 * (fVar9 * 0.008333334 + 0.041666668) + 0.16666667) + 0.5)) -
+                    fVar9) * pfVar6[1];
+      fVar8 = 0.999;
+      *(undefined4 *)(plVar4[1] + 0x1c) = 0x3f7fbe77;
+      lVar3 = plVar7[1];
+    }
+    else {
+      fVar8 = param_1 * 1.7 + -0.85;
+      plVar4 = *(long **)(*(long *)(param_2 + 8) + 0x28);
+      pfVar6 = (float *)*plVar4;
+      fVar9 = pfVar6[0xd];
+      fVar10 = fVar9 * 0.38;
+      pfVar6[8] = fVar10;
+      fVar11 = (0.9988 - fVar9 * 0.24662) + (fVar9 * 0.71174 + 0.4955) * fVar10 * fVar10;
+      *(ulong *)(pfVar6 + 9) = CONCAT44(fVar9 * 0.38 + 1.2 + fVar10 * fVar10 * -6.1,fVar11);
+      fVar11 = fVar9 * -0.38 * *pfVar6 * fVar11;
+      pfVar6[0xb] = (-(fVar11 * fVar11 *
+                      (fVar11 * (fVar11 * (fVar11 * 0.008333334 + 0.041666668) + 0.16666667) + 0.5))
+                    - fVar11) * pfVar6[1];
+      plVar7 = *(long **)(*(long *)(param_2 + 0x10) + 0x28);
+      pfVar6 = (float *)*plVar7;
+      fVar11 = pfVar6[0xd];
+      fVar10 = fVar11 * 0.38;
+      pfVar6[8] = fVar10;
+      fVar9 = (0.9988 - fVar11 * 0.24662) + (fVar11 * 0.71174 + 0.4955) * fVar10 * fVar10;
+      *(ulong *)(pfVar6 + 9) = CONCAT44(fVar11 * 0.38 + 1.2 + fVar10 * fVar10 * -6.1,fVar9);
+      fVar9 = fVar11 * -0.38 * *pfVar6 * fVar9;
+      pfVar6[0xb] = (-(fVar9 * fVar9 *
+                      (fVar9 * (fVar9 * (fVar9 * 0.008333334 + 0.041666668) + 0.16666667) + 0.5)) -
+                    fVar9) * pfVar6[1];
+      fVar8 = fVar8 * fVar8;
+      lVar3 = plVar4[1];
+      *(float *)(lVar3 + 0x1c) = 0.999 - fVar8 * *(float *)(lVar3 + 0xc);
+      lVar3 = plVar7[1];
+      fVar8 = 0.999 - fVar8 * *(float *)(lVar3 + 0xc);
+    }
+    *(float *)(lVar3 + 0x1c) = fVar8;
+  }
+  if ((*param_3 == __ZL18paramDelayFeedback) ||
+     (iVar1 = __ZN4juce18CharacterFunctions7compareINS_16CharPointer_UTF8ES2_EEiT_T0_(), iVar1 == 0)
+     ) {
+    *(float *)(param_2 + 0x44) = param_1 * param_1;
+    fVar9 = *(float *)(param_2 + 0x2c);
+    fVar8 = ABS(param_1) * 0.9949874;
+    if (param_1 * param_1 * 0.99 <= 0.0) {
+      fVar8 = 0.0;
+    }
+    *(float *)(*(long *)(param_2 + 8) + 0x34) = (*(float *)(param_2 + 0x30) * 0.5 + 0.5) * fVar8;
+    *(float *)(*(long *)(param_2 + 0x10) + 0x34) = (fVar9 * 0.5 + 0.5) * fVar8;
+  }
+  return;
+}
+

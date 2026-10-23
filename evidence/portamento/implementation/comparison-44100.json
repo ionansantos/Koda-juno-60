@@ -1,0 +1,1018 @@
+{
+  "scope": "Compare measured pitch trajectories in two real-AU Portamento render reports.\nOnly intervals after the other polyphonic notes have released are evaluated.\nThis verifies glide behavior, not waveform or timbre equivalence.\n",
+  "sample_rate": 44100,
+  "limits": {
+    "pitch_95th_percentile_cents": 10,
+    "pitch_max_cents": 20,
+    "arrival_delta_seconds": 0.01
+  },
+  "rationale": "10 cents at the 95th percentile, maximum20 cents, arrival difference10ms; pitch estimator window1536 samples, stride220; excludes simultaneous chords. These are glide tolerances, not perceptual/timbre equivalence.",
+  "inputs": [
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/tal-44100/results.json",
+      "sha256": "41cd99840b435fbaeb0830a0d9f0a123c0b3dd76b0e753c7abc01b64c551720b"
+    },
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/koda-44100/results.json",
+      "sha256": "9e656754682d59187e24c1c73d63b92791b6de737f1204455342c326c6e6a95a"
+    }
+  ],
+  "binaries": {
+    "tal": {
+      "path": "/Library/Audio/Plug-Ins/Components/TAL-U-NO-LX-V2.component/Contents/MacOS/TAL-U-NO-LX-V2",
+      "sha256": "99bcc10a28984d52e46299f8369b7a3cb0648ae99358ec3e8d5628d5f113aba6"
+    },
+    "koda": {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component/Contents/MacOS/KODA-JUNO-60",
+      "sha256": "419f15844e9acdfefcff6773a72c5101c56d3bbf27c1347708c6d9710cf99acb"
+    }
+  },
+  "cases": [
+    {
+      "name": "mode0-poly0-legato0",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5400000000008731,
+      "pitch_max_cents": 0.8299999999991314,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.02013599999999993,
+      "koda_arrival": 0.02013599999999993,
+      "pass": true
+    },
+    {
+      "name": "mode0-poly0-legato1",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5000000000008953,
+      "pitch_max_cents": 0.8899999999997021,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.0949660000000001,
+      "koda_arrival": 0.09995500000000002,
+      "pass": true
+    },
+    {
+      "name": "mode0-poly1-legato0",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5400000000008731,
+      "pitch_max_cents": 0.8299999999991314,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.02013599999999993,
+      "koda_arrival": 0.02013599999999993,
+      "pass": true
+    },
+    {
+      "name": "mode0-poly1-legato1",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5000000000008953,
+      "pitch_max_cents": 0.8899999999997021,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.0949660000000001,
+      "koda_arrival": 0.09995500000000002,
+      "pass": true
+    },
+    {
+      "name": "mode0.5-poly0-legato0",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.549999999999784,
+      "pitch_max_cents": 0.8200000000002206,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.02013599999999993,
+      "koda_arrival": 0.02013599999999993,
+      "pass": true
+    },
+    {
+      "name": "mode0.5-poly0-legato1",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.8375000000008037,
+      "pitch_max_cents": 5.02000000000038,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "mode0.5-poly1-legato0",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.549999999999784,
+      "pitch_max_cents": 0.8200000000002206,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.02013599999999993,
+      "koda_arrival": 0.02013599999999993,
+      "pass": true
+    },
+    {
+      "name": "mode0.5-poly1-legato1",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5000000000009663,
+      "pitch_max_cents": 0.8899999999997021,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.0949660000000001,
+      "koda_arrival": 0.09995500000000002,
+      "pass": true
+    },
+    {
+      "name": "mode1-poly0-legato0",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6300000000009476,
+      "pitch_max_cents": 5.180000000000007,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "mode1-poly0-legato1",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.7695000000000367,
+      "pitch_max_cents": 2.4699999999995725,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "mode1-poly1-legato0",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6300000000009476,
+      "pitch_max_cents": 5.180000000000007,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "mode1-poly1-legato1",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 2.5695000000000694,
+      "pitch_max_cents": 11.86000000000007,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 1.202449,
+      "koda_arrival": 1.202449,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.1-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6399999999999295,
+      "pitch_max_cents": 0.9500000000002728,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.02013599999999993,
+      "koda_arrival": 0.02013599999999993,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.1-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6294999999996524,
+      "pitch_max_cents": 0.8499999999997954,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.030113000000000056,
+      "koda_arrival": 0.030113000000000056,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.1-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.45000000000001705,
+      "pitch_max_cents": 0.6800000000005468,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.02013599999999993,
+      "koda_arrival": 0.02013599999999993,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.1-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.3799999999998249,
+      "pitch_max_cents": 0.6099999999996442,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.030113000000000056,
+      "koda_arrival": 0.030113000000000056,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.25-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6200000000006867,
+      "pitch_max_cents": 0.8800000000007913,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.03510199999999997,
+      "koda_arrival": 0.03510199999999997,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.25-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6100000000003547,
+      "pitch_max_cents": 0.9799999999998477,
+      "arrival_delta_seconds": 0.004989000000000132,
+      "tal_arrival": 0.07501099999999994,
+      "koda_arrival": 0.08000000000000007,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.25-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.4399999999996851,
+      "pitch_max_cents": 0.7399999999996965,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.030113000000000056,
+      "koda_arrival": 0.03510199999999997,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.25-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.36949999999954786,
+      "pitch_max_cents": 0.5800000000000693,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.07002299999999995,
+      "koda_arrival": 0.07002299999999995,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.5-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6399999999999295,
+      "pitch_max_cents": 2.4799999999999045,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.1997279999999999,
+      "koda_arrival": 0.1997279999999999,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.5-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.8375000000008037,
+      "pitch_max_cents": 5.02000000000038,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.5-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.45000000000001705,
+      "pitch_max_cents": 3.580000000000183,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.1997279999999999,
+      "koda_arrival": 0.1997279999999999,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.5-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 2.5290000000001465,
+      "pitch_max_cents": 12.230000000000274,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.479093,
+      "koda_arrival": 0.4741040000000001,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.75-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6500000000002615,
+      "pitch_max_cents": 1.7199999999988336,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.93805,
+      "koda_arrival": 0.93805,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.75-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.7000000000004292,
+      "pitch_max_cents": 1.7199999999988336,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 2.240091,
+      "koda_arrival": 2.240091,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.75-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.7699999999999818,
+      "pitch_max_cents": 2.499999999999858,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.943039,
+      "koda_arrival": 0.943039,
+      "pass": true
+    },
+    {
+      "name": "time0-amount0.75-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 1.3100000000001444,
+      "pitch_max_cents": 2.7599999999999625,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 2.284989,
+      "koda_arrival": 2.284989,
+      "pass": true
+    },
+    {
+      "name": "time0-amount1-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.7000000000005002,
+      "pitch_max_cents": 1.570000000000249,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 1.12263,
+      "koda_arrival": 1.12263,
+      "pass": true
+    },
+    {
+      "name": "time0-amount1-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6900000000001683,
+      "pitch_max_cents": 1.570000000000249,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 2.723991,
+      "koda_arrival": 2.723991,
+      "pass": true
+    },
+    {
+      "name": "time0-amount1-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.7389999999996997,
+      "pitch_max_cents": 1.939999999999742,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 1.12263,
+      "koda_arrival": 1.12263,
+      "pass": true
+    },
+    {
+      "name": "time0-amount1-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 1.2490000000002874,
+      "pitch_max_cents": 2.289999999999992,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 2.723991,
+      "koda_arrival": 2.723991,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.1-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6299999999995975,
+      "pitch_max_cents": 0.8600000000001273,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.050068,
+      "koda_arrival": 0.050068,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.1-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6299999999995975,
+      "pitch_max_cents": 0.9599999999991837,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.050068,
+      "koda_arrival": 0.050068,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.1-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.43000000000006366,
+      "pitch_max_cents": 0.6700000000002149,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.04507900000000009,
+      "koda_arrival": 0.050068,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.1-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.3799999999998249,
+      "pitch_max_cents": 0.6999999999997897,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.050068,
+      "koda_arrival": 0.04507900000000009,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.25-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6294999999996524,
+      "pitch_max_cents": 0.9599999999991837,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.11990900000000004,
+      "koda_arrival": 0.11990900000000004,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.25-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6299999999995975,
+      "pitch_max_cents": 0.9299999999996089,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.12489799999999995,
+      "koda_arrival": 0.12489799999999995,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.25-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.44000000000039563,
+      "pitch_max_cents": 0.6599999999998829,
+      "arrival_delta_seconds": 0.0049879999999999924,
+      "tal_arrival": 0.11990900000000004,
+      "koda_arrival": 0.11492100000000005,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.25-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.35999999999987153,
+      "pitch_max_cents": 0.6199999999999761,
+      "arrival_delta_seconds": 0.00498899999999991,
+      "tal_arrival": 0.12489799999999995,
+      "koda_arrival": 0.11990900000000004,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.5-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6800000000005113,
+      "pitch_max_cents": 1.9100000000008777,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.7883899999999999,
+      "koda_arrival": 0.7883899999999999,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.5-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.9294999999995928,
+      "pitch_max_cents": 3.849999999999909,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.7933790000000001,
+      "koda_arrival": 0.7933790000000001,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.5-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.8585000000001144,
+      "pitch_max_cents": 2.020000000000266,
+      "arrival_delta_seconds": 0.004989000000000132,
+      "tal_arrival": 0.7933790000000001,
+      "koda_arrival": 0.7883899999999999,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.5-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 2.04949999999986,
+      "pitch_max_cents": 6.909999999999883,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.798367,
+      "koda_arrival": 0.798367,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.75-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6099999999989336,
+      "pitch_max_cents": 0.920000000000698,
+      "arrival_delta_seconds": 0.0049879999999999924,
+      "tal_arrival": 3.6419050000000004,
+      "koda_arrival": 3.6468930000000004,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.75-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6499999999988404,
+      "pitch_max_cents": 1.1899999999997135,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 3.866395,
+      "koda_arrival": 3.866395,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.75-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.52949999999985,
+      "pitch_max_cents": 0.8499999999997954,
+      "arrival_delta_seconds": 0.0049879999999999924,
+      "tal_arrival": 3.6419050000000004,
+      "koda_arrival": 3.6468930000000004,
+      "pass": true
+    },
+    {
+      "name": "time1-amount0.75-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 1.0000000000005116,
+      "pitch_max_cents": 1.640000000000441,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 3.726712,
+      "koda_arrival": 3.726712,
+      "pass": true
+    },
+    {
+      "name": "time1-amount1-interval5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5894999999997101,
+      "pitch_max_cents": 0.9800000000005582,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 4.290431,
+      "koda_arrival": 4.290431,
+      "pass": true
+    },
+    {
+      "name": "time1-amount1-interval12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.6399999999999295,
+      "pitch_max_cents": 1.3199999999997658,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 4.425125,
+      "koda_arrival": 4.425125,
+      "pass": true
+    },
+    {
+      "name": "time1-amount1-interval-5",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.5595000000001353,
+      "pitch_max_cents": 0.9799999999998477,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 4.160726,
+      "koda_arrival": 4.160726,
+      "pass": true
+    },
+    {
+      "name": "time1-amount1-interval-12",
+      "windows_seconds": [
+        [
+          1.15,
+          6.65
+        ]
+      ],
+      "points": 1102,
+      "pitch_95th_percentile_cents": 0.9394999999999603,
+      "pitch_max_cents": 1.7200000000002547,
+      "arrival_delta_seconds": 0.004989000000000132,
+      "tal_arrival": 4.425125,
+      "koda_arrival": 4.420136,
+      "pass": true
+    },
+    {
+      "name": "poly-reuse-mode0.5",
+      "windows_seconds": [
+        [
+          0.15,
+          0.7
+        ],
+        [
+          1.15,
+          1.7
+        ],
+        [
+          2.15,
+          2.7
+        ],
+        [
+          3.15,
+          3.7
+        ],
+        [
+          4.15,
+          4.7
+        ],
+        [
+          5.15,
+          5.7
+        ],
+        [
+          6.15,
+          6.7
+        ],
+        [
+          7.15,
+          7.7
+        ]
+      ],
+      "points": 883,
+      "pitch_95th_percentile_cents": 0.6199999999992656,
+      "pitch_max_cents": 0.9599999999991837,
+      "arrival_delta_seconds": null,
+      "tal_arrival": null,
+      "koda_arrival": null,
+      "pass": true
+    },
+    {
+      "name": "poly-reuse-mode1",
+      "windows_seconds": [
+        [
+          0.15,
+          0.7
+        ],
+        [
+          1.15,
+          1.7
+        ],
+        [
+          2.15,
+          2.7
+        ],
+        [
+          3.15,
+          3.7
+        ],
+        [
+          4.15,
+          4.7
+        ],
+        [
+          5.15,
+          5.7
+        ],
+        [
+          6.15,
+          6.7
+        ],
+        [
+          7.15,
+          7.7
+        ]
+      ],
+      "points": 883,
+      "pitch_95th_percentile_cents": 1268.3759999999995,
+      "pitch_max_cents": 1824.1399999999999,
+      "arrival_delta_seconds": null,
+      "tal_arrival": null,
+      "koda_arrival": null,
+      "pass": false
+    },
+    {
+      "name": "mono-return-mode0.5",
+      "windows_seconds": [
+        [
+          1.15,
+          3.4
+        ]
+      ],
+      "points": 451,
+      "pitch_95th_percentile_cents": 2.5300000000001432,
+      "pitch_max_cents": 5.02000000000038,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "mono-return-mode1",
+      "windows_seconds": [
+        [
+          1.15,
+          3.4
+        ]
+      ],
+      "points": 451,
+      "pitch_95th_percentile_cents": 2.4149999999998784,
+      "pitch_max_cents": 5.099999999999483,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 0.4840819999999999,
+      "koda_arrival": 0.4840819999999999,
+      "pass": true
+    },
+    {
+      "name": "poly-six-reuse-gap0",
+      "windows_seconds": [
+        [
+          2.15,
+          3.9
+        ]
+      ],
+      "points": 351,
+      "pitch_95th_percentile_cents": 4.524999999999579,
+      "pitch_max_cents": 11.010000000000275,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 1.9607260000000002,
+      "koda_arrival": 1.9607260000000002,
+      "pass": true
+    },
+    {
+      "name": "poly-six-reuse-gap1",
+      "windows_seconds": [
+        [
+          2.15,
+          3.9
+        ]
+      ],
+      "points": 351,
+      "pitch_95th_percentile_cents": 7.399999999999807,
+      "pitch_max_cents": 11.840000000000117,
+      "arrival_delta_seconds": 0.0,
+      "tal_arrival": 1.9607260000000002,
+      "koda_arrival": 1.9607260000000002,
+      "pass": true
+    }
+  ],
+  "passed": 57,
+  "total": 58
+}

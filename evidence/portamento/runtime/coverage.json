@@ -1,0 +1,62 @@
+{
+  "reports": [
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/results.json",
+      "sample_rate": 44100,
+      "cases": 52,
+      "elapsed_seconds": 17.267316749988822,
+      "sha256": "2ebd2929c5786fdc32f3a3a4d37d9bd30427a58b7323e7c5ecf1f5046b49ae0e"
+    },
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/reuse44100/results.json",
+      "sample_rate": 44100,
+      "cases": 2,
+      "elapsed_seconds": 0.5858122500067111,
+      "sha256": "4f0c879b1c8f395d8b22dfe88070607c1736d0b406910e608ff7cb23f115295e"
+    },
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/six-reuse44100/results.json",
+      "sample_rate": 44100,
+      "cases": 2,
+      "elapsed_seconds": 0.6331186250026803,
+      "sha256": "daaf3f7b6f233b8787247e805106691378df36e032083929b544edfff4327f5d"
+    },
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/rate48000/results.json",
+      "sample_rate": 48000,
+      "cases": 10,
+      "elapsed_seconds": 3.012511415989138,
+      "sha256": "b0e7d3b38d5bb544ffe549417dd4234af2083bfede9f7f4d30d66badb3f438e7"
+    },
+    {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/return44100/results.json",
+      "sample_rate": 44100,
+      "cases": 2,
+      "elapsed_seconds": 0.33584458302357234,
+      "sha256": "2ec741c36fe410010aaa226cce9400a07a69bebaafccc097ce72cc43ad00743e"
+    }
+  ],
+  "total_render_cases": 68,
+  "coverage": {
+    "main_44100": "12 combinations of OFF/I/II \u00d7 POLY off/on \u00d7 overlap/gap, plus40 intensity/TIME/interval/direction cases",
+    "reuse_44100": "Two8-note separated sequences; two6-voice simultaneous steal/reuse sequences",
+    "48000": "Eight selected mono timing/mode cases plus two8-note sequences",
+    "return_44100": "Two mono held-note return cases: release72 while60 remains held, modesI andII."
+  },
+  "limitations": [
+    "Autocorrelation uses a1536-sample frame and220-sample hop; timing tolerance roughly20ms. The first10-cent arrival threshold is not the exact algorithmic duration.",
+    "Multiple simultaneous pitches invalidate a single-pitch estimate; poly-steal pitch is analyzed only after the old voices are released.",
+    "Pitch search excludes periods>=400samples; fresh modeII initial MIDI42 is outside the estimator untilitglidesup. StaticREA independentlyconfirmsinitial42.",
+    "No envelope/retrigger amplitude analysis, sustainpedal/MPE/MIDI channel/arp interaction, mid-noteparameterchanges, or DAW GUI tests.",
+    "No KODA source was changed. Reference-only offline AU evidence. CPUtime andpeakmemory were notmeasured."
+  ],
+  "source_sha256": {
+    "tools/au-portamento-probe.cpp": "9a4c16f1c432849855c8c44b872434d9bf4884b3331486a9ac3b5eb122e4243e",
+    "tools/analyze-portamento.py": "92673168aa0c3798c2bb116ceed4b0de314ce2ecf3d8f2440c8a2bd2ebea6ec7"
+  },
+  "plot": {
+    "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/portamento/runtime/portamento-curvas.png",
+    "sha256": "e8ca5939e4ea141ed532ee8f23dc6d5fabb9febc1fcd5809126905bcc0d854c4",
+    "method": "Measured trajectory polylines rendered withPillow; matplotlib unavailable; no fitted theoretical curves."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "order": [
+    "TAL 0\u20132.4s",
+    "silence 2.4\u20132.7s",
+    "KODA 2.7\u20135.1s"
+  ],
+  "scenario": "time1-amount0.5-interval12",
+  "common_gain_applied_to_both": 11.245551875143942,
+  "inputs": [
+    {
+      "engine": "tal",
+      "file": "evidence/portamento/tal-44100-final/time1-amount0.5-interval12.raw",
+      "sha256": "2c4321ec851233408fbe9e9fd8c435c84de2a053fb12fdade1c2fbf12729eb38"
+    },
+    {
+      "engine": "koda",
+      "file": "evidence/portamento/koda-44100-final/time1-amount0.5-interval12.raw",
+      "sha256": "0ce578b8e2aafa69cf9a475bdf6b523500cdc4cdfc81f13211e07b91937fcf18"
+    }
+  ],
+  "wav_sha256": "c205a6924f792dc09561953362d6cdb76fd924392ce830bb9acf9d342b077b30"
+}

@@ -1,0 +1,685 @@
+
+bool __ZN10SynthVoice7processEPfS0_(char *param_1,float *param_2,float *param_3)
+
+{
+  int iVar1;
+  char cVar2;
+  char cVar3;
+  bool bVar4;
+  int iVar5;
+  ulong uVar6;
+  long *plVar7;
+  undefined8 *puVar8;
+  float *pfVar9;
+  int *piVar10;
+  long lVar11;
+  double *pdVar12;
+  long lVar13;
+  long lVar14;
+  ulong uVar15;
+  ulong uVar16;
+  float fVar17;
+  float fVar18;
+  double dVar19;
+  undefined8 uVar20;
+  float fVar21;
+  double dVar22;
+  undefined8 uVar23;
+  undefined1 auVar24 [16];
+  float fVar25;
+  double dVar26;
+  float fVar27;
+  float fVar28;
+  float fVar29;
+  float fVar30;
+  float fVar31;
+  float fVar33;
+  undefined8 uVar32;
+  float fVar34;
+  float fVar35;
+  float fVar36;
+  double dVar37;
+  float fVar38;
+  float fVar39;
+  float fVar40;
+  float fVar41;
+  float fVar42;
+  float fVar43;
+  float fVar44;
+  float fVar45;
+  float local_b4;
+  ulong local_b0;
+  undefined8 uStack_a8;
+  
+  cVar2 = *param_1;
+  piVar10 = *(int **)(param_1 + 0x20);
+  if (cVar2 == '\0') {
+    fVar17 = 0.0;
+    if (*piVar10 != 4) {
+      bVar4 = param_1[1] != '\0';
+      goto LAB_00044998;
+    }
+  }
+  else {
+    bVar4 = true;
+LAB_00044998:
+    lVar13 = *(long *)(param_1 + 0xa8);
+    lVar14 = *(long *)(param_1 + 0xb8);
+    fVar25 = *(float *)(param_1 + 0x9c) * *(float *)(lVar13 + 0x3c) * *(float *)(lVar14 + 0x20);
+    fVar21 = *(float *)(param_1 + 0xa0) * *(float *)(lVar13 + 0x40) * *(float *)(lVar14 + 0x24);
+    fVar17 = *(float *)(lVar13 + 0x44);
+    fVar27 = *(float *)(lVar13 + 0x48);
+    fVar29 = *(float *)(param_1 + 0xa4);
+    fVar30 = *(float *)(lVar14 + 0x28);
+    if ((float)piVar10[2] != fVar25) {
+      piVar10[2] = (int)fVar25;
+      piVar10[9] = (int)((fVar25 * 3.5 + 0.00098) * (float)piVar10[1]);
+    }
+    fVar30 = fVar29 * fVar27 * fVar30;
+    if ((float)piVar10[3] != fVar21) {
+      piVar10[3] = (int)fVar21;
+      piVar10[10] = (int)((fVar21 * 1.4 + 2.7999999e-05) * (float)piVar10[1]);
+    }
+    if ((float)piVar10[4] != fVar30) {
+      piVar10[4] = (int)fVar30;
+      piVar10[0xb] = (int)((fVar30 * 4.0 + 0.0002) * (float)piVar10[1]);
+    }
+    if (bVar4) {
+      iVar5 = *piVar10;
+      piVar10[8] = piVar10[8] + 1;
+      if (iVar5 - 1U < 2) {
+        dVar37 = (double)(float)piVar10[10];
+        if (0.975 <= *(double *)(piVar10 + 6)) {
+          dVar37 = (double)(float)piVar10[10] * 1.75;
+        }
+        dVar26 = (double)fVar17;
+        dVar37 = (dVar26 + -0.01 + dVar37 * *(double *)(piVar10 + 6)) / (dVar37 + 1.0);
+        *(double *)(piVar10 + 6) = dVar37;
+        if (dVar37 <= dVar26) {
+          *(double *)(piVar10 + 6) = dVar26;
+          dVar37 = dVar26;
+        }
+      }
+      else if (iVar5 == 0) {
+        dVar37 = (*(double *)(piVar10 + 6) * (double)(float)piVar10[9] * 0.2 + 1.4) /
+                 ((double)(float)piVar10[9] * 0.2 + 1.0);
+        *(double *)(piVar10 + 6) = dVar37;
+        if (1.0 <= dVar37) {
+          *piVar10 = 1;
+        }
+      }
+      else {
+        if (iVar5 == 3) goto LAB_00044ab0;
+        dVar37 = *(double *)(piVar10 + 6);
+      }
+    }
+    else {
+      *piVar10 = 3;
+      piVar10[8] = piVar10[8] + 1;
+LAB_00044ab0:
+      dVar19 = *(double *)(piVar10 + 6);
+      dVar26 = (double)(float)piVar10[0xb] * 0.5;
+      dVar22 = (double)(float)piVar10[0xb] * 0.35;
+      dVar37 = dVar26 * dVar19;
+      if (dVar19 < 0.15) {
+        dVar37 = dVar19 * dVar22 + -0.01;
+        dVar26 = dVar22;
+      }
+      dVar37 = dVar37 / (dVar26 + 1.0);
+      *(double *)(piVar10 + 6) = dVar37;
+      if (dVar37 <= 0.0) {
+        *piVar10 = 4;
+        piVar10[6] = 0;
+        piVar10[7] = 0;
+        dVar37 = 0.0;
+      }
+    }
+    fVar17 = (float)dVar37;
+  }
+  if (((*(char *)(*(long *)(param_1 + 0x28) + 0x18) == '\0') &&
+      (*(float *)(*(long *)(param_1 + 0x28) + 0x14) <= 0.0)) ||
+     (lVar13 = *(long *)(param_1 + 0xa8), *(char *)(lVar13 + 0xcf) != '\0'))
+  goto joined_r0x00045704;
+  plVar7 = *(long **)(param_1 + 0xd0);
+  fVar21 = *(float *)((long)plVar7 + 0x54);
+  fVar25 = *(float *)((long)plVar7 + 0x1c);
+  if (fVar21 <= fVar25) {
+    if (fVar21 < fVar25) {
+      fVar21 = fVar21 + (fVar25 - fVar21) * *(float *)(plVar7 + 3);
+      goto LAB_00044c60;
+    }
+  }
+  else {
+    fVar25 = *(float *)((long)plVar7 + 0x14) + fVar25;
+    *(float *)((long)plVar7 + 0x1c) = fVar25;
+    if (fVar21 < fVar25) {
+LAB_00044c60:
+      *(float *)((long)plVar7 + 0x1c) = fVar21;
+    }
+  }
+  fVar21 = *(float *)(plVar7 + 10);
+  fVar25 = *(float *)((long)plVar7 + 0x34);
+  if (fVar21 <= fVar25) {
+    if (fVar21 < fVar25) {
+      fVar21 = fVar21 + (fVar25 - fVar21) * *(float *)(plVar7 + 6);
+      goto LAB_00044c9c;
+    }
+  }
+  else {
+    fVar25 = *(float *)((long)plVar7 + 0x2c) + fVar25;
+    *(float *)((long)plVar7 + 0x34) = fVar25;
+    if (fVar21 < fVar25) {
+LAB_00044c9c:
+      *(float *)((long)plVar7 + 0x34) = fVar21;
+    }
+  }
+  fVar21 = (*(float *)((long)plVar7 + 0x5c) +
+           *(float *)((long)plVar7 + 0x3c) * *(float *)((long)plVar7 + 0x4c)) *
+           *(float *)((long)plVar7 + 0x44);
+  *(float *)((long)plVar7 + 0x4c) = fVar21;
+  lVar14 = *(long *)(param_1 + 0x30);
+  fVar25 = *(float *)(param_1 + 0x80);
+  if (*(char *)(lVar13 + 0x2e8) == '\0') {
+    fVar30 = 0.0;
+  }
+  else {
+    lVar13 = **(long **)(lVar13 + 0x300);
+    dVar37 = 0.0;
+    if (lVar13 != 0) {
+      uVar15 = (ulong)*(uint *)(param_1 + 200);
+      *(undefined2 *)(lVar13 + 0x41b) = 0x100;
+      if (((DAT_00721468 == 0) || (DAT_00721030 == (code *)0x0)) ||
+         (uVar6 = (*DAT_00721030)(), (uVar6 & 1) == 0)) {
+        if (*(char *)(lVar13 + 0x41d) == '\0') goto LAB_00044dac;
+        pdVar12 = (double *)(lVar13 + (uVar15 & 0x7f) * 8 + 8);
+      }
+      else {
+        lVar11 = DAT_00721468;
+        if (((*(char *)(lVar13 + 0x419) == '\0') || (*(char *)(lVar13 + 0x41a) != '\0')) &&
+           ((*(char *)(lVar13 + 0x41b) != '\0' &&
+            (((DAT_00721058 != (code *)0x0 &&
+              (iVar5 = (*DAT_00721058)(0xffffffff), lVar11 = DAT_00721468, iVar5 != 0)) &&
+             (DAT_007214e8 != 0)))))) {
+          lVar11 = DAT_007214e8;
+        }
+        pdVar12 = (double *)(lVar11 + (uVar15 & 0x7f) * 8);
+      }
+      dVar37 = (double)_log(*(double *)(&DAT_00721068 + (uVar15 & 0x7f) * 8) * *pdVar12);
+      dVar37 = dVar37 * 17.312340490667562;
+    }
+LAB_00044dac:
+    fVar30 = (float)dVar37;
+    plVar7 = *(long **)(param_1 + 0xd0);
+    fVar21 = *(float *)((long)plVar7 + 0x4c);
+    lVar13 = *(long *)(param_1 + 0xa8);
+  }
+  fVar21 = fVar30 + fVar25 + fVar21;
+  if (*(int *)(lVar13 + 100) < 1) {
+LAB_00044e0c:
+    *(float *)(lVar14 + 4) = fVar21;
+    fVar25 = fVar21;
+  }
+  else {
+    fVar25 = *(float *)(lVar14 + 4);
+    if (fVar25 <= fVar21) {
+      if (fVar25 < fVar21) {
+        fVar25 = *(float *)(lVar14 + 0xc) + fVar25;
+        *(float *)(lVar14 + 4) = fVar25;
+        if (fVar25 <= fVar21) goto LAB_00044e14;
+      }
+      goto LAB_00044e0c;
+    }
+    fVar25 = fVar25 - *(float *)(lVar14 + 0xc);
+    *(float *)(lVar14 + 4) = fVar25;
+    if (fVar25 < fVar21) goto LAB_00044e0c;
+  }
+LAB_00044e14:
+  iVar5 = *(int *)(lVar13 + 0xd4);
+  local_b4 = 0.0;
+  lVar14 = *(long *)(param_1 + 0x78);
+  fVar21 = *(float *)(lVar14 + 0x10);
+  if (1e-07 < ABS(*(float *)(lVar13 + 200) * *(float *)(lVar13 + 0x30) - fVar21)) {
+    fVar21 = (*(float *)(lVar13 + 200) * *(float *)(lVar13 + 0x30) + fVar21 * *(float *)(lVar14 + 4)
+             ) * *(float *)(lVar14 + 8);
+    *(float *)(lVar14 + 0x10) = fVar21;
+  }
+  fVar25 = *(float *)(lVar13 + 0xc4) +
+           *(float *)(param_1 + 0x98) *
+           (fVar21 + fVar25 + *(float *)(*(long *)(param_1 + 0xb8) + 0x1c)) +
+           *(float *)(lVar13 + 0x38) + (float)*(int *)(lVar13 + 0x50) +
+           (*(float *)(lVar13 + 0x9c) * *(float *)(lVar13 + 0x28) +
+           (*(float *)(lVar13 + 0x34) + *(float *)((long)plVar7 + 0x34) +
+            *(float *)(*plVar7 + 0xc) *
+            (*(float *)((long)plVar7 + 0x1c) - *(float *)((long)plVar7 + 0x34)) +
+           *(float *)(param_1 + 0xcc)) * *(float *)(lVar13 + 0xac) * *(float *)(lVar13 + 0x24)) *
+           6.0;
+  __ZN3Vco7processEPfff(fVar25,*(undefined8 *)(param_1 + 0x18),&local_b4);
+  lVar13 = *(long *)(param_1 + 0xa8);
+  fVar21 = local_b4;
+  if (1 < iVar5) {
+    fVar30 = *(float *)(lVar13 + 0xdc);
+    fVar27 = local_b4 - local_b4 * fVar30 * fVar30;
+    fVar21 = fVar27;
+    if (0 < *(int *)(lVar13 + 0xd4)) {
+      fVar28 = *(float *)(lVar13 + 0xd8);
+      fVar38 = 1.0;
+      fVar18 = fVar30 * 0.5 + 1.0;
+      fVar29 = 100.0;
+      lVar14 = 0;
+      do {
+        lVar11 = lVar14 + 1;
+        fVar31 = fVar28 * (float)(int)lVar11;
+        if (fVar38 == 0.0 || 0.0 > fVar38) {
+          fVar31 = fVar29;
+        }
+        fVar29 = fVar31 * fVar38;
+        local_b0 = local_b0 & 0xffffffff00000000;
+        fVar34 = fVar18;
+        fVar33 = 1.0 - fVar30;
+        if (0.0 <= fVar38) {
+          fVar34 = 1.0 - fVar30;
+          fVar33 = fVar18;
+        }
+        __ZN3Vco7processEPfff
+                  (fVar25 + fVar38 * fVar31,*(undefined8 *)(*(long *)(param_1 + 8) + lVar14 * 8),
+                   &local_b0);
+        fVar38 = -fVar38;
+        fVar27 = fVar27 + fVar34 * (float)local_b0;
+        fVar21 = fVar21 + fVar33 * (float)local_b0;
+        lVar13 = *(long *)(param_1 + 0xa8);
+        lVar14 = lVar11;
+      } while (lVar11 < *(int *)(lVar13 + 0xd4));
+    }
+    local_b4 = fVar27 * 0.5;
+    fVar21 = fVar21 * 0.5;
+  }
+  cVar2 = *(char *)(lVar13 + 0x6e);
+  lVar14 = *(long *)(param_1 + 0x28);
+  if (cVar2 == '\0') {
+    if (*param_1 == '\0') {
+      cVar3 = param_1[1];
+      *(char *)(lVar14 + 0x18) = cVar3;
+      if (cVar3 == '\0') goto LAB_00044fec;
+    }
+    else {
+      *(undefined1 *)(lVar14 + 0x18) = 1;
+    }
+    fVar25 = *(float *)(lVar14 + 0x14) + *(float *)(lVar14 + 4);
+    *(float *)(lVar14 + 0x14) = fVar25;
+    if (1.0 < fVar25) goto LAB_00045048;
+  }
+  else {
+    iVar1 = **(int **)(param_1 + 0x20);
+    *(bool *)(lVar14 + 0x18) = iVar1 != 4;
+    if (iVar1 != 4) {
+LAB_00045048:
+      *(undefined4 *)(lVar14 + 0x14) = 0x3f800000;
+    }
+    else {
+LAB_00044fec:
+      fVar25 = *(float *)(lVar14 + 0x14) - *(float *)(lVar14 + 8);
+      *(float *)(lVar14 + 0x14) = fVar25;
+      if (fVar25 < 0.0) {
+        *(undefined4 *)(lVar14 + 0x14) = 0;
+      }
+    }
+  }
+  lVar14 = *(long *)(param_1 + 0x68);
+  plVar7 = *(long **)(param_1 + 0xd0);
+  fVar25 = 0.0;
+  if (*(char *)(lVar13 + 0xd0) == '\0') {
+    fVar25 = *(float *)(param_1 + 0xcc) + *(float *)(lVar13 + 0x30);
+  }
+  fVar30 = *(float *)(*(long *)(param_1 + 0xb8) + 0x18);
+  fVar27 = *(float *)(lVar13 + 0x8c) +
+           *(float *)(lVar13 + 0xb0) *
+           (*(float *)((long)plVar7 + 0x34) +
+            *(float *)(*plVar7 + 8) *
+            (*(float *)((long)plVar7 + 0x1c) - *(float *)((long)plVar7 + 0x34)) + fVar25);
+  fVar25 = *(float *)(lVar14 + 0x10);
+  if (1e-07 < ABS(fVar27 - fVar25)) {
+    fVar25 = (fVar27 + fVar25 * *(float *)(lVar14 + 4)) * *(float *)(lVar14 + 8);
+    *(float *)(lVar14 + 0x10) = fVar25;
+  }
+  puVar8 = *(undefined8 **)(param_1 + 0x38);
+  fVar29 = *(float *)(lVar13 + 0xbc) + *(float *)(param_1 + 0x94) * *(float *)(lVar13 + 0x98);
+  fVar27 = -(fVar29 * (float)*(double *)(*(long *)(param_1 + 0x20) + 0x18));
+  if (*(char *)(lVar13 + 0x94) != '\0') {
+    fVar27 = fVar29 * (float)*(double *)(*(long *)(param_1 + 0x20) + 0x18);
+  }
+  fVar27 = fVar25 + fVar30 + *(float *)(lVar13 + 0x2c) * *(float *)(lVar13 + 0x90) +
+           (*(float *)(*(long *)(param_1 + 0x30) + 4) + -60.0) *
+           *(float *)(lVar13 + 0xb8) * 0.0055555557 + fVar27;
+  lVar13 = puVar8[0x16];
+  fVar25 = (float)*(undefined8 *)(lVar13 + 0x250) +
+           (float)*(undefined8 *)(lVar13 + 0x240) *
+           (local_b4 - (float)*(undefined8 *)(lVar13 + 0x260));
+  fVar29 = (float)((ulong)*(undefined8 *)(lVar13 + 0x250) >> 0x20) +
+           (float)((ulong)*(undefined8 *)(lVar13 + 0x240) >> 0x20) *
+           (local_b4 - (float)((ulong)*(undefined8 *)(lVar13 + 0x260) >> 0x20));
+  uVar20 = CONCAT44(fVar29,fVar25);
+  *(float *)(lVar13 + 0x250) = local_b4;
+  *(float *)(lVar13 + 0x254) = local_b4;
+  fVar30 = (float)*(undefined8 *)(lVar13 + 600) +
+           (float)*(undefined8 *)(lVar13 + 0x248) *
+           (fVar25 - (float)*(undefined8 *)(lVar13 + 0x268));
+  fVar29 = (float)((ulong)*(undefined8 *)(lVar13 + 600) >> 0x20) +
+           (float)((ulong)*(undefined8 *)(lVar13 + 0x248) >> 0x20) *
+           (fVar29 - (float)((ulong)*(undefined8 *)(lVar13 + 0x268) >> 0x20));
+  *(undefined8 *)(lVar13 + 0x260) = uVar20;
+  *(undefined8 *)(lVar13 + 600) = uVar20;
+  fVar25 = (float)*(undefined8 *)(lVar13 + 0x180);
+  fVar18 = (float)((ulong)*(undefined8 *)(lVar13 + 0x180) >> 0x20);
+  fVar31 = (float)*(undefined8 *)(lVar13 + 0x1a0) +
+           fVar25 * (fVar30 - (float)*(undefined8 *)(lVar13 + 0x1c0));
+  fVar33 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1a0) >> 0x20) +
+           fVar18 * (fVar30 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1c0) >> 0x20));
+  fVar28 = (float)*(undefined8 *)(lVar13 + 0x188);
+  fVar38 = (float)((ulong)*(undefined8 *)(lVar13 + 0x188) >> 0x20);
+  fVar34 = (float)*(undefined8 *)(lVar13 + 0x1a8) +
+           fVar28 * (fVar31 - (float)*(undefined8 *)(lVar13 + 0x1c8));
+  fVar35 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1a8) >> 0x20) +
+           fVar38 * (fVar33 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1c8) >> 0x20));
+  fVar36 = (float)*(undefined8 *)(lVar13 + 400);
+  fVar39 = (float)((ulong)*(undefined8 *)(lVar13 + 400) >> 0x20);
+  fVar41 = (float)*(undefined8 *)(lVar13 + 0x1b0) +
+           fVar36 * (fVar34 - (float)*(undefined8 *)(lVar13 + 0x1d0));
+  fVar43 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1b0) >> 0x20) +
+           fVar39 * (fVar35 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1d0) >> 0x20));
+  uVar15 = (ulong)&local_b0 | 8;
+  *(ulong *)(lVar13 + 0x268) = CONCAT44(fVar29,fVar30);
+  *(ulong *)(lVar13 + 0x1a0) = CONCAT44(fVar30,fVar30);
+  *(ulong *)(lVar13 + 0x1a8) = CONCAT44(fVar33,fVar31);
+  fVar40 = (float)*(undefined8 *)(lVar13 + 0x198);
+  fVar42 = (float)((ulong)*(undefined8 *)(lVar13 + 0x198) >> 0x20);
+  fVar44 = (float)*(undefined8 *)(lVar13 + 0x1b8) +
+           fVar40 * (fVar41 - (float)*(undefined8 *)(lVar13 + 0x1d8));
+  fVar45 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1b8) >> 0x20) +
+           fVar42 * (fVar43 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1d8) >> 0x20));
+  *(ulong *)(lVar13 + 0x1b0) = CONCAT44(fVar35,fVar34);
+  *(ulong *)(lVar13 + 0x1b8) = CONCAT44(fVar43,fVar41);
+  fVar25 = fVar30 + fVar25 * (fVar29 - fVar31);
+  fVar30 = fVar30 + fVar18 * (fVar29 - fVar33);
+  uVar20 = CONCAT44(fVar30,fVar25);
+  fVar31 = fVar31 + fVar28 * (fVar25 - fVar34);
+  fVar33 = fVar33 + fVar38 * (fVar30 - fVar35);
+  uVar23 = CONCAT44(fVar33,fVar31);
+  *(ulong *)(lVar13 + 0x1a0) = CONCAT44(fVar29,fVar29);
+  *(undefined8 *)(lVar13 + 0x1a8) = uVar20;
+  *(undefined8 *)(lVar13 + 0x1c0) = uVar20;
+  *(undefined8 *)(lVar13 + 0x1c8) = uVar23;
+  fVar34 = fVar34 + fVar36 * (fVar31 - fVar41);
+  fVar35 = fVar35 + fVar39 * (fVar33 - fVar43);
+  uVar20 = CONCAT44(fVar35,fVar34);
+  fVar41 = fVar41 + fVar40 * (fVar34 - fVar44);
+  fVar43 = fVar43 + fVar42 * (fVar35 - fVar45);
+  *(undefined8 *)(lVar13 + 0x1b0) = uVar23;
+  *(undefined8 *)(lVar13 + 0x1b8) = uVar20;
+  *(undefined8 *)(lVar13 + 0x1d0) = uVar20;
+  *(ulong *)(lVar13 + 0x1d8) = CONCAT44(fVar43,fVar41);
+  uVar16 = (ulong)&local_b0 | 4;
+  uVar6 = (ulong)&local_b0 | 0xc;
+  auVar24 = NEON_fmov(0x3e800000,4);
+  local_b0 = CONCAT44(fVar45 * auVar24._4_4_,fVar44 * auVar24._0_4_);
+  uStack_a8 = CONCAT44(fVar43 * auVar24._12_4_,fVar41 * auVar24._8_4_);
+  __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,&local_b0,1);
+  __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,uVar16,0);
+  __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,uVar15,0);
+  __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,uVar6,0);
+  puVar8 = (undefined8 *)puVar8[0x17];
+  uVar20 = NEON_rev64(local_b0,4);
+  fVar29 = (float)((ulong)uVar20 >> 0x20);
+  fVar25 = (float)*puVar8;
+  fVar28 = (float)((ulong)*puVar8 >> 0x20);
+  fVar33 = (float)puVar8[4] + fVar25 * ((float)uVar20 - (float)puVar8[8]);
+  fVar34 = (float)((ulong)puVar8[4] >> 0x20) + fVar28 * (fVar29 - (float)((ulong)puVar8[8] >> 0x20))
+  ;
+  fVar38 = (float)puVar8[1];
+  fVar31 = (float)((ulong)puVar8[1] >> 0x20);
+  fVar35 = (float)puVar8[5] + fVar38 * (fVar33 - (float)puVar8[9]);
+  fVar36 = (float)((ulong)puVar8[5] >> 0x20) + fVar31 * (fVar34 - (float)((ulong)puVar8[9] >> 0x20))
+  ;
+  fVar39 = (float)puVar8[2];
+  fVar40 = (float)((ulong)puVar8[2] >> 0x20);
+  fVar43 = (float)puVar8[6] + fVar39 * (fVar35 - (float)puVar8[10]);
+  fVar30 = (float)((ulong)puVar8[6] >> 0x20) +
+           fVar40 * (fVar36 - (float)((ulong)puVar8[10] >> 0x20));
+  fVar42 = (float)puVar8[3];
+  fVar41 = (float)((ulong)puVar8[3] >> 0x20);
+  fVar44 = (float)puVar8[7] + fVar42 * (fVar43 - (float)puVar8[0xb]);
+  fVar45 = (float)((ulong)puVar8[7] >> 0x20) +
+           fVar41 * (fVar30 - (float)((ulong)puVar8[0xb] >> 0x20));
+  fVar18 = fVar45 + fVar44;
+  uVar23 = NEON_rev64(uStack_a8,4);
+  fVar25 = (float)uVar20 + fVar25 * ((float)uVar23 - fVar33);
+  fVar29 = fVar29 + fVar28 * ((float)((ulong)uVar23 >> 0x20) - fVar34);
+  uVar20 = CONCAT44(fVar29,fVar25);
+  fVar33 = fVar33 + fVar38 * (fVar25 - fVar35);
+  fVar34 = fVar34 + fVar31 * (fVar29 - fVar36);
+  uVar32 = CONCAT44(fVar34,fVar33);
+  puVar8[4] = uVar23;
+  puVar8[5] = uVar20;
+  puVar8[8] = uVar20;
+  puVar8[9] = uVar32;
+  fVar35 = fVar35 + fVar39 * (fVar33 - fVar43);
+  fVar36 = fVar36 + fVar40 * (fVar34 - fVar30);
+  uVar20 = CONCAT44(fVar36,fVar35);
+  fVar43 = fVar43 + fVar42 * (fVar35 - fVar44);
+  fVar30 = fVar30 + fVar41 * (fVar36 - fVar45);
+  puVar8[6] = uVar32;
+  puVar8[7] = uVar20;
+  puVar8[10] = uVar20;
+  puVar8[0xb] = CONCAT44(fVar30,fVar43);
+  fVar30 = fVar30 + fVar43;
+  uVar20 = CONCAT44(fVar18 * 0.5,fVar30 * 0.5);
+  uVar23 = NEON_rev64(uVar20,4);
+  puVar8[0x74] = uVar23;
+  fVar25 = (float)puVar8[0x1a] + (float)puVar8[0x18] * (-(float)puVar8[0x1c] + fVar30 * 0.5);
+  fVar30 = (float)((ulong)puVar8[0x1a] >> 0x20) +
+           (float)((ulong)puVar8[0x18] >> 0x20) *
+           (-(float)((ulong)puVar8[0x1c] >> 0x20) + fVar18 * 0.5);
+  uVar23 = CONCAT44(fVar30,fVar25);
+  puVar8[0x1a] = uVar20;
+  fVar25 = (float)puVar8[0x1b] + (float)puVar8[0x19] * (fVar25 - (float)puVar8[0x1d]);
+  fVar30 = (float)((ulong)puVar8[0x1b] >> 0x20) +
+           (float)((ulong)puVar8[0x19] >> 0x20) * (fVar30 - (float)((ulong)puVar8[0x1d] >> 0x20));
+  puVar8[0x1c] = uVar23;
+  puVar8[0x1b] = uVar23;
+  puVar8[0x1d] = CONCAT44(fVar30,fVar25);
+  local_b4 = (fVar25 + fVar30) * 0.5;
+  if (1 < iVar5) {
+    puVar8 = *(undefined8 **)(param_1 + 0x40);
+    lVar13 = puVar8[0x16];
+    fVar25 = (float)*(undefined8 *)(lVar13 + 0x250) +
+             (float)*(undefined8 *)(lVar13 + 0x240) *
+             (fVar21 - (float)*(undefined8 *)(lVar13 + 0x260));
+    fVar30 = (float)((ulong)*(undefined8 *)(lVar13 + 0x250) >> 0x20) +
+             (float)((ulong)*(undefined8 *)(lVar13 + 0x240) >> 0x20) *
+             (fVar21 - (float)((ulong)*(undefined8 *)(lVar13 + 0x260) >> 0x20));
+    uVar20 = CONCAT44(fVar30,fVar25);
+    *(float *)(lVar13 + 0x250) = fVar21;
+    *(float *)(lVar13 + 0x254) = fVar21;
+    fVar25 = (float)*(undefined8 *)(lVar13 + 600) +
+             (float)*(undefined8 *)(lVar13 + 0x248) *
+             (fVar25 - (float)*(undefined8 *)(lVar13 + 0x268));
+    fVar30 = (float)((ulong)*(undefined8 *)(lVar13 + 600) >> 0x20) +
+             (float)((ulong)*(undefined8 *)(lVar13 + 0x248) >> 0x20) *
+             (fVar30 - (float)((ulong)*(undefined8 *)(lVar13 + 0x268) >> 0x20));
+    *(undefined8 *)(lVar13 + 0x260) = uVar20;
+    *(undefined8 *)(lVar13 + 600) = uVar20;
+    fVar21 = (float)*(undefined8 *)(lVar13 + 0x180);
+    fVar29 = (float)((ulong)*(undefined8 *)(lVar13 + 0x180) >> 0x20);
+    fVar38 = (float)*(undefined8 *)(lVar13 + 0x1a0) +
+             fVar21 * (fVar25 - (float)*(undefined8 *)(lVar13 + 0x1c0));
+    fVar31 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1a0) >> 0x20) +
+             fVar29 * (fVar25 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1c0) >> 0x20));
+    fVar18 = (float)*(undefined8 *)(lVar13 + 0x188);
+    fVar28 = (float)((ulong)*(undefined8 *)(lVar13 + 0x188) >> 0x20);
+    fVar33 = (float)*(undefined8 *)(lVar13 + 0x1a8) +
+             fVar18 * (fVar38 - (float)*(undefined8 *)(lVar13 + 0x1c8));
+    fVar34 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1a8) >> 0x20) +
+             fVar28 * (fVar31 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1c8) >> 0x20));
+    fVar35 = (float)*(undefined8 *)(lVar13 + 400);
+    fVar36 = (float)((ulong)*(undefined8 *)(lVar13 + 400) >> 0x20);
+    fVar42 = (float)*(undefined8 *)(lVar13 + 0x1b0) +
+             fVar35 * (fVar33 - (float)*(undefined8 *)(lVar13 + 0x1d0));
+    fVar41 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1b0) >> 0x20) +
+             fVar36 * (fVar34 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1d0) >> 0x20));
+    *(ulong *)(lVar13 + 0x268) = CONCAT44(fVar30,fVar25);
+    *(ulong *)(lVar13 + 0x1a0) = CONCAT44(fVar25,fVar25);
+    *(ulong *)(lVar13 + 0x1a8) = CONCAT44(fVar31,fVar38);
+    fVar39 = (float)*(undefined8 *)(lVar13 + 0x198);
+    fVar40 = (float)((ulong)*(undefined8 *)(lVar13 + 0x198) >> 0x20);
+    fVar43 = (float)*(undefined8 *)(lVar13 + 0x1b8) +
+             fVar39 * (fVar42 - (float)*(undefined8 *)(lVar13 + 0x1d8));
+    fVar44 = (float)((ulong)*(undefined8 *)(lVar13 + 0x1b8) >> 0x20) +
+             fVar40 * (fVar41 - (float)((ulong)*(undefined8 *)(lVar13 + 0x1d8) >> 0x20));
+    *(ulong *)(lVar13 + 0x1b0) = CONCAT44(fVar34,fVar33);
+    *(ulong *)(lVar13 + 0x1b8) = CONCAT44(fVar41,fVar42);
+    fVar21 = fVar25 + fVar21 * (fVar30 - fVar38);
+    fVar25 = fVar25 + fVar29 * (fVar30 - fVar31);
+    uVar20 = CONCAT44(fVar25,fVar21);
+    fVar38 = fVar38 + fVar18 * (fVar21 - fVar33);
+    fVar31 = fVar31 + fVar28 * (fVar25 - fVar34);
+    uVar23 = CONCAT44(fVar31,fVar38);
+    *(ulong *)(lVar13 + 0x1a0) = CONCAT44(fVar30,fVar30);
+    *(undefined8 *)(lVar13 + 0x1a8) = uVar20;
+    *(undefined8 *)(lVar13 + 0x1c0) = uVar20;
+    *(undefined8 *)(lVar13 + 0x1c8) = uVar23;
+    fVar33 = fVar33 + fVar35 * (fVar38 - fVar42);
+    fVar34 = fVar34 + fVar36 * (fVar31 - fVar41);
+    uVar20 = CONCAT44(fVar34,fVar33);
+    fVar42 = fVar42 + fVar39 * (fVar33 - fVar43);
+    fVar41 = fVar41 + fVar40 * (fVar34 - fVar44);
+    *(undefined8 *)(lVar13 + 0x1b0) = uVar23;
+    *(undefined8 *)(lVar13 + 0x1b8) = uVar20;
+    *(undefined8 *)(lVar13 + 0x1d0) = uVar20;
+    *(ulong *)(lVar13 + 0x1d8) = CONCAT44(fVar41,fVar42);
+    local_b0 = CONCAT44(fVar44 * auVar24._4_4_,fVar43 * auVar24._0_4_);
+    uStack_a8 = CONCAT44(fVar41 * auVar24._12_4_,fVar42 * auVar24._8_4_);
+    __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,&local_b0,1);
+    __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,uVar16,0);
+    __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,uVar15,0);
+    __ZN12FilterMoog247processEPfffb(fVar27,*puVar8,uVar6,0);
+    puVar8 = (undefined8 *)puVar8[0x17];
+    uVar20 = NEON_rev64(local_b0,4);
+    fVar30 = (float)((ulong)uVar20 >> 0x20);
+    fVar21 = (float)*puVar8;
+    fVar29 = (float)((ulong)*puVar8 >> 0x20);
+    fVar38 = (float)puVar8[4] + fVar21 * ((float)uVar20 - (float)puVar8[8]);
+    fVar31 = (float)((ulong)puVar8[4] >> 0x20) +
+             fVar29 * (fVar30 - (float)((ulong)puVar8[8] >> 0x20));
+    fVar18 = (float)puVar8[1];
+    fVar28 = (float)((ulong)puVar8[1] >> 0x20);
+    fVar33 = (float)puVar8[5] + fVar18 * (fVar38 - (float)puVar8[9]);
+    fVar34 = (float)((ulong)puVar8[5] >> 0x20) +
+             fVar28 * (fVar31 - (float)((ulong)puVar8[9] >> 0x20));
+    fVar35 = (float)puVar8[2];
+    fVar36 = (float)((ulong)puVar8[2] >> 0x20);
+    fVar42 = (float)puVar8[6] + fVar35 * (fVar33 - (float)puVar8[10]);
+    fVar25 = (float)((ulong)puVar8[6] >> 0x20) +
+             fVar36 * (fVar34 - (float)((ulong)puVar8[10] >> 0x20));
+    fVar39 = (float)puVar8[3];
+    fVar40 = (float)((ulong)puVar8[3] >> 0x20);
+    fVar41 = (float)puVar8[7] + fVar39 * (fVar42 - (float)puVar8[0xb]);
+    fVar43 = (float)((ulong)puVar8[7] >> 0x20) +
+             fVar40 * (fVar25 - (float)((ulong)puVar8[0xb] >> 0x20));
+    fVar27 = fVar43 + fVar41;
+    uVar23 = NEON_rev64(uStack_a8,4);
+    fVar21 = (float)uVar20 + fVar21 * ((float)uVar23 - fVar38);
+    fVar30 = fVar30 + fVar29 * ((float)((ulong)uVar23 >> 0x20) - fVar31);
+    uVar20 = CONCAT44(fVar30,fVar21);
+    fVar38 = fVar38 + fVar18 * (fVar21 - fVar33);
+    fVar31 = fVar31 + fVar28 * (fVar30 - fVar34);
+    uVar32 = CONCAT44(fVar31,fVar38);
+    puVar8[4] = uVar23;
+    puVar8[5] = uVar20;
+    puVar8[8] = uVar20;
+    puVar8[9] = uVar32;
+    fVar33 = fVar33 + fVar35 * (fVar38 - fVar42);
+    fVar34 = fVar34 + fVar36 * (fVar31 - fVar25);
+    uVar20 = CONCAT44(fVar34,fVar33);
+    fVar42 = fVar42 + fVar39 * (fVar33 - fVar41);
+    fVar25 = fVar25 + fVar40 * (fVar34 - fVar43);
+    puVar8[6] = uVar32;
+    puVar8[7] = uVar20;
+    puVar8[10] = uVar20;
+    puVar8[0xb] = CONCAT44(fVar25,fVar42);
+    fVar25 = fVar25 + fVar42;
+    uVar20 = CONCAT44(fVar27 * 0.5,fVar25 * 0.5);
+    uVar23 = NEON_rev64(uVar20,4);
+    puVar8[0x74] = uVar23;
+    fVar21 = (float)puVar8[0x1a] + (float)puVar8[0x18] * (-(float)puVar8[0x1c] + fVar25 * 0.5);
+    fVar25 = (float)((ulong)puVar8[0x1a] >> 0x20) +
+             (float)((ulong)puVar8[0x18] >> 0x20) *
+             (-(float)((ulong)puVar8[0x1c] >> 0x20) + fVar27 * 0.5);
+    uVar23 = CONCAT44(fVar25,fVar21);
+    puVar8[0x1a] = uVar20;
+    fVar21 = (float)puVar8[0x1b] + (float)puVar8[0x19] * (fVar21 - (float)puVar8[0x1d]);
+    fVar25 = (float)((ulong)puVar8[0x1b] >> 0x20) +
+             (float)((ulong)puVar8[0x19] >> 0x20) * (fVar25 - (float)((ulong)puVar8[0x1d] >> 0x20));
+    puVar8[0x1c] = uVar23;
+    puVar8[0x1b] = uVar23;
+    puVar8[0x1d] = CONCAT44(fVar25,fVar21);
+    fVar21 = (fVar21 + fVar25) * 0.5;
+  }
+  lVar13 = *(long *)(param_1 + 0xa8);
+  pfVar9 = *(float **)(param_1 + 0x70);
+  if (*(char *)(lVar13 + 0xd0) == '\0') {
+    if (*pfVar9 != 4.0) {
+      *pfVar9 = 4.0;
+      pfVar9[4] = 0.0;
+      pfVar9[1] = pfVar9[3] * 9.0702946e-05;
+      pfVar9[2] = 1.0 / (pfVar9[3] * 9.0702946e-05 + 1.0);
+    }
+    fVar25 = *(float *)(lVar13 + 0x70);
+    fVar30 = *(float *)(param_1 + 0x94);
+  }
+  else {
+    if (*pfVar9 != 800.0) {
+      *pfVar9 = 800.0;
+      pfVar9[4] = 0.0;
+      pfVar9[1] = pfVar9[3] * 0.01814059;
+      pfVar9[2] = 1.0 / (pfVar9[3] * 0.01814059 + 1.0);
+    }
+    fVar25 = *(float *)(lVar13 + 0x70);
+    plVar7 = *(long **)(param_1 + 0xd0);
+    fVar30 = *(float *)((long)plVar7 + 0x34) +
+             *(float *)(*plVar7 + 0xc) *
+             (*(float *)((long)plVar7 + 0x1c) - *(float *)((long)plVar7 + 0x34));
+  }
+  fVar30 = fVar30 * fVar25 + (1.0 - fVar25);
+  if (param_1[0xc0] != '\0') {
+    param_1[0xc0] = '\0';
+    pfVar9[4] = fVar30;
+  }
+  if (cVar2 != '\0') {
+    local_b4 = local_b4 * fVar17;
+    fVar21 = fVar21 * fVar17;
+  }
+  fVar30 = fVar30 + fVar25 * (*(float *)(param_1 + 0xcc) + *(float *)(param_1 + 0xcc));
+  fVar17 = pfVar9[4];
+  if (1e-07 < ABS(fVar30 - fVar17)) {
+    fVar17 = (fVar30 + fVar17 * pfVar9[1]) * pfVar9[2];
+    pfVar9[4] = fVar17;
+  }
+  fVar30 = *(float *)(*(long *)(param_1 + 0x28) + 0x14);
+  fVar25 = fVar30 * local_b4 * fVar17;
+  lVar13 = *(long *)(param_1 + 0xb8);
+  *param_2 = *param_2 + fVar25 * *(float *)(lVar13 + 0x2c);
+  fVar17 = fVar30 * fVar21 * fVar17;
+  if (iVar5 < 2) {
+    fVar17 = fVar25;
+  }
+  *param_3 = *param_3 + fVar17 * *(float *)(lVar13 + 0x30);
+  cVar2 = *param_1;
+joined_r0x00045704:
+  if (cVar2 == '\0') {
+    bVar4 = param_1[1] != '\0';
+  }
+  else {
+    bVar4 = true;
+  }
+  return bVar4;
+}
+

@@ -1,0 +1,14 @@
+{"level":30,"time":1792347754150,"application":"rea","mode":"mcp","layer":"server","tool":"open_binary","durationMs":39.62,"status":"ok","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347858966,"application":"rea","mode":"mcp","layer":"ghidra-bridge","reason":"process table could not be inspected: spawn EPERM","msg":"Ghidra process cleanup failed closed"}
+{"level":40,"time":1792347858967,"application":"rea","mode":"mcp","layer":"server","tool":"search_procedures","durationMs":104813.64,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347858972,"application":"rea","mode":"mcp","layer":"server","tool":"search_procedures","durationMs":0.17,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347858975,"application":"rea","mode":"mcp","layer":"server","tool":"analyze_function","durationMs":0.57,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347858980,"application":"rea","mode":"mcp","layer":"server","tool":"analyze_function","durationMs":0.34,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347858981,"application":"rea","mode":"mcp","layer":"server","tool":"analyze_function","durationMs":0.32,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347858983,"application":"rea","mode":"mcp","layer":"server","tool":"analyze_function","durationMs":0.25,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347897821,"application":"rea","mode":"mcp","layer":"ghidra-bridge","reason":"process table could not be inspected: spawn EPERM","msg":"Ghidra process cleanup failed closed"}
+{"level":40,"time":1792347897822,"application":"rea","mode":"mcp","layer":"server","tool":"close_binary","durationMs":2.51,"status":"error","msg":"MCP tool execution completed"}
+{"level":40,"time":1792347897827,"application":"rea","mode":"mcp","layer":"ghidra-bridge","reason":"process table could not be inspected: spawn EPERM","msg":"Ghidra process cleanup failed closed"}
+REA could not close cleanly. End the REA process before starting it again.
+Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+{"level":50,"time":1792347897827,"application":"rea","mode":"mcp","layer":"server","msg":"REA could not close cleanly. End the REA process before starting it again."}

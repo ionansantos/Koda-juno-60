@@ -1,0 +1,241 @@
+{
+  "evidence_id": "ev_0bee1859808a641ad34db0d1cd319a0e0288c623b293958e9155fa88485569d8",
+  "frame": {
+    "width": 695,
+    "height": 350
+  },
+  "controls": [
+    {
+      "helper": "setKnob",
+      "x": 173,
+      "y": 258,
+      "parameter": 1
+    },
+    {
+      "helper": "setKnob",
+      "x": 128,
+      "y": 258,
+      "parameter": 2
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 368,
+      "y": 107,
+      "parameter": 10
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 395,
+      "y": 107,
+      "parameter": 9
+    },
+    {
+      "helper": "setMetalOnOffButton",
+      "x": 433,
+      "y": 119,
+      "parameter": 8
+    },
+    {
+      "helper": "setColorOnOffButton",
+      "x": 468,
+      "y": 111,
+      "parameter": 7
+    },
+    {
+      "helper": "setColorOnOffButton",
+      "x": 491,
+      "y": 111,
+      "parameter": 3
+    },
+    {
+      "helper": "setColorOnOffButton",
+      "x": 514,
+      "y": 111,
+      "parameter": 4
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 561,
+      "y": 107,
+      "parameter": 5
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 612,
+      "y": 107,
+      "parameter": 6
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 243,
+      "y": 248,
+      "parameter": 11
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 284,
+      "y": 248,
+      "parameter": 12
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 311,
+      "y": 248,
+      "parameter": 13
+    },
+    {
+      "helper": "setMetalOnOffButton",
+      "x": 338,
+      "y": 269,
+      "parameter": 14
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 361,
+      "y": 248,
+      "parameter": 15
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 388,
+      "y": 248,
+      "parameter": 16
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 415,
+      "y": 248,
+      "parameter": 17
+    },
+    {
+      "helper": "setMetalOnOffButton",
+      "x": 453,
+      "y": 269,
+      "parameter": 18
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 484,
+      "y": 248,
+      "parameter": 19
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 530,
+      "y": 248,
+      "parameter": 20
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 557,
+      "y": 248,
+      "parameter": 21
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 584,
+      "y": 248,
+      "parameter": 22
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 611,
+      "y": 248,
+      "parameter": 23
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 243,
+      "y": 107,
+      "parameter": 24
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 270,
+      "y": 107,
+      "parameter": 25
+    },
+    {
+      "helper": "setMetalOnOffButton",
+      "x": 314,
+      "y": 119,
+      "parameter": 26
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 62,
+      "y": 107,
+      "parameter": 29
+    },
+    {
+      "helper": "setMetalOnOffButton",
+      "x": 433,
+      "y": 155,
+      "parameter": 36
+    },
+    {
+      "helper": "setColorOnOffButton",
+      "x": 120,
+      "y": 111,
+      "parameter": 38
+    },
+    {
+      "helper": "setColorOnOffButton",
+      "x": 169,
+      "y": 111,
+      "parameter": 34
+    },
+    {
+      "helper": "setColorOnOffButton",
+      "x": 192,
+      "y": 111,
+      "parameter": 35
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 65,
+      "y": 248,
+      "parameter": 31
+    },
+    {
+      "helper": "setVerticalSlider",
+      "x": 92,
+      "y": 248,
+      "parameter": 32
+    },
+    {
+      "helper": "setHorizontalSwitch3",
+      "x": 138,
+      "y": 300,
+      "parameter": 33
+    },
+    {
+      "helper": "setMidiLearnOnOffButton",
+      "x": 135,
+      "y": 320,
+      "parameter": 46
+    },
+    {
+      "helper": "setGMidiLearnOnOffButton",
+      "x": 166,
+      "y": 320,
+      "parameter": 37
+    },
+    {
+      "helper": "setOptionMenu",
+      "x": 300,
+      "y": 169,
+      "width": 27,
+      "height": 13,
+      "parameter": 27
+    },
+    {
+      "helper": "setOptionMenu",
+      "x": 329,
+      "y": 169,
+      "width": 27,
+      "height": 13,
+      "parameter": 28
+    }
+  ]
+}

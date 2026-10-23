@@ -1,0 +1,73 @@
+{
+  "evidence_id": "ev_1c8105c40312b3729173abb25b0b89546d6e4cf173eb4da47ed0f879226bfe25",
+  "subject": {
+    "name": "TAL-U-No-60.i386",
+    "digest": {
+      "sha256": "b46668c96111476a3bde38e3367e8ca323178070ced25a51f47f9dd51dc65359"
+    },
+    "format": "mach-o",
+    "architecture": "x86",
+    "local_path": "/Users/koda/tal-search-investigation/TAL-U-No-60.i386"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "mach-o",
+      "architecture": "x86",
+      "available_architectures": [
+        "x86"
+      ],
+      "import_mode": "ephemeral-source-immutable",
+      "annotation_policy": "atomic-function-entry-metadata-v1",
+      "load_image_observations": "source-mappings-entry-context-v2",
+      "function_body_evidence": "complete-inclusive-ranges-v1",
+      "function_references": "complete-body-and-entry-reference-manager-v2",
+      "string_inventory_evidence": "defined-data-coverage-v1",
+      "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+      "instruction_flow_evidence": "decoded-return-pcode-v1",
+      "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+      "no_return_repair": "returning-imports-decoded-return-v2",
+      "process_launch": "inspected-jvm-launch-support-v1",
+      "jump_table_evidence": "typed-case-default-blocks-v1",
+      "decompiler_jump_loads": true,
+      "loader": "auto-from-header",
+      "language_id": "auto-from-header",
+      "compiler_spec_id": "auto-default",
+      "analyzer_preset": "ghidra-default"
+    },
+    "digest": "8a42e641a4d7d4692c302ecacc8632b9d9380739d83a206ac934d316ddbecd62"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "procedure_assembly",
+  "parameters": {
+    "procedure": "0x24b1c"
+  },
+  "raw_result": {
+    "value": "0x24b1c: PUSH EBP\n0x24b1d: MOV EBP, ESP\n0x24b1f: PUSH EDI\n0x24b20: PUSH ESI\n0x24b21: PUSH EBX\n0x24b22: SUB ESP, 0x4\n0x24b25: CALL 0x00024adc\n0x24b2a: MOV ESI, dword ptr [EBP + 0x8]\n0x24b2d: MOVSS XMM5, dword ptr [EBP + 0xc]\n0x24b32: MOVAPS XMM0, XMM5\n0x24b35: DIVSS XMM0, dword ptr [ESI + 0x4]\n0x24b3a: MOVSS dword ptr [ESI + 0x30], XMM0\n0x24b3f: MOVAPS XMM1, XMM0\n0x24b42: ADDSS XMM1, dword ptr [ESI + 0x14]\n0x24b47: MOVSS dword ptr [ESI + 0x14], XMM1\n0x24b4c: MOVSS XMM0, dword ptr [ESI + 0x18]\n0x24b51: ADDSS XMM0, dword ptr [ESI + 0x30]\n0x24b56: MOVSS dword ptr [ESI + 0x18], XMM0\n0x24b5b: MOVSS XMM3, dword ptr [EBX + 0xb7f6]\n0x24b63: UCOMISS XMM1, XMM3\n0x24b66: JC 0x00024b93\n0x24b68: MOV dword ptr [ESI + 0x20], 0x1\n0x24b6f: MOVAPS XMM0, XMM1\n0x24b72: SUBSS XMM0, XMM3\n0x24b76: MOVSS dword ptr [ESI + 0x14], XMM0\n0x24b7b: MOVSS XMM2, dword ptr [ESI + 0x4]\n0x24b80: DIVSS XMM2, XMM5\n0x24b84: MULSS XMM2, XMM0\n0x24b88: MOV EDX, dword ptr [ESI + 0xc]\n0x24b8b: TEST EDX, EDX\n0x24b8d: JG 0x00024cad\n0x24b93: MOVSS XMM6, dword ptr [EBX + 0xb7fe]\n0x24b9b: MOVSS XMM0, dword ptr [EBP + 0x10]\n0x24ba0: MOVAPS XMM1, XMM0\n0x24ba3: MULSS XMM1, dword ptr [EBX + 0xb82a]\n0x24bab: ADDSS XMM1, dword ptr [EBX + 0xb82e]\n0x24bb3: MOVSS XMM0, dword ptr [ESI + 0x18]\n0x24bb8: UCOMISS XMM0, XMM1\n0x24bbb: JNC 0x00024c0a\n0x24bbd: MOV EDX, dword ptr [ESI + 0x1c]\n0x24bc0: MOV EAX, dword ptr [ESI + 0x10]\n0x24bc3: MOV dword ptr [EAX + EDX*0x4], 0x0\n0x24bca: MOV EDX, dword ptr [ESI + 0x1c]\n0x24bcd: ADD EDX, 0x1\n0x24bd0: MOV dword ptr [ESI + 0x1c], EDX\n0x24bd3: MOV EAX, dword ptr [ESI + 0xc]\n0x24bd6: CMP EDX, EAX\n0x24bd8: JL 0x00024bdf\n0x24bda: SUB EDX, EAX\n0x24bdc: MOV dword ptr [ESI + 0x1c], EDX\n0x24bdf: MOV EAX, dword ptr [ESI + 0x10]\n0x24be2: MOVSS XMM0, dword ptr [EAX + EDX*0x4]\n0x24be7: MOVSS dword ptr [ESI + 0x28], XMM0\n0x24bec: ADDSS XMM0, dword ptr [ESI + 0x14]\n0x24bf1: SUBSS XMM0, dword ptr [ESI + 0x18]\n0x24bf6: SUBSS XMM0, XMM6\n0x24bfa: MOVSS dword ptr [EBP + -0x10], XMM0\n0x24bff: FLD float ptr [EBP + -0x10]\n0x24c02: ADD ESP, 0x4\n0x24c05: POP EBX\n0x24c06: POP ESI\n0x24c07: POP EDI\n0x24c08: POP EBP\n0x24c09: RET\n0x24c0a: MOV dword ptr [ESI + 0x20], 0xffffffff\n0x24c11: SUBSS XMM0, XMM3\n0x24c15: MOVSS dword ptr [ESI + 0x18], XMM0\n0x24c1a: ADDSS XMM0, XMM3\n0x24c1e: SUBSS XMM0, XMM1\n0x24c22: MOVSS dword ptr [ESI + 0x30], XMM0\n0x24c27: UCOMISS XMM0, dword ptr [EBX + 0xb832]\n0x24c2e: JC 0x00024d15\n0x24c34: MOVSS XMM2, dword ptr [ESI + 0x4]\n0x24c39: DIVSS XMM2, XMM5\n0x24c3d: MULSS XMM2, dword ptr [ESI + 0x30]\n0x24c42: MOV EAX, dword ptr [ESI + 0xc]\n0x24c45: TEST EAX, EAX\n0x24c47: JLE 0x00024bbd\n0x24c4d: XOR EDI, EDI\n0x24c4f: MOVSS XMM4, dword ptr [EBX + 0xb826]\n0x24c57: CVTSI2SS XMM1, EDI\n0x24c5b: ADDSS XMM1, XMM2\n0x24c5f: MULSS XMM1, dword ptr [ESI + 0x8]\n0x24c64: ADDSS XMM1, XMM6\n0x24c68: MOVSS dword ptr [ESI + 0x30], XMM1\n0x24c6d: UCOMISS XMM4, XMM1\n0x24c70: JBE 0x00024ca0\n0x24c72: MOV EAX, EDI\n0x24c74: ADD EAX, dword ptr [ESI + 0x1c]\n0x24c77: CDQ\n0x24c78: IDIV dword ptr [ESI + 0xc]\n0x24c7b: MOV EAX, dword ptr [ESI + 0x10]\n0x24c7e: LEA EDX, [EAX + EDX*0x4]\n0x24c81: CVTSI2SS XMM0, dword ptr [ESI + 0x20]\n0x24c86: CVTTSS2SI ECX, XMM1\n0x24c8a: MOV EAX, dword ptr [ESI]\n0x24c8c: MOVAPS XMM1, XMM0\n0x24c8f: MULSS XMM1, dword ptr [EAX + ECX*0x4]\n0x24c94: SUBSS XMM0, XMM1\n0x24c98: ADDSS XMM0, dword ptr [EDX]\n0x24c9c: MOVSS dword ptr [EDX], XMM0\n0x24ca0: ADD EDI, 0x1\n0x24ca3: CMP dword ptr [ESI + 0xc], EDI\n0x24ca6: JG 0x00024c57\n0x24ca8: JMP 0x00024bbd\n0x24cad: XOR EDI, EDI\n0x24caf: MOVSS XMM6, dword ptr [EBX + 0xb7fe]\n0x24cb7: MOVSS XMM4, dword ptr [EBX + 0xb826]\n0x24cbf: CVTSI2SS XMM1, EDI\n0x24cc3: ADDSS XMM1, XMM2\n0x24cc7: MULSS XMM1, dword ptr [ESI + 0x8]\n0x24ccc: ADDSS XMM1, XMM6\n0x24cd0: MOVSS dword ptr [ESI + 0x30], XMM1\n0x24cd5: UCOMISS XMM4, XMM1\n0x24cd8: JBE 0x00024d08\n0x24cda: MOV EAX, EDI\n0x24cdc: ADD EAX, dword ptr [ESI + 0x1c]\n0x24cdf: CDQ\n0x24ce0: IDIV dword ptr [ESI + 0xc]\n0x24ce3: MOV EAX, dword ptr [ESI + 0x10]\n0x24ce6: LEA EDX, [EAX + EDX*0x4]\n0x24ce9: CVTSI2SS XMM0, dword ptr [ESI + 0x20]\n0x24cee: CVTTSS2SI ECX, XMM1\n0x24cf2: MOV EAX, dword ptr [ESI]\n0x24cf4: MOVAPS XMM1, XMM0\n0x24cf7: MULSS XMM1, dword ptr [EAX + ECX*0x4]\n0x24cfc: SUBSS XMM0, XMM1\n0x24d00: ADDSS XMM0, dword ptr [EDX]\n0x24d04: MOVSS dword ptr [EDX], XMM0\n0x24d08: ADD EDI, 0x1\n0x24d0b: CMP dword ptr [ESI + 0xc], EDI\n0x24d0e: JG 0x00024cbf\n0x24d10: JMP 0x00024b9b\n0x24d15: JP 0x00024c34\n0x24d1b: XOR EAX, EAX\n0x24d1d: MOV dword ptr [ESI + 0x30], EAX\n0x24d20: MOVSS XMM2, dword ptr [ESI + 0x4]\n0x24d25: DIVSS XMM2, XMM5\n0x24d29: MULSS XMM2, dword ptr [ESI + 0x30]\n0x24d2e: MOV EAX, dword ptr [ESI + 0xc]\n0x24d31: TEST EAX, EAX\n0x24d33: JLE 0x00024bbd\n0x24d39: JMP 0x00024c4d",
+    "limitations": []
+  },
+  "normalized_result": "0x24b1c: PUSH EBP\n0x24b1d: MOV EBP, ESP\n0x24b1f: PUSH EDI\n0x24b20: PUSH ESI\n0x24b21: PUSH EBX\n0x24b22: SUB ESP, 0x4\n0x24b25: CALL 0x00024adc\n0x24b2a: MOV ESI, dword ptr [EBP + 0x8]\n0x24b2d: MOVSS XMM5, dword ptr [EBP + 0xc]\n0x24b32: MOVAPS XMM0, XMM5\n0x24b35: DIVSS XMM0, dword ptr [ESI + 0x4]\n0x24b3a: MOVSS dword ptr [ESI + 0x30], XMM0\n0x24b3f: MOVAPS XMM1, XMM0\n0x24b42: ADDSS XMM1, dword ptr [ESI + 0x14]\n0x24b47: MOVSS dword ptr [ESI + 0x14], XMM1\n0x24b4c: MOVSS XMM0, dword ptr [ESI + 0x18]\n0x24b51: ADDSS XMM0, dword ptr [ESI + 0x30]\n0x24b56: MOVSS dword ptr [ESI + 0x18], XMM0\n0x24b5b: MOVSS XMM3, dword ptr [EBX + 0xb7f6]\n0x24b63: UCOMISS XMM1, XMM3\n0x24b66: JC 0x00024b93\n0x24b68: MOV dword ptr [ESI + 0x20], 0x1\n0x24b6f: MOVAPS XMM0, XMM1\n0x24b72: SUBSS XMM0, XMM3\n0x24b76: MOVSS dword ptr [ESI + 0x14], XMM0\n0x24b7b: MOVSS XMM2, dword ptr [ESI + 0x4]\n0x24b80: DIVSS XMM2, XMM5\n0x24b84: MULSS XMM2, XMM0\n0x24b88: MOV EDX, dword ptr [ESI + 0xc]\n0x24b8b: TEST EDX, EDX\n0x24b8d: JG 0x00024cad\n0x24b93: MOVSS XMM6, dword ptr [EBX + 0xb7fe]\n0x24b9b: MOVSS XMM0, dword ptr [EBP + 0x10]\n0x24ba0: MOVAPS XMM1, XMM0\n0x24ba3: MULSS XMM1, dword ptr [EBX + 0xb82a]\n0x24bab: ADDSS XMM1, dword ptr [EBX + 0xb82e]\n0x24bb3: MOVSS XMM0, dword ptr [ESI + 0x18]\n0x24bb8: UCOMISS XMM0, XMM1\n0x24bbb: JNC 0x00024c0a\n0x24bbd: MOV EDX, dword ptr [ESI + 0x1c]\n0x24bc0: MOV EAX, dword ptr [ESI + 0x10]\n0x24bc3: MOV dword ptr [EAX + EDX*0x4], 0x0\n0x24bca: MOV EDX, dword ptr [ESI + 0x1c]\n0x24bcd: ADD EDX, 0x1\n0x24bd0: MOV dword ptr [ESI + 0x1c], EDX\n0x24bd3: MOV EAX, dword ptr [ESI + 0xc]\n0x24bd6: CMP EDX, EAX\n0x24bd8: JL 0x00024bdf\n0x24bda: SUB EDX, EAX\n0x24bdc: MOV dword ptr [ESI + 0x1c], EDX\n0x24bdf: MOV EAX, dword ptr [ESI + 0x10]\n0x24be2: MOVSS XMM0, dword ptr [EAX + EDX*0x4]\n0x24be7: MOVSS dword ptr [ESI + 0x28], XMM0\n0x24bec: ADDSS XMM0, dword ptr [ESI + 0x14]\n0x24bf1: SUBSS XMM0, dword ptr [ESI + 0x18]\n0x24bf6: SUBSS XMM0, XMM6\n0x24bfa: MOVSS dword ptr [EBP + -0x10], XMM0\n0x24bff: FLD float ptr [EBP + -0x10]\n0x24c02: ADD ESP, 0x4\n0x24c05: POP EBX\n0x24c06: POP ESI\n0x24c07: POP EDI\n0x24c08: POP EBP\n0x24c09: RET\n0x24c0a: MOV dword ptr [ESI + 0x20], 0xffffffff\n0x24c11: SUBSS XMM0, XMM3\n0x24c15: MOVSS dword ptr [ESI + 0x18], XMM0\n0x24c1a: ADDSS XMM0, XMM3\n0x24c1e: SUBSS XMM0, XMM1\n0x24c22: MOVSS dword ptr [ESI + 0x30], XMM0\n0x24c27: UCOMISS XMM0, dword ptr [EBX + 0xb832]\n0x24c2e: JC 0x00024d15\n0x24c34: MOVSS XMM2, dword ptr [ESI + 0x4]\n0x24c39: DIVSS XMM2, XMM5\n0x24c3d: MULSS XMM2, dword ptr [ESI + 0x30]\n0x24c42: MOV EAX, dword ptr [ESI + 0xc]\n0x24c45: TEST EAX, EAX\n0x24c47: JLE 0x00024bbd\n0x24c4d: XOR EDI, EDI\n0x24c4f: MOVSS XMM4, dword ptr [EBX + 0xb826]\n0x24c57: CVTSI2SS XMM1, EDI\n0x24c5b: ADDSS XMM1, XMM2\n0x24c5f: MULSS XMM1, dword ptr [ESI + 0x8]\n0x24c64: ADDSS XMM1, XMM6\n0x24c68: MOVSS dword ptr [ESI + 0x30], XMM1\n0x24c6d: UCOMISS XMM4, XMM1\n0x24c70: JBE 0x00024ca0\n0x24c72: MOV EAX, EDI\n0x24c74: ADD EAX, dword ptr [ESI + 0x1c]\n0x24c77: CDQ\n0x24c78: IDIV dword ptr [ESI + 0xc]\n0x24c7b: MOV EAX, dword ptr [ESI + 0x10]\n0x24c7e: LEA EDX, [EAX + EDX*0x4]\n0x24c81: CVTSI2SS XMM0, dword ptr [ESI + 0x20]\n0x24c86: CVTTSS2SI ECX, XMM1\n0x24c8a: MOV EAX, dword ptr [ESI]\n0x24c8c: MOVAPS XMM1, XMM0\n0x24c8f: MULSS XMM1, dword ptr [EAX + ECX*0x4]\n0x24c94: SUBSS XMM0, XMM1\n0x24c98: ADDSS XMM0, dword ptr [EDX]\n0x24c9c: MOVSS dword ptr [EDX], XMM0\n0x24ca0: ADD EDI, 0x1\n0x24ca3: CMP dword ptr [ESI + 0xc], EDI\n0x24ca6: JG 0x00024c57\n0x24ca8: JMP 0x00024bbd\n0x24cad: XOR EDI, EDI\n0x24caf: MOVSS XMM6, dword ptr [EBX + 0xb7fe]\n0x24cb7: MOVSS XMM4, dword ptr [EBX + 0xb826]\n0x24cbf: CVTSI2SS XMM1, EDI\n0x24cc3: ADDSS XMM1, XMM2\n0x24cc7: MULSS XMM1, dword ptr [ESI + 0x8]\n0x24ccc: ADDSS XMM1, XMM6\n0x24cd0: MOVSS dword ptr [ESI + 0x30], XMM1\n0x24cd5: UCOMISS XMM4, XMM1\n0x24cd8: JBE 0x00024d08\n0x24cda: MOV EAX, EDI\n0x24cdc: ADD EAX, dword ptr [ESI + 0x1c]\n0x24cdf: CDQ\n0x24ce0: IDIV dword ptr [ESI + 0xc]\n0x24ce3: MOV EAX, dword ptr [ESI + 0x10]\n0x24ce6: LEA EDX, [EAX + EDX*0x4]\n0x24ce9: CVTSI2SS XMM0, dword ptr [ESI + 0x20]\n0x24cee: CVTTSS2SI ECX, XMM1\n0x24cf2: MOV EAX, dword ptr [ESI]\n0x24cf4: MOVAPS XMM1, XMM0\n0x24cf7: MULSS XMM1, dword ptr [EAX + ECX*0x4]\n0x24cfc: SUBSS XMM0, XMM1\n0x24d00: ADDSS XMM0, dword ptr [EDX]\n0x24d04: MOVSS dword ptr [EDX], XMM0\n0x24d08: ADD EDI, 0x1\n0x24d0b: CMP dword ptr [ESI + 0xc], EDI\n0x24d0e: JG 0x00024cbf\n0x24d10: JMP 0x00024b9b\n0x24d15: JP 0x00024c34\n0x24d1b: XOR EAX, EAX\n0x24d1d: MOV dword ptr [ESI + 0x30], EAX\n0x24d20: MOVSS XMM2, dword ptr [ESI + 0x4]\n0x24d25: DIVSS XMM2, XMM5\n0x24d29: MULSS XMM2, dword ptr [ESI + 0x30]\n0x24d2e: MOV EAX, dword ptr [ESI + 0xc]\n0x24d31: TEST EAX, EAX\n0x24d33: JLE 0x00024bbd\n0x24d39: JMP 0x00024c4d",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "Assembly is Ghidra Listing text and does not claim textual equivalence with Hopper output.",
+    "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

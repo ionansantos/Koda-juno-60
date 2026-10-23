@@ -1,0 +1,81 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_2455464ee91f60d902eb102aaff8b0ffdc64deafd0d840fea21b4e396a1610a5\",\"subject\":{\"name\":\"TAL-U-NO-LX-V2.arm64\",\"digest\":{\"sha256\":\"f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0\"},\"format\":\"mach-o\",\"architecture\":\"arm64\",\"local_path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"mach-o\",\"architecture\":\"arm64\",\"available_architectures\":[\"arm64\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"procedure_assembly\",\"parameters\":{\"procedure\":\"0x445f4\"},\"raw_result\":{\"value\":\"0x445f4: ldr x8, [x0, #0x20]\\n0x445f8: ldr s1, [x0, #0x30]\\n0x445fc: ldr s0, [x8, #0x10]\\n0x44600: fabd s2, s1, s0\\n0x44604: mov w9, #0xbf95\\n0x44608: movk w9, #0x33d6, LSL #16\\n0x4460c: fmov s3, w9\\n0x44610: fcmp s2, s3\\n0x44614: b.le 0x00044628\\n0x44618: ldp s2, s3, [x8, #0x4]\\n0x4461c: fmadd s0, s2, s0, s1\\n0x44620: fmul s0, s0, s3\\n0x44624: str s0, [x8, #0x10]\\n0x44628: ldrsw x11, [x0, #0x18]\\n0x4462c: scvtf s1, w11\\n0x44630: fnmsub s0, s1, s0, s0\\n0x44634: ldr x8, [x0, #0x10]\\n0x44638: fcvtms w9, s0\\n0x4463c: sub x10, x8, w9, SXTW  #0x2\\n0x44640: ldr x9, [x0]\\n0x44644: cmp x10, x9\\n0x44648: b.cs 0x0004465c\\n0x4464c: lsl x11, x11, #0x2\\n0x44650: add x10, x10, x11\\n0x44654: cmp x10, x9\\n0x44658: b.cc 0x00044650\\n0x4465c: ldr s0, [x10]\\n0x44660: ldr s1, [x1]\\n0x44664: ldr s2, [x0, #0x34]\\n0x44668: fmadd s1, s2, s0, s1\\n0x4466c: ldr x10, [x0, #0x28]\\n0x44670: ldp x11, x10, [x10]\\n0x44674: ldr s2, [x11, #0x8]\\n0x44678: ldr s3, [x11, #0x2c]\\n0x4467c: ldp s5, s4, [x11, #0x18]\\n0x44680: fnmsub s1, s2, s1, s4\\n0x44684: ldr s4, [x11, #0x14]\\n0x44688: fmadd s1, s1, s3, s4\\n0x4468c: fmul s4, s1, s2\\n0x44690: fmov s2, 0x3f600000\\n0x44694: fmul s2, s1, s2\\n0x44698: fmov s3, 0x3e000000\\n0x4469c: fmadd s2, s5, s3, s2\\n0x446a0: stp s1, s2, [x11, #0xc]\\n0x446a4: str s1, [x11, #0x14]\\n0x446a8: stp s2, s4, [x11, #0x18]\\n0x446ac: ldp s1, s3, [x10]\\n0x446b0: fsub s1, s2, s1\\n0x446b4: ldr s4, [x10, #0x1c]\\n0x446b8: fmadd s1, s3, s4, s1\\n0x446bc: stp s2, s1, [x10]\\n0x446c0: str s1, [x10, #0x8]\\n0x446c4: fadd s1, s1, s1\\n0x446c8: fabs s2, s1\\n0x446cc: fmov s3, 0x40400000\\n0x446d0: fadd s3, s2, s3\\n0x446d4: fmov s4, 0x40c00000\\n0x446d8: fmadd s3, s3, s2, s4\\n0x446dc: fmul s1, s3, s1\\n0x446e0: fmov s4, 0x41400000\\n0x446e4: fmadd s2, s3, s2, s4\\n0x446e8: fdiv s1, s1, s2\\n0x446ec: str s1, [x8], #0x4\\n0x446f0: ldr x10, [x0, #0x8]\\n0x446f4: cmp x8, x10\\n0x446f8: csel x8, x8, x9, cc\\n0x446fc: str x8, [x0, #0x10]\\n0x44700: ret\",\"limitations\":[]},\"normalized_result\":\"0x445f4: ldr x8, [x0, #0x20]\\n0x445f8: ldr s1, [x0, #0x30]\\n0x445fc: ldr s0, [x8, #0x10]\\n0x44600: fabd s2, s1, s0\\n0x44604: mov w9, #0xbf95\\n0x44608: movk w9, #0x33d6, LSL #16\\n0x4460c: fmov s3, w9\\n0x44610: fcmp s2, s3\\n0x44614: b.le 0x00044628\\n0x44618: ldp s2, s3, [x8, #0x4]\\n0x4461c: fmadd s0, s2, s0, s1\\n0x44620: fmul s0, s0, s3\\n0x44624: str s0, [x8, #0x10]\\n0x44628: ldrsw x11, [x0, #0x18]\\n0x4462c: scvtf s1, w11\\n0x44630: fnmsub s0, s1, s0, s0\\n0x44634: ldr x8, [x0, #0x10]\\n0x44638: fcvtms w9, s0\\n0x4463c: sub x10, x8, w9, SXTW  #0x2\\n0x44640: ldr x9, [x0]\\n0x44644: cmp x10, x9\\n0x44648: b.cs 0x0004465c\\n0x4464c: lsl x11, x11, #0x2\\n0x44650: add x10, x10, x11\\n0x44654: cmp x10, x9\\n0x44658: b.cc 0x00044650\\n0x4465c: ldr s0, [x10]\\n0x44660: ldr s1, [x1]\\n0x44664: ldr s2, [x0, #0x34]\\n0x44668: fmadd s1, s2, s0, s1\\n0x4466c: ldr x10, [x0, #0x28]\\n0x44670: ldp x11, x10, [x10]\\n0x44674: ldr s2, [x11, #0x8]\\n0x44678: ldr s3, [x11, #0x2c]\\n0x4467c: ldp s5, s4, [x11, #0x18]\\n0x44680: fnmsub s1, s2, s1, s4\\n0x44684: ldr s4, [x11, #0x14]\\n0x44688: fmadd s1, s1, s3, s4\\n0x4468c: fmul s4, s1, s2\\n0x44690: fmov s2, 0x3f600000\\n0x44694: fmul s2, s1, s2\\n0x44698: fmov s3, 0x3e000000\\n0x4469c: fmadd s2, s5, s3, s2\\n0x446a0: stp s1, s2, [x11, #0xc]\\n0x446a4: str s1, [x11, #0x14]\\n0x446a8: stp s2, s4, [x11, #0x18]\\n0x446ac: ldp s1, s3, [x10]\\n0x446b0: fsub s1, s2, s1\\n0x446b4: ldr s4, [x10, #0x1c]\\n0x446b8: fmadd s1, s3, s4, s1\\n0x446bc: stp s2, s1, [x10]\\n0x446c0: str s1, [x10, #0x8]\\n0x446c4: fadd s1, s1, s1\\n0x446c8: fabs s2, s1\\n0x446cc: fmov s3, 0x40400000\\n0x446d0: fadd s3, s2, s3\\n0x446d4: fmov s4, 0x40c00000\\n0x446d8: fmadd s3, s3, s2, s4\\n0x446dc: fmul s1, s3, s1\\n0x446e0: fmov s4, 0x41400000\\n0x446e4: fmadd s2, s3, s2, s4\\n0x446e8: fdiv s1, s1, s2\\n0x446ec: str s1, [x8], #0x4\\n0x446f0: ldr x10, [x0, #0x8]\\n0x446f4: cmp x8, x10\\n0x446f8: csel x8, x8, x9, cc\\n0x446fc: str x8, [x0, #0x10]\\n0x44700: ret\",\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Assembly is Ghidra Listing text and does not claim textual equivalence with Hopper output.\",\"macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state.\"],\"locations\":[],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_2455464ee91f60d902eb102aaff8b0ffdc64deafd0d840fea21b4e396a1610a5",
+    "subject": {
+      "name": "TAL-U-NO-LX-V2.arm64",
+      "digest": {
+        "sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0"
+      },
+      "format": "mach-o",
+      "architecture": "arm64",
+      "local_path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/arpeggiator/TAL-U-NO-LX-V2.arm64"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "mach-o",
+        "architecture": "arm64",
+        "available_architectures": [
+          "arm64"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "string_inventory_evidence": "defined-data-coverage-v1",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+        "no_return_repair": "returning-imports-decoded-return-v2",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "auto-from-header",
+        "language_id": "auto-from-header",
+        "compiler_spec_id": "auto-default",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "procedure_assembly",
+    "parameters": {
+      "procedure": "0x445f4"
+    },
+    "raw_result": {
+      "value": "0x445f4: ldr x8, [x0, #0x20]\n0x445f8: ldr s1, [x0, #0x30]\n0x445fc: ldr s0, [x8, #0x10]\n0x44600: fabd s2, s1, s0\n0x44604: mov w9, #0xbf95\n0x44608: movk w9, #0x33d6, LSL #16\n0x4460c: fmov s3, w9\n0x44610: fcmp s2, s3\n0x44614: b.le 0x00044628\n0x44618: ldp s2, s3, [x8, #0x4]\n0x4461c: fmadd s0, s2, s0, s1\n0x44620: fmul s0, s0, s3\n0x44624: str s0, [x8, #0x10]\n0x44628: ldrsw x11, [x0, #0x18]\n0x4462c: scvtf s1, w11\n0x44630: fnmsub s0, s1, s0, s0\n0x44634: ldr x8, [x0, #0x10]\n0x44638: fcvtms w9, s0\n0x4463c: sub x10, x8, w9, SXTW  #0x2\n0x44640: ldr x9, [x0]\n0x44644: cmp x10, x9\n0x44648: b.cs 0x0004465c\n0x4464c: lsl x11, x11, #0x2\n0x44650: add x10, x10, x11\n0x44654: cmp x10, x9\n0x44658: b.cc 0x00044650\n0x4465c: ldr s0, [x10]\n0x44660: ldr s1, [x1]\n0x44664: ldr s2, [x0, #0x34]\n0x44668: fmadd s1, s2, s0, s1\n0x4466c: ldr x10, [x0, #0x28]\n0x44670: ldp x11, x10, [x10]\n0x44674: ldr s2, [x11, #0x8]\n0x44678: ldr s3, [x11, #0x2c]\n0x4467c: ldp s5, s4, [x11, #0x18]\n0x44680: fnmsub s1, s2, s1, s4\n0x44684: ldr s4, [x11, #0x14]\n0x44688: fmadd s1, s1, s3, s4\n0x4468c: fmul s4, s1, s2\n0x44690: fmov s2, 0x3f600000\n0x44694: fmul s2, s1, s2\n0x44698: fmov s3, 0x3e000000\n0x4469c: fmadd s2, s5, s3, s2\n0x446a0: stp s1, s2, [x11, #0xc]\n0x446a4: str s1, [x11, #0x14]\n0x446a8: stp s2, s4, [x11, #0x18]\n0x446ac: ldp s1, s3, [x10]\n0x446b0: fsub s1, s2, s1\n0x446b4: ldr s4, [x10, #0x1c]\n0x446b8: fmadd s1, s3, s4, s1\n0x446bc: stp s2, s1, [x10]\n0x446c0: str s1, [x10, #0x8]\n0x446c4: fadd s1, s1, s1\n0x446c8: fabs s2, s1\n0x446cc: fmov s3, 0x40400000\n0x446d0: fadd s3, s2, s3\n0x446d4: fmov s4, 0x40c00000\n0x446d8: fmadd s3, s3, s2, s4\n0x446dc: fmul s1, s3, s1\n0x446e0: fmov s4, 0x41400000\n0x446e4: fmadd s2, s3, s2, s4\n0x446e8: fdiv s1, s1, s2\n0x446ec: str s1, [x8], #0x4\n0x446f0: ldr x10, [x0, #0x8]\n0x446f4: cmp x8, x10\n0x446f8: csel x8, x8, x9, cc\n0x446fc: str x8, [x0, #0x10]\n0x44700: ret",
+      "limitations": []
+    },
+    "normalized_result": "0x445f4: ldr x8, [x0, #0x20]\n0x445f8: ldr s1, [x0, #0x30]\n0x445fc: ldr s0, [x8, #0x10]\n0x44600: fabd s2, s1, s0\n0x44604: mov w9, #0xbf95\n0x44608: movk w9, #0x33d6, LSL #16\n0x4460c: fmov s3, w9\n0x44610: fcmp s2, s3\n0x44614: b.le 0x00044628\n0x44618: ldp s2, s3, [x8, #0x4]\n0x4461c: fmadd s0, s2, s0, s1\n0x44620: fmul s0, s0, s3\n0x44624: str s0, [x8, #0x10]\n0x44628: ldrsw x11, [x0, #0x18]\n0x4462c: scvtf s1, w11\n0x44630: fnmsub s0, s1, s0, s0\n0x44634: ldr x8, [x0, #0x10]\n0x44638: fcvtms w9, s0\n0x4463c: sub x10, x8, w9, SXTW  #0x2\n0x44640: ldr x9, [x0]\n0x44644: cmp x10, x9\n0x44648: b.cs 0x0004465c\n0x4464c: lsl x11, x11, #0x2\n0x44650: add x10, x10, x11\n0x44654: cmp x10, x9\n0x44658: b.cc 0x00044650\n0x4465c: ldr s0, [x10]\n0x44660: ldr s1, [x1]\n0x44664: ldr s2, [x0, #0x34]\n0x44668: fmadd s1, s2, s0, s1\n0x4466c: ldr x10, [x0, #0x28]\n0x44670: ldp x11, x10, [x10]\n0x44674: ldr s2, [x11, #0x8]\n0x44678: ldr s3, [x11, #0x2c]\n0x4467c: ldp s5, s4, [x11, #0x18]\n0x44680: fnmsub s1, s2, s1, s4\n0x44684: ldr s4, [x11, #0x14]\n0x44688: fmadd s1, s1, s3, s4\n0x4468c: fmul s4, s1, s2\n0x44690: fmov s2, 0x3f600000\n0x44694: fmul s2, s1, s2\n0x44698: fmov s3, 0x3e000000\n0x4469c: fmadd s2, s5, s3, s2\n0x446a0: stp s1, s2, [x11, #0xc]\n0x446a4: str s1, [x11, #0x14]\n0x446a8: stp s2, s4, [x11, #0x18]\n0x446ac: ldp s1, s3, [x10]\n0x446b0: fsub s1, s2, s1\n0x446b4: ldr s4, [x10, #0x1c]\n0x446b8: fmadd s1, s3, s4, s1\n0x446bc: stp s2, s1, [x10]\n0x446c0: str s1, [x10, #0x8]\n0x446c4: fadd s1, s1, s1\n0x446c8: fabs s2, s1\n0x446cc: fmov s3, 0x40400000\n0x446d0: fadd s3, s2, s3\n0x446d4: fmov s4, 0x40c00000\n0x446d8: fmadd s3, s3, s2, s4\n0x446dc: fmul s1, s3, s1\n0x446e0: fmov s4, 0x41400000\n0x446e4: fmadd s2, s3, s2, s4\n0x446e8: fdiv s1, s1, s2\n0x446ec: str s1, [x8], #0x4\n0x446f0: ldr x10, [x0, #0x8]\n0x446f4: cmp x8, x10\n0x446f8: csel x8, x8, x9, cc\n0x446fc: str x8, [x0, #0x10]\n0x44700: ret",
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Assembly is Ghidra Listing text and does not claim textual equivalence with Hopper output.",
+      "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+}

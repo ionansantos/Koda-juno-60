@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"/Users/koda/Documents/tal-un-no-60-clone/evidence/toolbar-vt/rea-20261023/evidence-bundle.json\",\"bytes\":217380,\"records\":18,\"unknowns\":0}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/evidence/toolbar-vt/rea-20261023/evidence-bundle.json",
+      "bytes": 217380,
+      "records": 18,
+      "unknowns": 0
+    }
+  }
+}

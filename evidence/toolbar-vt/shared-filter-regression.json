@@ -1,0 +1,17 @@
+{
+  "old_representation_returncode": -6,
+  "old_representation_stderr": "Assertion failed: (std::abs(mirrored[1]/mirrored[0]-1)<.015), function main, file voice_tuning_test.cpp, line 25.",
+  "fixed_representation_passed": true,
+  "rates": [
+    8000,
+    44100,
+    48000,
+    96000
+  ],
+  "cutoffs": [
+    0.4,
+    0.65,
+    1
+  ],
+  "relative_energy_tolerance": 0.015
+}

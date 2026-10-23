@@ -1,0 +1,22 @@
+{
+  "version": "0.5.1",
+  "scope": "Visual correction only, no synthesis or MIDI learn/VT implementation",
+  "installed": [
+    {
+      "format": "AU",
+      "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "version": "0.5.1",
+      "sha256": "a11f5c0612a698e60f17f44acdb07414dd9a0ac5ebc2a51df70763760ed69c81"
+    },
+    {
+      "format": "VST3",
+      "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "version": "0.5.1",
+      "sha256": "bab33998abe9d70ae0bf82df0b274be2a777e4deb584e9df954a73d591e7174e"
+    }
+  ],
+  "backup": "/Users/koda/Documents/tal-un-no-60-clone/dist/installed-before-header-20261023-130606",
+  "package": "/Users/koda/Documents/tal-un-no-60-clone/dist/interface-0.5.1",
+  "ctest": "11/11 passed",
+  "snapshot_png_count": 1
+}

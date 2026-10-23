@@ -1,0 +1,4 @@
+[  5%] Built target tal_dsp
+[ 66%] Built target TalUNo60Clone
+[ 69%] Linking CXX executable TalUNo60Clone_artefacts/Release/Standalone/KODA-JUNO-60.app/Contents/MacOS/KODA-JUNO-60
+[100%] Built target TalUNo60Clone_Standalone

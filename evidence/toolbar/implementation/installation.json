@@ -1,0 +1,19 @@
+{
+  "version": "0.6.0",
+  "installed": [
+    {
+      "format": "AU",
+      "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "sha256": "802d7e173a12ac3ba850db0fb0e80c36224c869f59a7e478dedac4463658d5d6"
+    },
+    {
+      "format": "VST3",
+      "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "sha256": "a93bc704803e1f38da475a06b87e73a0af3fdeb39e6c052b7e61d6dbc1ed925c"
+    }
+  ],
+  "tested_au_sha256": "802d7e173a12ac3ba850db0fb0e80c36224c869f59a7e478dedac4463658d5d6",
+  "installed_au_matches_tested": true,
+  "backup": "/Users/koda/Documents/tal-un-no-60-clone/dist/installed-before-toolbar-20261023-133209",
+  "package": "/Users/koda/Documents/tal-un-no-60-clone/dist/toolbar-0.6.0"
+}

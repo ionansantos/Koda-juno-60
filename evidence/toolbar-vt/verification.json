@@ -1,0 +1,15 @@
+{
+  "reference_sha256": "f42ba995938a5df3a0beed6d28c214b80207c919f692306650222a32b1ef55e0",
+  "rea_session_closed": true,
+  "rea_errors": [],
+  "neutral_sha256": {
+    "neutral-old.f32": "0cb0d0512b48fec9f67136e646cd3c2716aa5dc3ab00e7e9cbae0e0545ba7392",
+    "neutral-new.f32": "0cb0d0512b48fec9f67136e646cd3c2716aa5dc3ab00e7e9cbae0e0545ba7392"
+  },
+  "sanitizers": "Voice tuning: neutral rendering, six independent pitches, stereo pan, cutoff, A/D/R duration, hostile values and sample rates passed",
+  "limits": [
+    "No claim of sample-identical TAL audio",
+    "Existing KODA envelope baseline retained; recovered duration multipliers integrated",
+    "Random table seed does not match TAL"
+  ]
+}

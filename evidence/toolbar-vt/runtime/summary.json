@@ -1,0 +1,362 @@
+{
+  "scope": "30normalrendercases and5sharedfilterregressionrenders;27checks for controlresponse. Checks are relative within eachengine. Does not establish timbre or absoluteADSRmatching.",
+  "summary": {
+    "tal": {
+      "detune_cents": {
+        "detune-low": -50.01727075951462,
+        "detune-high": 49.95755319231592
+      },
+      "pan_gains_own_neutral": {
+        "pan-left": [
+          1.3333333734035635,
+          0.0
+        ],
+        "pan-right": [
+          0.0,
+          1.3333333734035635
+        ],
+        "pan-quarter": [
+          1.2500000009480903,
+          0.5833333726837641
+        ],
+        "pan-threequarter": [
+          0.5833333726837641,
+          1.2500000009480903
+        ]
+      },
+      "envelope_duration_ratios": {
+        "attack": {
+          "low_seconds": 0.06339583333333333,
+          "high_seconds": 0.18839583333333335,
+          "ratio": 2.971738416036806
+        },
+        "decay": {
+          "low_seconds": 0.29775,
+          "high_seconds": 0.8907916666666666,
+          "ratio": 2.991743632801567
+        },
+        "release": {
+          "low_seconds": 0.38158333333333333,
+          "high_seconds": 1.142875,
+          "ratio": 2.995086263376283
+        }
+      },
+      "cutoff_high_low_rms_ratio": 413457.71011672757
+    },
+    "koda": {
+      "detune_cents": {
+        "detune-low": -49.9985571460049,
+        "detune-high": 49.99871931723205
+      },
+      "pan_gains_own_neutral": {
+        "pan-left": [
+          1.3333334072348895,
+          7.799094990920706e-06
+        ],
+        "pan-right": [
+          7.799094990920706e-06,
+          1.3333334072348895
+        ],
+        "pan-quarter": [
+          1.25000002327286,
+          0.5833333160325088
+        ],
+        "pan-threequarter": [
+          0.5833333160325088,
+          1.25000002327286
+        ]
+      },
+      "envelope_duration_ratios": {
+        "attack": {
+          "low_seconds": 0.04777083333333333,
+          "high_seconds": 0.14322916666666666,
+          "ratio": 2.998255560401221
+        },
+        "decay": {
+          "low_seconds": 0.15727083333333333,
+          "high_seconds": 0.4663541666666667,
+          "ratio": 2.965293416346536
+        },
+        "release": {
+          "low_seconds": 0.10272916666666666,
+          "high_seconds": 0.3095,
+          "ratio": 3.012776313121071
+        }
+      },
+      "cutoff_high_low_rms_ratio": 125358.92848587166
+    }
+  },
+  "checks": [
+    {
+      "engine": "tal",
+      "check": "detune-low",
+      "passed": true,
+      "measured_cents": -50.01727075951462,
+      "expected": -50
+    },
+    {
+      "engine": "tal",
+      "check": "detune-high",
+      "passed": true,
+      "measured_cents": 49.95755319231592,
+      "expected": 50
+    },
+    {
+      "engine": "tal",
+      "check": "pan-left",
+      "passed": true,
+      "measured": [
+        1.3333333734035635,
+        0.0
+      ],
+      "expected": [
+        1.3333333333333333,
+        0.0
+      ]
+    },
+    {
+      "engine": "tal",
+      "check": "pan-right",
+      "passed": true,
+      "measured": [
+        0.0,
+        1.3333333734035635
+      ],
+      "expected": [
+        0.0,
+        1.3333333333333333
+      ]
+    },
+    {
+      "engine": "tal",
+      "check": "pan-quarter",
+      "passed": true,
+      "measured": [
+        1.2500000009480903,
+        0.5833333726837641
+      ],
+      "expected": [
+        1.25,
+        0.5833333333333333
+      ]
+    },
+    {
+      "engine": "tal",
+      "check": "pan-threequarter",
+      "passed": true,
+      "measured": [
+        0.5833333726837641,
+        1.2500000009480903
+      ],
+      "expected": [
+        0.5833333333333333,
+        1.25
+      ]
+    },
+    {
+      "engine": "tal",
+      "check": "attack-duration-ratio",
+      "passed": true,
+      "measured": 2.971738416036806,
+      "expected": 3
+    },
+    {
+      "engine": "tal",
+      "check": "decay-duration-ratio",
+      "passed": true,
+      "measured": 2.991743632801567,
+      "expected": 3
+    },
+    {
+      "engine": "tal",
+      "check": "release-duration-ratio",
+      "passed": true,
+      "measured": 2.995086263376283,
+      "expected": 3
+    },
+    {
+      "engine": "tal",
+      "check": "cutoff-direction",
+      "passed": true,
+      "measured": 413457.71011672757
+    },
+    {
+      "engine": "tal",
+      "check": "all-audio-finite",
+      "passed": true
+    },
+    {
+      "engine": "koda",
+      "check": "detune-low",
+      "passed": true,
+      "measured_cents": -49.9985571460049,
+      "expected": -50
+    },
+    {
+      "engine": "koda",
+      "check": "detune-high",
+      "passed": true,
+      "measured_cents": 49.99871931723205,
+      "expected": 50
+    },
+    {
+      "engine": "koda",
+      "check": "pan-left",
+      "passed": true,
+      "measured": [
+        1.3333334072348895,
+        7.799094990920706e-06
+      ],
+      "expected": [
+        1.3333333333333333,
+        0.0
+      ]
+    },
+    {
+      "engine": "koda",
+      "check": "pan-right",
+      "passed": true,
+      "measured": [
+        7.799094990920706e-06,
+        1.3333334072348895
+      ],
+      "expected": [
+        0.0,
+        1.3333333333333333
+      ]
+    },
+    {
+      "engine": "koda",
+      "check": "pan-quarter",
+      "passed": true,
+      "measured": [
+        1.25000002327286,
+        0.5833333160325088
+      ],
+      "expected": [
+        1.25,
+        0.5833333333333333
+      ]
+    },
+    {
+      "engine": "koda",
+      "check": "pan-threequarter",
+      "passed": true,
+      "measured": [
+        0.5833333160325088,
+        1.25000002327286
+      ],
+      "expected": [
+        0.5833333333333333,
+        1.25
+      ]
+    },
+    {
+      "engine": "koda",
+      "check": "attack-duration-ratio",
+      "passed": true,
+      "measured": 2.998255560401221,
+      "expected": 3
+    },
+    {
+      "engine": "koda",
+      "check": "decay-duration-ratio",
+      "passed": true,
+      "measured": 2.965293416346536,
+      "expected": 3
+    },
+    {
+      "engine": "koda",
+      "check": "release-duration-ratio",
+      "passed": true,
+      "measured": 3.012776313121071,
+      "expected": 3
+    },
+    {
+      "engine": "koda",
+      "check": "cutoff-direction",
+      "passed": true,
+      "measured": 125358.92848587166
+    },
+    {
+      "engine": "koda",
+      "check": "all-audio-finite",
+      "passed": true
+    }
+  ],
+  "source_results_sha256": "3b34ab4f3cae7138900fa2ab9eaaf828df2a040da2b23fac33405e4f973595f1",
+  "identities": {
+    "tal": {
+      "path": "/Library/Audio/Plug-Ins/Components/TAL-U-NO-LX-V2.component/Contents/MacOS/TAL-U-NO-LX-V2",
+      "sha256": "99bcc10a28984d52e46299f8369b7a3cb0648ae99358ec3e8d5628d5f113aba6"
+    },
+    "koda": {
+      "path": "/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component/Contents/MacOS/KODA-JUNO-60",
+      "sha256": "802d7e173a12ac3ba850db0fb0e80c36224c869f59a7e478dedac4463658d5d6"
+    }
+  },
+  "normal_matrix_render_count": 30,
+  "shared_filter_checks": [
+    {
+      "case": "pan-left",
+      "actual": [
+        1.3282966518001051,
+        7.687819944937221e-06
+      ],
+      "expected": [
+        1.3333333333333333,
+        0.0
+      ],
+      "passed": true,
+      "tolerance_reason": "Nonlinear shared filter follows PAN; ideal linear gain is approximate in this mode."
+    },
+    {
+      "case": "pan-right",
+      "actual": [
+        7.687819944937221e-06,
+        1.3282966518001051
+      ],
+      "expected": [
+        0.0,
+        1.3333333333333333
+      ],
+      "passed": true,
+      "tolerance_reason": "Nonlinear shared filter follows PAN; ideal linear gain is approximate in this mode."
+    },
+    {
+      "case": "pan-quarter",
+      "actual": [
+        1.2465769290294872,
+        0.5851842621135699
+      ],
+      "expected": [
+        1.25,
+        0.5833333333333333
+      ],
+      "passed": true,
+      "tolerance_reason": "Nonlinear shared filter follows PAN; ideal linear gain is approximate in this mode."
+    },
+    {
+      "case": "pan-threequarter",
+      "actual": [
+        0.5851842621135699,
+        1.2465769290294872
+      ],
+      "expected": [
+        0.5833333333333333,
+        1.25
+      ],
+      "passed": true,
+      "tolerance_reason": "Nonlinear shared filter follows PAN; ideal linear gain is approximate in this mode."
+    },
+    {
+      "case": "mirror-symmetry",
+      "passed": true
+    }
+  ],
+  "shared_filter_render_count": 5,
+  "total_checks": 27,
+  "passed_checks": 27,
+  "raw_digests_verified": 35,
+  "tested_binary_still_matches": true
+}

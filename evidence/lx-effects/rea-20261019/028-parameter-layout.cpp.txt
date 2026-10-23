@@ -1,0 +1,4235 @@
+
+void __ZN6Params21createParameterLayoutEv(undefined8 *param_1,undefined8 param_2)
+
+{
+  int iVar1;
+  int *piVar2;
+  int *piVar3;
+  code *pcVar4;
+  long lVar5;
+  long lVar6;
+  byte *pbVar7;
+  uint uVar8;
+  byte *local_b40;
+  int *local_b38;
+  byte *local_b30;
+  long local_b28;
+  byte *local_b20;
+  long local_b18;
+  byte *local_b10;
+  long local_b08;
+  byte *local_b00;
+  byte *local_af8;
+  byte *local_af0;
+  byte *local_ae8;
+  byte *local_ae0;
+  byte *local_ad8;
+  long local_ad0;
+  byte *local_ac8;
+  long local_ac0;
+  byte *local_ab8;
+  byte *local_ab0;
+  long local_aa8;
+  byte *local_aa0;
+  byte *local_a98;
+  long local_a90;
+  int *local_a88;
+  long local_a80;
+  byte *local_a78;
+  int *local_a70;
+  byte *local_a68;
+  byte *local_a60;
+  int *local_a58;
+  int *local_a50;
+  long local_a48;
+  int *local_a40;
+  long local_a38;
+  int *local_a30;
+  long local_a28;
+  int *local_a20;
+  long local_a18;
+  int *local_a10;
+  int *local_a08;
+  byte *local_a00;
+  int *local_9f8;
+  byte *local_9f0;
+  long local_9e8;
+  byte *local_9e0;
+  long local_9d8;
+  byte *local_9d0;
+  long local_9c8;
+  byte *local_9c0;
+  long local_9b8;
+  byte *local_9b0;
+  long local_9a8;
+  byte *local_9a0;
+  long local_998;
+  int *local_990;
+  long local_988;
+  int *local_980;
+  long local_978;
+  int *local_970;
+  long local_968;
+  int *local_960;
+  long local_958;
+  byte *local_950;
+  long local_948;
+  int *local_940;
+  long local_938;
+  int *local_930;
+  long local_928;
+  int *local_920;
+  long local_918;
+  int *local_910;
+  long local_908;
+  byte *local_900;
+  long local_8f8;
+  byte *local_8f0;
+  long local_8e8;
+  byte *local_8e0;
+  long local_8d8;
+  int *local_8d0;
+  int *local_8c8;
+  long local_8c0;
+  char (*local_8b8) [8];
+  long local_8b0;
+  int *local_8a8;
+  long local_8a0;
+  int *local_898;
+  long local_890;
+  int *local_888;
+  long local_880;
+  int *local_878;
+  long local_870;
+  byte *local_868;
+  long local_860;
+  byte *local_858;
+  long local_850;
+  byte *local_848;
+  long local_840;
+  byte *local_838;
+  long local_830;
+  byte *local_828;
+  long local_820;
+  int *local_818;
+  long local_810;
+  byte *local_808;
+  long local_800;
+  byte *local_7f8;
+  long local_7f0;
+  byte *local_7e8;
+  long local_7e0;
+  byte *local_7d8;
+  long local_7d0;
+  byte *local_7c8;
+  long local_7c0;
+  byte *local_7b8;
+  long local_7b0;
+  byte *local_7a8;
+  long local_7a0;
+  byte *local_798;
+  long local_790;
+  byte *local_788;
+  long local_780;
+  int *local_778;
+  long local_770;
+  byte *local_768;
+  long local_760;
+  byte *local_758;
+  long local_750;
+  int *local_748;
+  long local_740;
+  undefined *local_738;
+  undefined8 local_730;
+  undefined **local_720;
+  undefined *local_718;
+  undefined8 local_710;
+  undefined **local_700;
+  undefined *local_6f8;
+  undefined8 local_6f0;
+  undefined **local_6e0;
+  undefined *local_6d8;
+  undefined8 local_6d0;
+  undefined **local_6c0;
+  undefined *local_6b8;
+  undefined8 local_6b0;
+  undefined **local_6a0;
+  undefined *local_698;
+  undefined8 local_690;
+  undefined **local_680;
+  undefined *local_678;
+  undefined8 local_670;
+  undefined **local_660;
+  undefined *local_658;
+  undefined8 local_650;
+  undefined **local_640;
+  undefined *local_638;
+  undefined8 local_630;
+  undefined **local_620;
+  undefined *local_618;
+  undefined8 local_610;
+  undefined **local_600;
+  undefined *local_5f8;
+  undefined8 local_5f0;
+  undefined **local_5e0;
+  undefined *local_5d8;
+  undefined8 local_5d0;
+  undefined **local_5c0;
+  undefined *local_5b8;
+  undefined8 local_5b0;
+  undefined **local_5a0;
+  undefined *local_598;
+  undefined8 local_590;
+  undefined **local_580;
+  undefined *local_578;
+  undefined8 local_570;
+  undefined **local_560;
+  undefined *local_558;
+  undefined8 local_550;
+  undefined **local_540;
+  undefined *local_538;
+  undefined8 local_530;
+  undefined **local_520;
+  undefined *local_518;
+  undefined8 local_510;
+  undefined **local_500;
+  undefined *local_4f8;
+  undefined8 local_4f0;
+  undefined **local_4e0;
+  undefined *local_4d8;
+  undefined8 local_4d0;
+  undefined **local_4c0;
+  undefined *local_4b8;
+  undefined8 local_4b0;
+  undefined **local_4a0;
+  undefined *local_498;
+  undefined8 local_490;
+  undefined **local_480;
+  undefined *local_478;
+  undefined8 local_470;
+  undefined **local_460;
+  undefined *local_458;
+  undefined8 local_450;
+  undefined **local_440;
+  undefined *local_438;
+  undefined8 local_430;
+  undefined **local_420;
+  undefined *local_418;
+  undefined8 local_410;
+  undefined **local_400;
+  undefined *local_3f8;
+  undefined8 local_3f0;
+  undefined **local_3e0;
+  undefined *local_3d8;
+  undefined8 local_3d0;
+  undefined **local_3c0;
+  undefined *local_3b8;
+  undefined8 local_3b0;
+  undefined **local_3a0;
+  undefined *local_398;
+  undefined8 local_390;
+  undefined **local_380;
+  undefined *local_378;
+  undefined8 local_370;
+  undefined **local_360;
+  undefined *local_358;
+  undefined8 local_350;
+  undefined **local_340;
+  undefined *local_338;
+  undefined8 local_330;
+  undefined **local_320;
+  undefined *local_318;
+  undefined8 local_310;
+  undefined **local_300;
+  undefined *local_2f8;
+  undefined8 local_2f0;
+  undefined **local_2e0;
+  undefined *local_2d8;
+  undefined8 local_2d0;
+  undefined **local_2c0;
+  undefined *local_2b8;
+  undefined8 local_2b0;
+  undefined **local_2a0;
+  undefined *local_298;
+  undefined8 local_290;
+  undefined **local_280;
+  undefined *local_278;
+  undefined8 local_270;
+  undefined **local_260;
+  undefined *local_258;
+  undefined8 local_250;
+  undefined **local_240;
+  undefined *local_238;
+  undefined8 local_230;
+  undefined **local_220;
+  undefined *local_218;
+  undefined8 local_210;
+  undefined **local_200;
+  undefined *local_1f8;
+  undefined8 local_1f0;
+  undefined **local_1e0;
+  undefined *local_1d8;
+  undefined8 local_1d0;
+  undefined **local_1c0;
+  undefined *local_1b8;
+  undefined8 local_1b0;
+  undefined **local_1a0;
+  undefined *local_198;
+  undefined8 local_190;
+  undefined **local_180;
+  undefined *local_178;
+  undefined8 local_170;
+  undefined **local_160;
+  undefined *local_158;
+  undefined8 local_150;
+  undefined **local_140;
+  undefined *local_138;
+  undefined8 local_130;
+  undefined **local_120;
+  undefined *local_118;
+  undefined8 local_110;
+  undefined **local_100;
+  undefined *local_f8;
+  undefined8 uStack_f0;
+  undefined **local_e0;
+  undefined *local_d8;
+  undefined8 uStack_d0;
+  undefined **local_c0;
+  undefined *local_b8;
+  undefined8 uStack_b0;
+  undefined **local_a0;
+  undefined *local_98;
+  undefined8 uStack_90;
+  undefined **local_80;
+  undefined *local_78;
+  undefined8 uStack_70;
+  undefined **local_60;
+  long local_58;
+  
+  local_58 = *(long *)PTR____stack_chk_guard_006f4300;
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  local_740 = __ZL15paramModulation;
+  piVar3 = (int *)(__ZL15paramModulation + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_748 = piVar3 + 4;
+  *(undefined8 *)local_748 = 0x6974616c75646f6d;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 6) = 0x6e6f;
+  *(undefined1 *)((long)piVar3 + 0x1a) = 0;
+  local_78 = &DAT_006f66d8;
+  uStack_70 = param_2;
+  local_60 = &local_78;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_740,&local_748,&local_78,0,1);
+  if (&local_78 == local_60) {
+    pcVar4 = *(code **)(*local_60 + 0x20);
+LAB_0005dc30:
+    (*pcVar4)();
+  }
+  else if (local_60 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_60 + 0x28);
+    goto LAB_0005dc30;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_740 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_750 = __ZL16paramDcoLfoValue;
+  piVar3 = (int *)(__ZL16paramDcoLfoValue + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_758 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_758;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco lfo value"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xe);
+  *pbVar7 = 0;
+  local_98 = &DAT_006f6758;
+  uStack_90 = param_2;
+  local_80 = &local_98;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_750,&local_758,&local_98,0,1);
+  if (&local_98 == local_80) {
+    pcVar4 = *(code **)(*local_80 + 0x20);
+LAB_0005dd5c:
+    (*pcVar4)();
+  }
+  else if (local_80 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_80 + 0x28);
+    goto LAB_0005dd5c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_750 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_760 = __ZL16paramDcoPwmValue;
+  piVar3 = (int *)(__ZL16paramDcoPwmValue + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_768 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_768;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco pwm value"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xe);
+  *pbVar7 = 0;
+  local_b8 = &DAT_006f67d8;
+  uStack_b0 = param_2;
+  local_a0 = &local_b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_760,&local_768,&local_b8,0,1);
+  if (&local_b8 == local_a0) {
+    pcVar4 = *(code **)(*local_a0 + 0x20);
+LAB_0005de88:
+    (*pcVar4)();
+  }
+  else if (local_a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_a0 + 0x28);
+    goto LAB_0005de88;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_760 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_770 = __ZL15paramDcoPwmMode;
+  piVar3 = (int *)(__ZL15paramDcoPwmMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  local_778 = piVar3 + 4;
+  *(undefined8 *)local_778 = 0x206d7770206f6364;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  piVar3[6] = 0x65646f6d;
+  *(undefined1 *)(piVar3 + 7) = 0;
+  local_d8 = &DAT_006f6858;
+  uStack_d0 = param_2;
+  local_c0 = &local_d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_770,&local_778,&local_d8,0,1);
+  if (&local_d8 == local_c0) {
+    pcVar4 = *(code **)(*local_c0 + 0x20);
+LAB_0005df7c:
+    (*pcVar4)();
+  }
+  else if (local_c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_c0 + 0x28);
+    goto LAB_0005df7c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_770 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_780 = __ZL20paramDcoPulseEnabled;
+  piVar3 = (int *)(__ZL20paramDcoPulseEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_788 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_788;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco pulse enabled"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x12);
+  *pbVar7 = 0;
+  local_f8 = &DAT_006f68d8;
+  uStack_f0 = param_2;
+  local_e0 = &local_f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_780,&local_788,&local_f8,0,1);
+  if (&local_f8 == local_e0) {
+    pcVar4 = *(code **)(*local_e0 + 0x20);
+LAB_0005e0a8:
+    (*pcVar4)();
+  }
+  else if (local_e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_e0 + 0x28);
+    goto LAB_0005e0a8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_780 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_790 = __ZL18paramDcoSawEnabled;
+  piVar3 = (int *)(__ZL18paramDcoSawEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_798 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_798;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco saw enabled"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_118 = &DAT_006f6958;
+  local_110 = param_2;
+  local_100 = &local_118;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_790,&local_798,&local_118,0,1);
+  if (&local_118 == local_100) {
+    pcVar4 = *(code **)(*local_100 + 0x20);
+LAB_0005e1d8:
+    (*pcVar4)();
+  }
+  else if (local_100 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_100 + 0x28);
+    goto LAB_0005e1d8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_790 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_7a0 = __ZL21paramDcoSubOscEnabled;
+  piVar3 = (int *)(__ZL21paramDcoSubOscEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_7a8 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_7a8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco sub osc enabled"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x14);
+  *pbVar7 = 0;
+  local_138 = &DAT_006f69d8;
+  local_130 = param_2;
+  local_120 = &local_138;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_7a0,&local_7a8,&local_138,0,1);
+  if (&local_138 == local_120) {
+    pcVar4 = *(code **)(*local_120 + 0x20);
+LAB_0005e308:
+    (*pcVar4)();
+  }
+  else if (local_120 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_120 + 0x28);
+    goto LAB_0005e308;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_7a0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_7b0 = __ZL20paramDcoSubOscVolume;
+  piVar3 = (int *)(__ZL20paramDcoSubOscVolume + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_7b8 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_7b8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco sub osc volume"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x13);
+  *pbVar7 = 0;
+  local_158 = &DAT_006f6a58;
+  local_150 = param_2;
+  local_140 = &local_158;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_7b0,&local_7b8,&local_158,0,1);
+  if (&local_158 == local_140) {
+    pcVar4 = *(code **)(*local_140 + 0x20);
+LAB_0005e438:
+    (*pcVar4)();
+  }
+  else if (local_140 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_140 + 0x28);
+    goto LAB_0005e438;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_7b0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_7c0 = __ZL19paramDcoNoiseVolume;
+  piVar3 = (int *)(__ZL19paramDcoNoiseVolume + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  lVar5 = 0;
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_7c8 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  pbVar7 = local_7c8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco noise volume"[lVar5 + 1];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_178 = &DAT_006f6ad8;
+  local_170 = param_2;
+  local_160 = &local_178;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_7c0,&local_7c8,&local_178,0,1);
+  if (&local_178 == local_160) {
+    pcVar4 = *(code **)(*local_160 + 0x20);
+LAB_0005e56c:
+    (*pcVar4)();
+  }
+  else if (local_160 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_160 + 0x28);
+    goto LAB_0005e56c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_7c0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_7d0 = __ZL13paramHpfValue;
+  piVar3 = (int *)(__ZL13paramHpfValue + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_7d8 = (byte *)(piVar3 + 4);
+  uVar8 = 100;
+  lVar5 = 1;
+  pbVar7 = local_7d8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"dco hp filter"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xe);
+  *pbVar7 = 0;
+  local_198 = &DAT_006f6b58;
+  local_190 = param_2;
+  local_180 = &local_198;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_7d0,&local_7d8,&local_198,0,1);
+  if (&local_198 == local_180) {
+    pcVar4 = *(code **)(*local_180 + 0x20);
+LAB_0005e69c:
+    (*pcVar4)();
+  }
+  else if (local_180 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_180 + 0x28);
+    goto LAB_0005e69c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_7d0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_7e0 = __ZL17paramFilterCutoff;
+  piVar3 = (int *)(__ZL17paramFilterCutoff + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_7e8 = (byte *)(piVar3 + 4);
+  uVar8 = 0x66;
+  lVar5 = 1;
+  pbVar7 = local_7e8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"filter cutoff"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xe);
+  *pbVar7 = 0;
+  local_1b8 = &DAT_006f6bd8;
+  local_1b0 = param_2;
+  local_1a0 = &local_1b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_7e0,&local_7e8,&local_1b8,0,1);
+  if (&local_1b8 == local_1a0) {
+    pcVar4 = *(code **)(*local_1a0 + 0x20);
+LAB_0005e7cc:
+    (*pcVar4)();
+  }
+  else if (local_1a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_1a0 + 0x28);
+    goto LAB_0005e7cc;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_7e0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_7f0 = __ZL20paramFilterResonance;
+  piVar3 = (int *)(__ZL20paramFilterResonance + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  lVar5 = 0;
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_7f8 = (byte *)(piVar3 + 4);
+  uVar8 = 0x66;
+  pbVar7 = local_7f8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"filter resonance"[lVar5 + 1];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_1d8 = &DAT_006f6c58;
+  local_1d0 = param_2;
+  local_1c0 = &local_1d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_7f0,&local_7f8,&local_1d8,0,1);
+  if (&local_1d8 == local_1c0) {
+    pcVar4 = *(code **)(*local_1c0 + 0x20);
+LAB_0005e900:
+    (*pcVar4)();
+  }
+  else if (local_1c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_1c0 + 0x28);
+    goto LAB_0005e900;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_7f0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_800 = __ZL23paramFilterEnvelopeMode;
+  piVar3 = (int *)(__ZL23paramFilterEnvelopeMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_808 = (byte *)(piVar3 + 4);
+  uVar8 = 0x66;
+  lVar5 = 1;
+  pbVar7 = local_808;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"filter env mode"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_1f8 = &DAT_006f6cd8;
+  local_1f0 = param_2;
+  local_1e0 = &local_1f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_800,&local_808,&local_1f8,0,1);
+  if (&local_1f8 == local_1e0) {
+    pcVar4 = *(code **)(*local_1e0 + 0x20);
+LAB_0005ea30:
+    (*pcVar4)();
+  }
+  else if (local_1e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_1e0 + 0x28);
+    goto LAB_0005ea30;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_800 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_810 = __ZL24paramFilterEnvelopeValue;
+  piVar3 = (int *)(__ZL24paramFilterEnvelopeValue + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_818 = piVar3 + 4;
+  *(undefined8 *)local_818 = 0x65207265746c6966;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 6) = 0x766e;
+  *(undefined1 *)((long)piVar3 + 0x1a) = 0;
+  local_218 = &DAT_006f6d58;
+  local_210 = param_2;
+  local_200 = &local_218;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_810,&local_818,&local_218,0,1);
+  if (&local_218 == local_200) {
+    pcVar4 = *(code **)(*local_200 + 0x20);
+LAB_0005eb24:
+    (*pcVar4)();
+  }
+  else if (local_200 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_200 + 0x28);
+    goto LAB_0005eb24;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_810 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_820 = __ZL26paramFilterModulationValue;
+  piVar3 = (int *)(__ZL26paramFilterModulationValue + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_828 = (byte *)(piVar3 + 4);
+  uVar8 = 0x66;
+  lVar5 = 1;
+  pbVar7 = local_828;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"filter modulation"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x12);
+  *pbVar7 = 0;
+  local_238 = &DAT_006f6dd8;
+  local_230 = param_2;
+  local_220 = &local_238;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_820,&local_828,&local_238,0,1);
+  if (&local_238 == local_220) {
+    pcVar4 = *(code **)(*local_220 + 0x20);
+LAB_0005ec54:
+    (*pcVar4)();
+  }
+  else if (local_220 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_220 + 0x28);
+    goto LAB_0005ec54;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_820 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_830 = __ZL24paramFilterKeyboardValue;
+  piVar3 = (int *)(__ZL24paramFilterKeyboardValue + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_838 = (byte *)(piVar3 + 4);
+  uVar8 = 0x66;
+  lVar5 = 1;
+  pbVar7 = local_838;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"filter keyboard"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_258 = &DAT_006f6e58;
+  local_250 = param_2;
+  local_240 = &local_258;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_830,&local_838,&local_258,0,1);
+  if (&local_258 == local_240) {
+    pcVar4 = *(code **)(*local_240 + 0x20);
+LAB_0005ed84:
+    (*pcVar4)();
+  }
+  else if (local_240 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_240 + 0x28);
+    goto LAB_0005ed84;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_830 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_840 = __ZL11paramVolume;
+  piVar3 = (int *)(__ZL11paramVolume + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_848 = (byte *)(piVar3 + 4);
+  uVar8 = 0x6d;
+  lVar5 = 1;
+  pbVar7 = local_848;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"master volume"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xe);
+  *pbVar7 = 0;
+  local_278 = &DAT_006f6ed8;
+  local_270 = param_2;
+  local_260 = &local_278;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f000000,param_2,param_1,&local_840,&local_848,&local_278,0,1);
+  if (&local_278 == local_260) {
+    pcVar4 = *(code **)(*local_260 + 0x20);
+LAB_0005eeb4:
+    (*pcVar4)();
+  }
+  else if (local_260 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_260 + 0x28);
+    goto LAB_0005eeb4;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_840 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_850 = __ZL19paramMasterFineTune;
+  piVar3 = (int *)(__ZL19paramMasterFineTune + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  lVar5 = 0;
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_858 = (byte *)(piVar3 + 4);
+  uVar8 = 0x6d;
+  pbVar7 = local_858;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"master fine tune"[lVar5 + 1];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_298 = &DAT_006f6f58;
+  local_290 = param_2;
+  local_280 = &local_298;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f000000,param_2,param_1,&local_850,&local_858,&local_298,0,1);
+  if (&local_298 == local_280) {
+    pcVar4 = *(code **)(*local_280 + 0x20);
+LAB_0005efe8:
+    (*pcVar4)();
+  }
+  else if (local_280 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_280 + 0x28);
+    goto LAB_0005efe8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_850 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_860 = __ZL20paramOctaveTranspose;
+  piVar3 = (int *)(__ZL20paramOctaveTranspose + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2f);
+  *piVar3 = 0;
+  piVar3[2] = 0x18;
+  piVar3[3] = 0;
+  local_868 = (byte *)(piVar3 + 4);
+  uVar8 = 0x6d;
+  lVar5 = 1;
+  pbVar7 = local_868;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"master octave transpose"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x18);
+  *pbVar7 = 0;
+  local_2b8 = &DAT_006f6fd8;
+  local_2b0 = param_2;
+  local_2a0 = &local_2b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f000000,param_2,param_1,&local_860,&local_868,&local_2b8,0,1);
+  if (&local_2b8 == local_2a0) {
+    pcVar4 = *(code **)(*local_2a0 + 0x20);
+LAB_0005f118:
+    (*pcVar4)();
+  }
+  else if (local_2a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_2a0 + 0x28);
+    goto LAB_0005f118;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_860 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_870 = __ZL12paramVcaMode;
+  piVar3 = (int *)(__ZL12paramVcaMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_878 = piVar3 + 4;
+  *(undefined8 *)local_878 = 0x65646f6d20616376;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined1 *)(piVar3 + 6) = 0;
+  local_2d8 = &DAT_006f7058;
+  local_2d0 = param_2;
+  local_2c0 = &local_2d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_870,&local_878,&local_2d8,0,1);
+  if (&local_2d8 == local_2c0) {
+    pcVar4 = *(code **)(*local_2c0 + 0x20);
+LAB_0005f204:
+    (*pcVar4)();
+  }
+  else if (local_2c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_2c0 + 0x28);
+    goto LAB_0005f204;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_870 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_880 = __ZL15paramAdsrAttack;
+  piVar3 = (int *)(__ZL15paramAdsrAttack + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x1f);
+  *piVar3 = 0;
+  local_888 = piVar3 + 4;
+  *local_888 = 0x61747461;
+  piVar3[2] = 8;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 5) = 0x6b63;
+  *(undefined1 *)((long)piVar3 + 0x16) = 0;
+  local_2f8 = &DAT_006f70d8;
+  local_2f0 = param_2;
+  local_2e0 = &local_2f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_880,&local_888,&local_2f8,0,1);
+  if (&local_2f8 == local_2e0) {
+    pcVar4 = *(code **)(*local_2e0 + 0x20);
+LAB_0005f2f8:
+    (*pcVar4)();
+  }
+  else if (local_2e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_2e0 + 0x28);
+    goto LAB_0005f2f8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_880 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_890 = __ZL14paramAdsrDecay;
+  piVar3 = (int *)(__ZL14paramAdsrDecay + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x1f);
+  *piVar3 = 0;
+  local_898 = piVar3 + 4;
+  *local_898 = 0x61636564;
+  piVar3[2] = 8;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 5) = 0x79;
+  local_318 = &DAT_006f7158;
+  local_310 = param_2;
+  local_300 = &local_318;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_890,&local_898,&local_318,0,1);
+  if (&local_318 == local_300) {
+    pcVar4 = *(code **)(*local_300 + 0x20);
+LAB_0005f3e8:
+    (*pcVar4)();
+  }
+  else if (local_300 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_300 + 0x28);
+    goto LAB_0005f3e8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_890 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_8a0 = __ZL16paramAdsrSustain;
+  piVar3 = (int *)(__ZL16paramAdsrSustain + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x1f);
+  *piVar3 = 0;
+  local_8a8 = piVar3 + 4;
+  *(undefined8 *)local_8a8 = 0x6e696174737573;
+  piVar3[2] = 8;
+  piVar3[3] = 0;
+  local_338 = &DAT_006f71d8;
+  local_330 = param_2;
+  local_320 = &local_338;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f800000,param_2,param_1,&local_8a0,&local_8a8,&local_338,0,1);
+  if (&local_338 == local_320) {
+    pcVar4 = *(code **)(*local_320 + 0x20);
+LAB_0005f4d0:
+    (*pcVar4)();
+  }
+  else if (local_320 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_320 + 0x28);
+    goto LAB_0005f4d0;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_8a0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_8b0 = __ZL16paramAdsrRelease;
+  piVar3 = (int *)(__ZL16paramAdsrRelease + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x1f);
+  *piVar3 = 0;
+  local_8b8 = (char (*) [8])(piVar3 + 4);
+  *local_8b8 = (char  [8])0x657361656c6572;
+  piVar3[2] = 8;
+  piVar3[3] = 0;
+  local_358 = &DAT_006f7258;
+  local_350 = param_2;
+  local_340 = &local_358;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_8b0,&local_8b8,&local_358,0,1);
+  if (&local_358 == local_340) {
+    pcVar4 = *(code **)(*local_340 + 0x20);
+LAB_0005f5b8:
+    (*pcVar4)();
+  }
+  else if (local_340 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_340 + 0x28);
+    goto LAB_0005f5b8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_8b0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_8c0 = __ZL12paramLfoRate;
+  piVar3 = (int *)(__ZL12paramLfoRate + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_8c8 = piVar3 + 4;
+  *(undefined8 *)local_8c8 = 0x65746172206f666c;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined1 *)(piVar3 + 6) = 0;
+  local_378 = &DAT_006f72d8;
+  local_370 = param_2;
+  local_360 = &local_378;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f000000,param_2,param_1,&local_8c0,&local_8c8,&local_378,0,1);
+  if (&local_378 == local_360) {
+    pcVar4 = *(code **)(*local_360 + 0x20);
+LAB_0005f6a4:
+    (*pcVar4)();
+  }
+  else if (local_360 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_360 + 0x28);
+    goto LAB_0005f6a4;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_8c0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL13paramLfoDelay;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL13paramLfoDelay + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x23);
+  *piVar2 = 0;
+  local_8d0 = piVar2 + 4;
+  *(undefined8 *)local_8d0 = 0x616c6564206f666c;
+  piVar2[2] = 0xc;
+  piVar2[3] = 0;
+  *(undefined2 *)(piVar2 + 6) = 0x79;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_8d0,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  local_8d8 = __ZL19paramLfoTriggerMode;
+  piVar3 = (int *)(__ZL19paramLfoTriggerMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  lVar5 = 0;
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_8e0 = (byte *)(piVar3 + 4);
+  uVar8 = 0x6c;
+  pbVar7 = local_8e0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"lfo trigger mode"[lVar5 + 1];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_398 = &DAT_006f73d8;
+  local_390 = param_2;
+  local_380 = &local_398;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_8d8,&local_8e0,&local_398,0,1);
+  if (&local_398 == local_380) {
+    pcVar4 = *(code **)(*local_380 + 0x20);
+LAB_0005f878:
+    (*pcVar4)();
+  }
+  else if (local_380 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_380 + 0x28);
+    goto LAB_0005f878;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_8d8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_8e8 = __ZL22paramLfoTriggerEnabled;
+  piVar3 = (int *)(__ZL22paramLfoTriggerEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_8f0 = (byte *)(piVar3 + 4);
+  uVar8 = 0x6c;
+  lVar5 = 1;
+  pbVar7 = local_8f0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"lfo trigger enabled"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x14);
+  *pbVar7 = 0;
+  local_3b8 = &DAT_006f7458;
+  local_3b0 = param_2;
+  local_3a0 = &local_3b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_8e8,&local_8f0,&local_3b8,0,1);
+  if (&local_3b8 == local_3a0) {
+    pcVar4 = *(code **)(*local_3a0 + 0x20);
+LAB_0005f9a8:
+    (*pcVar4)();
+  }
+  else if (local_3a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_3a0 + 0x28);
+    goto LAB_0005f9a8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_8e8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_8f8 = __ZL21paramLfoTriggerActive;
+  piVar3 = (int *)(__ZL21paramLfoTriggerActive + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_900 = (byte *)(piVar3 + 4);
+  uVar8 = 0x6c;
+  lVar5 = 1;
+  pbVar7 = local_900;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"lfo trigger active"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x13);
+  *pbVar7 = 0;
+  local_3d8 = &DAT_006f74d8;
+  local_3d0 = param_2;
+  local_3c0 = &local_3d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_8f8,&local_900,&local_3d8,0,1);
+  if (&local_3d8 == local_3c0) {
+    pcVar4 = *(code **)(*local_3c0 + 0x20);
+LAB_0005fad8:
+    (*pcVar4)();
+  }
+  else if (local_3c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_3c0 + 0x28);
+    goto LAB_0005fad8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_8f8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_908 = __ZL16paramLfoWaveform;
+  piVar3 = (int *)(__ZL16paramLfoWaveform + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  local_910 = piVar3 + 4;
+  *(undefined8 *)local_910 = 0x65766177206f666c;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  piVar3[6] = 0x6d726f66;
+  *(undefined1 *)(piVar3 + 7) = 0;
+  local_3f8 = &DAT_006f7558;
+  local_3f0 = param_2;
+  local_3e0 = &local_3f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x40800000,0,param_2,param_1,&local_908,&local_910,&local_3f8,0,1);
+  if (&local_3f8 == local_3e0) {
+    pcVar4 = *(code **)(*local_3e0 + 0x20);
+LAB_0005fbd0:
+    (*pcVar4)();
+  }
+  else if (local_3e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_3e0 + 0x28);
+    goto LAB_0005fbd0;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_908 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_918 = __ZL20paramChorus1Eanabled;
+  piVar3 = (int *)(__ZL20paramChorus1Eanabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_920 = piVar3 + 4;
+  *(undefined8 *)local_920 = 0x31207375726f6863;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined1 *)(piVar3 + 6) = 0;
+  local_418 = &DAT_006f75d8;
+  local_410 = param_2;
+  local_400 = &local_418;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_918,&local_920,&local_418,0,1);
+  if (&local_418 == local_400) {
+    pcVar4 = *(code **)(*local_400 + 0x20);
+LAB_0005fcbc:
+    (*pcVar4)();
+  }
+  else if (local_400 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_400 + 0x28);
+    goto LAB_0005fcbc;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_918 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_928 = __ZL20paramChorus2Eanabled;
+  piVar3 = (int *)(__ZL20paramChorus2Eanabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_930 = piVar3 + 4;
+  *(undefined8 *)local_930 = 0x32207375726f6863;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined1 *)(piVar3 + 6) = 0;
+  local_438 = &DAT_006f7658;
+  local_430 = param_2;
+  local_420 = &local_438;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_928,&local_930,&local_438,0,1);
+  if (&local_438 == local_420) {
+    pcVar4 = *(code **)(*local_420 + 0x20);
+LAB_0005fda8:
+    (*pcVar4)();
+  }
+  else if (local_420 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_420 + 0x28);
+    goto LAB_0005fda8;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_928 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_938 = __ZL15paramArpEnabled;
+  piVar3 = (int *)(__ZL15paramArpEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_940 = piVar3 + 4;
+  *(undefined8 *)local_940 = 0x62616e6520707261;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  piVar3[6] = 0x64656c;
+  local_458 = &DAT_006f76d8;
+  local_450 = param_2;
+  local_440 = &local_458;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_938,&local_940,&local_458,1,1);
+  if (&local_458 == local_440) {
+    pcVar4 = *(code **)(*local_440 + 0x20);
+LAB_0005fe9c:
+    (*pcVar4)();
+  }
+  else if (local_440 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_440 + 0x28);
+    goto LAB_0005fe9c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_938 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_948 = __ZL19paramArpSyncEnabled;
+  piVar3 = (int *)(__ZL19paramArpSyncEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  lVar5 = 0;
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_950 = (byte *)(piVar3 + 4);
+  uVar8 = 0x61;
+  pbVar7 = local_950;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"arp sync enabled"[lVar5 + 1];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_478 = &DAT_006f7758;
+  local_470 = param_2;
+  local_460 = &local_478;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_948,&local_950,&local_478,0,1);
+  if (&local_478 == local_460) {
+    pcVar4 = *(code **)(*local_460 + 0x20);
+LAB_0005ffd0:
+    (*pcVar4)();
+  }
+  else if (local_460 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_460 + 0x28);
+    goto LAB_0005ffd0;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_948 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_958 = __ZL12paramArpMode;
+  piVar3 = (int *)(__ZL12paramArpMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_960 = piVar3 + 4;
+  *(undefined8 *)local_960 = 0x65646f6d20707261;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined1 *)(piVar3 + 6) = 0;
+  local_498 = &DAT_006f77d8;
+  local_490 = param_2;
+  local_480 = &local_498;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_958,&local_960,&local_498,0,1);
+  if (&local_498 == local_480) {
+    pcVar4 = *(code **)(*local_480 + 0x20);
+LAB_000600bc:
+    (*pcVar4)();
+  }
+  else if (local_480 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_480 + 0x28);
+    goto LAB_000600bc;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_958 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_968 = __ZL13paramArpRange;
+  piVar3 = (int *)(__ZL13paramArpRange + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_970 = piVar3 + 4;
+  *(undefined8 *)local_970 = 0x676e617220707261;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 6) = 0x65;
+  local_4b8 = &DAT_006f7858;
+  local_4b0 = param_2;
+  local_4a0 = &local_4b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_968,&local_970,&local_4b8,0,1);
+  if (&local_4b8 == local_4a0) {
+    pcVar4 = *(code **)(*local_4a0 + 0x20);
+LAB_000601ac:
+    (*pcVar4)();
+  }
+  else if (local_4a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_4a0 + 0x28);
+    goto LAB_000601ac;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_968 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_978 = __ZL12paramArpRate;
+  piVar3 = (int *)(__ZL12paramArpRate + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_980 = piVar3 + 4;
+  *(undefined8 *)local_980 = 0x6574617220707261;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined1 *)(piVar3 + 6) = 0;
+  local_4d8 = &DAT_006f78d8;
+  local_4d0 = param_2;
+  local_4c0 = &local_4d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_978,&local_980,&local_4d8,0,1);
+  if (&local_4d8 == local_4c0) {
+    pcVar4 = *(code **)(*local_4c0 + 0x20);
+LAB_00060298:
+    (*pcVar4)();
+  }
+  else if (local_4c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_4c0 + 0x28);
+    goto LAB_00060298;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_978 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_988 = __ZL23paramArpNotLoadSettings;
+  piVar3 = (int *)(__ZL23paramArpNotLoadSettings + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_990 = piVar3 + 4;
+  *(undefined8 *)local_990 = 0x6b636f6c20707261;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 6) = 0x6465;
+  *(undefined1 *)((long)piVar3 + 0x1a) = 0;
+  local_4f8 = &DAT_006f7958;
+  local_4f0 = param_2;
+  local_4e0 = &local_4f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_988,&local_990,&local_4f8,0,1);
+  if (&local_4f8 == local_4e0) {
+    pcVar4 = *(code **)(*local_4e0 + 0x20);
+LAB_0006038c:
+    (*pcVar4)();
+  }
+  else if (local_4e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_4e0 + 0x28);
+    goto LAB_0006038c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_988 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_998 = __ZL26paramControlVelocityVolume;
+  piVar3 = (int *)(__ZL26paramControlVelocityVolume + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2f);
+  *piVar3 = 0;
+  piVar3[2] = 0x18;
+  piVar3[3] = 0;
+  local_9a0 = (byte *)(piVar3 + 4);
+  uVar8 = 99;
+  lVar5 = 1;
+  pbVar7 = local_9a0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"control velocity volume"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x18);
+  *pbVar7 = 0;
+  local_518 = &DAT_006f79d8;
+  local_510 = param_2;
+  local_500 = &local_518;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_998,&local_9a0,&local_518,0,1);
+  if (&local_518 == local_500) {
+    pcVar4 = *(code **)(*local_500 + 0x20);
+LAB_000604bc:
+    (*pcVar4)();
+  }
+  else if (local_500 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_500 + 0x28);
+    goto LAB_000604bc;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_998 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_9a8 = __ZL28paramControlVelocityEnvelope;
+  piVar3 = (int *)(__ZL28paramControlVelocityEnvelope + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x33);
+  *piVar3 = 0;
+  piVar3[2] = 0x1c;
+  piVar3[3] = 0;
+  local_9b0 = (byte *)(piVar3 + 4);
+  uVar8 = 99;
+  lVar5 = 1;
+  pbVar7 = local_9b0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"control velocity envelope"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x1a);
+  *pbVar7 = 0;
+  local_538 = &DAT_006f7a58;
+  local_530 = param_2;
+  local_520 = &local_538;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_9a8,&local_9b0,&local_538,0,1);
+  if (&local_538 == local_520) {
+    pcVar4 = *(code **)(*local_520 + 0x20);
+LAB_000605ec:
+    (*pcVar4)();
+  }
+  else if (local_520 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_520 + 0x28);
+    goto LAB_000605ec;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_9a8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_9b8 = __ZL24paramControlBenderFilter;
+  piVar3 = (int *)(__ZL24paramControlBenderFilter + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x33);
+  *piVar3 = 0;
+  piVar3[2] = 0x1c;
+  piVar3[3] = 0;
+  local_9c0 = (byte *)(piVar3 + 4);
+  uVar8 = 99;
+  lVar5 = 1;
+  pbVar7 = local_9c0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"control pitch bend filter"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x1a);
+  *pbVar7 = 0;
+  local_558 = &DAT_006f7ad8;
+  local_550 = param_2;
+  local_540 = &local_558;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_9b8,&local_9c0,&local_558,0,1);
+  if (&local_558 == local_540) {
+    pcVar4 = *(code **)(*local_540 + 0x20);
+LAB_0006071c:
+    (*pcVar4)();
+  }
+  else if (local_540 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_540 + 0x28);
+    goto LAB_0006071c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_9b8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_9c8 = __ZL21paramControlBenderDco;
+  piVar3 = (int *)(__ZL21paramControlBenderDco + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2f);
+  *piVar3 = 0;
+  piVar3[2] = 0x18;
+  piVar3[3] = 0;
+  local_9d0 = (byte *)(piVar3 + 4);
+  uVar8 = 99;
+  lVar5 = 1;
+  pbVar7 = local_9d0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"control pitch bend dco"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x17);
+  *pbVar7 = 0;
+  local_578 = &DAT_006f7b58;
+  local_570 = param_2;
+  local_560 = &local_578;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_9c8,&local_9d0,&local_578,0,1);
+  if (&local_578 == local_560) {
+    pcVar4 = *(code **)(*local_560 + 0x20);
+LAB_0006084c:
+    (*pcVar4)();
+  }
+  else if (local_560 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_560 + 0x28);
+    goto LAB_0006084c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_9c8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_9d8 = __ZL19paramPortamentoMode;
+  piVar3 = (int *)(__ZL19paramPortamentoMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_9e0 = (byte *)(piVar3 + 4);
+  uVar8 = 0x70;
+  lVar5 = 1;
+  pbVar7 = local_9e0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"portamento mode"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_598 = &DAT_006f7bd8;
+  local_590 = param_2;
+  local_580 = &local_598;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_9d8,&local_9e0,&local_598,0,1);
+  if (&local_598 == local_580) {
+    pcVar4 = *(code **)(*local_580 + 0x20);
+LAB_0006097c:
+    (*pcVar4)();
+  }
+  else if (local_580 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_580 + 0x28);
+    goto LAB_0006097c;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_9d8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_9e8 = __ZL24paramPortamentoIntensity;
+  piVar3 = (int *)(__ZL24paramPortamentoIntensity + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2f);
+  *piVar3 = 0;
+  piVar3[2] = 0x18;
+  piVar3[3] = 0;
+  local_9f0 = (byte *)(piVar3 + 4);
+  uVar8 = 0x70;
+  lVar5 = 1;
+  pbVar7 = local_9f0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"portamento intensity"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x15);
+  *pbVar7 = 0;
+  local_5b8 = &DAT_006f7c58;
+  local_5b0 = param_2;
+  local_5a0 = &local_5b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_9e8,&local_9f0,&local_5b8,0,1);
+  if (&local_5b8 == local_5a0) {
+    pcVar4 = *(code **)(*local_5a0 + 0x20);
+LAB_00060aac:
+    (*pcVar4)();
+  }
+  else if (local_5a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_5a0 + 0x28);
+    goto LAB_00060aac;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_9e8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL14paramVoiceHold;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL14paramVoiceHold + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x23);
+  *piVar2 = 0;
+  local_9f8 = piVar2 + 4;
+  *(undefined8 *)local_9f8 = 0x6f68206563696f76;
+  piVar2[2] = 0xc;
+  piVar2[3] = 0;
+  *(undefined2 *)(piVar2 + 6) = 0x646c;
+  *(undefined1 *)((long)piVar2 + 0x1a) = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_9f8,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL25paramMidiTriggerArp16Sync;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL25paramMidiTriggerArp16Sync + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x37);
+  *piVar2 = 0;
+  piVar2[2] = 0x20;
+  piVar2[3] = 0;
+  local_a00 = (byte *)(piVar2 + 4);
+  uVar8 = 0x74;
+  lVar6 = 1;
+  pbVar7 = local_a00;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"trigger arp by midi channel 16"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x1f);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a00,1,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL14paramClockSync;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL14paramClockSync + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x23);
+  *piVar2 = 0;
+  local_a08 = piVar2 + 4;
+  *(undefined8 *)local_a08 = 0x7973206b636f6c63;
+  piVar2[2] = 0xc;
+  piVar2[3] = 0;
+  *(undefined2 *)(piVar2 + 6) = 0x636e;
+  *(undefined1 *)((long)piVar2 + 0x1a) = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a08,1,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL13paramHostSync;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL13paramHostSync + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x23);
+  *piVar2 = 0;
+  local_a10 = piVar2 + 4;
+  *(undefined8 *)local_a10 = 0x6e79732074736f68;
+  piVar2[2] = 0xc;
+  piVar2[3] = 0;
+  *(undefined2 *)(piVar2 + 6) = 99;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a10,1,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  local_a18 = __ZL12paramMaxPoly;
+  piVar3 = (int *)(__ZL12paramMaxPoly + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x23);
+  *piVar3 = 0;
+  local_a20 = piVar3 + 4;
+  *(undefined8 *)local_a20 = 0x63696f762078616d;
+  piVar3[2] = 0xc;
+  piVar3[3] = 0;
+  *(undefined2 *)(piVar3 + 6) = 0x7365;
+  *(undefined1 *)((long)piVar3 + 0x1a) = 0;
+  local_5d8 = &DAT_006f7cd8;
+  local_5d0 = param_2;
+  local_5c0 = &local_5d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x41300000,0x40a00000,param_2,param_1,&local_a18,&local_a20,&local_5d8,0,1);
+  if (&local_5d8 == local_5c0) {
+    pcVar4 = *(code **)(*local_5c0 + 0x20);
+LAB_00060e68:
+    (*pcVar4)();
+  }
+  else if (local_5c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_5c0 + 0x28);
+    goto LAB_00060e68;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_a18 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_a28 = __ZL17paramKeytranspose;
+  piVar3 = (int *)(__ZL17paramKeytranspose + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  local_a30 = piVar3 + 4;
+  *(undefined8 *)local_a30 = 0x736e61727479656b;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  piVar3[6] = 0x65736f70;
+  *(undefined1 *)(piVar3 + 7) = 0;
+  local_5f8 = &DAT_006f7d58;
+  local_5f0 = param_2;
+  local_5e0 = &local_5f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x41c00000,0x41400000,param_2,param_1,&local_a28,&local_a30,&local_5f8,0,1);
+  if (&local_5f8 == local_5e0) {
+    pcVar4 = *(code **)(*local_5e0 + 0x20);
+LAB_00060f60:
+    (*pcVar4)();
+  }
+  else if (local_5e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_5e0 + 0x28);
+    goto LAB_00060f60;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_a28 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_a38 = __ZL16paramArpSyncMode;
+  piVar3 = (int *)(__ZL16paramArpSyncMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x1f);
+  *piVar3 = 0;
+  local_a40 = piVar3 + 4;
+  *(undefined8 *)local_a40 = 0x21646573756e75;
+  piVar3[2] = 8;
+  piVar3[3] = 0;
+  local_618 = &DAT_006f7dd8;
+  local_610 = param_2;
+  local_600 = &local_618;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x40000000,0,param_2,param_1,&local_a38,&local_a40,&local_618,0,1);
+  if (&local_618 == local_600) {
+    pcVar4 = *(code **)(*local_600 + 0x20);
+LAB_00061048:
+    (*pcVar4)();
+  }
+  else if (local_600 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_600 + 0x28);
+    goto LAB_00061048;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_a38 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_a48 = __ZL19paramArpSpecialMode;
+  piVar3 = (int *)(__ZL19paramArpSpecialMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  local_a50 = piVar3 + 4;
+  *(undefined8 *)local_a50 = 0x206c616963657073;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  piVar3[6] = 0x65646f6d;
+  *(undefined1 *)(piVar3 + 7) = 0;
+  local_638 = &DAT_006f7e58;
+  local_630 = param_2;
+  local_620 = &local_638;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x40400000,0,param_2,param_1,&local_a48,&local_a50,&local_638,0,1);
+  if (&local_638 == local_620) {
+    pcVar4 = *(code **)(*local_620 + 0x20);
+LAB_00061140:
+    (*pcVar4)();
+  }
+  else if (local_620 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_620 + 0x28);
+    goto LAB_00061140;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_a48 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL16paramLfoInverted;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL16paramLfoInverted + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  local_a58 = piVar2 + 4;
+  *(undefined8 *)local_a58 = 0x65766e69206f666c;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  piVar2[6] = 0x64657472;
+  *(undefined1 *)(piVar2 + 7) = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a58,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL19paramPortamentoPoly;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL19paramPortamentoPoly + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_a60 = (byte *)(piVar2 + 4);
+  uVar8 = 0x70;
+  lVar6 = 1;
+  pbVar7 = local_a60;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"portamento poly"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x10);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a60,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL14paramEngineOff;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL14paramEngineOff + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x2b);
+  lVar6 = 0;
+  *piVar2 = 0;
+  piVar2[2] = 0x14;
+  piVar2[3] = 0;
+  local_a68 = (byte *)(piVar2 + 4);
+  uVar8 = 0x73;
+  pbVar7 = local_a68;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"sound engine off"[lVar6 + 1];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x10);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a68,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL15paramMpeEnabled;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL15paramMpeEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x23);
+  *piVar2 = 0;
+  local_a70 = piVar2 + 4;
+  *(undefined8 *)local_a70 = 0x62616e652045504d;
+  piVar2[2] = 0xc;
+  piVar2[3] = 0;
+  piVar2[6] = 0x64656c;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a70,1,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL26paramPortamentoTimeEnabled;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL26paramPortamentoTimeEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_a78 = (byte *)(piVar2 + 4);
+  uVar8 = 0x70;
+  lVar6 = 1;
+  pbVar7 = local_a78;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"portamento time"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x10);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_a78,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  local_a80 = __ZL11paramFxLock;
+  piVar3 = (int *)(__ZL11paramFxLock + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x1f);
+  *piVar3 = 0;
+  local_a88 = piVar3 + 4;
+  *(undefined8 *)local_a88 = 0x6b636f4c205846;
+  piVar3[2] = 8;
+  piVar3[3] = 0;
+  local_658 = &DAT_006f7ed8;
+  local_650 = param_2;
+  local_640 = &local_658;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_a80,&local_a88,&local_658,0,1);
+  if (&local_658 == local_640) {
+    pcVar4 = *(code **)(*local_640 + 0x20);
+LAB_00061618:
+    (*pcVar4)();
+  }
+  else if (local_640 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_640 + 0x28);
+    goto LAB_00061618;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_a80 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_a90 = __ZL17paramReverbDryWet;
+  piVar3 = (int *)(__ZL17paramReverbDryWet + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_a98 = (byte *)(piVar3 + 4);
+  uVar8 = 0x46;
+  lVar5 = 1;
+  pbVar7 = local_a98;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Reverb Dry / Wet"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x14);
+  *pbVar7 = 0;
+  local_678 = &DAT_006f7f58;
+  local_670 = param_2;
+  local_660 = &local_678;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_a90,&local_a98,&local_678,0,1);
+  if (&local_678 == local_660) {
+    pcVar4 = *(code **)(*local_660 + 0x20);
+LAB_00061748:
+    (*pcVar4)();
+  }
+  else if (local_660 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_660 + 0x28);
+    goto LAB_00061748;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_a90 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL15paramReverbSize;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL15paramReverbSize + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_aa0 = (byte *)(piVar2 + 4);
+  uVar8 = 0x46;
+  lVar6 = 1;
+  pbVar7 = local_aa0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Reverb Size"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0xf);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0x3f4ccccd,param_2,param_1,lVar5,&local_aa0,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  local_aa8 = __ZL16paramReverbDelay;
+  piVar3 = (int *)(__ZL16paramReverbDelay + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_ab0 = (byte *)(piVar3 + 4);
+  uVar8 = 0x46;
+  lVar5 = 1;
+  pbVar7 = local_ab0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Reverb Delay"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x10);
+  *pbVar7 = 0;
+  local_698 = &DAT_006f7fd8;
+  local_690 = param_2;
+  local_680 = &local_698;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_aa8,&local_ab0,&local_698,0,1);
+  if (&local_698 == local_680) {
+    pcVar4 = *(code **)(*local_680 + 0x20);
+LAB_00061960:
+    (*pcVar4)();
+  }
+  else if (local_680 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_680 + 0x28);
+    goto LAB_00061960;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_aa8 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL15paramReverbTone;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL15paramReverbTone + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_ab8 = (byte *)(piVar2 + 4);
+  uVar8 = 0x46;
+  lVar6 = 1;
+  pbVar7 = local_ab8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Reverb Tone"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0xf);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0x3f000000,param_2,param_1,lVar5,&local_ab8,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  local_ac0 = __ZL16paramDelayDryWet;
+  piVar3 = (int *)(__ZL16paramDelayDryWet + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x2b);
+  *piVar3 = 0;
+  piVar3[2] = 0x14;
+  piVar3[3] = 0;
+  local_ac8 = (byte *)(piVar3 + 4);
+  uVar8 = 0x46;
+  lVar5 = 1;
+  pbVar7 = local_ac8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Delay Dry / Wet"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0x13);
+  *pbVar7 = 0;
+  local_6b8 = &DAT_006f8058;
+  local_6b0 = param_2;
+  local_6a0 = &local_6b8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_ac0,&local_ac8,&local_6b8,0,1);
+  if (&local_6b8 == local_6a0) {
+    pcVar4 = *(code **)(*local_6a0 + 0x20);
+LAB_00061b70:
+    (*pcVar4)();
+  }
+  else if (local_6a0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_6a0 + 0x28);
+    goto LAB_00061b70;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_ac0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_ad0 = __ZL14paramDelayTime;
+  piVar3 = (int *)(__ZL14paramDelayTime + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_ad8 = (byte *)(piVar3 + 4);
+  uVar8 = 0x46;
+  lVar5 = 1;
+  pbVar7 = local_ad8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Delay Time"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xe);
+  *pbVar7 = 0;
+  local_6d8 = &DAT_006f80d8;
+  local_6d0 = param_2;
+  local_6c0 = &local_6d8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3f000000,param_2,param_1,&local_ad0,&local_ad8,&local_6d8,0,1);
+  if (&local_6d8 == local_6c0) {
+    pcVar4 = *(code **)(*local_6c0 + 0x20);
+LAB_00061ca0:
+    (*pcVar4)();
+  }
+  else if (local_6c0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_6c0 + 0x28);
+    goto LAB_00061ca0;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_ad0 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL14paramDelaySync;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL14paramDelaySync + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_ae0 = (byte *)(piVar2 + 4);
+  uVar8 = 0x46;
+  lVar6 = 1;
+  pbVar7 = local_ae0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Delay Sync"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0xe);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_ae0,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL16paramDelaySpread;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL16paramDelaySpread + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_ae8 = (byte *)(piVar2 + 4);
+  uVar8 = 0x46;
+  lVar6 = 1;
+  pbVar7 = local_ae8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Delay Spread"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x10);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0x3f000000,param_2,param_1,lVar5,&local_ae8,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL14paramDelayTone;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL14paramDelayTone + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_af0 = (byte *)(piVar2 + 4);
+  uVar8 = 0x46;
+  lVar6 = 1;
+  pbVar7 = local_af0;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Delay Tone"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0xe);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0x3f000000,param_2,param_1,lVar5,&local_af0,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL18paramDelayFeedback;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL18paramDelayFeedback + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x2b);
+  *piVar2 = 0;
+  piVar2[2] = 0x14;
+  piVar2[3] = 0;
+  local_af8 = (byte *)(piVar2 + 4);
+  uVar8 = 0x46;
+  lVar6 = 1;
+  pbVar7 = local_af8;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"FX Delay Feedback"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x12);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_af8,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL15paramMtsEnabled;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL15paramMtsEnabled + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x2f);
+  *piVar2 = 0;
+  piVar2[2] = 0x18;
+  piVar2[3] = 0;
+  local_b00 = (byte *)(piVar2 + 4);
+  uVar8 = 0x4d;
+  lVar6 = 1;
+  pbVar7 = local_b00;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"MTS Microtuning Active"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0x17);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_b00,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  local_b08 = __ZL18paramUnisonoVoices;
+  piVar3 = (int *)(__ZL18paramUnisonoVoices + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_b10 = (byte *)(piVar3 + 4);
+  uVar8 = 0x55;
+  lVar5 = 1;
+  pbVar7 = local_b10;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"Unisono Voices"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xf);
+  *pbVar7 = 0;
+  local_6f8 = &DAT_006f8158;
+  local_6f0 = param_2;
+  local_6e0 = &local_6f8;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_b08,&local_b10,&local_6f8,0,1);
+  if (&local_6f8 == local_6e0) {
+    pcVar4 = *(code **)(*local_6e0 + 0x20);
+LAB_00062230:
+    (*pcVar4)();
+  }
+  else if (local_6e0 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_6e0 + 0x28);
+    goto LAB_00062230;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_b08 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_b18 = __ZL18paramUnisonoDetune;
+  piVar3 = (int *)(__ZL18paramUnisonoDetune + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_b20 = (byte *)(piVar3 + 4);
+  uVar8 = 0x55;
+  lVar5 = 1;
+  pbVar7 = local_b20;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"Unisono Detune"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xf);
+  *pbVar7 = 0;
+  local_718 = &DAT_006f81d8;
+  local_710 = param_2;
+  local_700 = &local_718;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0x3dcccccd,param_2,param_1,&local_b18,&local_b20,&local_718,0,1);
+  if (&local_718 == local_700) {
+    pcVar4 = *(code **)(*local_700 + 0x20);
+LAB_00062368:
+    (*pcVar4)();
+  }
+  else if (local_700 != (undefined **)0x0) {
+    pcVar4 = *(code **)(*local_700 + 0x28);
+    goto LAB_00062368;
+  }
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_b18 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  local_b28 = __ZL18paramUnisonoSpread;
+  piVar3 = (int *)(__ZL18paramUnisonoSpread + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    piVar3 = (int *)CONCAT44((int)((ulong)piVar3 >> 0x20),iVar1);
+    LORelease();
+  }
+  piVar3 = (int *)__Znam(piVar3,0x27);
+  *piVar3 = 0;
+  piVar3[2] = 0x10;
+  piVar3[3] = 0;
+  local_b30 = (byte *)(piVar3 + 4);
+  uVar8 = 0x55;
+  lVar5 = 1;
+  pbVar7 = local_b30;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"Unisono Spread"[lVar5];
+    lVar5 = lVar5 + 1;
+  } while (lVar5 != 0xf);
+  *pbVar7 = 0;
+  local_738 = &DAT_006f8258;
+  local_730 = param_2;
+  local_720 = &local_738;
+  __ZN6Params12setupParamOvERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffNSt3__18functionIFS4_fiEEEbb
+            (0x3f800000,0,param_2,param_1,&local_b28,&local_b30,&local_738,0,1);
+  if (&local_738 == local_720) {
+    pcVar4 = *(code **)(*local_720 + 0x20);
+  }
+  else {
+    if (local_720 == (undefined **)0x0) goto LAB_0006249c;
+    pcVar4 = *(code **)(*local_720 + 0x28);
+  }
+  (*pcVar4)();
+LAB_0006249c:
+  LOAcquire();
+  iVar1 = *piVar3;
+  *piVar3 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar3);
+  }
+  piVar3 = (int *)(local_b28 + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv();
+    }
+  }
+  lVar5 = __ZL14paramVoiceMode;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL14paramVoiceMode + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x23);
+  *piVar2 = 0;
+  local_b38 = piVar2 + 4;
+  local_b38[0] = 0x63696f56;
+  local_b38[1] = 0x6f4d2065;
+  piVar2[2] = 0xc;
+  piVar2[3] = 0;
+  *(undefined2 *)(piVar2 + 6) = 0x6564;
+  *(undefined1 *)((long)piVar2 + 0x1a) = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_b38,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  lVar5 = __ZL20paramControlMwLfoDco;
+  iVar1 = 0x720000;
+  piVar3 = (int *)(__ZL20paramControlMwLfoDco + -0x10);
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + 1;
+    LORelease();
+  }
+  piVar2 = (int *)__Znam(iVar1,0x27);
+  *piVar2 = 0;
+  piVar2[2] = 0x10;
+  piVar2[3] = 0;
+  local_b40 = (byte *)(piVar2 + 4);
+  uVar8 = 0x4d;
+  lVar6 = 1;
+  pbVar7 = local_b40;
+  do {
+    if (uVar8 >> 7 == 0) {
+      *pbVar7 = (byte)uVar8;
+    }
+    else {
+      *pbVar7 = (byte)(uVar8 >> 6) | 0xc0;
+      pbVar7 = pbVar7 + 1;
+      *pbVar7 = (byte)uVar8 & 0x3f | 0x80;
+    }
+    pbVar7 = pbVar7 + 1;
+    uVar8 = (uint)(byte)"Mod Wheel LFO"[lVar6];
+    lVar6 = lVar6 + 1;
+  } while (lVar6 != 0xe);
+  *pbVar7 = 0;
+  __ZN6Params10setupParamERN4juce28AudioProcessorValueTreeState15ParameterLayoutENS0_6StringES4_fffbb
+            (0,param_2,param_1,lVar5,&local_b40,0,1);
+  LOAcquire();
+  iVar1 = *piVar2;
+  *piVar2 = iVar1 + -1;
+  LORelease();
+  if (iVar1 == 0) {
+    __ZdaPv(piVar2);
+  }
+  if (piVar3 != &__ZN4juceL11emptyStringE) {
+    LOAcquire();
+    iVar1 = *piVar3;
+    *piVar3 = iVar1 + -1;
+    LORelease();
+    if (iVar1 == 0) {
+      __ZdaPv(piVar3);
+    }
+  }
+  if (*(long *)PTR____stack_chk_guard_006f4300 == local_58) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  ___stack_chk_fail();
+}
+

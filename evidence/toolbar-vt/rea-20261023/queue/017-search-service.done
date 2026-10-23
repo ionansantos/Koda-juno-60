@@ -1,0 +1,1 @@
+{"name": "search_procedures", "arguments": {"pattern": "ServiceControl|ServiceView|SynthVoiceC", "mode": "regex", "case_sensitive": false}}

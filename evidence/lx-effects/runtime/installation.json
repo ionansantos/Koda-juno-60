@@ -1,0 +1,15 @@
+{
+  "version": "0.4.0",
+  "backup": "/Users/koda/Documents/tal-un-no-60-clone/dist/installed-before-fx-20261019-011555",
+  "package": "/Users/koda/Documents/tal-un-no-60-clone/dist/fx-0.4.0",
+  "installed": [
+    {
+      "path": "/Users/koda/Library/Audio/Plug-Ins/Components/KODA-JUNO-60.component",
+      "sha256": "fb1b6b47e72dbbe5ec7e252ae6e2f8aaab4999494b469d0fe907e49777b75615"
+    },
+    {
+      "path": "/Users/koda/Library/Audio/Plug-Ins/VST3/KODA-JUNO-60.vst3",
+      "sha256": "638c9e1e48cb5087b771090b92a7a5e4596be8b7adf191858a8d70b00a9259f8"
+    }
+  ]
+}

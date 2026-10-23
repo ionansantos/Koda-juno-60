@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-open.json",
+    "operation": "open_binary",
+    "evidence_id": null
+  },
+  {
+    "file": "10-process.json",
+    "operation": "procedure_pseudo_code",
+    "evidence_id": "ev_71e37182bed5a7abc82d87ad3081854b53faf5cccbcbefb7c91fb58f45379fa0"
+  },
+  {
+    "file": "11-note-on.json",
+    "operation": "procedure_pseudo_code",
+    "evidence_id": "ev_430a1435048ad23bcb2965aed68424aa948b522ca308237b7ec8833b029c9c7a"
+  },
+  {
+    "file": "12-note-off.json",
+    "operation": "procedure_pseudo_code",
+    "evidence_id": "ev_8219f7a573eac5a39338cf58ace08a6614eea9fef4061d0e36211b8450fb447f"
+  },
+  {
+    "file": "13-sort-up.json",
+    "operation": "procedure_pseudo_code",
+    "evidence_id": "ev_7cb7bf1d99513e953170bd03754ca18a44de13631aaf7c02b5a51543b2a8bb43"
+  },
+  {
+    "file": "14-sort-down.json",
+    "operation": "procedure_pseudo_code",
+    "evidence_id": "ev_0a2ddaf644609b00c142346f1a1ff31e0134c40071ba5d7186453291cbb679fd"
+  },
+  {
+    "file": "98-export.json",
+    "operation": "export_evidence_bundle",
+    "evidence_id": null
+  },
+  {
+    "file": "99-close.json",
+    "operation": "close_binary",
+    "evidence_id": null
+  }
+]

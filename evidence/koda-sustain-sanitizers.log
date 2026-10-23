@@ -1,0 +1,4 @@
+DSP tests passed: rates, silence, release, chorus stereo, 120 presets, finite output.
+Sustain tests passed: thresholds, pedal-up, retrigger, channels, voice stealing, resets and chorus.
+120 presets: names, parameters, MIDI maps and atomic rejection passed
+47 parameter names match retained REA bytes.

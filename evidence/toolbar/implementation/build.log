@@ -1,0 +1,113 @@
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/koda/Documents/tal-un-no-60-clone/build
+[  9%] Built target tal_dsp
+[ 14%] Building CXX object CMakeFiles/TalUNo60Clone.dir/Source/PluginEditor.cpp.o
+[ 14%] Building CXX object CMakeFiles/TalUNo60Clone.dir/Source/PluginProcessor.cpp.o
+[ 17%] Linking CXX static library TalUNo60Clone_artefacts/Release/libKODA-JUNO-60_SharedCode.a
+[ 68%] Built target TalUNo60Clone
+[ 70%] Linking CXX CFBundle shared module TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component/Contents/MacOS/KODA-JUNO-60
+[100%] Built target TalUNo60Clone_AU
+[  7%] Built target tal_dsp
+[ 14%] Built target tal_arpeggiator_test
+[ 14%] Built target tal_preset_test
+[ 18%] Built target tal_dsp_test
+[ 25%] Built target tal_delay_test
+[ 25%] Built target tal_sustain_test
+[ 29%] Built target tal_reverb_test
+[ 37%] Built target tal_voice_tuning_test
+[ 37%] Built target tal_portamento_test
+[ 81%] Built target TalUNo60Clone
+[ 88%] Linking CXX executable tal_fx_processor_test
+[ 88%] Building CXX object CMakeFiles/tal_toolbar_processor_test.dir/tests/toolbar_processor_test.cpp.o
+[ 88%] Linking CXX executable tal_midi_test
+[ 88%] Linking CXX executable tal_arp_processor_test
+[ 90%] Built target tal_midi_test
+[ 92%] Built target tal_arp_processor_test
+[ 94%] Built target tal_fx_processor_test
+[ 96%] Linking CXX executable tal_portamento_processor_test
+[ 98%] Built target tal_portamento_processor_test
+[100%] Linking CXX executable tal_toolbar_processor_test
+[100%] Built target tal_toolbar_processor_test
+[100%] Built target tal_tests
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+      Start  1: Arpeggiator
+ 1/13 Test  #1: Arpeggiator ......................   Passed    0.34 sec
+      Start  2: DSP
+ 2/13 Test  #2: DSP ..............................   Passed    0.79 sec
+      Start  3: Presets
+ 3/13 Test  #3: Presets ..........................   Passed    0.00 sec
+      Start  4: Sustain
+ 4/13 Test  #4: Sustain ..........................   Passed    0.07 sec
+      Start  5: Delay
+ 5/13 Test  #5: Delay ............................   Passed    0.03 sec
+      Start  6: Reverb
+ 6/13 Test  #6: Reverb ...........................   Passed    2.64 sec
+      Start  7: Portamento
+ 7/13 Test  #7: Portamento .......................   Passed    1.35 sec
+      Start  8: VoiceTuning
+ 8/13 Test  #8: VoiceTuning ......................   Passed    0.71 sec
+      Start  9: ProcessorArpeggiator
+ 9/13 Test  #9: ProcessorArpeggiator .............   Passed    0.48 sec
+      Start 10: ProcessorMIDI
+10/13 Test #10: ProcessorMIDI ....................   Passed    0.43 sec
+      Start 11: ProcessorFX
+11/13 Test #11: ProcessorFX ......................   Passed    0.46 sec
+      Start 12: ProcessorPortamento
+12/13 Test #12: ProcessorPortamento ..............   Passed    0.47 sec
+      Start 13: ProcessorToolbar
+13/13 Test #13: ProcessorToolbar .................   Passed    1.18 sec
+
+100% tests passed out of 13
+
+Total Test time (real) =   8.95 sec
+build/TalUNo60Clone_artefacts/Release/AU/KODA-JUNO-60.component: replacing existing signature
+[  2%] Building VST3 manifest helper for TalUNo60Clone
+[ 11%] Built target tal_dsp
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/koda/Documents/tal-un-no-60-clone/build/vst3_helpers/TalUNo60Clone
+make[4]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+[ 50%] Building CXX object CMakeFiles/vst3_helper.dir/Users/koda/Documents/tal-un-no-60-clone/external/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
+[ 69%] Built target TalUNo60Clone
+[100%] Linking CXX executable vst3_helper
+[100%] Built target vst3_helper
+[ 69%] Built target TalUNo60Clone_vst3_helper
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 88%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 88%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 88%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 88%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 95%] Building CXX object CMakeFiles/TalUNo60Clone_VST3.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[ 97%] Linking CXX CFBundle shared module TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3/Contents/MacOS/KODA-JUNO-60
+/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3: code has no resources but signature indicates they must be present
+-- Replacing invalid signature with ad-hoc signature
+/Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3: replacing existing signature
+removing moduleinfo.json
+creating /Users/koda/Documents/tal-un-no-60-clone/build/TalUNo60Clone_artefacts/Release/VST3/KODA-JUNO-60.vst3/Contents/Resources/moduleinfo.json
+[100%] Built target TalUNo60Clone_VST3
+[  9%] Built target tal_dsp
+[ 68%] Built target TalUNo60Clone
+[ 73%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 73%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 75%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 78%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 80%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 85%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 85%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 92%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 95%] Building CXX object CMakeFiles/TalUNo60Clone_Standalone.dir/external/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[ 97%] Linking CXX executable TalUNo60Clone_artefacts/Release/Standalone/KODA-JUNO-60.app/Contents/MacOS/KODA-JUNO-60
+[100%] Built target TalUNo60Clone_Standalone

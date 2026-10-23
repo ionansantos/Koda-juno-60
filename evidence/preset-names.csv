@@ -1,0 +1,121 @@
+index,name,file_offset,virtual_address
+0,Startup,212256,0x33d20
+1,Funky Bass,213488,0x341f0
+2,Wahuh Bass,214720,0x346c0
+3,PW Bass,215952,0x34b90
+4,LFO Bass,217184,0x35060
+5,Arp Lead,218416,0x35530
+6,Organ Lead,219648,0x35a00
+7,Funky Lead,220880,0x35ed0
+8,Self Osc Lead,222112,0x363a0
+9,Fluet,223344,0x36870
+10,Squared Decay FX,224576,0x36d40
+11,Laser Gun FX,225808,0x37210
+12,Disco tom FX,227040,0x376e0
+13,C64 :-) FX,228272,0x37bb0
+14,Warm Pad,229504,0x38080
+15,Too much acid,230736,0x38550
+16,Old Organ,231968,0x38a20
+17,Reso Decay FX,233200,0x38ef0
+18,Short Perc,234432,0x393c0
+19,Reso Kick,235664,0x39890
+20,11 Strings 1 Bank A,236896,0x39d60
+21,12 Strings 2 Bank A,238128,0x3a230
+22,13 Strings 3 Bank A,239360,0x3a700
+23,14 Organ 1 Bank A,240592,0x3abd0
+24,15 Organ 2 Bank A,241824,0x3b0a0
+25,16 Organ 3 Bank A,243056,0x3b570
+26,17 Brass Bank A,244288,0x3ba40
+27,18 Phase Brass Bank A,245520,0x3bf10
+28,21 Piano 1 Bank A,246752,0x3c3e0
+29,22 Piano 2 Bank A,247984,0x3c8b0
+30,23 Celesta Bank A,249216,0x3cd80
+31,24 Mellow Piano Bank A,250448,0x3d250
+32,25 Harpsichord 1 Bank A,251680,0x3d720
+33,26 Harpsichord 2 Bank A,252912,0x3dbf0
+34,27 Guitar Bank A,254144,0x3e0c0
+35,28 Synth Harp Bank A,255376,0x3e590
+36,31 Bass 1 Bank A,256608,0x3ea60
+37,32 Bass 2 Bank A,257840,0x3ef30
+38,33 Clavichord 1 Bank A,259072,0x3f400
+39,34 Clavichord 2 Bank A,260304,0x3f8d0
+40,35 Pizzicato Sound 1 Ban,261536,0x3fda0
+41,36 Pizzicato Sound 2 Ban,262768,0x40270
+42,37 Xylophone Bank A,264000,0x40740
+43,38 Glockenspiel Bank A,265232,0x40c10
+44,41 Violine Bank A,266464,0x410e0
+45,42 Trumpet Bank A,267696,0x415b0
+46,43 Horn Bank A,268928,0x41a80
+47,44 Tuba Bank A,270160,0x41f50
+48,45 Flute Bank A,271392,0x42420
+49,46 Clarinet Bank A,272624,0x428f0
+50,47 Oboe Bank A,273856,0x42dc0
+51,48 English Horn,275088,0x43290
+52,I Love Juno-106,276320,0x43760
+53,Atari Goes Bad,277552,0x43c30
+54,Fat Controller,278784,0x44100
+55,Clock Chimes,280016,0x445d0
+56,Higher Strings,281248,0x44aa0
+57,Juno Harp,282480,0x44f70
+58,Tranny Organ,283712,0x45440
+59,Pluck Sweep,284944,0x45910
+60,The Circus,286176,0x45de0
+61,Click Bass,287408,0x462b0
+62,Squeep,288640,0x46780
+63,Heavy Synth Pad,289872,0x46c50
+64,Choir Pad,291104,0x47120
+65,Saving For Jupiter,292336,0x475f0
+66,The Last Tromboner,293568,0x47ac0
+67,Brass And Strings,294800,0x47f90
+68,Synth Flute,296032,0x48460
+69,Noise Fall,297264,0x48930
+70,Aliens Ate My Cat,298496,0x48e00
+71,Electric Squeezebox,299728,0x492d0
+72,default,300960,0x497a0
+73,default,302192,0x49c70
+74,default,303424,0x4a140
+75,default,304656,0x4a610
+76,default,305888,0x4aae0
+77,default,307120,0x4afb0
+78,default,308352,0x4b480
+79,default,309584,0x4b950
+80,default,310816,0x4be20
+81,default,312048,0x4c2f0
+82,default,313280,0x4c7c0
+83,default,314512,0x4cc90
+84,default,315744,0x4d160
+85,default,316976,0x4d630
+86,default,318208,0x4db00
+87,default,319440,0x4dfd0
+88,default,320672,0x4e4a0
+89,default,321904,0x4e970
+90,default,323136,0x4ee40
+91,default,324368,0x4f310
+92,default,325600,0x4f7e0
+93,default,326832,0x4fcb0
+94,default,328064,0x50180
+95,default,329296,0x50650
+96,default,330528,0x50b20
+97,default,331760,0x50ff0
+98,default,332992,0x514c0
+99,default,334224,0x51990
+100,default,335456,0x51e60
+101,default,336688,0x52330
+102,default,337920,0x52800
+103,default,339152,0x52cd0
+104,default,340384,0x531a0
+105,default,341616,0x53670
+106,default,342848,0x53b40
+107,default,344080,0x54010
+108,default,345312,0x544e0
+109,default,346544,0x549b0
+110,default,347776,0x54e80
+111,default,349008,0x55350
+112,default,350240,0x55820
+113,default,351472,0x55cf0
+114,default,352704,0x561c0
+115,default,353936,0x56690
+116,default,355168,0x56b60
+117,default,356400,0x57030
+118,default,357632,0x57500
+119,default,358864,0x579d0

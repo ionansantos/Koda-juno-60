@@ -1,0 +1,49 @@
+[ 12%] Built target tal_arpeggiator_test
+[ 12%] Built target tal_preset_test
+[ 14%] Built target tal_dsp
+[ 25%] Built target tal_delay_test
+[ 25%] Built target tal_sustain_test
+[ 25%] Built target tal_dsp_test
+[ 37%] Built target tal_voice_tuning_test
+[ 37%] Built target tal_reverb_test
+[ 37%] Built target tal_portamento_test
+[ 81%] Built target TalUNo60Clone
+[ 92%] Built target tal_midi_test
+[ 92%] Built target tal_arp_processor_test
+[ 92%] Built target tal_fx_processor_test
+[ 94%] Building CXX object CMakeFiles/tal_toolbar_processor_test.dir/tests/toolbar_processor_test.cpp.o
+[ 98%] Built target tal_portamento_processor_test
+[100%] Linking CXX executable tal_toolbar_processor_test
+[100%] Built target tal_toolbar_processor_test
+[100%] Built target tal_tests
+Test project /Users/koda/Documents/tal-un-no-60-clone/build
+      Start  1: Arpeggiator
+ 1/13 Test  #1: Arpeggiator ......................   Passed    0.34 sec
+      Start  2: DSP
+ 2/13 Test  #2: DSP ..............................   Passed    0.79 sec
+      Start  3: Presets
+ 3/13 Test  #3: Presets ..........................   Passed    0.00 sec
+      Start  4: Sustain
+ 4/13 Test  #4: Sustain ..........................   Passed    0.07 sec
+      Start  5: Delay
+ 5/13 Test  #5: Delay ............................   Passed    0.03 sec
+      Start  6: Reverb
+ 6/13 Test  #6: Reverb ...........................   Passed    2.63 sec
+      Start  7: Portamento
+ 7/13 Test  #7: Portamento .......................   Passed    1.35 sec
+      Start  8: VoiceTuning
+ 8/13 Test  #8: VoiceTuning ......................   Passed    0.70 sec
+      Start  9: ProcessorArpeggiator
+ 9/13 Test  #9: ProcessorArpeggiator .............   Passed    0.14 sec
+      Start 10: ProcessorMIDI
+10/13 Test #10: ProcessorMIDI ....................   Passed    0.09 sec
+      Start 11: ProcessorFX
+11/13 Test #11: ProcessorFX ......................   Passed    0.12 sec
+      Start 12: ProcessorPortamento
+12/13 Test #12: ProcessorPortamento ..............   Passed    0.16 sec
+      Start 13: ProcessorToolbar
+13/13 Test #13: ProcessorToolbar .................   Passed    1.50 sec
+
+100% tests passed out of 13
+
+Total Test time (real) =   7.91 sec

@@ -1,0 +1,39 @@
+{
+  "sample_rate": 44100,
+  "block_size": 256,
+  "duration_seconds": 6,
+  "note_off_seconds": 4,
+  "midi": {
+    "notes": [
+      60,
+      64,
+      67
+    ],
+    "velocity": 100,
+    "channel": 1
+  },
+  "tal": {
+    "source": "TAL-U-NO-LX 5.1.5 Dream Arp.pjunoxl loaded through AU ClassInfo",
+    "sha256": "4f0435808ec7c9b0f1270e01f552b8856570eedccbc47578cadce76959468bec",
+    "rms": 0.03196851185268518
+  },
+  "koda": {
+    "source": "KODA slot 72 through Program Change 72",
+    "sha256": "0f88526b37df2e5220072780acd6290949b0bb9700385392247a8f67f921e81b",
+    "rms": 0.019986436571142456
+  },
+  "deterministic": {
+    "tal": true,
+    "koda": true
+  },
+  "max_abs_difference": 0.18990673124790192,
+  "null_residual_db": 1.2012323745727276,
+  "correlation": 0.05776898508689776,
+  "result": "not sample-identical",
+  "remaining_deltas": [
+    "filter/envelope transfer curve",
+    "VCA gate/envelope and release",
+    "arp phase/timing and gate",
+    "oscillator/chorus phase and random state"
+  ]
+}

@@ -1,0 +1,62 @@
+
+void __ZN18VoiceTuningHandler6randomEf(float param_1,long param_2)
+
+{
+  int iVar1;
+  long lVar2;
+  float *pfVar3;
+  float fVar4;
+  float fVar5;
+  
+  if (0 < *(int *)(param_2 + 4)) {
+    lVar2 = 0;
+    do {
+      pfVar3 = *(float **)(*(long *)(param_2 + 8) + lVar2 * 8);
+      iVar1 = _rand();
+      fVar4 = (float)NEON_fminnm(param_1 * ((float)iVar1 * 4.656613e-10 + -0.5) + 0.5,0x3f800000);
+      if (fVar4 <= 0.0) {
+        fVar4 = 0.0;
+      }
+      *pfVar3 = fVar4;
+      fVar5 = fVar4 * 2.0 + -1.0;
+      fVar5 = ((fVar4 + fVar4) * fVar5 - fVar5) * 0.5;
+      pfVar3[6] = (fVar4 + fVar4) * fVar5 - fVar5;
+      iVar1 = _rand();
+      fVar4 = (float)NEON_fminnm(param_1 * ((float)iVar1 * 4.656613e-10 + -0.5) + 0.5,0x3f800000);
+      if (fVar4 <= 0.0) {
+        fVar4 = 0.0;
+      }
+      pfVar3[1] = fVar4;
+      fVar5 = fVar4 * 2.0 + -1.0;
+      fVar5 = ((fVar4 + fVar4) * fVar5 - fVar5) * 0.5;
+      pfVar3[7] = (fVar4 + fVar4) * fVar5 - fVar5;
+      iVar1 = _rand();
+      fVar4 = (float)NEON_fminnm(param_1 * ((float)iVar1 * 4.656613e-10 + -0.5) + 0.5,0x3f800000);
+      if (fVar4 <= 0.0) {
+        fVar4 = 0.0;
+      }
+      pfVar3[2] = fVar4;
+      fVar5 = fVar4 * 2.0 + -1.0;
+      pfVar3[8] = fVar5 * ((fVar4 + fVar4) * fVar5 - fVar5) * 0.5 + 1.0;
+      iVar1 = _rand();
+      fVar4 = (float)NEON_fminnm(param_1 * ((float)iVar1 * 4.656613e-10 + -0.5) + 0.5,0x3f800000);
+      if (fVar4 <= 0.0) {
+        fVar4 = 0.0;
+      }
+      pfVar3[3] = fVar4;
+      fVar5 = fVar4 * 2.0 + -1.0;
+      pfVar3[9] = fVar5 * ((fVar4 + fVar4) * fVar5 - fVar5) * 0.5 + 1.0;
+      iVar1 = _rand();
+      fVar4 = (float)NEON_fminnm(param_1 * ((float)iVar1 * 4.656613e-10 + -0.5) + 0.5,0x3f800000);
+      if (fVar4 <= 0.0) {
+        fVar4 = 0.0;
+      }
+      fVar5 = fVar4 * 2.0 + -1.0;
+      pfVar3[4] = fVar4;
+      pfVar3[10] = fVar5 * ((fVar4 + fVar4) * fVar5 - fVar5) * 0.5 + 1.0;
+      lVar2 = lVar2 + 1;
+    } while (lVar2 < *(int *)(param_2 + 4));
+  }
+  return;
+}
+
